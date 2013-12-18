@@ -1,0 +1,192 @@
+Dec 12 13:50:31 [VISIT]_information_getAllTags_0.0.0.0_/008/v1/branch/Information/getAllTags
+""
+Dec 12 13:50:32 [SQL]_null_0.0.0.0_/008/v1/branch/Information/getAllTags
+SELECT * FROM 008v1.tags  WHERE 1      
+Dec 12 13:50:32 [RETURN]_null_0.0.0.0_/008/v1/branch/Information/getAllTags
+{"error":{"error_status":"2006","status_info":"\u6570\u636e\u5e93\u4e2d\uff0c\u6ca1\u6709tags\u4fe1\u606f"}}
+Dec 12 13:52:22 [VISIT]_information_AllDistrictInformation_192.168.0.103_/008/v1/branch/Information/AllDistrictInformation
+""
+Dec 12 13:52:22 [VISIT]_information_getAllTags_0.0.0.0_/008/v1/branch/Information/getAllTags
+""
+Dec 12 13:52:23 [SQL]_null_192.168.0.103_/008/v1/branch/Information/AllDistrictInformation
+SELECT * FROM 008v1.district  WHERE 1      
+Dec 12 13:52:23 [RETURN]_null_192.168.0.103_/008/v1/branch/Information/AllDistrictInformation
+[{"id":"1","district_name":"\u5362\u6e7e\u533a"},{"id":"2","district_name":"\u5f90\u6c47\u533a"},{"id":"3","district_name":"\u9759\u5b89\u533a"},{"id":"4","district_name":"\u957f\u5b81\u533a"},{"id":"5","district_name":"\u6d66\u4e1c\u65b0\u533a"},{"id":"6","district_name":"\u9ec4\u6d66\u533a"},{"id":"7","district_name":"\u666e\u9640\u533a"},{"id":"8","district_name":"\u95f8\u5317\u533a"},{"id":"9","district_name":"\u8679\u53e3\u533a"},{"id":"10","district_name":"\u6768\u6d66\u533a"},{"id":"11","district_name":"\u95f5\u884c\u533a"},{"id":"12","district_name":"\u5b9d\u5c71\u533a"},{"id":"13","district_name":"\u677e\u6c5f\u533a"},{"id":"14","district_name":"\u5609\u5b9a\u533a"},{"id":"15","district_name":"\u9752\u6d66\u533a"},{"id":"16","district_name":"\u91d1\u5c71\u533a"},{"id":"17","district_name":"\u5949\u8d24\u533a"},{"id":"18","district_name":"\u5d07\u660e\u53bf"}]
+Dec 12 13:52:23 [SQL]_null_0.0.0.0_/008/v1/branch/Information/getAllTags
+SELECT * FROM 008v1.tags  WHERE 1      
+Dec 12 13:52:23 [RETURN]_null_0.0.0.0_/008/v1/branch/Information/getAllTags
+{"error":{"error_status":"2006","status_info":"\u6570\u636e\u5e93\u4e2d\uff0c\u6ca1\u6709tags\u4fe1\u606f"}}
+Dec 12 13:52:31 [VISIT]_information_getAllRegionsNameByDistrictId_192.168.0.103_/008/v1/branch/Information/getAllRegionsNameByDistrictId?districtId=3
+{"districtId":"3"}
+Dec 12 13:52:32 [SQL]_null_192.168.0.103_/008/v1/branch/Information/getAllRegionsNameByDistrictId?districtId=3
+SELECT * FROM 008v1.regions  WHERE 1  AND district_id = "3"      
+Dec 12 13:52:32 [RETURN]_null_192.168.0.103_/008/v1/branch/Information/getAllRegionsNameByDistrictId?districtId=3
+[{"id":"198","regions_name":"\u9759\u5b89\u5bfa","district_id":"3"},{"id":"199","regions_name":"\u540c\u4e50\u574a","district_id":"3"},{"id":"200","regions_name":"\u5357\u4eac\u897f\u8def","district_id":"3"}]
+Dec 12 14:14:34 [VISIT]_information_AllDistrictInformation_192.168.0.103_/008/v1/branch/Information/AllDistrictInformation
+""
+Dec 12 14:14:34 [VISIT]_information_getAllTags_0.0.0.0_/008/v1/branch/Information/getAllTags
+""
+Dec 12 14:14:35 [SQL]_null_0.0.0.0_/008/v1/branch/Information/getAllTags
+SELECT * FROM 008v1.tags  WHERE 1      
+Dec 12 14:14:35 [SQL]_null_192.168.0.103_/008/v1/branch/Information/AllDistrictInformation
+SELECT * FROM 008v1.district  WHERE 1      
+Dec 12 14:14:35 [RETURN]_null_192.168.0.103_/008/v1/branch/Information/AllDistrictInformation
+[{"id":"1","district_name":"\u5362\u6e7e\u533a"},{"id":"2","district_name":"\u5f90\u6c47\u533a"},{"id":"3","district_name":"\u9759\u5b89\u533a"},{"id":"4","district_name":"\u957f\u5b81\u533a"},{"id":"5","district_name":"\u6d66\u4e1c\u65b0\u533a"},{"id":"6","district_name":"\u9ec4\u6d66\u533a"},{"id":"7","district_name":"\u666e\u9640\u533a"},{"id":"8","district_name":"\u95f8\u5317\u533a"},{"id":"9","district_name":"\u8679\u53e3\u533a"},{"id":"10","district_name":"\u6768\u6d66\u533a"},{"id":"11","district_name":"\u95f5\u884c\u533a"},{"id":"12","district_name":"\u5b9d\u5c71\u533a"},{"id":"13","district_name":"\u677e\u6c5f\u533a"},{"id":"14","district_name":"\u5609\u5b9a\u533a"},{"id":"15","district_name":"\u9752\u6d66\u533a"},{"id":"16","district_name":"\u91d1\u5c71\u533a"},{"id":"17","district_name":"\u5949\u8d24\u533a"},{"id":"18","district_name":"\u5d07\u660e\u53bf"}]
+Dec 12 14:14:35 [RETURN]_null_0.0.0.0_/008/v1/branch/Information/getAllTags
+{"error":{"error_status":"2006","status_info":"\u6570\u636e\u5e93\u4e2d\uff0c\u6ca1\u6709tags\u4fe1\u606f"}}
+Dec 12 14:15:58 [VISIT]_information_AllDistrictInformation_192.168.0.103_/008/v1/branch/Information/AllDistrictInformation
+""
+Dec 12 14:15:58 [VISIT]_information_getAllTags_0.0.0.0_/008/v1/branch/Information/getAllTags
+""
+Dec 12 14:15:59 [SQL]_null_192.168.0.103_/008/v1/branch/Information/AllDistrictInformation
+SELECT * FROM 008v1.district  WHERE 1      
+Dec 12 14:15:59 [RETURN]_null_192.168.0.103_/008/v1/branch/Information/AllDistrictInformation
+[{"id":"1","district_name":"\u5362\u6e7e\u533a"},{"id":"2","district_name":"\u5f90\u6c47\u533a"},{"id":"3","district_name":"\u9759\u5b89\u533a"},{"id":"4","district_name":"\u957f\u5b81\u533a"},{"id":"5","district_name":"\u6d66\u4e1c\u65b0\u533a"},{"id":"6","district_name":"\u9ec4\u6d66\u533a"},{"id":"7","district_name":"\u666e\u9640\u533a"},{"id":"8","district_name":"\u95f8\u5317\u533a"},{"id":"9","district_name":"\u8679\u53e3\u533a"},{"id":"10","district_name":"\u6768\u6d66\u533a"},{"id":"11","district_name":"\u95f5\u884c\u533a"},{"id":"12","district_name":"\u5b9d\u5c71\u533a"},{"id":"13","district_name":"\u677e\u6c5f\u533a"},{"id":"14","district_name":"\u5609\u5b9a\u533a"},{"id":"15","district_name":"\u9752\u6d66\u533a"},{"id":"16","district_name":"\u91d1\u5c71\u533a"},{"id":"17","district_name":"\u5949\u8d24\u533a"},{"id":"18","district_name":"\u5d07\u660e\u53bf"}]
+Dec 12 14:15:59 [SQL]_null_0.0.0.0_/008/v1/branch/Information/getAllTags
+SELECT * FROM 008v1.tags  WHERE 1      
+Dec 12 14:15:59 [RETURN]_null_0.0.0.0_/008/v1/branch/Information/getAllTags
+{"error":{"error_status":"2006","status_info":"\u6570\u636e\u5e93\u4e2d\uff0c\u6ca1\u6709tags\u4fe1\u606f"}}
+Dec 12 14:16:14 [VISIT]_information_getAllRegionsNameByDistrictId_192.168.0.103_/008/v1/branch/Information/getAllRegionsNameByDistrictId?districtId=11
+{"districtId":"11"}
+Dec 12 14:16:15 [SQL]_null_192.168.0.103_/008/v1/branch/Information/getAllRegionsNameByDistrictId?districtId=11
+SELECT * FROM 008v1.regions  WHERE 1  AND district_id = "11"      
+Dec 12 14:16:15 [RETURN]_null_192.168.0.103_/008/v1/branch/Information/getAllRegionsNameByDistrictId?districtId=11
+[{"id":"259","regions_name":"\u6625\u7533\u5730\u533a","district_id":"11"},{"id":"260","regions_name":"\u5357\u65b9\u5546\u57ce","district_id":"11"},{"id":"261","regions_name":"\u8398\u5e84","district_id":"11"},{"id":"262","regions_name":"\u4e03\u5b9d","district_id":"11"},{"id":"263","regions_name":"\u4e07\u6e90\u57ce\/\u4e1c\u5170\u8def","district_id":"11"},{"id":"264","regions_name":"\u8001\u95f5\u884c","district_id":"11"},{"id":"265","regions_name":"\u8679\u6865\u9547","district_id":"11"},{"id":"266","regions_name":"\u8679\u6885\u8def","district_id":"11"},{"id":"267","regions_name":"\u9f99\u67cf\u5730\u533a","district_id":"11"},{"id":"268","regions_name":"\u6d66\u6c5f\u9547","district_id":"11"}]
+Dec 12 14:17:01 [VISIT]_information_AllDistrictInformation_192.168.0.103_/008/v1/branch/Information/AllDistrictInformation
+""
+Dec 12 14:17:01 [VISIT]_information_getAllTags_0.0.0.0_/008/v1/branch/Information/getAllTags
+""
+Dec 12 14:17:02 [SQL]_null_192.168.0.103_/008/v1/branch/Information/AllDistrictInformation
+SELECT * FROM 008v1.district  WHERE 1      
+Dec 12 14:17:02 [RETURN]_null_192.168.0.103_/008/v1/branch/Information/AllDistrictInformation
+[{"id":"1","district_name":"\u5362\u6e7e\u533a"},{"id":"2","district_name":"\u5f90\u6c47\u533a"},{"id":"3","district_name":"\u9759\u5b89\u533a"},{"id":"4","district_name":"\u957f\u5b81\u533a"},{"id":"5","district_name":"\u6d66\u4e1c\u65b0\u533a"},{"id":"6","district_name":"\u9ec4\u6d66\u533a"},{"id":"7","district_name":"\u666e\u9640\u533a"},{"id":"8","district_name":"\u95f8\u5317\u533a"},{"id":"9","district_name":"\u8679\u53e3\u533a"},{"id":"10","district_name":"\u6768\u6d66\u533a"},{"id":"11","district_name":"\u95f5\u884c\u533a"},{"id":"12","district_name":"\u5b9d\u5c71\u533a"},{"id":"13","district_name":"\u677e\u6c5f\u533a"},{"id":"14","district_name":"\u5609\u5b9a\u533a"},{"id":"15","district_name":"\u9752\u6d66\u533a"},{"id":"16","district_name":"\u91d1\u5c71\u533a"},{"id":"17","district_name":"\u5949\u8d24\u533a"},{"id":"18","district_name":"\u5d07\u660e\u53bf"}]
+Dec 12 14:17:03 [SQL]_null_0.0.0.0_/008/v1/branch/Information/getAllTags
+SELECT * FROM 008v1.tags  WHERE 1      
+Dec 12 14:17:03 [RETURN]_null_0.0.0.0_/008/v1/branch/Information/getAllTags
+{"error":{"error_status":"2006","status_info":"\u6570\u636e\u5e93\u4e2d\uff0c\u6ca1\u6709tags\u4fe1\u606f"}}
+Dec 12 16:06:59 [VISIT]_information_getAllTags_0.0.0.0_/008/v1/branch/Information/getAllTags
+""
+Dec 12 16:06:59 [VISIT]_information_AllDistrictInformation_192.168.0.103_/008/v1/branch/Information/AllDistrictInformation
+""
+Dec 12 16:07:01 [SQL]_null_192.168.0.103_/008/v1/branch/Information/AllDistrictInformation
+SELECT * FROM 008v1.district  WHERE 1      
+Dec 12 16:07:01 [RETURN]_null_192.168.0.103_/008/v1/branch/Information/AllDistrictInformation
+[{"id":"1","district_name":"\u5362\u6e7e\u533a"},{"id":"2","district_name":"\u5f90\u6c47\u533a"},{"id":"3","district_name":"\u9759\u5b89\u533a"},{"id":"4","district_name":"\u957f\u5b81\u533a"},{"id":"5","district_name":"\u6d66\u4e1c\u65b0\u533a"},{"id":"6","district_name":"\u9ec4\u6d66\u533a"},{"id":"7","district_name":"\u666e\u9640\u533a"},{"id":"8","district_name":"\u95f8\u5317\u533a"},{"id":"9","district_name":"\u8679\u53e3\u533a"},{"id":"10","district_name":"\u6768\u6d66\u533a"},{"id":"11","district_name":"\u95f5\u884c\u533a"},{"id":"12","district_name":"\u5b9d\u5c71\u533a"},{"id":"13","district_name":"\u677e\u6c5f\u533a"},{"id":"14","district_name":"\u5609\u5b9a\u533a"},{"id":"15","district_name":"\u9752\u6d66\u533a"},{"id":"16","district_name":"\u91d1\u5c71\u533a"},{"id":"17","district_name":"\u5949\u8d24\u533a"},{"id":"18","district_name":"\u5d07\u660e\u53bf"}]
+Dec 12 16:07:01 [SQL]_null_0.0.0.0_/008/v1/branch/Information/getAllTags
+SELECT * FROM 008v1.tags  WHERE 1      
+Dec 12 16:07:01 [RETURN]_null_0.0.0.0_/008/v1/branch/Information/getAllTags
+{"error":{"error_status":"2006","status_info":"\u6570\u636e\u5e93\u4e2d\uff0c\u6ca1\u6709tags\u4fe1\u606f"}}
+Dec 12 16:27:12 [VISIT]_information_AllDistrictInformation_192.168.0.103_/008/v1/branch/Information/AllDistrictInformation
+""
+Dec 12 16:27:13 [SQL]_null_192.168.0.103_/008/v1/branch/Information/AllDistrictInformation
+SELECT * FROM 008v1.district  WHERE 1      
+Dec 12 16:27:13 [RETURN]_null_192.168.0.103_/008/v1/branch/Information/AllDistrictInformation
+[{"id":"1","district_name":"\u5362\u6e7e\u533a"},{"id":"2","district_name":"\u5f90\u6c47\u533a"},{"id":"3","district_name":"\u9759\u5b89\u533a"},{"id":"4","district_name":"\u957f\u5b81\u533a"},{"id":"5","district_name":"\u6d66\u4e1c\u65b0\u533a"},{"id":"6","district_name":"\u9ec4\u6d66\u533a"},{"id":"7","district_name":"\u666e\u9640\u533a"},{"id":"8","district_name":"\u95f8\u5317\u533a"},{"id":"9","district_name":"\u8679\u53e3\u533a"},{"id":"10","district_name":"\u6768\u6d66\u533a"},{"id":"11","district_name":"\u95f5\u884c\u533a"},{"id":"12","district_name":"\u5b9d\u5c71\u533a"},{"id":"13","district_name":"\u677e\u6c5f\u533a"},{"id":"14","district_name":"\u5609\u5b9a\u533a"},{"id":"15","district_name":"\u9752\u6d66\u533a"},{"id":"16","district_name":"\u91d1\u5c71\u533a"},{"id":"17","district_name":"\u5949\u8d24\u533a"},{"id":"18","district_name":"\u5d07\u660e\u53bf"}]
+Dec 12 16:27:37 [VISIT]_information_getAllRegionsNameByDistrictId_192.168.0.103_/008/v1/branch/Information/getAllRegionsNameByDistrictId?districtId=3
+{"districtId":"3"}
+Dec 12 16:27:38 [SQL]_null_192.168.0.103_/008/v1/branch/Information/getAllRegionsNameByDistrictId?districtId=3
+SELECT * FROM 008v1.regions  WHERE 1  AND district_id = "3"      
+Dec 12 16:27:38 [RETURN]_null_192.168.0.103_/008/v1/branch/Information/getAllRegionsNameByDistrictId?districtId=3
+[{"id":"198","regions_name":"\u9759\u5b89\u5bfa","district_id":"3"},{"id":"199","regions_name":"\u540c\u4e50\u574a","district_id":"3"},{"id":"200","regions_name":"\u5357\u4eac\u897f\u8def","district_id":"3"}]
+Dec 12 16:27:39 [VISIT]_information_getAllRegionsNameByDistrictId_192.168.0.103_/008/v1/branch/Information/getAllRegionsNameByDistrictId?districtId=6
+{"districtId":"6"}
+Dec 12 16:27:40 [SQL]_null_192.168.0.103_/008/v1/branch/Information/getAllRegionsNameByDistrictId?districtId=6
+SELECT * FROM 008v1.regions  WHERE 1  AND district_id = "6"      
+Dec 12 16:27:40 [RETURN]_null_192.168.0.103_/008/v1/branch/Information/getAllRegionsNameByDistrictId?districtId=6
+[{"id":"226","regions_name":"\u8463\u5bb6\u6e21","district_id":"6"},{"id":"227","regions_name":"\u5916\u6ee9","district_id":"6"},{"id":"228","regions_name":"\u8001\u897f\u95e8","district_id":"6"},{"id":"229","regions_name":"\u57ce\u968d\u5e99","district_id":"6"},{"id":"230","regions_name":"\u5357\u4eac\u4e1c\u8def","district_id":"6"},{"id":"231","regions_name":"\u4eba\u6c11\u5e7f\u573a","district_id":"6"}]
+Dec 12 17:18:58 [VISIT]_information_getAllTags_0.0.0.0_/008/v1/branch/Information/getAllTags
+""
+Dec 12 17:18:58 [VISIT]_information_AllDistrictInformation_192.168.0.103_/008/v1/branch/Information/AllDistrictInformation
+""
+Dec 12 17:18:59 [SQL]_null_0.0.0.0_/008/v1/branch/Information/getAllTags
+SELECT * FROM 008v1.tags  WHERE 1      
+Dec 12 17:18:59 [RETURN]_null_0.0.0.0_/008/v1/branch/Information/getAllTags
+[{"id":"1","tag_name":"\u7f8e\u98df"},{"id":"2","tag_name":"\u5c0f\u8d44"},{"id":"3","tag_name":"\u6e38\u73a9"},{"id":"4","tag_name":"\u901b\u8857"},{"id":"5","tag_name":"\u653e\u677e"},{"id":"6","tag_name":"\u5065\u5eb7"},{"id":"7","tag_name":"\u9ad8\u901f"}]
+Dec 12 17:19:00 [SQL]_null_192.168.0.103_/008/v1/branch/Information/AllDistrictInformation
+SELECT * FROM 008v1.district  WHERE 1      
+Dec 12 17:19:00 [RETURN]_null_192.168.0.103_/008/v1/branch/Information/AllDistrictInformation
+[{"id":"1","district_name":"\u5362\u6e7e\u533a"},{"id":"2","district_name":"\u5f90\u6c47\u533a"},{"id":"3","district_name":"\u9759\u5b89\u533a"},{"id":"4","district_name":"\u957f\u5b81\u533a"},{"id":"5","district_name":"\u6d66\u4e1c\u65b0\u533a"},{"id":"6","district_name":"\u9ec4\u6d66\u533a"},{"id":"7","district_name":"\u666e\u9640\u533a"},{"id":"8","district_name":"\u95f8\u5317\u533a"},{"id":"9","district_name":"\u8679\u53e3\u533a"},{"id":"10","district_name":"\u6768\u6d66\u533a"},{"id":"11","district_name":"\u95f5\u884c\u533a"},{"id":"12","district_name":"\u5b9d\u5c71\u533a"},{"id":"13","district_name":"\u677e\u6c5f\u533a"},{"id":"14","district_name":"\u5609\u5b9a\u533a"},{"id":"15","district_name":"\u9752\u6d66\u533a"},{"id":"16","district_name":"\u91d1\u5c71\u533a"},{"id":"17","district_name":"\u5949\u8d24\u533a"},{"id":"18","district_name":"\u5d07\u660e\u53bf"}]
+Dec 12 17:19:04 [VISIT]_information_getAllRegionsNameByDistrictId_192.168.0.103_/008/v1/branch/Information/getAllRegionsNameByDistrictId?districtId=3
+{"districtId":"3"}
+Dec 12 17:19:05 [SQL]_null_192.168.0.103_/008/v1/branch/Information/getAllRegionsNameByDistrictId?districtId=3
+SELECT * FROM 008v1.regions  WHERE 1  AND district_id = "3"      
+Dec 12 17:19:05 [RETURN]_null_192.168.0.103_/008/v1/branch/Information/getAllRegionsNameByDistrictId?districtId=3
+[{"id":"198","regions_name":"\u9759\u5b89\u5bfa","district_id":"3"},{"id":"199","regions_name":"\u540c\u4e50\u574a","district_id":"3"},{"id":"200","regions_name":"\u5357\u4eac\u897f\u8def","district_id":"3"}]
+Dec 12 17:24:38 [VISIT]_information_AllDistrictInformation_192.168.0.103_/008/v1/branch/Information/AllDistrictInformation
+""
+Dec 12 17:24:39 [SQL]_null_192.168.0.103_/008/v1/branch/Information/AllDistrictInformation
+SELECT * FROM 008v1.district  WHERE 1      
+Dec 12 17:24:39 [RETURN]_null_192.168.0.103_/008/v1/branch/Information/AllDistrictInformation
+[{"id":"1","district_name":"\u5362\u6e7e\u533a"},{"id":"2","district_name":"\u5f90\u6c47\u533a"},{"id":"3","district_name":"\u9759\u5b89\u533a"},{"id":"4","district_name":"\u957f\u5b81\u533a"},{"id":"5","district_name":"\u6d66\u4e1c\u65b0\u533a"},{"id":"6","district_name":"\u9ec4\u6d66\u533a"},{"id":"7","district_name":"\u666e\u9640\u533a"},{"id":"8","district_name":"\u95f8\u5317\u533a"},{"id":"9","district_name":"\u8679\u53e3\u533a"},{"id":"10","district_name":"\u6768\u6d66\u533a"},{"id":"11","district_name":"\u95f5\u884c\u533a"},{"id":"12","district_name":"\u5b9d\u5c71\u533a"},{"id":"13","district_name":"\u677e\u6c5f\u533a"},{"id":"14","district_name":"\u5609\u5b9a\u533a"},{"id":"15","district_name":"\u9752\u6d66\u533a"},{"id":"16","district_name":"\u91d1\u5c71\u533a"},{"id":"17","district_name":"\u5949\u8d24\u533a"},{"id":"18","district_name":"\u5d07\u660e\u53bf"}]
+Dec 12 17:25:01 [VISIT]_information_AllDistrictInformation_192.168.0.103_/008/v1/branch/Information/AllDistrictInformation
+""
+Dec 12 17:25:02 [SQL]_null_192.168.0.103_/008/v1/branch/Information/AllDistrictInformation
+SELECT * FROM 008v1.district  WHERE 1      
+Dec 12 17:25:02 [RETURN]_null_192.168.0.103_/008/v1/branch/Information/AllDistrictInformation
+[{"id":"1","district_name":"\u5362\u6e7e\u533a"},{"id":"2","district_name":"\u5f90\u6c47\u533a"},{"id":"3","district_name":"\u9759\u5b89\u533a"},{"id":"4","district_name":"\u957f\u5b81\u533a"},{"id":"5","district_name":"\u6d66\u4e1c\u65b0\u533a"},{"id":"6","district_name":"\u9ec4\u6d66\u533a"},{"id":"7","district_name":"\u666e\u9640\u533a"},{"id":"8","district_name":"\u95f8\u5317\u533a"},{"id":"9","district_name":"\u8679\u53e3\u533a"},{"id":"10","district_name":"\u6768\u6d66\u533a"},{"id":"11","district_name":"\u95f5\u884c\u533a"},{"id":"12","district_name":"\u5b9d\u5c71\u533a"},{"id":"13","district_name":"\u677e\u6c5f\u533a"},{"id":"14","district_name":"\u5609\u5b9a\u533a"},{"id":"15","district_name":"\u9752\u6d66\u533a"},{"id":"16","district_name":"\u91d1\u5c71\u533a"},{"id":"17","district_name":"\u5949\u8d24\u533a"},{"id":"18","district_name":"\u5d07\u660e\u53bf"}]
+Dec 12 17:25:27 [VISIT]_information_getAllTags_0.0.0.0_/008/v1/branch/Information/getAllTags
+""
+Dec 12 17:25:27 [VISIT]_information_AllDistrictInformation_192.168.0.103_/008/v1/branch/Information/AllDistrictInformation
+""
+Dec 12 17:25:28 [SQL]_null_0.0.0.0_/008/v1/branch/Information/getAllTags
+SELECT * FROM 008v1.tags  WHERE 1      
+Dec 12 17:25:28 [RETURN]_null_0.0.0.0_/008/v1/branch/Information/getAllTags
+[{"id":"1","tag_name":"\u7f8e\u98df"},{"id":"2","tag_name":"\u5c0f\u8d44"},{"id":"3","tag_name":"\u6e38\u73a9"},{"id":"4","tag_name":"\u901b\u8857"},{"id":"5","tag_name":"\u653e\u677e"},{"id":"6","tag_name":"\u5065\u5eb7"},{"id":"7","tag_name":"\u9ad8\u901f"}]
+Dec 12 17:25:28 [SQL]_null_192.168.0.103_/008/v1/branch/Information/AllDistrictInformation
+SELECT * FROM 008v1.district  WHERE 1      
+Dec 12 17:25:28 [RETURN]_null_192.168.0.103_/008/v1/branch/Information/AllDistrictInformation
+[{"id":"1","district_name":"\u5362\u6e7e\u533a"},{"id":"2","district_name":"\u5f90\u6c47\u533a"},{"id":"3","district_name":"\u9759\u5b89\u533a"},{"id":"4","district_name":"\u957f\u5b81\u533a"},{"id":"5","district_name":"\u6d66\u4e1c\u65b0\u533a"},{"id":"6","district_name":"\u9ec4\u6d66\u533a"},{"id":"7","district_name":"\u666e\u9640\u533a"},{"id":"8","district_name":"\u95f8\u5317\u533a"},{"id":"9","district_name":"\u8679\u53e3\u533a"},{"id":"10","district_name":"\u6768\u6d66\u533a"},{"id":"11","district_name":"\u95f5\u884c\u533a"},{"id":"12","district_name":"\u5b9d\u5c71\u533a"},{"id":"13","district_name":"\u677e\u6c5f\u533a"},{"id":"14","district_name":"\u5609\u5b9a\u533a"},{"id":"15","district_name":"\u9752\u6d66\u533a"},{"id":"16","district_name":"\u91d1\u5c71\u533a"},{"id":"17","district_name":"\u5949\u8d24\u533a"},{"id":"18","district_name":"\u5d07\u660e\u53bf"}]
+Dec 12 17:26:15 [VISIT]_information_getAllRegionsNameByDistrictId_192.168.0.103_/008/v1/branch/Information/getAllRegionsNameByDistrictId?districtId=2
+{"districtId":"2"}
+Dec 12 17:26:16 [SQL]_null_192.168.0.103_/008/v1/branch/Information/getAllRegionsNameByDistrictId?districtId=2
+SELECT * FROM 008v1.regions  WHERE 1  AND district_id = "2"      
+Dec 12 17:26:16 [RETURN]_null_192.168.0.103_/008/v1/branch/Information/getAllRegionsNameByDistrictId?districtId=2
+[{"id":"189","regions_name":"\u5f90\u5bb6\u6c47","district_id":"2"},{"id":"190","regions_name":"\u4e07\u4f53\u9986","district_id":"2"},{"id":"191","regions_name":"\u8861\u5c71\u8def","district_id":"2"},{"id":"192","regions_name":"\u590d\u5174\u897f\u8def\/\u4e01\u9999\u82b1\u56ed","district_id":"2"},{"id":"193","regions_name":"\u8087\u5609\u6d5c\u8def\u6cbf\u7ebf","district_id":"2"},{"id":"194","regions_name":"\u97f3\u4e50\u5b66\u9662","district_id":"2"},{"id":"195","regions_name":"\u9f99\u534e","district_id":"2"},{"id":"196","regions_name":"\u6f15\u6cb3\u6cfe\/\u7530\u6797","district_id":"2"},{"id":"197","regions_name":"\u4e0a\u6d77\u5357\u7ad9","district_id":"2"}]
+Dec 12 17:54:51 [VISIT]_information_getAllTags_0.0.0.0_/008/v1/branch/Information/getAllTags
+""
+Dec 12 17:54:54 [SQL]_null_0.0.0.0_/008/v1/branch/Information/getAllTags
+SELECT * FROM 008v1.tags  WHERE 1      
+Dec 12 17:54:54 [RETURN]_null_0.0.0.0_/008/v1/branch/Information/getAllTags
+[{"id":"1","tag_name":"\u7f8e\u98df"},{"id":"2","tag_name":"\u5c0f\u8d44"},{"id":"3","tag_name":"\u6e38\u73a9"},{"id":"4","tag_name":"\u901b\u8857"},{"id":"5","tag_name":"\u653e\u677e"},{"id":"6","tag_name":"\u5065\u5eb7"},{"id":"7","tag_name":"\u9ad8\u901f"}]
+Dec 12 17:54:59 [VISIT]_information_AllDistrictInformation_192.168.0.103_/008/v1/branch/Information/AllDistrictInformation
+""
+Dec 12 17:55:00 [SQL]_null_192.168.0.103_/008/v1/branch/Information/AllDistrictInformation
+SELECT * FROM 008v1.district  WHERE 1      
+Dec 12 17:55:00 [RETURN]_null_192.168.0.103_/008/v1/branch/Information/AllDistrictInformation
+[{"id":"1","district_name":"\u5362\u6e7e\u533a"},{"id":"2","district_name":"\u5f90\u6c47\u533a"},{"id":"3","district_name":"\u9759\u5b89\u533a"},{"id":"4","district_name":"\u957f\u5b81\u533a"},{"id":"5","district_name":"\u6d66\u4e1c\u65b0\u533a"},{"id":"6","district_name":"\u9ec4\u6d66\u533a"},{"id":"7","district_name":"\u666e\u9640\u533a"},{"id":"8","district_name":"\u95f8\u5317\u533a"},{"id":"9","district_name":"\u8679\u53e3\u533a"},{"id":"10","district_name":"\u6768\u6d66\u533a"},{"id":"11","district_name":"\u95f5\u884c\u533a"},{"id":"12","district_name":"\u5b9d\u5c71\u533a"},{"id":"13","district_name":"\u677e\u6c5f\u533a"},{"id":"14","district_name":"\u5609\u5b9a\u533a"},{"id":"15","district_name":"\u9752\u6d66\u533a"},{"id":"16","district_name":"\u91d1\u5c71\u533a"},{"id":"17","district_name":"\u5949\u8d24\u533a"},{"id":"18","district_name":"\u5d07\u660e\u53bf"}]
+Dec 12 17:59:13 [VISIT]_information_getAllTags_0.0.0.0_/008/v1/branch/Information/getAllTags
+""
+Dec 12 17:59:13 [VISIT]_information_AllDistrictInformation_192.168.0.103_/008/v1/branch/Information/AllDistrictInformation
+""
+Dec 12 17:59:14 [SQL]_null_0.0.0.0_/008/v1/branch/Information/getAllTags
+SELECT * FROM 008v1.tags  WHERE 1      
+Dec 12 17:59:14 [RETURN]_null_0.0.0.0_/008/v1/branch/Information/getAllTags
+[{"id":"1","tag_name":"\u7f8e\u98df"},{"id":"2","tag_name":"\u5c0f\u8d44"},{"id":"3","tag_name":"\u6e38\u73a9"},{"id":"4","tag_name":"\u901b\u8857"},{"id":"5","tag_name":"\u653e\u677e"},{"id":"6","tag_name":"\u5065\u5eb7"},{"id":"7","tag_name":"\u9ad8\u901f"}]
+Dec 12 17:59:14 [SQL]_null_192.168.0.103_/008/v1/branch/Information/AllDistrictInformation
+SELECT * FROM 008v1.district  WHERE 1      
+Dec 12 17:59:14 [RETURN]_null_192.168.0.103_/008/v1/branch/Information/AllDistrictInformation
+[{"id":"1","district_name":"\u5362\u6e7e\u533a"},{"id":"2","district_name":"\u5f90\u6c47\u533a"},{"id":"3","district_name":"\u9759\u5b89\u533a"},{"id":"4","district_name":"\u957f\u5b81\u533a"},{"id":"5","district_name":"\u6d66\u4e1c\u65b0\u533a"},{"id":"6","district_name":"\u9ec4\u6d66\u533a"},{"id":"7","district_name":"\u666e\u9640\u533a"},{"id":"8","district_name":"\u95f8\u5317\u533a"},{"id":"9","district_name":"\u8679\u53e3\u533a"},{"id":"10","district_name":"\u6768\u6d66\u533a"},{"id":"11","district_name":"\u95f5\u884c\u533a"},{"id":"12","district_name":"\u5b9d\u5c71\u533a"},{"id":"13","district_name":"\u677e\u6c5f\u533a"},{"id":"14","district_name":"\u5609\u5b9a\u533a"},{"id":"15","district_name":"\u9752\u6d66\u533a"},{"id":"16","district_name":"\u91d1\u5c71\u533a"},{"id":"17","district_name":"\u5949\u8d24\u533a"},{"id":"18","district_name":"\u5d07\u660e\u53bf"}]
+Dec 12 18:02:04 [VISIT]_information_getAllTags_0.0.0.0_/008/v1/branch/Information/getAllTags
+""
+Dec 12 18:02:05 [SQL]_null_0.0.0.0_/008/v1/branch/Information/getAllTags
+SELECT * FROM 008v1.tags  WHERE 1      
+Dec 12 18:02:05 [RETURN]_null_0.0.0.0_/008/v1/branch/Information/getAllTags
+[{"id":"1","tag_name":"\u7f8e\u98df"},{"id":"2","tag_name":"\u5c0f\u8d44"},{"id":"3","tag_name":"\u6e38\u73a9"},{"id":"4","tag_name":"\u901b\u8857"},{"id":"5","tag_name":"\u653e\u677e"},{"id":"6","tag_name":"\u5065\u5eb7"},{"id":"7","tag_name":"\u9ad8\u901f"}]
+Dec 12 18:02:10 [VISIT]_information_AllDistrictInformation_192.168.0.103_/008/v1/branch/Information/AllDistrictInformation
+""
+Dec 12 18:02:12 [SQL]_null_192.168.0.103_/008/v1/branch/Information/AllDistrictInformation
+SELECT * FROM 008v1.district  WHERE 1      
+Dec 12 18:02:12 [RETURN]_null_192.168.0.103_/008/v1/branch/Information/AllDistrictInformation
+[{"id":"1","district_name":"\u5362\u6e7e\u533a"},{"id":"2","district_name":"\u5f90\u6c47\u533a"},{"id":"3","district_name":"\u9759\u5b89\u533a"},{"id":"4","district_name":"\u957f\u5b81\u533a"},{"id":"5","district_name":"\u6d66\u4e1c\u65b0\u533a"},{"id":"6","district_name":"\u9ec4\u6d66\u533a"},{"id":"7","district_name":"\u666e\u9640\u533a"},{"id":"8","district_name":"\u95f8\u5317\u533a"},{"id":"9","district_name":"\u8679\u53e3\u533a"},{"id":"10","district_name":"\u6768\u6d66\u533a"},{"id":"11","district_name":"\u95f5\u884c\u533a"},{"id":"12","district_name":"\u5b9d\u5c71\u533a"},{"id":"13","district_name":"\u677e\u6c5f\u533a"},{"id":"14","district_name":"\u5609\u5b9a\u533a"},{"id":"15","district_name":"\u9752\u6d66\u533a"},{"id":"16","district_name":"\u91d1\u5c71\u533a"},{"id":"17","district_name":"\u5949\u8d24\u533a"},{"id":"18","district_name":"\u5d07\u660e\u53bf"}]
+Dec 12 18:02:12 [VISIT]_information_getAllTags_0.0.0.0_/008/v1/branch/Information/getAllTags
+""
+Dec 12 18:02:13 [SQL]_null_0.0.0.0_/008/v1/branch/Information/getAllTags
+SELECT * FROM 008v1.tags  WHERE 1      
+Dec 12 18:02:13 [RETURN]_null_0.0.0.0_/008/v1/branch/Information/getAllTags
+[{"id":"1","tag_name":"\u7f8e\u98df"},{"id":"2","tag_name":"\u5c0f\u8d44"},{"id":"3","tag_name":"\u6e38\u73a9"},{"id":"4","tag_name":"\u901b\u8857"},{"id":"5","tag_name":"\u653e\u677e"},{"id":"6","tag_name":"\u5065\u5eb7"},{"id":"7","tag_name":"\u9ad8\u901f"}]
+Dec 12 18:02:20 [VISIT]_information_AllDistrictInformation_192.168.0.103_/008/v1/branch/Information/AllDistrictInformation
+""
+Dec 12 18:02:21 [SQL]_null_192.168.0.103_/008/v1/branch/Information/AllDistrictInformation
+SELECT * FROM 008v1.district  WHERE 1      
+Dec 12 18:02:21 [RETURN]_null_192.168.0.103_/008/v1/branch/Information/AllDistrictInformation
+[{"id":"1","district_name":"\u5362\u6e7e\u533a"},{"id":"2","district_name":"\u5f90\u6c47\u533a"},{"id":"3","district_name":"\u9759\u5b89\u533a"},{"id":"4","district_name":"\u957f\u5b81\u533a"},{"id":"5","district_name":"\u6d66\u4e1c\u65b0\u533a"},{"id":"6","district_name":"\u9ec4\u6d66\u533a"},{"id":"7","district_name":"\u666e\u9640\u533a"},{"id":"8","district_name":"\u95f8\u5317\u533a"},{"id":"9","district_name":"\u8679\u53e3\u533a"},{"id":"10","district_name":"\u6768\u6d66\u533a"},{"id":"11","district_name":"\u95f5\u884c\u533a"},{"id":"12","district_name":"\u5b9d\u5c71\u533a"},{"id":"13","district_name":"\u677e\u6c5f\u533a"},{"id":"14","district_name":"\u5609\u5b9a\u533a"},{"id":"15","district_name":"\u9752\u6d66\u533a"},{"id":"16","district_name":"\u91d1\u5c71\u533a"},{"id":"17","district_name":"\u5949\u8d24\u533a"},{"id":"18","district_name":"\u5d07\u660e\u53bf"}]
