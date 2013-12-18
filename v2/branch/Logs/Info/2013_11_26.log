@@ -1,0 +1,46 @@
+Nov 26 10:17:21 [VISIT]_user_test_0.0.0.0_/008/v1/branch/user/test
+[]
+Nov 26 10:17:21 [RETURN]_null_0.0.0.0_/008/v1/branch/user/test
+{"error":{"error_status":100,"status_info":"php \u9519\u8bef"}}
+Nov 26 10:18:15 [VISIT]_user_test_0.0.0.0_/008/v1/branch/user/test
+[]
+Nov 26 10:18:15 [RETURN]_null_0.0.0.0_/008/v1/branch/user/test
+{"error":{"error_status":"200001","status_info":"\u5e97\u94faid \u4e3a\u7a7a"}}
+Nov 26 10:18:21 [VISIT]_user_test_0.0.0.0_/008/v1/branch/user/test?id=1234
+{"id":"1234"}
+Nov 26 10:18:21 [SQL]_null_0.0.0.0_/008/v1/branch/user/test?id=1234
+SELECT * FROM sqlfood.user  WHERE 1      
+Nov 26 10:18:21 [RETURN]_null_0.0.0.0_/008/v1/branch/user/test?id=1234
+{"user":[{"user_id":"1"},{"user_id":"2"},{"user_id":"3"}]}
+Nov 26 10:18:29 [VISIT]_user_test_0.0.0.0_/008/v1/branch/user/test
+[]
+Nov 26 10:18:29 [RETURN]_null_0.0.0.0_/008/v1/branch/user/test
+{"error":{"error_status":"200001","status_info":"\u5e97\u94faid \u4e3a\u7a7a"}}
+Nov 26 10:19:07 [VISIT]_user_test_0.0.0.0_/008/v1/branch/user/test?id=1
+{"id":"1"}
+Nov 26 10:19:07 [SQL]_null_0.0.0.0_/008/v1/branch/user/test?id=1
+SELECT * FROM sqlfood.user  WHERE 1      
+Nov 26 10:19:07 [RETURN]_null_0.0.0.0_/008/v1/branch/user/test?id=1
+{"user":[{"user_id":"1"},{"user_id":"2"},{"user_id":"3"}]}
+Nov 26 10:19:31 [VISIT]_user_test_0.0.0.0_/008/v1/branch/user/test?id=1
+{"id":"1"}
+Nov 26 18:08:16 [VISIT]_user_userRegistration_0.0.0.0_/008/v1/branch/user/userRegistration
+""
+Nov 26 18:08:18 [SQL]_null_0.0.0.0_/008/v1/branch/user/userRegistration
+SELECT * FROM 008v1.user  WHERE 1  AND user_name =  "Xbruence111"     
+Nov 26 18:08:18 [RETURN]_null_0.0.0.0_/008/v1/branch/user/userRegistration
+{"error":{"error_status":106,"status_info":null}}
+Nov 26 18:08:58 [VISIT]_user_userRegistration_0.0.0.0_/008/v1/branch/user/userRegistration
+""
+Nov 26 18:08:59 [SQL]_null_0.0.0.0_/008/v1/branch/user/userRegistration
+SELECT * FROM 008v1.user  WHERE 1  AND user_name =  "Xbruence111"     
+Nov 26 18:08:59 [RETURN]_null_0.0.0.0_/008/v1/branch/user/userRegistration
+{"error":{"error_status":106,"status_info":null}}
+Nov 26 18:09:12 [VISIT]_user_userRegistration_0.0.0.0_/008/v1/branch/user/userRegistration
+""
+Nov 26 18:09:13 [SQL]_null_0.0.0.0_/008/v1/branch/user/userRegistration
+SELECT * FROM 008v1.user  WHERE 1  AND user_name =  "Xbruence111"     
+Nov 26 18:09:13 [SQL]__0.0.0.0_/008/v1/branch/user/userRegistration
+insert into 008v1.user (email,user_name,password) values('372260652@qq.com','Xbruence111','111111')
+Nov 26 18:09:14 [RETURN]_null_0.0.0.0_/008/v1/branch/user/userRegistration
+{"regInfo":{"email":"372260652@qq.com","user_name":"Xbruence111","password":"111111"}}

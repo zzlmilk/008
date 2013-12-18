@@ -1,0 +1,310 @@
+[13-Dec-2013 05:14:35 UTC] PHP Parse error:  syntax error, unexpected '}' in C:\Apache24\htdocs\008\v1\branch\Model\BLL\PlanBllModel.class.php on line 56
+[13-Dec-2013 05:14:35 UTC] PHP Stack trace:
+[13-Dec-2013 05:14:35 UTC] PHP   1. {main}() C:\Apache24\htdocs\008\v1\branch\index.php:0
+[13-Dec-2013 05:14:35 UTC] PHP   2. website->run() C:\Apache24\htdocs\008\v1\branch\index.php:5
+[13-Dec-2013 05:14:35 UTC] PHP   3. include_path_file() C:\Apache24\htdocs\008\v1\branch\Config\bootstrap\bootstrap.php:26
+[13-Dec-2013 05:14:35 UTC] PHP   4. fileRead() C:\Apache24\htdocs\008\v1\branch\Config\bootstrap\extends.php:267
+[13-Dec-2013 05:14:41 UTC] PHP Warning:  array_push() expects parameter 1 to be array, null given in C:\Apache24\htdocs\008\v1\branch\Model\BLL\PlanBllModel.class.php on line 55
+[13-Dec-2013 05:14:41 UTC] PHP Stack trace:
+[13-Dec-2013 05:14:41 UTC] PHP   1. {main}() C:\Apache24\htdocs\008\v1\branch\index.php:0
+[13-Dec-2013 05:14:41 UTC] PHP   2. website->run() C:\Apache24\htdocs\008\v1\branch\index.php:5
+[13-Dec-2013 05:14:41 UTC] PHP   3. website->initializationWebsiteUrl() C:\Apache24\htdocs\008\v1\branch\Config\bootstrap\bootstrap.php:32
+[13-Dec-2013 05:14:41 UTC] PHP   4. call_user_func() C:\Apache24\htdocs\008\v1\branch\Config\bootstrap\bootstrap.php:55
+[13-Dec-2013 05:14:41 UTC] PHP   5. InformationController->getPlan() C:\Apache24\htdocs\008\v1\branch\Config\bootstrap\bootstrap.php:55
+[13-Dec-2013 05:14:41 UTC] PHP   6. PlanBllModel->getOncePlan() C:\Apache24\htdocs\008\v1\branch\Controllers\Information\InformationController.class.php:64
+[13-Dec-2013 05:14:41 UTC] PHP   7. array_push() C:\Apache24\htdocs\008\v1\branch\Model\BLL\PlanBllModel.class.php:55
+[13-Dec-2013 05:14:41 UTC] PHP Warning:  array_push() expects parameter 1 to be array, null given in C:\Apache24\htdocs\008\v1\branch\Model\BLL\PlanBllModel.class.php on line 55
+[13-Dec-2013 05:14:41 UTC] PHP Stack trace:
+[13-Dec-2013 05:14:41 UTC] PHP   1. {main}() C:\Apache24\htdocs\008\v1\branch\index.php:0
+[13-Dec-2013 05:14:41 UTC] PHP   2. website->run() C:\Apache24\htdocs\008\v1\branch\index.php:5
+[13-Dec-2013 05:14:41 UTC] PHP   3. website->initializationWebsiteUrl() C:\Apache24\htdocs\008\v1\branch\Config\bootstrap\bootstrap.php:32
+[13-Dec-2013 05:14:41 UTC] PHP   4. call_user_func() C:\Apache24\htdocs\008\v1\branch\Config\bootstrap\bootstrap.php:55
+[13-Dec-2013 05:14:41 UTC] PHP   5. InformationController->getPlan() C:\Apache24\htdocs\008\v1\branch\Config\bootstrap\bootstrap.php:55
+[13-Dec-2013 05:14:41 UTC] PHP   6. PlanBllModel->getOncePlan() C:\Apache24\htdocs\008\v1\branch\Controllers\Information\InformationController.class.php:64
+[13-Dec-2013 05:14:41 UTC] PHP   7. array_push() C:\Apache24\htdocs\008\v1\branch\Model\BLL\PlanBllModel.class.php:55
+[13-Dec-2013 05:14:41 UTC] PHP Warning:  array_push() expects parameter 1 to be array, null given in C:\Apache24\htdocs\008\v1\branch\Model\BLL\PlanBllModel.class.php on line 55
+[13-Dec-2013 05:14:41 UTC] PHP Stack trace:
+[13-Dec-2013 05:14:41 UTC] PHP   1. {main}() C:\Apache24\htdocs\008\v1\branch\index.php:0
+[13-Dec-2013 05:14:41 UTC] PHP   2. website->run() C:\Apache24\htdocs\008\v1\branch\index.php:5
+[13-Dec-2013 05:14:41 UTC] PHP   3. website->initializationWebsiteUrl() C:\Apache24\htdocs\008\v1\branch\Config\bootstrap\bootstrap.php:32
+[13-Dec-2013 05:14:41 UTC] PHP   4. call_user_func() C:\Apache24\htdocs\008\v1\branch\Config\bootstrap\bootstrap.php:55
+[13-Dec-2013 05:14:41 UTC] PHP   5. InformationController->getPlan() C:\Apache24\htdocs\008\v1\branch\Config\bootstrap\bootstrap.php:55
+[13-Dec-2013 05:14:41 UTC] PHP   6. PlanBllModel->getOncePlan() C:\Apache24\htdocs\008\v1\branch\Controllers\Information\InformationController.class.php:64
+[13-Dec-2013 05:14:41 UTC] PHP   7. array_push() C:\Apache24\htdocs\008\v1\branch\Model\BLL\PlanBllModel.class.php:55
+[17-Dec-2013 07:37:03 UTC] PHP Fatal error:  Uncaught exception 'MysqlException' with message 'Unknown column 'user_id' in 'where clause'' in C:\Apache24\htdocs\008\v2\branch\Config\DB\1DB.class.php:134
+Stack trace:
+#0 C:\Apache24\htdocs\008\v2\branch\Config\DB\2DB_con.php(211): DB_MysqlStatement->execute()
+#1 C:\Apache24\htdocs\008\v2\branch\Config\DB\4Basic.super.php(32): Query->selectQuery()
+#2 C:\Apache24\htdocs\008\v2\branch\Config\DB\4Basic.super.php(46): Basic->getVar()
+#3 C:\Apache24\htdocs\008\v2\branch\Model\DAL\FavoriteDalModel.class.php(34): Basic->initialize('user_id in (80)')
+#4 C:\Apache24\htdocs\008\v2\branch\Model\BLL\FavoriteBllModel.class(24): FavoriteDalModel->getFavoriteByUserId('80')
+#5 C:\Apache24\htdocs\008\v2\branch\Controllers\Favorite\FavoriteController.class.php(9): FavoriteBllModel->getFavorite('80')
+#6 [internal function]: FavoriteController->getUserFavorite()
+#7 C:\Apache24\htdocs\008\v2\branch\Config\bootstrap\bootstrap.php(55): call_user_func(Array)
+#8 C:\Apache24\htdocs\008\v2\branch\Config\bootstrap\bootstrap.php(32):  in C:\Apache24\htdocs\008\v2\branch\Config\DB\1DB.class.php on line 134
+[17-Dec-2013 07:37:32 UTC] PHP Fatal error:  Uncaught exception 'MysqlException' with message 'Unknown column 'user_id' in 'where clause'' in C:\Apache24\htdocs\008\v2\branch\Config\DB\1DB.class.php:134
+Stack trace:
+#0 C:\Apache24\htdocs\008\v2\branch\Config\DB\2DB_con.php(211): DB_MysqlStatement->execute()
+#1 C:\Apache24\htdocs\008\v2\branch\Config\DB\4Basic.super.php(32): Query->selectQuery()
+#2 C:\Apache24\htdocs\008\v2\branch\Config\DB\4Basic.super.php(46): Basic->getVar()
+#3 C:\Apache24\htdocs\008\v2\branch\Model\DAL\FavoriteDalModel.class.php(34): Basic->initialize('user_id in (80)')
+#4 C:\Apache24\htdocs\008\v2\branch\Model\BLL\FavoriteBllModel.class(22): FavoriteDalModel->getFavoriteByUserId('80')
+#5 C:\Apache24\htdocs\008\v2\branch\Controllers\Favorite\FavoriteController.class.php(9): FavoriteBllModel->getFavorite('80')
+#6 [internal function]: FavoriteController->getUserFavorite()
+#7 C:\Apache24\htdocs\008\v2\branch\Config\bootstrap\bootstrap.php(55): call_user_func(Array)
+#8 C:\Apache24\htdocs\008\v2\branch\Config\bootstrap\bootstrap.php(32):  in C:\Apache24\htdocs\008\v2\branch\Config\DB\1DB.class.php on line 134
+[17-Dec-2013 07:39:28 UTC] PHP Fatal error:  Uncaught exception 'MysqlException' with message 'Unknown column 'user_id' in 'where clause'' in C:\Apache24\htdocs\008\v2\branch\Config\DB\1DB.class.php:134
+Stack trace:
+#0 C:\Apache24\htdocs\008\v2\branch\Config\DB\2DB_con.php(211): DB_MysqlStatement->execute()
+#1 C:\Apache24\htdocs\008\v2\branch\Config\DB\4Basic.super.php(32): Query->selectQuery()
+#2 C:\Apache24\htdocs\008\v2\branch\Config\DB\4Basic.super.php(46): Basic->getVar()
+#3 C:\Apache24\htdocs\008\v2\branch\Model\DAL\FavoriteDalModel.class.php(34): Basic->initialize('user_id in (80)')
+#4 C:\Apache24\htdocs\008\v2\branch\Model\BLL\FavoriteBllModel.class(22): FavoriteDalModel->getFavoriteByUserId('80')
+#5 C:\Apache24\htdocs\008\v2\branch\Controllers\Favorite\FavoriteController.class.php(9): FavoriteBllModel->getFavorite('80')
+#6 [internal function]: FavoriteController->getUserFavorite()
+#7 C:\Apache24\htdocs\008\v2\branch\Config\bootstrap\bootstrap.php(55): call_user_func(Array)
+#8 C:\Apache24\htdocs\008\v2\branch\Config\bootstrap\bootstrap.php(32):  in C:\Apache24\htdocs\008\v2\branch\Config\DB\1DB.class.php on line 134
+[17-Dec-2013 08:02:39 UTC] PHP Notice:  Undefined index: state_type in C:\Apache24\htdocs\008\v2\branch\Model\BLL\PlanBllModel.class.php on line 31
+[17-Dec-2013 08:02:39 UTC] PHP Stack trace:
+[17-Dec-2013 08:02:39 UTC] PHP   1. {main}() C:\Apache24\htdocs\008\v2\branch\index.php:0
+[17-Dec-2013 08:02:39 UTC] PHP   2. website->run() C:\Apache24\htdocs\008\v2\branch\index.php:5
+[17-Dec-2013 08:02:39 UTC] PHP   3. website->initializationWebsiteUrl() C:\Apache24\htdocs\008\v2\branch\Config\bootstrap\bootstrap.php:32
+[17-Dec-2013 08:02:39 UTC] PHP   4. call_user_func() C:\Apache24\htdocs\008\v2\branch\Config\bootstrap\bootstrap.php:55
+[17-Dec-2013 08:02:39 UTC] PHP   5. FavoriteController->getUserFavorite() C:\Apache24\htdocs\008\v2\branch\Config\bootstrap\bootstrap.php:55
+[17-Dec-2013 08:02:39 UTC] PHP   6. FavoriteBllModel->getFavorite() C:\Apache24\htdocs\008\v2\branch\Controllers\Favorite\FavoriteController.class.php:9
+[17-Dec-2013 08:02:39 UTC] PHP   7. PlanBllModel->getOncePlanById() C:\Apache24\htdocs\008\v2\branch\Model\BLL\FavoriteBllModel.class:27
+[17-Dec-2013 08:02:39 UTC] PHP Fatal error:  Uncaught exception 'MysqlException' with message 'You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ')' at line 1' in C:\Apache24\htdocs\008\v2\branch\Config\DB\1DB.class.php:134
+Stack trace:
+#0 C:\Apache24\htdocs\008\v2\branch\Config\DB\2DB_con.php(211): DB_MysqlStatement->execute()
+#1 C:\Apache24\htdocs\008\v2\branch\Config\DB\4Basic.super.php(32): Query->selectQuery()
+#2 C:\Apache24\htdocs\008\v2\branch\Config\DB\4Basic.super.php(46): Basic->getVar()
+#3 C:\Apache24\htdocs\008\v2\branch\Model\DAL\InformationDalModel.class.php(352): Basic->initialize('id in ()')
+#4 C:\Apache24\htdocs\008\v2\branch\Model\BLL\PlanBllModel.class.php(31): tagsInformationDalModel->getManyTagsInformation(NULL)
+#5 C:\Apache24\htdocs\008\v2\branch\Model\BLL\FavoriteBllModel.class(27): PlanBllModel->getOncePlanById('1')
+#6 C:\Apache24\htdocs\008\v2\branch\Controllers\Favorite\FavoriteController.class.php(9): FavoriteBllModel->getFavorite('80')
+#7 [int in C:\Apache24\htdocs\008\v2\branch\Config\DB\1DB.class.php on line 134
+[17-Dec-2013 08:04:45 UTC] PHP Notice:  Undefined index: state_type in C:\Apache24\htdocs\008\v2\branch\Model\BLL\PlanBllModel.class.php on line 31
+[17-Dec-2013 08:04:45 UTC] PHP Stack trace:
+[17-Dec-2013 08:04:45 UTC] PHP   1. {main}() C:\Apache24\htdocs\008\v2\branch\index.php:0
+[17-Dec-2013 08:04:45 UTC] PHP   2. website->run() C:\Apache24\htdocs\008\v2\branch\index.php:5
+[17-Dec-2013 08:04:45 UTC] PHP   3. website->initializationWebsiteUrl() C:\Apache24\htdocs\008\v2\branch\Config\bootstrap\bootstrap.php:32
+[17-Dec-2013 08:04:45 UTC] PHP   4. call_user_func(*uninitialized*) C:\Apache24\htdocs\008\v2\branch\Config\bootstrap\bootstrap.php:55
+[17-Dec-2013 08:04:45 UTC] PHP   5. FavoriteController->getUserFavorite() C:\Apache24\htdocs\008\v2\branch\Config\bootstrap\bootstrap.php:55
+[17-Dec-2013 08:04:45 UTC] PHP   6. FavoriteBllModel->getFavorite($userId = *uninitialized*) C:\Apache24\htdocs\008\v2\branch\Controllers\Favorite\FavoriteController.class.php:9
+[17-Dec-2013 08:04:45 UTC] PHP   7. PlanBllModel->getOncePlanById($planId = *uninitialized*) C:\Apache24\htdocs\008\v2\branch\Model\BLL\FavoriteBllModel.class.php:27
+[17-Dec-2013 08:04:45 UTC] PHP Fatal error:  Uncaught exception 'MysqlException' with message 'You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ')' at line 1' in C:\Apache24\htdocs\008\v2\branch\Config\DB\1DB.class.php:134
+Stack trace:
+#0 C:\Apache24\htdocs\008\v2\branch\Config\DB\2DB_con.php(211): DB_MysqlStatement->execute()
+#1 C:\Apache24\htdocs\008\v2\branch\Config\DB\4Basic.super.php(32): Query->selectQuery()
+#2 C:\Apache24\htdocs\008\v2\branch\Config\DB\4Basic.super.php(46): Basic->getVar()
+#3 C:\Apache24\htdocs\008\v2\branch\Model\DAL\InformationDalModel.class.php(352): Basic->initialize('id in ()')
+#4 C:\Apache24\htdocs\008\v2\branch\Model\BLL\PlanBllModel.class.php(31): tagsInformationDalModel->getManyTagsInformation(NULL)
+#5 C:\Apache24\htdocs\008\v2\branch\Model\BLL\FavoriteBllModel.class.php(27): PlanBllModel->getOncePlanById('1')
+#6 C:\Apache24\htdocs\008\v2\branch\Controllers\Favorite\FavoriteController.class.php(9): FavoriteBllModel->getFavorite('80')
+#7  in C:\Apache24\htdocs\008\v2\branch\Config\DB\1DB.class.php on line 134
+[17-Dec-2013 08:05:11 UTC] PHP Notice:  Undefined index: state_type in C:\Apache24\htdocs\008\v2\branch\Model\BLL\PlanBllModel.class.php on line 31
+[17-Dec-2013 08:05:11 UTC] PHP Stack trace:
+[17-Dec-2013 08:05:11 UTC] PHP   1. {main}() C:\Apache24\htdocs\008\v2\branch\index.php:0
+[17-Dec-2013 08:05:11 UTC] PHP   2. website->run() C:\Apache24\htdocs\008\v2\branch\index.php:5
+[17-Dec-2013 08:05:11 UTC] PHP   3. website->initializationWebsiteUrl() C:\Apache24\htdocs\008\v2\branch\Config\bootstrap\bootstrap.php:32
+[17-Dec-2013 08:05:11 UTC] PHP   4. call_user_func(*uninitialized*) C:\Apache24\htdocs\008\v2\branch\Config\bootstrap\bootstrap.php:55
+[17-Dec-2013 08:05:11 UTC] PHP   5. FavoriteController->getUserFavorite() C:\Apache24\htdocs\008\v2\branch\Config\bootstrap\bootstrap.php:55
+[17-Dec-2013 08:05:11 UTC] PHP   6. FavoriteBllModel->getFavorite($userId = *uninitialized*) C:\Apache24\htdocs\008\v2\branch\Controllers\Favorite\FavoriteController.class.php:9
+[17-Dec-2013 08:05:11 UTC] PHP   7. PlanBllModel->getOncePlanById($planId = *uninitialized*) C:\Apache24\htdocs\008\v2\branch\Model\BLL\FavoriteBllModel.class.php:27
+[17-Dec-2013 08:05:23 UTC] PHP Fatal error:  Uncaught exception 'MysqlException' with message 'You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ')' at line 1' in C:\Apache24\htdocs\008\v2\branch\Config\DB\1DB.class.php:134
+Stack trace:
+#0 C:\Apache24\htdocs\008\v2\branch\Config\DB\2DB_con.php(211): DB_MysqlStatement->execute()
+#1 C:\Apache24\htdocs\008\v2\branch\Config\DB\4Basic.super.php(32): Query->selectQuery()
+#2 C:\Apache24\htdocs\008\v2\branch\Config\DB\4Basic.super.php(46): Basic->getVar()
+#3 C:\Apache24\htdocs\008\v2\branch\Model\DAL\InformationDalModel.class.php(352): Basic->initialize('id in ()')
+#4 C:\Apache24\htdocs\008\v2\branch\Model\BLL\PlanBllModel.class.php(31): tagsInformationDalModel->getManyTagsInformation(NULL)
+#5 C:\Apache24\htdocs\008\v2\branch\Model\BLL\FavoriteBllModel.class.php(27): PlanBllModel->getOncePlanById('1')
+#6 C:\Apache24\htdocs\008\v2\branch\Controllers\Favorite\FavoriteController.class.php(9): FavoriteBllModel->getFavorite('80')
+#7  in C:\Apache24\htdocs\008\v2\branch\Config\DB\1DB.class.php on line 134
+[17-Dec-2013 08:06:00 UTC] PHP Notice:  Undefined index: state_type in C:\Apache24\htdocs\008\v2\branch\Model\BLL\PlanBllModel.class.php on line 31
+[17-Dec-2013 08:06:00 UTC] PHP Stack trace:
+[17-Dec-2013 08:06:00 UTC] PHP   1. {main}() C:\Apache24\htdocs\008\v2\branch\index.php:0
+[17-Dec-2013 08:06:00 UTC] PHP   2. website->run() C:\Apache24\htdocs\008\v2\branch\index.php:5
+[17-Dec-2013 08:06:00 UTC] PHP   3. website->initializationWebsiteUrl() C:\Apache24\htdocs\008\v2\branch\Config\bootstrap\bootstrap.php:32
+[17-Dec-2013 08:06:00 UTC] PHP   4. call_user_func() C:\Apache24\htdocs\008\v2\branch\Config\bootstrap\bootstrap.php:55
+[17-Dec-2013 08:06:00 UTC] PHP   5. FavoriteController->getUserFavorite() C:\Apache24\htdocs\008\v2\branch\Config\bootstrap\bootstrap.php:55
+[17-Dec-2013 08:06:00 UTC] PHP   6. FavoriteBllModel->getFavorite() C:\Apache24\htdocs\008\v2\branch\Controllers\Favorite\FavoriteController.class.php:9
+[17-Dec-2013 08:06:00 UTC] PHP   7. PlanBllModel->getOncePlanById() C:\Apache24\htdocs\008\v2\branch\Model\BLL\FavoriteBllModel.class.php:27
+[17-Dec-2013 09:31:15 UTC] PHP Warning:  opendir(C:/Apache24/htdocs/008/v2/branch/Controllers/Position/,C:/Apache24/htdocs/008/v2/branch/Controllers/Position/):  in C:\Apache24\htdocs\008\v2\branch\Config\bootstrap\extends.php on line 11
+[17-Dec-2013 09:31:15 UTC] PHP Stack trace:
+[17-Dec-2013 09:31:15 UTC] PHP   1. {main}() C:\Apache24\htdocs\008\v2\branch\index.php:0
+[17-Dec-2013 09:31:15 UTC] PHP   2. website->run() C:\Apache24\htdocs\008\v2\branch\index.php:5
+[17-Dec-2013 09:31:15 UTC] PHP   3. website->initializationWebsiteUrl() C:\Apache24\htdocs\008\v2\branch\Config\bootstrap\bootstrap.php:32
+[17-Dec-2013 09:31:15 UTC] PHP   4. Dispatcher->dispatcher() C:\Apache24\htdocs\008\v2\branch\Config\bootstrap\bootstrap.php:39
+[17-Dec-2013 09:31:15 UTC] PHP   5. Dispatcher->DataProcess() C:\Apache24\htdocs\008\v2\branch\Config\bootstrap\Dispatcher.class.php:8
+[17-Dec-2013 09:31:15 UTC] PHP   6. include_path_file() C:\Apache24\htdocs\008\v2\branch\Config\bootstrap\Dispatcher.class.php:29
+[17-Dec-2013 09:31:15 UTC] PHP   7. fileRead() C:\Apache24\htdocs\008\v2\branch\Config\bootstrap\extends.php:267
+[17-Dec-2013 09:31:15 UTC] PHP   8. opendir() C:\Apache24\htdocs\008\v2\branch\Config\bootstrap\extends.php:11
+[17-Dec-2013 09:31:15 UTC] PHP Warning:  opendir(C:/Apache24/htdocs/008/v2/branch/Controllers/Position/): failed to open dir: No such file or directory in C:\Apache24\htdocs\008\v2\branch\Config\bootstrap\extends.php on line 11
+[17-Dec-2013 09:31:15 UTC] PHP Stack trace:
+[17-Dec-2013 09:31:15 UTC] PHP   1. {main}() C:\Apache24\htdocs\008\v2\branch\index.php:0
+[17-Dec-2013 09:31:15 UTC] PHP   2. website->run() C:\Apache24\htdocs\008\v2\branch\index.php:5
+[17-Dec-2013 09:31:15 UTC] PHP   3. website->initializationWebsiteUrl() C:\Apache24\htdocs\008\v2\branch\Config\bootstrap\bootstrap.php:32
+[17-Dec-2013 09:31:15 UTC] PHP   4. Dispatcher->dispatcher() C:\Apache24\htdocs\008\v2\branch\Config\bootstrap\bootstrap.php:39
+[17-Dec-2013 09:31:15 UTC] PHP   5. Dispatcher->DataProcess() C:\Apache24\htdocs\008\v2\branch\Config\bootstrap\Dispatcher.class.php:8
+[17-Dec-2013 09:31:15 UTC] PHP   6. include_path_file() C:\Apache24\htdocs\008\v2\branch\Config\bootstrap\Dispatcher.class.php:29
+[17-Dec-2013 09:31:15 UTC] PHP   7. fileRead() C:\Apache24\htdocs\008\v2\branch\Config\bootstrap\extends.php:267
+[17-Dec-2013 09:31:15 UTC] PHP   8. opendir() C:\Apache24\htdocs\008\v2\branch\Config\bootstrap\extends.php:11
+[17-Dec-2013 09:31:15 UTC] PHP Warning:  opendir(C:/Apache24/htdocs/008/v2/branch/Controllers/Position/,C:/Apache24/htdocs/008/v2/branch/Controllers/Position/):  in C:\Apache24\htdocs\008\v2\branch\Config\bootstrap\extends.php on line 11
+[17-Dec-2013 09:31:15 UTC] PHP Stack trace:
+[17-Dec-2013 09:31:15 UTC] PHP   1. {main}() C:\Apache24\htdocs\008\v2\branch\index.php:0
+[17-Dec-2013 09:31:15 UTC] PHP   2. website->run() C:\Apache24\htdocs\008\v2\branch\index.php:5
+[17-Dec-2013 09:31:15 UTC] PHP   3. website->initializationWebsiteUrl() C:\Apache24\htdocs\008\v2\branch\Config\bootstrap\bootstrap.php:32
+[17-Dec-2013 09:31:15 UTC] PHP   4. Dispatcher->dispatcher() C:\Apache24\htdocs\008\v2\branch\Config\bootstrap\bootstrap.php:40
+[17-Dec-2013 09:31:15 UTC] PHP   5. Dispatcher->DataProcess() C:\Apache24\htdocs\008\v2\branch\Config\bootstrap\Dispatcher.class.php:8
+[17-Dec-2013 09:31:15 UTC] PHP   6. include_path_file() C:\Apache24\htdocs\008\v2\branch\Config\bootstrap\Dispatcher.class.php:29
+[17-Dec-2013 09:31:15 UTC] PHP   7. fileRead() C:\Apache24\htdocs\008\v2\branch\Config\bootstrap\extends.php:267
+[17-Dec-2013 09:31:15 UTC] PHP   8. opendir() C:\Apache24\htdocs\008\v2\branch\Config\bootstrap\extends.php:11
+[17-Dec-2013 09:31:15 UTC] PHP Warning:  opendir(C:/Apache24/htdocs/008/v2/branch/Controllers/Position/): failed to open dir: No such file or directory in C:\Apache24\htdocs\008\v2\branch\Config\bootstrap\extends.php on line 11
+[17-Dec-2013 09:31:15 UTC] PHP Stack trace:
+[17-Dec-2013 09:31:15 UTC] PHP   1. {main}() C:\Apache24\htdocs\008\v2\branch\index.php:0
+[17-Dec-2013 09:31:15 UTC] PHP   2. website->run() C:\Apache24\htdocs\008\v2\branch\index.php:5
+[17-Dec-2013 09:31:15 UTC] PHP   3. website->initializationWebsiteUrl() C:\Apache24\htdocs\008\v2\branch\Config\bootstrap\bootstrap.php:32
+[17-Dec-2013 09:31:15 UTC] PHP   4. Dispatcher->dispatcher() C:\Apache24\htdocs\008\v2\branch\Config\bootstrap\bootstrap.php:40
+[17-Dec-2013 09:31:15 UTC] PHP   5. Dispatcher->DataProcess() C:\Apache24\htdocs\008\v2\branch\Config\bootstrap\Dispatcher.class.php:8
+[17-Dec-2013 09:31:15 UTC] PHP   6. include_path_file() C:\Apache24\htdocs\008\v2\branch\Config\bootstrap\Dispatcher.class.php:29
+[17-Dec-2013 09:31:15 UTC] PHP   7. fileRead() C:\Apache24\htdocs\008\v2\branch\Config\bootstrap\extends.php:267
+[17-Dec-2013 09:31:15 UTC] PHP   8. opendir() C:\Apache24\htdocs\008\v2\branch\Config\bootstrap\extends.php:11
+[17-Dec-2013 09:31:41 UTC] PHP Warning:  opendir(C:/Apache24/htdocs/008/v2/branch/Controllers/Position/,C:/Apache24/htdocs/008/v2/branch/Controllers/Position/):  in C:\Apache24\htdocs\008\v2\branch\Config\bootstrap\extends.php on line 11
+[17-Dec-2013 09:31:41 UTC] PHP Stack trace:
+[17-Dec-2013 09:31:41 UTC] PHP   1. {main}() C:\Apache24\htdocs\008\v2\branch\index.php:0
+[17-Dec-2013 09:31:41 UTC] PHP   2. website->run() C:\Apache24\htdocs\008\v2\branch\index.php:5
+[17-Dec-2013 09:31:41 UTC] PHP   3. website->initializationWebsiteUrl() C:\Apache24\htdocs\008\v2\branch\Config\bootstrap\bootstrap.php:32
+[17-Dec-2013 09:31:41 UTC] PHP   4. Dispatcher->dispatcher() C:\Apache24\htdocs\008\v2\branch\Config\bootstrap\bootstrap.php:39
+[17-Dec-2013 09:31:41 UTC] PHP   5. Dispatcher->DataProcess() C:\Apache24\htdocs\008\v2\branch\Config\bootstrap\Dispatcher.class.php:8
+[17-Dec-2013 09:31:41 UTC] PHP   6. include_path_file() C:\Apache24\htdocs\008\v2\branch\Config\bootstrap\Dispatcher.class.php:29
+[17-Dec-2013 09:31:41 UTC] PHP   7. fileRead() C:\Apache24\htdocs\008\v2\branch\Config\bootstrap\extends.php:267
+[17-Dec-2013 09:31:41 UTC] PHP   8. opendir() C:\Apache24\htdocs\008\v2\branch\Config\bootstrap\extends.php:11
+[17-Dec-2013 09:31:41 UTC] PHP Warning:  opendir(C:/Apache24/htdocs/008/v2/branch/Controllers/Position/): failed to open dir: No such file or directory in C:\Apache24\htdocs\008\v2\branch\Config\bootstrap\extends.php on line 11
+[17-Dec-2013 09:31:41 UTC] PHP Stack trace:
+[17-Dec-2013 09:31:41 UTC] PHP   1. {main}() C:\Apache24\htdocs\008\v2\branch\index.php:0
+[17-Dec-2013 09:31:41 UTC] PHP   2. website->run() C:\Apache24\htdocs\008\v2\branch\index.php:5
+[17-Dec-2013 09:31:41 UTC] PHP   3. website->initializationWebsiteUrl() C:\Apache24\htdocs\008\v2\branch\Config\bootstrap\bootstrap.php:32
+[17-Dec-2013 09:31:41 UTC] PHP   4. Dispatcher->dispatcher() C:\Apache24\htdocs\008\v2\branch\Config\bootstrap\bootstrap.php:39
+[17-Dec-2013 09:31:41 UTC] PHP   5. Dispatcher->DataProcess() C:\Apache24\htdocs\008\v2\branch\Config\bootstrap\Dispatcher.class.php:8
+[17-Dec-2013 09:31:41 UTC] PHP   6. include_path_file() C:\Apache24\htdocs\008\v2\branch\Config\bootstrap\Dispatcher.class.php:29
+[17-Dec-2013 09:31:41 UTC] PHP   7. fileRead() C:\Apache24\htdocs\008\v2\branch\Config\bootstrap\extends.php:267
+[17-Dec-2013 09:31:41 UTC] PHP   8. opendir() C:\Apache24\htdocs\008\v2\branch\Config\bootstrap\extends.php:11
+[17-Dec-2013 09:31:41 UTC] PHP Warning:  opendir(C:/Apache24/htdocs/008/v2/branch/Controllers/Position/,C:/Apache24/htdocs/008/v2/branch/Controllers/Position/):  in C:\Apache24\htdocs\008\v2\branch\Config\bootstrap\extends.php on line 11
+[17-Dec-2013 09:31:41 UTC] PHP Stack trace:
+[17-Dec-2013 09:31:41 UTC] PHP   1. {main}() C:\Apache24\htdocs\008\v2\branch\index.php:0
+[17-Dec-2013 09:31:41 UTC] PHP   2. website->run() C:\Apache24\htdocs\008\v2\branch\index.php:5
+[17-Dec-2013 09:31:41 UTC] PHP   3. website->initializationWebsiteUrl() C:\Apache24\htdocs\008\v2\branch\Config\bootstrap\bootstrap.php:32
+[17-Dec-2013 09:31:41 UTC] PHP   4. Dispatcher->dispatcher() C:\Apache24\htdocs\008\v2\branch\Config\bootstrap\bootstrap.php:40
+[17-Dec-2013 09:31:41 UTC] PHP   5. Dispatcher->DataProcess() C:\Apache24\htdocs\008\v2\branch\Config\bootstrap\Dispatcher.class.php:8
+[17-Dec-2013 09:31:41 UTC] PHP   6. include_path_file() C:\Apache24\htdocs\008\v2\branch\Config\bootstrap\Dispatcher.class.php:29
+[17-Dec-2013 09:31:41 UTC] PHP   7. fileRead() C:\Apache24\htdocs\008\v2\branch\Config\bootstrap\extends.php:267
+[17-Dec-2013 09:31:41 UTC] PHP   8. opendir() C:\Apache24\htdocs\008\v2\branch\Config\bootstrap\extends.php:11
+[17-Dec-2013 09:31:41 UTC] PHP Warning:  opendir(C:/Apache24/htdocs/008/v2/branch/Controllers/Position/): failed to open dir: No such file or directory in C:\Apache24\htdocs\008\v2\branch\Config\bootstrap\extends.php on line 11
+[17-Dec-2013 09:31:41 UTC] PHP Stack trace:
+[17-Dec-2013 09:31:41 UTC] PHP   1. {main}() C:\Apache24\htdocs\008\v2\branch\index.php:0
+[17-Dec-2013 09:31:41 UTC] PHP   2. website->run() C:\Apache24\htdocs\008\v2\branch\index.php:5
+[17-Dec-2013 09:31:41 UTC] PHP   3. website->initializationWebsiteUrl() C:\Apache24\htdocs\008\v2\branch\Config\bootstrap\bootstrap.php:32
+[17-Dec-2013 09:31:41 UTC] PHP   4. Dispatcher->dispatcher() C:\Apache24\htdocs\008\v2\branch\Config\bootstrap\bootstrap.php:40
+[17-Dec-2013 09:31:41 UTC] PHP   5. Dispatcher->DataProcess() C:\Apache24\htdocs\008\v2\branch\Config\bootstrap\Dispatcher.class.php:8
+[17-Dec-2013 09:31:41 UTC] PHP   6. include_path_file() C:\Apache24\htdocs\008\v2\branch\Config\bootstrap\Dispatcher.class.php:29
+[17-Dec-2013 09:31:41 UTC] PHP   7. fileRead() C:\Apache24\htdocs\008\v2\branch\Config\bootstrap\extends.php:267
+[17-Dec-2013 09:31:41 UTC] PHP   8. opendir() C:\Apache24\htdocs\008\v2\branch\Config\bootstrap\extends.php:11
+[17-Dec-2013 09:36:42 UTC] PHP Warning:  opendir(C:/Apache24/htdocs/008/v2/branch/Controllers/Position/,C:/Apache24/htdocs/008/v2/branch/Controllers/Position/):  in C:\Apache24\htdocs\008\v2\branch\Config\bootstrap\extends.php on line 11
+[17-Dec-2013 09:36:42 UTC] PHP Stack trace:
+[17-Dec-2013 09:36:42 UTC] PHP   1. {main}() C:\Apache24\htdocs\008\v2\branch\index.php:0
+[17-Dec-2013 09:36:42 UTC] PHP   2. website->run() C:\Apache24\htdocs\008\v2\branch\index.php:5
+[17-Dec-2013 09:36:42 UTC] PHP   3. website->initializationWebsiteUrl() C:\Apache24\htdocs\008\v2\branch\Config\bootstrap\bootstrap.php:32
+[17-Dec-2013 09:36:42 UTC] PHP   4. Dispatcher->dispatcher() C:\Apache24\htdocs\008\v2\branch\Config\bootstrap\bootstrap.php:39
+[17-Dec-2013 09:36:42 UTC] PHP   5. Dispatcher->DataProcess($pathArray = *uninitialized*) C:\Apache24\htdocs\008\v2\branch\Config\bootstrap\Dispatcher.class.php:8
+[17-Dec-2013 09:36:42 UTC] PHP   6. include_path_file($dirName = *uninitialized*, $fileKey = *uninitialized*) C:\Apache24\htdocs\008\v2\branch\Config\bootstrap\Dispatcher.class.php:29
+[17-Dec-2013 09:36:42 UTC] PHP   7. fileRead($filePath = *uninitialized*) C:\Apache24\htdocs\008\v2\branch\Config\bootstrap\extends.php:267
+[17-Dec-2013 09:36:42 UTC] PHP   8. opendir(*uninitialized*) C:\Apache24\htdocs\008\v2\branch\Config\bootstrap\extends.php:11
+[17-Dec-2013 09:36:42 UTC] PHP Warning:  opendir(C:/Apache24/htdocs/008/v2/branch/Controllers/Position/): failed to open dir: No such file or directory in C:\Apache24\htdocs\008\v2\branch\Config\bootstrap\extends.php on line 11
+[17-Dec-2013 09:36:42 UTC] PHP Stack trace:
+[17-Dec-2013 09:36:42 UTC] PHP   1. {main}() C:\Apache24\htdocs\008\v2\branch\index.php:0
+[17-Dec-2013 09:36:42 UTC] PHP   2. website->run() C:\Apache24\htdocs\008\v2\branch\index.php:5
+[17-Dec-2013 09:36:42 UTC] PHP   3. website->initializationWebsiteUrl() C:\Apache24\htdocs\008\v2\branch\Config\bootstrap\bootstrap.php:32
+[17-Dec-2013 09:36:42 UTC] PHP   4. Dispatcher->dispatcher() C:\Apache24\htdocs\008\v2\branch\Config\bootstrap\bootstrap.php:39
+[17-Dec-2013 09:36:42 UTC] PHP   5. Dispatcher->DataProcess($pathArray = *uninitialized*) C:\Apache24\htdocs\008\v2\branch\Config\bootstrap\Dispatcher.class.php:8
+[17-Dec-2013 09:36:42 UTC] PHP   6. include_path_file($dirName = *uninitialized*, $fileKey = *uninitialized*) C:\Apache24\htdocs\008\v2\branch\Config\bootstrap\Dispatcher.class.php:29
+[17-Dec-2013 09:36:42 UTC] PHP   7. fileRead($filePath = *uninitialized*) C:\Apache24\htdocs\008\v2\branch\Config\bootstrap\extends.php:267
+[17-Dec-2013 09:36:42 UTC] PHP   8. opendir(*uninitialized*) C:\Apache24\htdocs\008\v2\branch\Config\bootstrap\extends.php:11
+[17-Dec-2013 09:36:42 UTC] PHP Warning:  opendir(C:/Apache24/htdocs/008/v2/branch/Controllers/Position/,C:/Apache24/htdocs/008/v2/branch/Controllers/Position/):  in C:\Apache24\htdocs\008\v2\branch\Config\bootstrap\extends.php on line 11
+[17-Dec-2013 09:36:42 UTC] PHP Stack trace:
+[17-Dec-2013 09:36:42 UTC] PHP   1. {main}() C:\Apache24\htdocs\008\v2\branch\index.php:0
+[17-Dec-2013 09:36:42 UTC] PHP   2. website->run() C:\Apache24\htdocs\008\v2\branch\index.php:5
+[17-Dec-2013 09:36:42 UTC] PHP   3. website->initializationWebsiteUrl() C:\Apache24\htdocs\008\v2\branch\Config\bootstrap\bootstrap.php:32
+[17-Dec-2013 09:36:42 UTC] PHP   4. Dispatcher->dispatcher() C:\Apache24\htdocs\008\v2\branch\Config\bootstrap\bootstrap.php:40
+[17-Dec-2013 09:36:42 UTC] PHP   5. Dispatcher->DataProcess($pathArray = *uninitialized*) C:\Apache24\htdocs\008\v2\branch\Config\bootstrap\Dispatcher.class.php:8
+[17-Dec-2013 09:36:42 UTC] PHP   6. include_path_file($dirName = *uninitialized*, $fileKey = *uninitialized*) C:\Apache24\htdocs\008\v2\branch\Config\bootstrap\Dispatcher.class.php:29
+[17-Dec-2013 09:36:42 UTC] PHP   7. fileRead($filePath = *uninitialized*) C:\Apache24\htdocs\008\v2\branch\Config\bootstrap\extends.php:267
+[17-Dec-2013 09:36:42 UTC] PHP   8. opendir(*uninitialized*) C:\Apache24\htdocs\008\v2\branch\Config\bootstrap\extends.php:11
+[17-Dec-2013 09:36:42 UTC] PHP Warning:  opendir(C:/Apache24/htdocs/008/v2/branch/Controllers/Position/): failed to open dir: No such file or directory in C:\Apache24\htdocs\008\v2\branch\Config\bootstrap\extends.php on line 11
+[17-Dec-2013 09:36:42 UTC] PHP Stack trace:
+[17-Dec-2013 09:36:42 UTC] PHP   1. {main}() C:\Apache24\htdocs\008\v2\branch\index.php:0
+[17-Dec-2013 09:36:42 UTC] PHP   2. website->run() C:\Apache24\htdocs\008\v2\branch\index.php:5
+[17-Dec-2013 09:36:42 UTC] PHP   3. website->initializationWebsiteUrl() C:\Apache24\htdocs\008\v2\branch\Config\bootstrap\bootstrap.php:32
+[17-Dec-2013 09:36:42 UTC] PHP   4. Dispatcher->dispatcher() C:\Apache24\htdocs\008\v2\branch\Config\bootstrap\bootstrap.php:40
+[17-Dec-2013 09:36:42 UTC] PHP   5. Dispatcher->DataProcess($pathArray = *uninitialized*) C:\Apache24\htdocs\008\v2\branch\Config\bootstrap\Dispatcher.class.php:8
+[17-Dec-2013 09:36:42 UTC] PHP   6. include_path_file($dirName = *uninitialized*, $fileKey = *uninitialized*) C:\Apache24\htdocs\008\v2\branch\Config\bootstrap\Dispatcher.class.php:29
+[17-Dec-2013 09:36:42 UTC] PHP   7. fileRead($filePath = *uninitialized*) C:\Apache24\htdocs\008\v2\branch\Config\bootstrap\extends.php:267
+[17-Dec-2013 09:36:42 UTC] PHP   8. opendir(*uninitialized*) C:\Apache24\htdocs\008\v2\branch\Config\bootstrap\extends.php:11
+[17-Dec-2013 09:36:53 UTC] PHP Warning:  opendir(C:/Apache24/htdocs/008/v2/branch/Controllers/Position/,C:/Apache24/htdocs/008/v2/branch/Controllers/Position/):  in C:\Apache24\htdocs\008\v2\branch\Config\bootstrap\extends.php on line 11
+[17-Dec-2013 09:36:53 UTC] PHP Stack trace:
+[17-Dec-2013 09:36:53 UTC] PHP   1. {main}() C:\Apache24\htdocs\008\v2\branch\index.php:0
+[17-Dec-2013 09:36:53 UTC] PHP   2. website->run() C:\Apache24\htdocs\008\v2\branch\index.php:5
+[17-Dec-2013 09:36:53 UTC] PHP   3. website->initializationWebsiteUrl() C:\Apache24\htdocs\008\v2\branch\Config\bootstrap\bootstrap.php:32
+[17-Dec-2013 09:36:53 UTC] PHP   4. Dispatcher->dispatcher() C:\Apache24\htdocs\008\v2\branch\Config\bootstrap\bootstrap.php:39
+[17-Dec-2013 09:36:53 UTC] PHP   5. Dispatcher->DataProcess($pathArray = *uninitialized*) C:\Apache24\htdocs\008\v2\branch\Config\bootstrap\Dispatcher.class.php:8
+[17-Dec-2013 09:36:53 UTC] PHP   6. include_path_file($dirName = *uninitialized*, $fileKey = *uninitialized*) C:\Apache24\htdocs\008\v2\branch\Config\bootstrap\Dispatcher.class.php:29
+[17-Dec-2013 09:36:53 UTC] PHP   7. fileRead($filePath = *uninitialized*) C:\Apache24\htdocs\008\v2\branch\Config\bootstrap\extends.php:267
+[17-Dec-2013 09:36:53 UTC] PHP   8. opendir(*uninitialized*) C:\Apache24\htdocs\008\v2\branch\Config\bootstrap\extends.php:11
+[17-Dec-2013 09:36:53 UTC] PHP Warning:  opendir(C:/Apache24/htdocs/008/v2/branch/Controllers/Position/): failed to open dir: No such file or directory in C:\Apache24\htdocs\008\v2\branch\Config\bootstrap\extends.php on line 11
+[17-Dec-2013 09:36:53 UTC] PHP Stack trace:
+[17-Dec-2013 09:36:53 UTC] PHP   1. {main}() C:\Apache24\htdocs\008\v2\branch\index.php:0
+[17-Dec-2013 09:36:53 UTC] PHP   2. website->run() C:\Apache24\htdocs\008\v2\branch\index.php:5
+[17-Dec-2013 09:36:53 UTC] PHP   3. website->initializationWebsiteUrl() C:\Apache24\htdocs\008\v2\branch\Config\bootstrap\bootstrap.php:32
+[17-Dec-2013 09:36:53 UTC] PHP   4. Dispatcher->dispatcher() C:\Apache24\htdocs\008\v2\branch\Config\bootstrap\bootstrap.php:39
+[17-Dec-2013 09:36:53 UTC] PHP   5. Dispatcher->DataProcess($pathArray = *uninitialized*) C:\Apache24\htdocs\008\v2\branch\Config\bootstrap\Dispatcher.class.php:8
+[17-Dec-2013 09:36:53 UTC] PHP   6. include_path_file($dirName = *uninitialized*, $fileKey = *uninitialized*) C:\Apache24\htdocs\008\v2\branch\Config\bootstrap\Dispatcher.class.php:29
+[17-Dec-2013 09:36:53 UTC] PHP   7. fileRead($filePath = *uninitialized*) C:\Apache24\htdocs\008\v2\branch\Config\bootstrap\extends.php:267
+[17-Dec-2013 09:36:53 UTC] PHP   8. opendir(*uninitialized*) C:\Apache24\htdocs\008\v2\branch\Config\bootstrap\extends.php:11
+[17-Dec-2013 09:36:53 UTC] PHP Warning:  opendir(C:/Apache24/htdocs/008/v2/branch/Controllers/Position/,C:/Apache24/htdocs/008/v2/branch/Controllers/Position/):  in C:\Apache24\htdocs\008\v2\branch\Config\bootstrap\extends.php on line 11
+[17-Dec-2013 09:36:53 UTC] PHP Stack trace:
+[17-Dec-2013 09:36:53 UTC] PHP   1. {main}() C:\Apache24\htdocs\008\v2\branch\index.php:0
+[17-Dec-2013 09:36:53 UTC] PHP   2. website->run() C:\Apache24\htdocs\008\v2\branch\index.php:5
+[17-Dec-2013 09:36:53 UTC] PHP   3. website->initializationWebsiteUrl() C:\Apache24\htdocs\008\v2\branch\Config\bootstrap\bootstrap.php:32
+[17-Dec-2013 09:36:53 UTC] PHP   4. Dispatcher->dispatcher() C:\Apache24\htdocs\008\v2\branch\Config\bootstrap\bootstrap.php:40
+[17-Dec-2013 09:36:53 UTC] PHP   5. Dispatcher->DataProcess($pathArray = *uninitialized*) C:\Apache24\htdocs\008\v2\branch\Config\bootstrap\Dispatcher.class.php:8
+[17-Dec-2013 09:36:53 UTC] PHP   6. include_path_file($dirName = *uninitialized*, $fileKey = *uninitialized*) C:\Apache24\htdocs\008\v2\branch\Config\bootstrap\Dispatcher.class.php:29
+[17-Dec-2013 09:36:53 UTC] PHP   7. fileRead($filePath = *uninitialized*) C:\Apache24\htdocs\008\v2\branch\Config\bootstrap\extends.php:267
+[17-Dec-2013 09:36:53 UTC] PHP   8. opendir(*uninitialized*) C:\Apache24\htdocs\008\v2\branch\Config\bootstrap\extends.php:11
+[17-Dec-2013 09:36:53 UTC] PHP Warning:  opendir(C:/Apache24/htdocs/008/v2/branch/Controllers/Position/): failed to open dir: No such file or directory in C:\Apache24\htdocs\008\v2\branch\Config\bootstrap\extends.php on line 11
+[17-Dec-2013 09:36:53 UTC] PHP Stack trace:
+[17-Dec-2013 09:36:53 UTC] PHP   1. {main}() C:\Apache24\htdocs\008\v2\branch\index.php:0
+[17-Dec-2013 09:36:53 UTC] PHP   2. website->run() C:\Apache24\htdocs\008\v2\branch\index.php:5
+[17-Dec-2013 09:36:53 UTC] PHP   3. website->initializationWebsiteUrl() C:\Apache24\htdocs\008\v2\branch\Config\bootstrap\bootstrap.php:32
+[17-Dec-2013 09:36:53 UTC] PHP   4. Dispatcher->dispatcher() C:\Apache24\htdocs\008\v2\branch\Config\bootstrap\bootstrap.php:40
+[17-Dec-2013 09:36:53 UTC] PHP   5. Dispatcher->DataProcess($pathArray = *uninitialized*) C:\Apache24\htdocs\008\v2\branch\Config\bootstrap\Dispatcher.class.php:8
+[17-Dec-2013 09:36:53 UTC] PHP   6. include_path_file($dirName = *uninitialized*, $fileKey = *uninitialized*) C:\Apache24\htdocs\008\v2\branch\Config\bootstrap\Dispatcher.class.php:29
+[17-Dec-2013 09:36:53 UTC] PHP   7. fileRead($filePath = *uninitialized*) C:\Apache24\htdocs\008\v2\branch\Config\bootstrap\extends.php:267
+[17-Dec-2013 09:36:53 UTC] PHP   8. opendir(*uninitialized*) C:\Apache24\htdocs\008\v2\branch\Config\bootstrap\extends.php:11
+[17-Dec-2013 09:37:17 UTC] PHP Warning:  call_user_func() expects parameter 1 to be a valid callback, class 'InformationController' does not have a method 'getPosition' in C:\Apache24\htdocs\008\v2\branch\Config\bootstrap\bootstrap.php on line 55
+[17-Dec-2013 09:37:17 UTC] PHP Stack trace:
+[17-Dec-2013 09:37:17 UTC] PHP   1. {main}() C:\Apache24\htdocs\008\v2\branch\index.php:0
+[17-Dec-2013 09:37:17 UTC] PHP   2. website->run() C:\Apache24\htdocs\008\v2\branch\index.php:5
+[17-Dec-2013 09:37:17 UTC] PHP   3. website->initializationWebsiteUrl() C:\Apache24\htdocs\008\v2\branch\Config\bootstrap\bootstrap.php:32
+[17-Dec-2013 09:37:17 UTC] PHP   4. call_user_func(*uninitialized*) C:\Apache24\htdocs\008\v2\branch\Config\bootstrap\bootstrap.php:55
+[17-Dec-2013 09:37:19 UTC] PHP Warning:  call_user_func() expects parameter 1 to be a valid callback, class 'InformationController' does not have a method 'getPosition' in C:\Apache24\htdocs\008\v2\branch\Config\bootstrap\bootstrap.php on line 55
+[17-Dec-2013 09:37:19 UTC] PHP Stack trace:
+[17-Dec-2013 09:37:19 UTC] PHP   1. {main}() C:\Apache24\htdocs\008\v2\branch\index.php:0
+[17-Dec-2013 09:37:19 UTC] PHP   2. website->run() C:\Apache24\htdocs\008\v2\branch\index.php:5
+[17-Dec-2013 09:37:19 UTC] PHP   3. website->initializationWebsiteUrl() C:\Apache24\htdocs\008\v2\branch\Config\bootstrap\bootstrap.php:32
+[17-Dec-2013 09:37:19 UTC] PHP   4. call_user_func(*uninitialized*) C:\Apache24\htdocs\008\v2\branch\Config\bootstrap\bootstrap.php:55
+[17-Dec-2013 09:37:21 UTC] PHP Warning:  call_user_func() expects parameter 1 to be a valid callback, class 'InformationController' does not have a method 'getPosition' in C:\Apache24\htdocs\008\v2\branch\Config\bootstrap\bootstrap.php on line 55
+[17-Dec-2013 09:37:21 UTC] PHP Stack trace:
+[17-Dec-2013 09:37:21 UTC] PHP   1. {main}() C:\Apache24\htdocs\008\v2\branch\index.php:0
+[17-Dec-2013 09:37:21 UTC] PHP   2. website->run() C:\Apache24\htdocs\008\v2\branch\index.php:5
+[17-Dec-2013 09:37:21 UTC] PHP   3. website->initializationWebsiteUrl() C:\Apache24\htdocs\008\v2\branch\Config\bootstrap\bootstrap.php:32
+[17-Dec-2013 09:37:21 UTC] PHP   4. call_user_func(*uninitialized*) C:\Apache24\htdocs\008\v2\branch\Config\bootstrap\bootstrap.php:55

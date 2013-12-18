@@ -1,0 +1,570 @@
+Dec 05 10:34:29 [VISIT]_information_AllDistrictInformation_0.0.0.0_/008/v1/branch/Information/AllDistrictInformation
+""
+Dec 05 10:34:32 [SQL]_null_0.0.0.0_/008/v1/branch/Information/AllDistrictInformation
+SELECT * FROM 008v1.district  WHERE 1      
+Dec 05 10:34:32 [RETURN]_null_0.0.0.0_/008/v1/branch/Information/AllDistrictInformation
+[{"id":"1","district_name":"\u5362\u6e7e\u533a"},{"id":"2","district_name":"\u5f90\u6c47\u533a"},{"id":"3","district_name":"\u9759\u5b89\u533a"},{"id":"4","district_name":"\u957f\u5b81\u533a"},{"id":"5","district_name":"\u6d66\u4e1c\u65b0\u533a"},{"id":"6","district_name":"\u9ec4\u6d66\u533a"},{"id":"7","district_name":"\u666e\u9640\u533a"},{"id":"8","district_name":"\u95f8\u5317\u533a"},{"id":"9","district_name":"\u8679\u53e3\u533a"},{"id":"10","district_name":"\u6768\u6d66\u533a"},{"id":"11","district_name":"\u95f5\u884c\u533a"},{"id":"12","district_name":"\u5b9d\u5c71\u533a"},{"id":"13","district_name":"\u677e\u6c5f\u533a"},{"id":"14","district_name":"\u5609\u5b9a\u533a"},{"id":"15","district_name":"\u9752\u6d66\u533a"},{"id":"16","district_name":"\u91d1\u5c71\u533a"},{"id":"17","district_name":"\u5949\u8d24\u533a"},{"id":"18","district_name":"\u5d07\u660e\u53bf"}]
+Dec 05 10:36:05 [VISIT]_information_AllDistrictInformation_0.0.0.0_/008/v1/branch//Information/AllDistrictInformation?
+""
+Dec 05 10:36:06 [SQL]_null_0.0.0.0_/008/v1/branch//Information/AllDistrictInformation?
+SELECT * FROM 008v1.district  WHERE 1      
+Dec 05 10:36:06 [RETURN]_null_0.0.0.0_/008/v1/branch//Information/AllDistrictInformation?
+[{"id":"1","district_name":"\u5362\u6e7e\u533a"},{"id":"2","district_name":"\u5f90\u6c47\u533a"},{"id":"3","district_name":"\u9759\u5b89\u533a"},{"id":"4","district_name":"\u957f\u5b81\u533a"},{"id":"5","district_name":"\u6d66\u4e1c\u65b0\u533a"},{"id":"6","district_name":"\u9ec4\u6d66\u533a"},{"id":"7","district_name":"\u666e\u9640\u533a"},{"id":"8","district_name":"\u95f8\u5317\u533a"},{"id":"9","district_name":"\u8679\u53e3\u533a"},{"id":"10","district_name":"\u6768\u6d66\u533a"},{"id":"11","district_name":"\u95f5\u884c\u533a"},{"id":"12","district_name":"\u5b9d\u5c71\u533a"},{"id":"13","district_name":"\u677e\u6c5f\u533a"},{"id":"14","district_name":"\u5609\u5b9a\u533a"},{"id":"15","district_name":"\u9752\u6d66\u533a"},{"id":"16","district_name":"\u91d1\u5c71\u533a"},{"id":"17","district_name":"\u5949\u8d24\u533a"},{"id":"18","district_name":"\u5d07\u660e\u53bf"}]
+Dec 05 10:36:19 [VISIT]_information_AllRegionsInformation_0.0.0.0_/008/v1/branch//Information/AllRegionsInformation?
+""
+Dec 05 10:36:20 [SQL]_null_0.0.0.0_/008/v1/branch//Information/AllRegionsInformation?
+SELECT * FROM 008v1.district  WHERE 1      
+Dec 05 10:36:20 [SQL]_null_0.0.0.0_/008/v1/branch//Information/AllRegionsInformation?
+SELECT regions.id,regions_name FROM 008v1.regions  LEFT JOIN 008v1.district ON regions.district_id = district.id  WHERE 1  AND regions.district_id in (1)     
+Dec 05 10:36:20 [SQL]_null_0.0.0.0_/008/v1/branch//Information/AllRegionsInformation?
+SELECT regions.id,regions_name FROM 008v1.regions  LEFT JOIN 008v1.district ON regions.district_id = district.id  WHERE 1  AND regions.district_id in (2)     
+Dec 05 10:36:20 [SQL]_null_0.0.0.0_/008/v1/branch//Information/AllRegionsInformation?
+SELECT regions.id,regions_name FROM 008v1.regions  LEFT JOIN 008v1.district ON regions.district_id = district.id  WHERE 1  AND regions.district_id in (3)     
+Dec 05 10:36:20 [SQL]_null_0.0.0.0_/008/v1/branch//Information/AllRegionsInformation?
+SELECT regions.id,regions_name FROM 008v1.regions  LEFT JOIN 008v1.district ON regions.district_id = district.id  WHERE 1  AND regions.district_id in (4)     
+Dec 05 10:36:20 [SQL]_null_0.0.0.0_/008/v1/branch//Information/AllRegionsInformation?
+SELECT regions.id,regions_name FROM 008v1.regions  LEFT JOIN 008v1.district ON regions.district_id = district.id  WHERE 1  AND regions.district_id in (5)     
+Dec 05 10:36:20 [SQL]_null_0.0.0.0_/008/v1/branch//Information/AllRegionsInformation?
+SELECT regions.id,regions_name FROM 008v1.regions  LEFT JOIN 008v1.district ON regions.district_id = district.id  WHERE 1  AND regions.district_id in (6)     
+Dec 05 10:36:20 [SQL]_null_0.0.0.0_/008/v1/branch//Information/AllRegionsInformation?
+SELECT regions.id,regions_name FROM 008v1.regions  LEFT JOIN 008v1.district ON regions.district_id = district.id  WHERE 1  AND regions.district_id in (7)     
+Dec 05 10:36:20 [SQL]_null_0.0.0.0_/008/v1/branch//Information/AllRegionsInformation?
+SELECT regions.id,regions_name FROM 008v1.regions  LEFT JOIN 008v1.district ON regions.district_id = district.id  WHERE 1  AND regions.district_id in (8)     
+Dec 05 10:36:20 [SQL]_null_0.0.0.0_/008/v1/branch//Information/AllRegionsInformation?
+SELECT regions.id,regions_name FROM 008v1.regions  LEFT JOIN 008v1.district ON regions.district_id = district.id  WHERE 1  AND regions.district_id in (9)     
+Dec 05 10:36:20 [SQL]_null_0.0.0.0_/008/v1/branch//Information/AllRegionsInformation?
+SELECT regions.id,regions_name FROM 008v1.regions  LEFT JOIN 008v1.district ON regions.district_id = district.id  WHERE 1  AND regions.district_id in (10)     
+Dec 05 10:36:20 [SQL]_null_0.0.0.0_/008/v1/branch//Information/AllRegionsInformation?
+SELECT regions.id,regions_name FROM 008v1.regions  LEFT JOIN 008v1.district ON regions.district_id = district.id  WHERE 1  AND regions.district_id in (11)     
+Dec 05 10:36:20 [SQL]_null_0.0.0.0_/008/v1/branch//Information/AllRegionsInformation?
+SELECT regions.id,regions_name FROM 008v1.regions  LEFT JOIN 008v1.district ON regions.district_id = district.id  WHERE 1  AND regions.district_id in (12)     
+Dec 05 10:36:20 [SQL]_null_0.0.0.0_/008/v1/branch//Information/AllRegionsInformation?
+SELECT regions.id,regions_name FROM 008v1.regions  LEFT JOIN 008v1.district ON regions.district_id = district.id  WHERE 1  AND regions.district_id in (13)     
+Dec 05 10:36:20 [SQL]_null_0.0.0.0_/008/v1/branch//Information/AllRegionsInformation?
+SELECT regions.id,regions_name FROM 008v1.regions  LEFT JOIN 008v1.district ON regions.district_id = district.id  WHERE 1  AND regions.district_id in (14)     
+Dec 05 10:36:20 [SQL]_null_0.0.0.0_/008/v1/branch//Information/AllRegionsInformation?
+SELECT regions.id,regions_name FROM 008v1.regions  LEFT JOIN 008v1.district ON regions.district_id = district.id  WHERE 1  AND regions.district_id in (15)     
+Dec 05 10:36:20 [SQL]_null_0.0.0.0_/008/v1/branch//Information/AllRegionsInformation?
+SELECT regions.id,regions_name FROM 008v1.regions  LEFT JOIN 008v1.district ON regions.district_id = district.id  WHERE 1  AND regions.district_id in (16)     
+Dec 05 10:36:20 [SQL]_null_0.0.0.0_/008/v1/branch//Information/AllRegionsInformation?
+SELECT regions.id,regions_name FROM 008v1.regions  LEFT JOIN 008v1.district ON regions.district_id = district.id  WHERE 1  AND regions.district_id in (17)     
+Dec 05 10:36:20 [SQL]_null_0.0.0.0_/008/v1/branch//Information/AllRegionsInformation?
+SELECT regions.id,regions_name FROM 008v1.regions  LEFT JOIN 008v1.district ON regions.district_id = district.id  WHERE 1  AND regions.district_id in (18)     
+Dec 05 10:36:20 [RETURN]_null_0.0.0.0_/008/v1/branch//Information/AllRegionsInformation?
+{"\u5362\u6e7e\u533a":[{"id":"185","regions_name":"\u6dee\u6d77\u8def"},{"id":"186","regions_name":"\u6253\u6d66\u6865"},{"id":"187","regions_name":"\u65b0\u5929\u5730"},{"id":"188","regions_name":"\u745e\u91d1\u5bbe\u9986\u533a"}],"\u5f90\u6c47\u533a":[{"id":"189","regions_name":"\u5f90\u5bb6\u6c47"},{"id":"190","regions_name":"\u4e07\u4f53\u9986"},{"id":"191","regions_name":"\u8861\u5c71\u8def"},{"id":"192","regions_name":"\u590d\u5174\u897f\u8def\/\u4e01\u9999\u82b1\u56ed"},{"id":"193","regions_name":"\u8087\u5609\u6d5c\u8def\u6cbf\u7ebf"},{"id":"194","regions_name":"\u97f3\u4e50\u5b66\u9662"},{"id":"195","regions_name":"\u9f99\u534e"},{"id":"196","regions_name":"\u6f15\u6cb3\u6cfe\/\u7530\u6797"},{"id":"197","regions_name":"\u4e0a\u6d77\u5357\u7ad9"}],"\u9759\u5b89\u533a":[{"id":"198","regions_name":"\u9759\u5b89\u5bfa"},{"id":"199","regions_name":"\u540c\u4e50\u574a"},{"id":"200","regions_name":"\u5357\u4eac\u897f\u8def"}],"\u957f\u5b81\u533a":[{"id":"201","regions_name":"\u8679\u6865"},{"id":"202","regions_name":"\u4e2d\u5c71\u516c\u56ed"},{"id":"203","regions_name":"\u4e0a\u6d77\u5f71\u57ce\/\u65b0\u534e\u8def"},{"id":"204","regions_name":"\u5929\u5c71"},{"id":"205","regions_name":"\u53e4\u5317"},{"id":"206","regions_name":"\u52a8\u7269\u56ed\/\u8679\u6865\u673a\u573a"},{"id":"207","regions_name":"\u5317\u65b0\u6cfe"}],"\u6d66\u4e1c\u65b0\u533a":[{"id":"208","regions_name":"\u4e0a\u5357\u5730\u533a"},{"id":"209","regions_name":"\u5916\u9ad8\u6865"},{"id":"210","regions_name":"\u91d1\u6865"},{"id":"211","regions_name":"\u6e90\u6df1\u4f53\u80b2\u4e2d\u5fc3"},{"id":"212","regions_name":"\u9646\u5bb6\u5634"},{"id":"213","regions_name":"\u516b\u4f70\u4f34"},{"id":"214","regions_name":"\u4e16\u7eaa\u516c\u56ed"},{"id":"215","regions_name":"\u5f20\u6c5f"},{"id":"216","regions_name":"\u5858\u6865"},{"id":"217","regions_name":"\u5ddd\u6c99"},{"id":"218","regions_name":"\u91d1\u6768\u5730\u533a"},{"id":"219","regions_name":"\u78a7\u4e91\u793e\u533a"},{"id":"220","regions_name":"\u4e09\u6797\u5730\u533a"},{"id":"221","regions_name":"\u60e0\u5357\u9547"},{"id":"222","regions_name":"\u5eb7\u6865\/\u5468\u6d66"},{"id":"223","regions_name":"\u4e1c\u660e"},{"id":"224","regions_name":"\u6d66\u4e1c\u673a\u573a"},{"id":"225","regions_name":"\u4e34\u6c82\/\u5357\u7801\u5934"}],"\u9ec4\u6d66\u533a":[{"id":"226","regions_name":"\u8463\u5bb6\u6e21"},{"id":"227","regions_name":"\u5916\u6ee9"},{"id":"228","regions_name":"\u8001\u897f\u95e8"},{"id":"229","regions_name":"\u57ce\u968d\u5e99"},{"id":"230","regions_name":"\u5357\u4eac\u4e1c\u8def"},{"id":"231","regions_name":"\u4eba\u6c11\u5e7f\u573a"}],"\u666e\u9640\u533a":[{"id":"232","regions_name":"\u66f9\u6768\u5730\u533a"},{"id":"233","regions_name":"\u957f\u98ce\u516c\u56ed\/\u534e\u5e08\u5927"},{"id":"234","regions_name":"\u4e2d\u5c71\u5317\u8def\/\u7518\u6cc9\u5730\u533a"},{"id":"235","regions_name":"\u6885\u5ddd\u8def"},{"id":"236","regions_name":"\u66f9\u5bb6\u6e21"},{"id":"237","regions_name":"\u957f\u5bff\u8def"},{"id":"238","regions_name":"\u771f\u5982"},{"id":"239","regions_name":"\u6b66\u5b81\u5730\u533a"},{"id":"240","regions_name":"\u6708\u661f\u73af\u7403\u6e2f"}],"\u95f8\u5317\u533a":[{"id":"241","regions_name":"\u5f6d\u6d66\u65b0\u6751"},{"id":"242","regions_name":"\u5927\u5b81\u5730\u533a"},{"id":"243","regions_name":"\u95f8\u5317\u516c\u56ed"},{"id":"244","regions_name":"\u706b\u8f66\u7ad9"},{"id":"245","regions_name":"\u5317\u533a\u6c7d\u8f66\u7ad9"}],"\u8679\u53e3\u533a":[{"id":"246","regions_name":"\u8679\u53e3\u8db3\u7403\u573a"},{"id":"247","regions_name":"\u66f2\u9633\u5730\u533a"},{"id":"248","regions_name":"\u6d77\u5b81\u8def\/\u4e03\u6d66\u8def"},{"id":"249","regions_name":"\u56db\u5ddd\u5317\u8def"},{"id":"250","regions_name":"\u5317\u5916\u6ee9"},{"id":"251","regions_name":"\u4e34\u5e73\u8def\/\u548c\u5e73\u516c\u56ed"},{"id":"252","regions_name":"\u51c9\u57ce\/\u6c5f\u6e7e\u9547"}],"\u6768\u6d66\u533a":[{"id":"253","regions_name":"\u63a7\u6c5f\u5730\u533a"},{"id":"254","regions_name":"\u4e94\u89d2\u573a\/\u5927\u5b66\u533a"},{"id":"255","regions_name":"\u5e73\u51c9\u8def"},{"id":"256","regions_name":"\u9ec4\u5174\u516c\u56ed"},{"id":"257","regions_name":"\u4e2d\u539f\u5730\u533a"},{"id":"258","regions_name":"\u978d\u5c71\u65b0\u6751"}],"\u95f5\u884c\u533a":[{"id":"259","regions_name":"\u6625\u7533\u5730\u533a"},{"id":"260","regions_name":"\u5357\u65b9\u5546\u57ce"},{"id":"261","regions_name":"\u8398\u5e84"},{"id":"262","regions_name":"\u4e03\u5b9d"},{"id":"263","regions_name":"\u4e07\u6e90\u57ce\/\u4e1c\u5170\u8def"},{"id":"264","regions_name":"\u8001\u95f5\u884c"},{"id":"265","regions_name":"\u8679\u6865\u9547"},{"id":"266","regions_name":"\u8679\u6885\u8def"},{"id":"267","regions_name":"\u9f99\u67cf\u5730\u533a"},{"id":"268","regions_name":"\u6d66\u6c5f\u9547"}],"\u5b9d\u5c71\u533a":[{"id":"269","regions_name":"\u5927\u534e\u5730\u533a"},{"id":"270","regions_name":"\u5e99\u884c\/\u5171\u5eb7"},{"id":"271","regions_name":"\u6dde\u6ee8\u5730\u533a"},{"id":"272","regions_name":"\u4e0a\u6d77\u5927\u5b66"},{"id":"273","regions_name":"\u6768\u884c"},{"id":"274","regions_name":"\u9ad8\u5883"},{"id":"275","regions_name":"\u6dde\u5357"},{"id":"276","regions_name":"\u6708\u6d66"},{"id":"277","regions_name":"\u5b9d\u5c71\u57ce\u533a"},{"id":"278","regions_name":"\u901a\u6cb3\/\u6cd7\u5858"},{"id":"279","regions_name":"\u987e\u6751\u516c\u56ed"},{"id":"280","regions_name":"\u7f8e\u5170\u6e56"}],"\u677e\u6c5f\u533a":[{"id":"281","regions_name":"\u677e\u6c5f\u9547"},{"id":"282","regions_name":"\u677e\u6c5f\u5927\u5b66\u57ce"},{"id":"283","regions_name":"\u4f58\u5c71"},{"id":"284","regions_name":"\u4e5d\u4ead"},{"id":"285","regions_name":"\u6cd7\u6cfe"}],"\u5609\u5b9a\u533a":[{"id":"286","regions_name":"\u6c5f\u6865"},{"id":"287","regions_name":"\u5357\u7fd4"},{"id":"288","regions_name":"\u5b89\u4ead"},{"id":"289","regions_name":"\u5609\u5b9a\u9547"}],"\u9752\u6d66\u533a":[{"id":"290","regions_name":"\u6731\u5bb6\u89d2"},{"id":"291","regions_name":"\u9752\u6d66\u9547"}],"\u91d1\u5c71\u533a":[{"id":"292","regions_name":"\u91d1\u5c71\u536b"}],"\u5949\u8d24\u533a":[{"id":"293","regions_name":"\u5357\u6865"},{"id":"294","regions_name":"\u897f\u6e21"}],"\u5d07\u660e\u53bf":[{"id":"295","regions_name":"\u4e1c\u6ee9\/\u524d\u54e8\u519c\u573a"},{"id":"296","regions_name":"\u5357\u95e8"}]}
+Dec 05 10:51:38 [VISIT]_information_getRegionsInformationWithDistrictId_0.0.0.0_/008/v1/branch//Information/getRegionsInformationWithDistrictId?districtId=1
+{"districtId":"1"}
+Dec 05 10:51:39 [SQL]_null_0.0.0.0_/008/v1/branch//Information/getRegionsInformationWithDistrictId?districtId=1
+SELECT regions.id,regions_name,district_name,district_id FROM 008v1.regions  LEFT JOIN 008v1.district ON regions.district_id = district.id  WHERE 1  AND regions.district_id in (1)     
+Dec 05 10:51:39 [RETURN]_null_0.0.0.0_/008/v1/branch//Information/getRegionsInformationWithDistrictId?districtId=1
+{"Regions":["\u6dee\u6d77\u8def","\u6253\u6d66\u6865","\u65b0\u5929\u5730","\u745e\u91d1\u5bbe\u9986\u533a"]}
+Dec 05 11:39:44 [VISIT]_information_AllDistrictInformation_0.0.0.0_/008/v1/branch//Information/AllDistrictInformation?districtId=1
+""
+Dec 05 11:39:45 [SQL]_null_0.0.0.0_/008/v1/branch//Information/AllDistrictInformation?districtId=1
+SELECT * FROM 008v1.district  WHERE 1      
+Dec 05 11:39:45 [RETURN]_null_0.0.0.0_/008/v1/branch//Information/AllDistrictInformation?districtId=1
+[{"id":"1","district_name":"\u5362\u6e7e\u533a"},{"id":"2","district_name":"\u5f90\u6c47\u533a"},{"id":"3","district_name":"\u9759\u5b89\u533a"},{"id":"4","district_name":"\u957f\u5b81\u533a"},{"id":"5","district_name":"\u6d66\u4e1c\u65b0\u533a"},{"id":"6","district_name":"\u9ec4\u6d66\u533a"},{"id":"7","district_name":"\u666e\u9640\u533a"},{"id":"8","district_name":"\u95f8\u5317\u533a"},{"id":"9","district_name":"\u8679\u53e3\u533a"},{"id":"10","district_name":"\u6768\u6d66\u533a"},{"id":"11","district_name":"\u95f5\u884c\u533a"},{"id":"12","district_name":"\u5b9d\u5c71\u533a"},{"id":"13","district_name":"\u677e\u6c5f\u533a"},{"id":"14","district_name":"\u5609\u5b9a\u533a"},{"id":"15","district_name":"\u9752\u6d66\u533a"},{"id":"16","district_name":"\u91d1\u5c71\u533a"},{"id":"17","district_name":"\u5949\u8d24\u533a"},{"id":"18","district_name":"\u5d07\u660e\u53bf"}]
+Dec 05 11:43:03 [VISIT]_information_getAllTags_0.0.0.0_/008/v1/branch//Information/getAllTags?districtId=1
+""
+Dec 05 11:43:04 [SQL]_null_0.0.0.0_/008/v1/branch//Information/getAllTags?districtId=1
+SELECT * FROM 008v1.tags  WHERE 1      
+Dec 05 11:43:04 [RETURN]_null_0.0.0.0_/008/v1/branch//Information/getAllTags?districtId=1
+[{"id":"1","tag_name":"work"}]
+Dec 05 11:55:58 [VISIT]_information_getAllDeals_0.0.0.0_/008/v1/branch//Information/getAllDeals?districtId=1
+""
+Dec 05 11:55:59 [SQL]_null_0.0.0.0_/008/v1/branch//Information/getAllDeals?districtId=1
+SELECT * FROM 008v1.deal  WHERE 1      
+Dec 05 11:55:59 [RETURN]_null_0.0.0.0_/008/v1/branch//Information/getAllDeals?districtId=1
+{"Deals":[{"id":"1","dealId":"2-321213","publish_date":"2013-01-15 15:16:33","purchase_deadline":"2014-01-15 15:16:00","business_id":"312001"},{"id":"2","dealId":"2-355555","publish_date":"2013-01-14 15:16:33","purchase_deadline":"2013-01-18 15:16:00","business_id":"312002"},{"id":"3","dealId":"2-355165","publish_date":"2013-01-14 15:16:33","purchase_deadline":"2013-01-18 15:16:00","business_id":"312002"}]}
+Dec 05 12:04:55 [VISIT]_information_getAllDeals_0.0.0.0_/008/v1/branch//Information/getAllDeals?districtId=1
+""
+Dec 05 12:04:56 [SQL]_null_0.0.0.0_/008/v1/branch//Information/getAllDeals?districtId=1
+SELECT * FROM 008v1.deal  WHERE 1      
+Dec 05 12:04:56 [RETURN]_null_0.0.0.0_/008/v1/branch//Information/getAllDeals?districtId=1
+[{"id":"1","dealId":"2-321213","publish_date":"2013-01-15 15:16:33","purchase_deadline":"2014-01-15 15:16:00","business_id":"312001"},{"id":"2","dealId":"2-355555","publish_date":"2013-01-14 15:16:33","purchase_deadline":"2013-01-18 15:16:00","business_id":"312002"},{"id":"3","dealId":"2-355165","publish_date":"2013-01-14 15:16:33","purchase_deadline":"2013-01-18 15:16:00","business_id":"312002"}]
+Dec 05 12:20:47 [VISIT]_information_getDealsByBusinessId_0.0.0.0_/008/v1/branch//Information/getDealsByBusinessId?businessId=312001
+""
+Dec 05 12:20:47 [RETURN]_null_0.0.0.0_/008/v1/branch//Information/getDealsByBusinessId?businessId=312001
+{"error":{"error_status":"2001","status_info":"\u975e\u6cd5\u7684\u5546\u94faID(\u53c2\u6570\u5fc5\u987b\u4e3a\u6b63\u6574\u6570\u4f8b\u59821\u6216\u80051,2,3)"}}
+Dec 05 12:20:58 [VISIT]_information_getDealsByBusinessId_0.0.0.0_/008/v1/branch//Information/getDealsByBusinessId?businessId=312001,
+""
+Dec 05 12:20:58 [RETURN]_null_0.0.0.0_/008/v1/branch//Information/getDealsByBusinessId?businessId=312001,
+{"error":{"error_status":"2001","status_info":"\u975e\u6cd5\u7684\u5546\u94faID(\u53c2\u6570\u5fc5\u987b\u4e3a\u6b63\u6574\u6570\u4f8b\u59821\u6216\u80051,2,3)"}}
+Dec 05 12:21:05 [VISIT]_information_getDealsByBusinessId_0.0.0.0_/008/v1/branch//Information/getDealsByBusinessId?businessId=31200
+""
+Dec 05 12:21:05 [RETURN]_null_0.0.0.0_/008/v1/branch//Information/getDealsByBusinessId?businessId=31200
+{"error":{"error_status":"2001","status_info":"\u975e\u6cd5\u7684\u5546\u94faID(\u53c2\u6570\u5fc5\u987b\u4e3a\u6b63\u6574\u6570\u4f8b\u59821\u6216\u80051,2,3)"}}
+Dec 05 12:21:05 [VISIT]_information_getDealsByBusinessId_0.0.0.0_/008/v1/branch//Information/getDealsByBusinessId?businessId=31200
+""
+Dec 05 12:21:05 [RETURN]_null_0.0.0.0_/008/v1/branch//Information/getDealsByBusinessId?businessId=31200
+{"error":{"error_status":"2001","status_info":"\u975e\u6cd5\u7684\u5546\u94faID(\u53c2\u6570\u5fc5\u987b\u4e3a\u6b63\u6574\u6570\u4f8b\u59821\u6216\u80051,2,3)"}}
+Dec 05 12:21:06 [VISIT]_information_getDealsByBusinessId_0.0.0.0_/008/v1/branch//Information/getDealsByBusinessId?businessId=31200
+""
+Dec 05 12:21:06 [RETURN]_null_0.0.0.0_/008/v1/branch//Information/getDealsByBusinessId?businessId=31200
+{"error":{"error_status":"2001","status_info":"\u975e\u6cd5\u7684\u5546\u94faID(\u53c2\u6570\u5fc5\u987b\u4e3a\u6b63\u6574\u6570\u4f8b\u59821\u6216\u80051,2,3)"}}
+Dec 05 12:21:06 [VISIT]_information_getDealsByBusinessId_0.0.0.0_/008/v1/branch//Information/getDealsByBusinessId?businessId=31200
+""
+Dec 05 12:21:06 [RETURN]_null_0.0.0.0_/008/v1/branch//Information/getDealsByBusinessId?businessId=31200
+{"error":{"error_status":"2001","status_info":"\u975e\u6cd5\u7684\u5546\u94faID(\u53c2\u6570\u5fc5\u987b\u4e3a\u6b63\u6574\u6570\u4f8b\u59821\u6216\u80051,2,3)"}}
+Dec 05 12:21:06 [VISIT]_information_getDealsByBusinessId_0.0.0.0_/008/v1/branch//Information/getDealsByBusinessId?businessId=31200
+""
+Dec 05 12:21:06 [RETURN]_null_0.0.0.0_/008/v1/branch//Information/getDealsByBusinessId?businessId=31200
+{"error":{"error_status":"2001","status_info":"\u975e\u6cd5\u7684\u5546\u94faID(\u53c2\u6570\u5fc5\u987b\u4e3a\u6b63\u6574\u6570\u4f8b\u59821\u6216\u80051,2,3)"}}
+Dec 05 12:21:06 [VISIT]_information_getDealsByBusinessId_0.0.0.0_/008/v1/branch//Information/getDealsByBusinessId?businessId=31200
+""
+Dec 05 12:21:06 [RETURN]_null_0.0.0.0_/008/v1/branch//Information/getDealsByBusinessId?businessId=31200
+{"error":{"error_status":"2001","status_info":"\u975e\u6cd5\u7684\u5546\u94faID(\u53c2\u6570\u5fc5\u987b\u4e3a\u6b63\u6574\u6570\u4f8b\u59821\u6216\u80051,2,3)"}}
+Dec 05 12:21:29 [VISIT]_information_getDealsByBusinessId_0.0.0.0_/008/v1/branch//Information/getDealsByBusinessId?businessId=31200
+""
+Dec 05 12:21:29 [RETURN]_null_0.0.0.0_/008/v1/branch//Information/getDealsByBusinessId?businessId=31200
+{"error":{"error_status":"2001","status_info":"\u975e\u6cd5\u7684\u5546\u94faID(\u53c2\u6570\u5fc5\u987b\u4e3a\u6b63\u6574\u6570\u4f8b\u59821\u6216\u80051,2,3)"}}
+Dec 05 12:21:37 [VISIT]_information_getDealsByBusinessId_0.0.0.0_/008/v1/branch//Information/getDealsByBusinessId?businessId=31200
+""
+Dec 05 12:21:45 [RETURN]_null_0.0.0.0_/008/v1/branch//Information/getDealsByBusinessId?businessId=31200
+{"error":{"error_status":"2001","status_info":"\u975e\u6cd5\u7684\u5546\u94faID(\u53c2\u6570\u5fc5\u987b\u4e3a\u6b63\u6574\u6570\u4f8b\u59821\u6216\u80051,2,3)"}}
+Dec 05 12:22:17 [VISIT]_information_getDealsByBusinessId_0.0.0.0_/008/v1/branch//Information/getDealsByBusinessId?businessId=31200
+{"businessId":"31200"}
+Dec 05 12:22:24 [SQL]_null_0.0.0.0_/008/v1/branch//Information/getDealsByBusinessId?businessId=31200
+SELECT * FROM 008v1.deal  WHERE 1  AND business_id in (31200)     
+Dec 05 12:22:24 [RETURN]_null_0.0.0.0_/008/v1/branch//Information/getDealsByBusinessId?businessId=31200
+{"error":{"error_status":"2010","status_info":"\u6682\u65e0\u6240\u8bf7\u6c42\u7684\u4fe1\u606f"}}
+Dec 05 12:22:32 [VISIT]_information_getDealsByBusinessId_0.0.0.0_/008/v1/branch//Information/getDealsByBusinessId?businessId=31200
+{"businessId":"31200"}
+Dec 05 12:22:33 [SQL]_null_0.0.0.0_/008/v1/branch//Information/getDealsByBusinessId?businessId=31200
+SELECT * FROM 008v1.deal  WHERE 1  AND business_id in (31200)     
+Dec 05 12:22:33 [RETURN]_null_0.0.0.0_/008/v1/branch//Information/getDealsByBusinessId?businessId=31200
+{"error":{"error_status":"2010","status_info":"\u6682\u65e0\u6240\u8bf7\u6c42\u7684\u4fe1\u606f"}}
+Dec 05 12:22:35 [VISIT]_information_getDealsByBusinessId_0.0.0.0_/008/v1/branch//Information/getDealsByBusinessId?businessId=312001
+{"businessId":"312001"}
+Dec 05 12:22:36 [SQL]_null_0.0.0.0_/008/v1/branch//Information/getDealsByBusinessId?businessId=312001
+SELECT * FROM 008v1.deal  WHERE 1  AND business_id in (312001)     
+Dec 05 12:22:36 [RETURN]_null_0.0.0.0_/008/v1/branch//Information/getDealsByBusinessId?businessId=312001
+{"Deals":[{"id":"1","dealId":"2-321213","publish_date":"2013-01-15 15:16:33","purchase_deadline":"2014-01-15 15:16:00","business_id":"312001"}]}
+Dec 05 12:22:45 [VISIT]_information_getDealsByBusinessId_0.0.0.0_/008/v1/branch//Information/getDealsByBusinessId?businessId=312002
+{"businessId":"312002"}
+Dec 05 12:22:46 [SQL]_null_0.0.0.0_/008/v1/branch//Information/getDealsByBusinessId?businessId=312002
+SELECT * FROM 008v1.deal  WHERE 1  AND business_id in (312002)     
+Dec 05 12:22:46 [RETURN]_null_0.0.0.0_/008/v1/branch//Information/getDealsByBusinessId?businessId=312002
+{"Deals":[{"id":"2","dealId":"2-355555","publish_date":"2013-01-14 15:16:33","purchase_deadline":"2013-01-18 15:16:00","business_id":"312002"},{"id":"3","dealId":"2-355165","publish_date":"2013-01-14 15:16:33","purchase_deadline":"2013-01-18 15:16:00","business_id":"312002"}]}
+Dec 05 12:23:17 [VISIT]_information_getDealsByBusinessId_0.0.0.0_/008/v1/branch//Information/getDealsByBusinessId?businessId=312002
+{"businessId":"312002"}
+Dec 05 12:23:18 [SQL]_null_0.0.0.0_/008/v1/branch//Information/getDealsByBusinessId?businessId=312002
+SELECT * FROM 008v1.deal  WHERE 1  AND business_id in (312002)     
+Dec 05 12:23:18 [RETURN]_null_0.0.0.0_/008/v1/branch//Information/getDealsByBusinessId?businessId=312002
+[{"id":"2","dealId":"2-355555","publish_date":"2013-01-14 15:16:33","purchase_deadline":"2013-01-18 15:16:00","business_id":"312002"},{"id":"3","dealId":"2-355165","publish_date":"2013-01-14 15:16:33","purchase_deadline":"2013-01-18 15:16:00","business_id":"312002"}]
+Dec 05 13:35:07 [VISIT]_information_getPlan_0.0.0.0_/008/v1/branch//Information/getPlan
+""
+Dec 05 13:35:40 [VISIT]_information_getPlan_0.0.0.0_/008/v1/branch//Information/getPlan
+[]
+Dec 05 13:35:40 [RETURN]_null_0.0.0.0_/008/v1/branch//Information/getPlan
+{"error":{"error_status":"200001","status_info":null}}
+Dec 05 13:37:59 [VISIT]_information_getPlan_0.0.0.0_/008/v1/branch//Information/getPlan?businessId=1&opi=2
+{"businessId":"1","opi":"2"}
+Dec 05 13:38:43 [VISIT]_information_getPlan_0.0.0.0_/008/v1/branch//Information/getPlan?businessId=1&opi=2
+{"businessId":"1","opi":"2"}
+Dec 05 13:38:47 [VISIT]_information_getPlan_0.0.0.0_/008/v1/branch//Information/getPlan?businessId=1&opi=5
+{"businessId":"1","opi":"5"}
+Dec 05 13:47:59 [VISIT]_information_getPlan_0.0.0.0_/008/v1/branch//Information/getPlan?businessId=1&opi=5
+{"businessId":"1","opi":"5"}
+Dec 05 13:48:01 [VISIT]_information_getPlan_0.0.0.0_/008/v1/branch//Information/getPlan?businessId=1&opi=5
+{"businessId":"1","opi":"5"}
+Dec 05 13:48:04 [VISIT]_information_getPlan_0.0.0.0_/008/v1/branch//Information/getPlan?businessId=1&opi=5
+{"businessId":"1","opi":"5"}
+Dec 05 13:48:54 [VISIT]_information_getPlan_0.0.0.0_/008/v1/branch//Information/getPlan?businessId=1&opi=5
+{"businessId":"1","opi":"5"}
+Dec 05 13:48:54 [RETURN]_null_0.0.0.0_/008/v1/branch//Information/getPlan?businessId=1&opi=5
+{"error":{"error_status":"200001","status_info":null}}
+Dec 05 13:49:09 [VISIT]_information_getPlan_0.0.0.0_/008/v1/branch//Information/getPlan?businessId=1&opi=5
+""
+Dec 05 13:55:17 [VISIT]_information_getPlan_0.0.0.0_/008/v1/branch//Information/getPlan?regions=1&opi=5
+{"regions":"1","opi":"5"}
+Dec 05 13:55:17 [RETURN]_null_0.0.0.0_/008/v1/branch//Information/getPlan?regions=1&opi=5
+{"error":{"error_status":"200001","status_info":null}}
+Dec 05 13:55:25 [VISIT]_information_getPlan_0.0.0.0_/008/v1/branch//Information/getPlan?regions=1&opi=5
+{"regions":"1","opi":"5"}
+Dec 05 13:56:57 [VISIT]_information_getPlan_0.0.0.0_/008/v1/branch//Information/getPlan?regions=1&opi=5
+{"regions":"1","opi":"5"}
+Dec 05 13:57:19 [VISIT]_information_getPlan_0.0.0.0_/008/v1/branch//Information/getPlan?regions=1&avgConsume=5&rankScore=15&stateTag=1
+{"regions":"1","avgConsume":"5","rankScore":"15","stateTag":"1"}
+Dec 05 13:57:24 [VISIT]_information_getPlan_0.0.0.0_/008/v1/branch//Information/getPlan?regions=1&avgConsume=5&rankScore=15
+{"regions":"1","avgConsume":"5","rankScore":"15"}
+Dec 05 14:00:01 [VISIT]_information_getPlan_0.0.0.0_/008/v1/branch//Information/getPlan?regions=185&avgConsume=99&rankScore=152
+{"regions":"185","avgConsume":"99","rankScore":"152"}
+Dec 05 14:00:02 [SQL]_null_0.0.0.0_/008/v1/branch//Information/getPlan?regions=185&avgConsume=99&rankScore=152
+SELECT * FROM 008v1.plan  WHERE 1  AND rank_score='152' and avg_consume='99' and regions='185'    ORDER BY rank_score,regions  
+Dec 05 14:00:02 [SQL]_null_0.0.0.0_/008/v1/branch//Information/getPlan?regions=185&avgConsume=99&rankScore=152
+SELECT * FROM 008v1.business_message  WHERE 1  AND business_id in (3205237)     
+Dec 05 14:00:02 [SQL]_null_0.0.0.0_/008/v1/branch//Information/getPlan?regions=185&avgConsume=99&rankScore=152
+SELECT * FROM 008v1.regions  LEFT JOIN 008v1.district ON regions.district_id = district.id  WHERE 1  AND regions.id in (185)     
+Dec 05 14:00:02 [SQL]_null_0.0.0.0_/008/v1/branch//Information/getPlan?regions=185&avgConsume=99&rankScore=152
+SELECT * FROM 008v1.business_message  WHERE 1  AND business_id in (2371969)     
+Dec 05 14:00:02 [SQL]_null_0.0.0.0_/008/v1/branch//Information/getPlan?regions=185&avgConsume=99&rankScore=152
+SELECT * FROM 008v1.regions  LEFT JOIN 008v1.district ON regions.district_id = district.id  WHERE 1  AND regions.id in (185)     
+Dec 05 14:00:02 [SQL]_null_0.0.0.0_/008/v1/branch//Information/getPlan?regions=185&avgConsume=99&rankScore=152
+SELECT * FROM 008v1.business_message  WHERE 1  AND business_id in (2396689)     
+Dec 05 14:00:02 [SQL]_null_0.0.0.0_/008/v1/branch//Information/getPlan?regions=185&avgConsume=99&rankScore=152
+SELECT * FROM 008v1.regions  LEFT JOIN 008v1.district ON regions.district_id = district.id  WHERE 1  AND regions.id in (185)     
+Dec 05 14:00:02 [RETURN]_null_0.0.0.0_/008/v1/branch//Information/getPlan?regions=185&avgConsume=99&rankScore=152
+{"plan":{"id":"2","first_state_id":{"id":"8","business_id":"3205237","name":"\u4e0a\u6d77*****","branch_name":"\u9f99\u4e4b\u68a6\u5e97","address":"**\u533a*\u8def*\u5f04*\u53f7(\u6d4b\u8bd5\u6570\u636e\uff0c\u7528\u4e8e\u5f00\u53d1\u6d4b\u8bd5\uff0c\u5f00\u53d1\u5b8c\u6210\u540e\u8bf7\u7533\u8bf7\u6b63\u5f0f\u6570\u636e)","telephone":"021-********","regions":{"regions_name":"\u6dee\u6d77\u8def","district_name":"\u5362\u6e7e\u533a"},"categories":"1","latitude":"31.21900368","longitude":"121.41655731","avg_rating":"4","rating_img_url":"http:\/\/i2.dpfile.com\/s\/i\/app\/api\/32_4star.png","rating_s_img_url":"http:\/\/i2.dpfile.com\/s\/i\/app\/api\/16_4star.png","product_grade":"3","decoration_grade":"4","service_grade":"3","avg_price":"113","review_count":"1660","business_url":"http:\/\/dpurl.cn\/p\/mwKA3Mq6Ki","photo_url":"http:\/\/i1.dpfile.com\/pc\/bae61f6bab689ca8f67d1d7759ed5715(700x700)\/thumb.jpg","s_photo_url":"http:\/\/i2.dpfile.com\/pc\/bae61f6bab689ca8f67d1d7759ed5715(278x200)\/thumb.jpg","has_coupon":"1","coupon_id":"204804","coupon_url":"http:\/\/dpurl.cn\/p\/Yf4radQfgw","coupon_description":"\u591a\u6b3e\u5546\u52a1\u5957\u9910\u7279\u60e0\u4e2d\uff01","has_deal":"1","city":"\u4e0a\u6d77","distance":"494","deal_count":"3","rank_score":"150"},"first_state_time":null,"use_time_1":null,"second_state_id":{"id":"9","business_id":"2371969","name":"\u8fc7\u95e8*","branch_name":"","address":"**\u533a*\u8def*\u5f04*\u53f7(\u6d4b\u8bd5\u6570\u636e\uff0c\u7528\u4e8e\u5f00\u53d1\u6d4b\u8bd5\uff0c\u5f00\u53d1\u5b8c\u6210\u540e\u8bf7\u7533\u8bf7\u6b63\u5f0f\u6570\u636e)","telephone":"021-********","regions":{"regions_name":"\u6dee\u6d77\u8def","district_name":"\u5362\u6e7e\u533a"},"categories":"2","latitude":"31.21904182","longitude":"121.41658020","avg_rating":"4","rating_img_url":"http:\/\/i1.dpfile.com\/s\/i\/app\/api\/32_4star.png","rating_s_img_url":"http:\/\/i2.dpfile.com\/s\/i\/app\/api\/16_4star.png","product_grade":"3","decoration_grade":"3","service_grade":"3","avg_price":"96","review_count":"1589","business_url":"http:\/\/dpurl.cn\/p\/ITIlji1N+8","photo_url":"http:\/\/i1.dpfile.com\/pc\/c38bcaa1c66b8ad8298a48bc01b2de88(700x700)\/thumb.jpg","s_photo_url":"http:\/\/i3.dpfile.com\/pc\/c38bcaa1c66b8ad8298a48bc01b2de88(278x200)\/thumb.jpg","has_coupon":"1","coupon_id":"205357","coupon_url":"http:\/\/dpurl.cn\/p\/fxwNEmRGxi","coupon_description":"\u91d1\u79cb\u9001\u723d","has_deal":"1","city":"\u4e0a\u6d77","distance":"495","deal_count":"4","rank_score":"130"},"second_state_time":"5:00-7:00","use_time_2":"0","third_state_id":{"id":"11","business_id":"2396689","name":"\u96cd\u5ef7","branch_name":"\u8679\u6865\u5e97","address":"**\u533a*\u8def*\u5f04*\u53f7(\u6d4b\u8bd5\u6570\u636e\uff0c\u7528\u4e8e\u5f00\u53d1\u6d4b\u8bd5\uff0c\u5f00\u53d1\u5b8c\u6210\u540e\u8bf7\u7533\u8bf7\u6b63\u5f0f\u6570\u636e)","telephone":"021-********","regions":{"regions_name":"\u6dee\u6d77\u8def","district_name":"\u5362\u6e7e\u533a"},"categories":"3","latitude":"31.21015549","longitude":"121.40695190","avg_rating":"4","rating_img_url":"http:\/\/i1.dpfile.com\/s\/i\/app\/api\/32_4star.png","rating_s_img_url":"http:\/\/i3.dpfile.com\/s\/i\/app\/api\/16_4star.png","product_grade":"3","decoration_grade":"3","service_grade":"3","avg_price":"88","review_count":"909","business_url":"http:\/\/dpurl.cn\/p\/hoIg8nQu5D","photo_url":"http:\/\/i2.dpfile.com\/pc\/c53760f9859183fdd239a47ff51514b3(700x700)\/thumb.jpg","s_photo_url":"http:\/\/i3.dpfile.com\/pc\/c53760f9859183fdd239a47ff51514b3(278x200)\/thumb.jpg","has_coupon":"1","coupon_id":"202019","coupon_url":"http:\/\/dpurl.cn\/p\/qypwU9RF1e","coupon_description":"\u6e05\u6c34\u751f\u6001\u5927\u95f8\u87f912.8\/\u53ea","has_deal":"1","city":"\u4e0a\u6d77","distance":"1224","deal_count":"3","rank_score":"175"},"third_state_time":"7:00-12:00","state_type":null,"avg_consume":"99","rank_score":"152","regions":"185"},"error":{"error_status":100,"status_info":"php \u9519\u8bef"}}
+Dec 05 14:00:21 [VISIT]_information_getPlan_0.0.0.0_/008/v1/branch//Information/getPlan?regions=185&avgConsume=99&rankScore=152
+{"regions":"185","avgConsume":"99","rankScore":"152"}
+Dec 05 14:00:22 [SQL]_null_0.0.0.0_/008/v1/branch//Information/getPlan?regions=185&avgConsume=99&rankScore=152
+SELECT * FROM 008v1.plan  WHERE 1  AND rank_score='152' and avg_consume='99' and regions='185'    ORDER BY rank_score,regions  
+Dec 05 14:00:22 [SQL]_null_0.0.0.0_/008/v1/branch//Information/getPlan?regions=185&avgConsume=99&rankScore=152
+SELECT * FROM 008v1.business_message  WHERE 1  AND business_id in (3205237)     
+Dec 05 14:00:22 [SQL]_null_0.0.0.0_/008/v1/branch//Information/getPlan?regions=185&avgConsume=99&rankScore=152
+SELECT * FROM 008v1.regions  LEFT JOIN 008v1.district ON regions.district_id = district.id  WHERE 1  AND regions.id in (185)     
+Dec 05 14:00:22 [SQL]_null_0.0.0.0_/008/v1/branch//Information/getPlan?regions=185&avgConsume=99&rankScore=152
+SELECT * FROM 008v1.business_message  WHERE 1  AND business_id in (2371969)     
+Dec 05 14:00:22 [SQL]_null_0.0.0.0_/008/v1/branch//Information/getPlan?regions=185&avgConsume=99&rankScore=152
+SELECT * FROM 008v1.regions  LEFT JOIN 008v1.district ON regions.district_id = district.id  WHERE 1  AND regions.id in (185)     
+Dec 05 14:00:22 [SQL]_null_0.0.0.0_/008/v1/branch//Information/getPlan?regions=185&avgConsume=99&rankScore=152
+SELECT * FROM 008v1.business_message  WHERE 1  AND business_id in (2396689)     
+Dec 05 14:00:22 [SQL]_null_0.0.0.0_/008/v1/branch//Information/getPlan?regions=185&avgConsume=99&rankScore=152
+SELECT * FROM 008v1.regions  LEFT JOIN 008v1.district ON regions.district_id = district.id  WHERE 1  AND regions.id in (185)     
+Dec 05 14:00:22 [RETURN]_null_0.0.0.0_/008/v1/branch//Information/getPlan?regions=185&avgConsume=99&rankScore=152
+{"plan":{"id":"2","first_state_id":{"id":"8","business_id":"3205237","name":"\u4e0a\u6d77*****","branch_name":"\u9f99\u4e4b\u68a6\u5e97","address":"**\u533a*\u8def*\u5f04*\u53f7(\u6d4b\u8bd5\u6570\u636e\uff0c\u7528\u4e8e\u5f00\u53d1\u6d4b\u8bd5\uff0c\u5f00\u53d1\u5b8c\u6210\u540e\u8bf7\u7533\u8bf7\u6b63\u5f0f\u6570\u636e)","telephone":"021-********","regions":{"regions_name":"\u6dee\u6d77\u8def","district_name":"\u5362\u6e7e\u533a"},"categories":"1","latitude":"31.21900368","longitude":"121.41655731","avg_rating":"4","rating_img_url":"http:\/\/i2.dpfile.com\/s\/i\/app\/api\/32_4star.png","rating_s_img_url":"http:\/\/i2.dpfile.com\/s\/i\/app\/api\/16_4star.png","product_grade":"3","decoration_grade":"4","service_grade":"3","avg_price":"113","review_count":"1660","business_url":"http:\/\/dpurl.cn\/p\/mwKA3Mq6Ki","photo_url":"http:\/\/i1.dpfile.com\/pc\/bae61f6bab689ca8f67d1d7759ed5715(700x700)\/thumb.jpg","s_photo_url":"http:\/\/i2.dpfile.com\/pc\/bae61f6bab689ca8f67d1d7759ed5715(278x200)\/thumb.jpg","has_coupon":"1","coupon_id":"204804","coupon_url":"http:\/\/dpurl.cn\/p\/Yf4radQfgw","coupon_description":"\u591a\u6b3e\u5546\u52a1\u5957\u9910\u7279\u60e0\u4e2d\uff01","has_deal":"1","city":"\u4e0a\u6d77","distance":"494","deal_count":"3","rank_score":"150"},"first_state_time":null,"use_time_1":null,"second_state_id":{"id":"9","business_id":"2371969","name":"\u8fc7\u95e8*","branch_name":"","address":"**\u533a*\u8def*\u5f04*\u53f7(\u6d4b\u8bd5\u6570\u636e\uff0c\u7528\u4e8e\u5f00\u53d1\u6d4b\u8bd5\uff0c\u5f00\u53d1\u5b8c\u6210\u540e\u8bf7\u7533\u8bf7\u6b63\u5f0f\u6570\u636e)","telephone":"021-********","regions":{"regions_name":"\u6dee\u6d77\u8def","district_name":"\u5362\u6e7e\u533a"},"categories":"2","latitude":"31.21904182","longitude":"121.41658020","avg_rating":"4","rating_img_url":"http:\/\/i1.dpfile.com\/s\/i\/app\/api\/32_4star.png","rating_s_img_url":"http:\/\/i2.dpfile.com\/s\/i\/app\/api\/16_4star.png","product_grade":"3","decoration_grade":"3","service_grade":"3","avg_price":"96","review_count":"1589","business_url":"http:\/\/dpurl.cn\/p\/ITIlji1N+8","photo_url":"http:\/\/i1.dpfile.com\/pc\/c38bcaa1c66b8ad8298a48bc01b2de88(700x700)\/thumb.jpg","s_photo_url":"http:\/\/i3.dpfile.com\/pc\/c38bcaa1c66b8ad8298a48bc01b2de88(278x200)\/thumb.jpg","has_coupon":"1","coupon_id":"205357","coupon_url":"http:\/\/dpurl.cn\/p\/fxwNEmRGxi","coupon_description":"\u91d1\u79cb\u9001\u723d","has_deal":"1","city":"\u4e0a\u6d77","distance":"495","deal_count":"4","rank_score":"130"},"second_state_time":"5:00-7:00","use_time_2":"0","third_state_id":{"id":"11","business_id":"2396689","name":"\u96cd\u5ef7","branch_name":"\u8679\u6865\u5e97","address":"**\u533a*\u8def*\u5f04*\u53f7(\u6d4b\u8bd5\u6570\u636e\uff0c\u7528\u4e8e\u5f00\u53d1\u6d4b\u8bd5\uff0c\u5f00\u53d1\u5b8c\u6210\u540e\u8bf7\u7533\u8bf7\u6b63\u5f0f\u6570\u636e)","telephone":"021-********","regions":{"regions_name":"\u6dee\u6d77\u8def","district_name":"\u5362\u6e7e\u533a"},"categories":"3","latitude":"31.21015549","longitude":"121.40695190","avg_rating":"4","rating_img_url":"http:\/\/i1.dpfile.com\/s\/i\/app\/api\/32_4star.png","rating_s_img_url":"http:\/\/i3.dpfile.com\/s\/i\/app\/api\/16_4star.png","product_grade":"3","decoration_grade":"3","service_grade":"3","avg_price":"88","review_count":"909","business_url":"http:\/\/dpurl.cn\/p\/hoIg8nQu5D","photo_url":"http:\/\/i2.dpfile.com\/pc\/c53760f9859183fdd239a47ff51514b3(700x700)\/thumb.jpg","s_photo_url":"http:\/\/i3.dpfile.com\/pc\/c53760f9859183fdd239a47ff51514b3(278x200)\/thumb.jpg","has_coupon":"1","coupon_id":"202019","coupon_url":"http:\/\/dpurl.cn\/p\/qypwU9RF1e","coupon_description":"\u6e05\u6c34\u751f\u6001\u5927\u95f8\u87f912.8\/\u53ea","has_deal":"1","city":"\u4e0a\u6d77","distance":"1224","deal_count":"3","rank_score":"175"},"third_state_time":"7:00-12:00","state_type":null,"avg_consume":"99","rank_score":"152","regions":"185"},"error":{"error_status":100,"status_info":"php \u9519\u8bef"}}
+Dec 05 14:04:13 [VISIT]_information_getPlan_0.0.0.0_/008/v1/branch//Information/getPlan?regions=185&avgConsume=99&rankScore=152
+{"regions":"185","avgConsume":"99","rankScore":"152"}
+Dec 05 14:04:14 [SQL]_null_0.0.0.0_/008/v1/branch//Information/getPlan?regions=185&avgConsume=99&rankScore=152
+SELECT * FROM 008v1.plan  WHERE 1  AND rank_score='152' and avg_consume <'99' and regions='185'    ORDER BY rank_score,regions  
+Dec 05 14:04:14 [RETURN]_null_0.0.0.0_/008/v1/branch//Information/getPlan?regions=185&avgConsume=99&rankScore=152
+{"error":{"error_status":100,"status_info":"php \u9519\u8bef"}}
+Dec 05 14:04:38 [VISIT]_information_getPlan_0.0.0.0_/008/v1/branch//Information/getPlan?regions=185&avgConsume=99&rankScore=152
+{"regions":"185","avgConsume":"99","rankScore":"152"}
+Dec 05 14:04:39 [SQL]_null_0.0.0.0_/008/v1/branch//Information/getPlan?regions=185&avgConsume=99&rankScore=152
+SELECT * FROM 008v1.plan  WHERE 1  AND rank_score='152' and avg_consume <'99' and regions='185'    ORDER BY rank_score,regions  
+Dec 05 14:04:39 [RETURN]_null_0.0.0.0_/008/v1/branch//Information/getPlan?regions=185&avgConsume=99&rankScore=152
+{"error":{"error_status":100,"status_info":"php \u9519\u8bef"}}
+Dec 05 14:06:06 [VISIT]_information_getPlan_0.0.0.0_/008/v1/branch//Information/getPlan?regions=185&avgConsume=99&rankScore=152
+{"regions":"185","avgConsume":"99","rankScore":"152"}
+Dec 05 14:06:07 [SQL]_null_0.0.0.0_/008/v1/branch//Information/getPlan?regions=185&avgConsume=99&rankScore=152
+SELECT * FROM 008v1.plan  WHERE 1  AND rank_score='152' and avg_consume <='99' and regions='185'    ORDER BY rank_score,regions  
+Dec 05 14:06:07 [SQL]_null_0.0.0.0_/008/v1/branch//Information/getPlan?regions=185&avgConsume=99&rankScore=152
+SELECT * FROM 008v1.business_message  WHERE 1  AND business_id in (3205237)     
+Dec 05 14:06:07 [SQL]_null_0.0.0.0_/008/v1/branch//Information/getPlan?regions=185&avgConsume=99&rankScore=152
+SELECT * FROM 008v1.regions  LEFT JOIN 008v1.district ON regions.district_id = district.id  WHERE 1  AND regions.id in (185)     
+Dec 05 14:06:07 [SQL]_null_0.0.0.0_/008/v1/branch//Information/getPlan?regions=185&avgConsume=99&rankScore=152
+SELECT * FROM 008v1.business_message  WHERE 1  AND business_id in (2371969)     
+Dec 05 14:06:07 [SQL]_null_0.0.0.0_/008/v1/branch//Information/getPlan?regions=185&avgConsume=99&rankScore=152
+SELECT * FROM 008v1.regions  LEFT JOIN 008v1.district ON regions.district_id = district.id  WHERE 1  AND regions.id in (185)     
+Dec 05 14:06:07 [SQL]_null_0.0.0.0_/008/v1/branch//Information/getPlan?regions=185&avgConsume=99&rankScore=152
+SELECT * FROM 008v1.business_message  WHERE 1  AND business_id in (2396689)     
+Dec 05 14:06:07 [SQL]_null_0.0.0.0_/008/v1/branch//Information/getPlan?regions=185&avgConsume=99&rankScore=152
+SELECT * FROM 008v1.regions  LEFT JOIN 008v1.district ON regions.district_id = district.id  WHERE 1  AND regions.id in (185)     
+Dec 05 14:06:07 [RETURN]_null_0.0.0.0_/008/v1/branch//Information/getPlan?regions=185&avgConsume=99&rankScore=152
+{"plan":{"id":"2","first_state_id":{"id":"8","business_id":"3205237","name":"\u4e0a\u6d77*****","branch_name":"\u9f99\u4e4b\u68a6\u5e97","address":"**\u533a*\u8def*\u5f04*\u53f7(\u6d4b\u8bd5\u6570\u636e\uff0c\u7528\u4e8e\u5f00\u53d1\u6d4b\u8bd5\uff0c\u5f00\u53d1\u5b8c\u6210\u540e\u8bf7\u7533\u8bf7\u6b63\u5f0f\u6570\u636e)","telephone":"021-********","regions":{"regions_name":"\u6dee\u6d77\u8def","district_name":"\u5362\u6e7e\u533a"},"categories":"1","latitude":"31.21900368","longitude":"121.41655731","avg_rating":"4","rating_img_url":"http:\/\/i2.dpfile.com\/s\/i\/app\/api\/32_4star.png","rating_s_img_url":"http:\/\/i2.dpfile.com\/s\/i\/app\/api\/16_4star.png","product_grade":"3","decoration_grade":"4","service_grade":"3","avg_price":"113","review_count":"1660","business_url":"http:\/\/dpurl.cn\/p\/mwKA3Mq6Ki","photo_url":"http:\/\/i1.dpfile.com\/pc\/bae61f6bab689ca8f67d1d7759ed5715(700x700)\/thumb.jpg","s_photo_url":"http:\/\/i2.dpfile.com\/pc\/bae61f6bab689ca8f67d1d7759ed5715(278x200)\/thumb.jpg","has_coupon":"1","coupon_id":"204804","coupon_url":"http:\/\/dpurl.cn\/p\/Yf4radQfgw","coupon_description":"\u591a\u6b3e\u5546\u52a1\u5957\u9910\u7279\u60e0\u4e2d\uff01","has_deal":"1","city":"\u4e0a\u6d77","distance":"494","deal_count":"3","rank_score":"150"},"first_state_time":null,"use_time_1":null,"second_state_id":{"id":"9","business_id":"2371969","name":"\u8fc7\u95e8*","branch_name":"","address":"**\u533a*\u8def*\u5f04*\u53f7(\u6d4b\u8bd5\u6570\u636e\uff0c\u7528\u4e8e\u5f00\u53d1\u6d4b\u8bd5\uff0c\u5f00\u53d1\u5b8c\u6210\u540e\u8bf7\u7533\u8bf7\u6b63\u5f0f\u6570\u636e)","telephone":"021-********","regions":{"regions_name":"\u6dee\u6d77\u8def","district_name":"\u5362\u6e7e\u533a"},"categories":"2","latitude":"31.21904182","longitude":"121.41658020","avg_rating":"4","rating_img_url":"http:\/\/i1.dpfile.com\/s\/i\/app\/api\/32_4star.png","rating_s_img_url":"http:\/\/i2.dpfile.com\/s\/i\/app\/api\/16_4star.png","product_grade":"3","decoration_grade":"3","service_grade":"3","avg_price":"96","review_count":"1589","business_url":"http:\/\/dpurl.cn\/p\/ITIlji1N+8","photo_url":"http:\/\/i1.dpfile.com\/pc\/c38bcaa1c66b8ad8298a48bc01b2de88(700x700)\/thumb.jpg","s_photo_url":"http:\/\/i3.dpfile.com\/pc\/c38bcaa1c66b8ad8298a48bc01b2de88(278x200)\/thumb.jpg","has_coupon":"1","coupon_id":"205357","coupon_url":"http:\/\/dpurl.cn\/p\/fxwNEmRGxi","coupon_description":"\u91d1\u79cb\u9001\u723d","has_deal":"1","city":"\u4e0a\u6d77","distance":"495","deal_count":"4","rank_score":"130"},"second_state_time":"5:00-7:00","use_time_2":"0","third_state_id":{"id":"11","business_id":"2396689","name":"\u96cd\u5ef7","branch_name":"\u8679\u6865\u5e97","address":"**\u533a*\u8def*\u5f04*\u53f7(\u6d4b\u8bd5\u6570\u636e\uff0c\u7528\u4e8e\u5f00\u53d1\u6d4b\u8bd5\uff0c\u5f00\u53d1\u5b8c\u6210\u540e\u8bf7\u7533\u8bf7\u6b63\u5f0f\u6570\u636e)","telephone":"021-********","regions":{"regions_name":"\u6dee\u6d77\u8def","district_name":"\u5362\u6e7e\u533a"},"categories":"3","latitude":"31.21015549","longitude":"121.40695190","avg_rating":"4","rating_img_url":"http:\/\/i1.dpfile.com\/s\/i\/app\/api\/32_4star.png","rating_s_img_url":"http:\/\/i3.dpfile.com\/s\/i\/app\/api\/16_4star.png","product_grade":"3","decoration_grade":"3","service_grade":"3","avg_price":"88","review_count":"909","business_url":"http:\/\/dpurl.cn\/p\/hoIg8nQu5D","photo_url":"http:\/\/i2.dpfile.com\/pc\/c53760f9859183fdd239a47ff51514b3(700x700)\/thumb.jpg","s_photo_url":"http:\/\/i3.dpfile.com\/pc\/c53760f9859183fdd239a47ff51514b3(278x200)\/thumb.jpg","has_coupon":"1","coupon_id":"202019","coupon_url":"http:\/\/dpurl.cn\/p\/qypwU9RF1e","coupon_description":"\u6e05\u6c34\u751f\u6001\u5927\u95f8\u87f912.8\/\u53ea","has_deal":"1","city":"\u4e0a\u6d77","distance":"1224","deal_count":"3","rank_score":"175"},"third_state_time":"7:00-12:00","state_type":null,"avg_consume":"99","rank_score":"152","regions":"185"},"error":{"error_status":100,"status_info":"php \u9519\u8bef"}}
+Dec 05 14:06:09 [VISIT]_information_getPlan_0.0.0.0_/008/v1/branch//Information/getPlan?regions=185&avgConsume=99&rankScore=152
+{"regions":"185","avgConsume":"99","rankScore":"152"}
+Dec 05 14:06:10 [SQL]_null_0.0.0.0_/008/v1/branch//Information/getPlan?regions=185&avgConsume=99&rankScore=152
+SELECT * FROM 008v1.plan  WHERE 1  AND rank_score='152' and avg_consume <='99' and regions='185'    ORDER BY rank_score,regions  
+Dec 05 14:06:10 [SQL]_null_0.0.0.0_/008/v1/branch//Information/getPlan?regions=185&avgConsume=99&rankScore=152
+SELECT * FROM 008v1.business_message  WHERE 1  AND business_id in (3205237)     
+Dec 05 14:06:10 [SQL]_null_0.0.0.0_/008/v1/branch//Information/getPlan?regions=185&avgConsume=99&rankScore=152
+SELECT * FROM 008v1.regions  LEFT JOIN 008v1.district ON regions.district_id = district.id  WHERE 1  AND regions.id in (185)     
+Dec 05 14:06:10 [SQL]_null_0.0.0.0_/008/v1/branch//Information/getPlan?regions=185&avgConsume=99&rankScore=152
+SELECT * FROM 008v1.business_message  WHERE 1  AND business_id in (2371969)     
+Dec 05 14:06:10 [SQL]_null_0.0.0.0_/008/v1/branch//Information/getPlan?regions=185&avgConsume=99&rankScore=152
+SELECT * FROM 008v1.regions  LEFT JOIN 008v1.district ON regions.district_id = district.id  WHERE 1  AND regions.id in (185)     
+Dec 05 14:06:10 [SQL]_null_0.0.0.0_/008/v1/branch//Information/getPlan?regions=185&avgConsume=99&rankScore=152
+SELECT * FROM 008v1.business_message  WHERE 1  AND business_id in (2396689)     
+Dec 05 14:06:10 [SQL]_null_0.0.0.0_/008/v1/branch//Information/getPlan?regions=185&avgConsume=99&rankScore=152
+SELECT * FROM 008v1.regions  LEFT JOIN 008v1.district ON regions.district_id = district.id  WHERE 1  AND regions.id in (185)     
+Dec 05 14:06:10 [RETURN]_null_0.0.0.0_/008/v1/branch//Information/getPlan?regions=185&avgConsume=99&rankScore=152
+{"plan":{"id":"2","first_state_id":{"id":"8","business_id":"3205237","name":"\u4e0a\u6d77*****","branch_name":"\u9f99\u4e4b\u68a6\u5e97","address":"**\u533a*\u8def*\u5f04*\u53f7(\u6d4b\u8bd5\u6570\u636e\uff0c\u7528\u4e8e\u5f00\u53d1\u6d4b\u8bd5\uff0c\u5f00\u53d1\u5b8c\u6210\u540e\u8bf7\u7533\u8bf7\u6b63\u5f0f\u6570\u636e)","telephone":"021-********","regions":{"regions_name":"\u6dee\u6d77\u8def","district_name":"\u5362\u6e7e\u533a"},"categories":"1","latitude":"31.21900368","longitude":"121.41655731","avg_rating":"4","rating_img_url":"http:\/\/i2.dpfile.com\/s\/i\/app\/api\/32_4star.png","rating_s_img_url":"http:\/\/i2.dpfile.com\/s\/i\/app\/api\/16_4star.png","product_grade":"3","decoration_grade":"4","service_grade":"3","avg_price":"113","review_count":"1660","business_url":"http:\/\/dpurl.cn\/p\/mwKA3Mq6Ki","photo_url":"http:\/\/i1.dpfile.com\/pc\/bae61f6bab689ca8f67d1d7759ed5715(700x700)\/thumb.jpg","s_photo_url":"http:\/\/i2.dpfile.com\/pc\/bae61f6bab689ca8f67d1d7759ed5715(278x200)\/thumb.jpg","has_coupon":"1","coupon_id":"204804","coupon_url":"http:\/\/dpurl.cn\/p\/Yf4radQfgw","coupon_description":"\u591a\u6b3e\u5546\u52a1\u5957\u9910\u7279\u60e0\u4e2d\uff01","has_deal":"1","city":"\u4e0a\u6d77","distance":"494","deal_count":"3","rank_score":"150"},"first_state_time":null,"use_time_1":null,"second_state_id":{"id":"9","business_id":"2371969","name":"\u8fc7\u95e8*","branch_name":"","address":"**\u533a*\u8def*\u5f04*\u53f7(\u6d4b\u8bd5\u6570\u636e\uff0c\u7528\u4e8e\u5f00\u53d1\u6d4b\u8bd5\uff0c\u5f00\u53d1\u5b8c\u6210\u540e\u8bf7\u7533\u8bf7\u6b63\u5f0f\u6570\u636e)","telephone":"021-********","regions":{"regions_name":"\u6dee\u6d77\u8def","district_name":"\u5362\u6e7e\u533a"},"categories":"2","latitude":"31.21904182","longitude":"121.41658020","avg_rating":"4","rating_img_url":"http:\/\/i1.dpfile.com\/s\/i\/app\/api\/32_4star.png","rating_s_img_url":"http:\/\/i2.dpfile.com\/s\/i\/app\/api\/16_4star.png","product_grade":"3","decoration_grade":"3","service_grade":"3","avg_price":"96","review_count":"1589","business_url":"http:\/\/dpurl.cn\/p\/ITIlji1N+8","photo_url":"http:\/\/i1.dpfile.com\/pc\/c38bcaa1c66b8ad8298a48bc01b2de88(700x700)\/thumb.jpg","s_photo_url":"http:\/\/i3.dpfile.com\/pc\/c38bcaa1c66b8ad8298a48bc01b2de88(278x200)\/thumb.jpg","has_coupon":"1","coupon_id":"205357","coupon_url":"http:\/\/dpurl.cn\/p\/fxwNEmRGxi","coupon_description":"\u91d1\u79cb\u9001\u723d","has_deal":"1","city":"\u4e0a\u6d77","distance":"495","deal_count":"4","rank_score":"130"},"second_state_time":"5:00-7:00","use_time_2":"0","third_state_id":{"id":"11","business_id":"2396689","name":"\u96cd\u5ef7","branch_name":"\u8679\u6865\u5e97","address":"**\u533a*\u8def*\u5f04*\u53f7(\u6d4b\u8bd5\u6570\u636e\uff0c\u7528\u4e8e\u5f00\u53d1\u6d4b\u8bd5\uff0c\u5f00\u53d1\u5b8c\u6210\u540e\u8bf7\u7533\u8bf7\u6b63\u5f0f\u6570\u636e)","telephone":"021-********","regions":{"regions_name":"\u6dee\u6d77\u8def","district_name":"\u5362\u6e7e\u533a"},"categories":"3","latitude":"31.21015549","longitude":"121.40695190","avg_rating":"4","rating_img_url":"http:\/\/i1.dpfile.com\/s\/i\/app\/api\/32_4star.png","rating_s_img_url":"http:\/\/i3.dpfile.com\/s\/i\/app\/api\/16_4star.png","product_grade":"3","decoration_grade":"3","service_grade":"3","avg_price":"88","review_count":"909","business_url":"http:\/\/dpurl.cn\/p\/hoIg8nQu5D","photo_url":"http:\/\/i2.dpfile.com\/pc\/c53760f9859183fdd239a47ff51514b3(700x700)\/thumb.jpg","s_photo_url":"http:\/\/i3.dpfile.com\/pc\/c53760f9859183fdd239a47ff51514b3(278x200)\/thumb.jpg","has_coupon":"1","coupon_id":"202019","coupon_url":"http:\/\/dpurl.cn\/p\/qypwU9RF1e","coupon_description":"\u6e05\u6c34\u751f\u6001\u5927\u95f8\u87f912.8\/\u53ea","has_deal":"1","city":"\u4e0a\u6d77","distance":"1224","deal_count":"3","rank_score":"175"},"third_state_time":"7:00-12:00","state_type":null,"avg_consume":"99","rank_score":"152","regions":"185"},"error":{"error_status":100,"status_info":"php \u9519\u8bef"}}
+Dec 05 14:28:06 [VISIT]_information_getPlan_0.0.0.0_/008/v1/branch//Information/getPlan?regions=185&avgConsume=99&rankScore=152
+{"regions":"185","avgConsume":"99","rankScore":"152"}
+Dec 05 14:28:07 [SQL]_null_0.0.0.0_/008/v1/branch//Information/getPlan?regions=185&avgConsume=99&rankScore=152
+SELECT * FROM 008v1.plan  WHERE 1  AND rank_score='152' and avg_consume <='99' and regions='185'    ORDER BY rank_score,regions  
+Dec 05 14:28:14 [VISIT]_information_getPlan_0.0.0.0_/008/v1/branch//Information/getPlan?regions=185&avgConsume=99&rankScore=152
+{"regions":"185","avgConsume":"99","rankScore":"152"}
+Dec 05 14:28:15 [SQL]_null_0.0.0.0_/008/v1/branch//Information/getPlan?regions=185&avgConsume=99&rankScore=152
+SELECT * FROM 008v1.plan  WHERE 1  AND rank_score='152' and avg_consume <='99' and regions='185'    ORDER BY rank_score,regions  
+Dec 05 14:28:23 [VISIT]_information_getPlan_0.0.0.0_/008/v1/branch//Information/getPlan?regions=185&avgConsume=99&rankScore=152
+{"regions":"185","avgConsume":"99","rankScore":"152"}
+Dec 05 14:28:24 [SQL]_null_0.0.0.0_/008/v1/branch//Information/getPlan?regions=185&avgConsume=99&rankScore=152
+SELECT * FROM 008v1.plan  WHERE 1  AND rank_score='152' and avg_consume <='99' and regions='185'    ORDER BY rank_score,regions  
+Dec 05 14:28:24 [SQL]_null_0.0.0.0_/008/v1/branch//Information/getPlan?regions=185&avgConsume=99&rankScore=152
+SELECT * FROM 008v1.business_message  WHERE 1  AND business_id in (3205237)     
+Dec 05 14:28:24 [SQL]_null_0.0.0.0_/008/v1/branch//Information/getPlan?regions=185&avgConsume=99&rankScore=152
+SELECT * FROM 008v1.regions  LEFT JOIN 008v1.district ON regions.district_id = district.id  WHERE 1  AND regions.id in (185)     
+Dec 05 14:28:24 [SQL]_null_0.0.0.0_/008/v1/branch//Information/getPlan?regions=185&avgConsume=99&rankScore=152
+SELECT * FROM 008v1.business_message  WHERE 1  AND business_id in (2371969)     
+Dec 05 14:28:24 [SQL]_null_0.0.0.0_/008/v1/branch//Information/getPlan?regions=185&avgConsume=99&rankScore=152
+SELECT * FROM 008v1.regions  LEFT JOIN 008v1.district ON regions.district_id = district.id  WHERE 1  AND regions.id in (185)     
+Dec 05 14:28:24 [SQL]_null_0.0.0.0_/008/v1/branch//Information/getPlan?regions=185&avgConsume=99&rankScore=152
+SELECT * FROM 008v1.business_message  WHERE 1  AND business_id in (2396689)     
+Dec 05 14:28:24 [SQL]_null_0.0.0.0_/008/v1/branch//Information/getPlan?regions=185&avgConsume=99&rankScore=152
+SELECT * FROM 008v1.regions  LEFT JOIN 008v1.district ON regions.district_id = district.id  WHERE 1  AND regions.id in (185)     
+Dec 05 14:28:24 [RETURN]_null_0.0.0.0_/008/v1/branch//Information/getPlan?regions=185&avgConsume=99&rankScore=152
+{"plan":{"id":"2","first_state_id":{"id":"8","business_id":"3205237","name":"\u4e0a\u6d77*****","branch_name":"\u9f99\u4e4b\u68a6\u5e97","address":"**\u533a*\u8def*\u5f04*\u53f7(\u6d4b\u8bd5\u6570\u636e\uff0c\u7528\u4e8e\u5f00\u53d1\u6d4b\u8bd5\uff0c\u5f00\u53d1\u5b8c\u6210\u540e\u8bf7\u7533\u8bf7\u6b63\u5f0f\u6570\u636e)","telephone":"021-********","regions":{"regions_name":"\u6dee\u6d77\u8def","district_name":"\u5362\u6e7e\u533a"},"categories":"1","latitude":"31.21900368","longitude":"121.41655731","avg_rating":"4","rating_img_url":"http:\/\/i2.dpfile.com\/s\/i\/app\/api\/32_4star.png","rating_s_img_url":"http:\/\/i2.dpfile.com\/s\/i\/app\/api\/16_4star.png","product_grade":"3","decoration_grade":"4","service_grade":"3","avg_price":"113","review_count":"1660","business_url":"http:\/\/dpurl.cn\/p\/mwKA3Mq6Ki","photo_url":"http:\/\/i1.dpfile.com\/pc\/bae61f6bab689ca8f67d1d7759ed5715(700x700)\/thumb.jpg","s_photo_url":"http:\/\/i2.dpfile.com\/pc\/bae61f6bab689ca8f67d1d7759ed5715(278x200)\/thumb.jpg","has_coupon":"1","coupon_id":"204804","coupon_url":"http:\/\/dpurl.cn\/p\/Yf4radQfgw","coupon_description":"\u591a\u6b3e\u5546\u52a1\u5957\u9910\u7279\u60e0\u4e2d\uff01","has_deal":"1","city":"\u4e0a\u6d77","distance":"494","deal_count":"3","rank_score":"150"},"first_state_time":null,"use_time_1":null,"second_state_id":{"id":"9","business_id":"2371969","name":"\u8fc7\u95e8*","branch_name":"","address":"**\u533a*\u8def*\u5f04*\u53f7(\u6d4b\u8bd5\u6570\u636e\uff0c\u7528\u4e8e\u5f00\u53d1\u6d4b\u8bd5\uff0c\u5f00\u53d1\u5b8c\u6210\u540e\u8bf7\u7533\u8bf7\u6b63\u5f0f\u6570\u636e)","telephone":"021-********","regions":{"regions_name":"\u6dee\u6d77\u8def","district_name":"\u5362\u6e7e\u533a"},"categories":"2","latitude":"31.21904182","longitude":"121.41658020","avg_rating":"4","rating_img_url":"http:\/\/i1.dpfile.com\/s\/i\/app\/api\/32_4star.png","rating_s_img_url":"http:\/\/i2.dpfile.com\/s\/i\/app\/api\/16_4star.png","product_grade":"3","decoration_grade":"3","service_grade":"3","avg_price":"96","review_count":"1589","business_url":"http:\/\/dpurl.cn\/p\/ITIlji1N+8","photo_url":"http:\/\/i1.dpfile.com\/pc\/c38bcaa1c66b8ad8298a48bc01b2de88(700x700)\/thumb.jpg","s_photo_url":"http:\/\/i3.dpfile.com\/pc\/c38bcaa1c66b8ad8298a48bc01b2de88(278x200)\/thumb.jpg","has_coupon":"1","coupon_id":"205357","coupon_url":"http:\/\/dpurl.cn\/p\/fxwNEmRGxi","coupon_description":"\u91d1\u79cb\u9001\u723d","has_deal":"1","city":"\u4e0a\u6d77","distance":"495","deal_count":"4","rank_score":"130"},"second_state_time":"5:00-7:00","use_time_2":"0","third_state_id":{"id":"11","business_id":"2396689","name":"\u96cd\u5ef7","branch_name":"\u8679\u6865\u5e97","address":"**\u533a*\u8def*\u5f04*\u53f7(\u6d4b\u8bd5\u6570\u636e\uff0c\u7528\u4e8e\u5f00\u53d1\u6d4b\u8bd5\uff0c\u5f00\u53d1\u5b8c\u6210\u540e\u8bf7\u7533\u8bf7\u6b63\u5f0f\u6570\u636e)","telephone":"021-********","regions":{"regions_name":"\u6dee\u6d77\u8def","district_name":"\u5362\u6e7e\u533a"},"categories":"3","latitude":"31.21015549","longitude":"121.40695190","avg_rating":"4","rating_img_url":"http:\/\/i1.dpfile.com\/s\/i\/app\/api\/32_4star.png","rating_s_img_url":"http:\/\/i3.dpfile.com\/s\/i\/app\/api\/16_4star.png","product_grade":"3","decoration_grade":"3","service_grade":"3","avg_price":"88","review_count":"909","business_url":"http:\/\/dpurl.cn\/p\/hoIg8nQu5D","photo_url":"http:\/\/i2.dpfile.com\/pc\/c53760f9859183fdd239a47ff51514b3(700x700)\/thumb.jpg","s_photo_url":"http:\/\/i3.dpfile.com\/pc\/c53760f9859183fdd239a47ff51514b3(278x200)\/thumb.jpg","has_coupon":"1","coupon_id":"202019","coupon_url":"http:\/\/dpurl.cn\/p\/qypwU9RF1e","coupon_description":"\u6e05\u6c34\u751f\u6001\u5927\u95f8\u87f912.8\/\u53ea","has_deal":"1","city":"\u4e0a\u6d77","distance":"1224","deal_count":"3","rank_score":"175"},"third_state_time":"7:00-12:00","state_type":null,"avg_consume":"99","rank_score":"152","regions":"185"},"error":{"error_status":100,"status_info":"php \u9519\u8bef"}}
+Dec 05 14:28:25 [VISIT]_information_getPlan_0.0.0.0_/008/v1/branch//Information/getPlan?regions=185&avgConsume=99&rankScore=152
+{"regions":"185","avgConsume":"99","rankScore":"152"}
+Dec 05 14:28:26 [SQL]_null_0.0.0.0_/008/v1/branch//Information/getPlan?regions=185&avgConsume=99&rankScore=152
+SELECT * FROM 008v1.plan  WHERE 1  AND rank_score='152' and avg_consume <='99' and regions='185'    ORDER BY rank_score,regions  
+Dec 05 14:28:26 [SQL]_null_0.0.0.0_/008/v1/branch//Information/getPlan?regions=185&avgConsume=99&rankScore=152
+SELECT * FROM 008v1.business_message  WHERE 1  AND business_id in (3205237)     
+Dec 05 14:28:26 [SQL]_null_0.0.0.0_/008/v1/branch//Information/getPlan?regions=185&avgConsume=99&rankScore=152
+SELECT * FROM 008v1.regions  LEFT JOIN 008v1.district ON regions.district_id = district.id  WHERE 1  AND regions.id in (185)     
+Dec 05 14:28:26 [SQL]_null_0.0.0.0_/008/v1/branch//Information/getPlan?regions=185&avgConsume=99&rankScore=152
+SELECT * FROM 008v1.business_message  WHERE 1  AND business_id in (2371969)     
+Dec 05 14:28:26 [SQL]_null_0.0.0.0_/008/v1/branch//Information/getPlan?regions=185&avgConsume=99&rankScore=152
+SELECT * FROM 008v1.regions  LEFT JOIN 008v1.district ON regions.district_id = district.id  WHERE 1  AND regions.id in (185)     
+Dec 05 14:28:26 [SQL]_null_0.0.0.0_/008/v1/branch//Information/getPlan?regions=185&avgConsume=99&rankScore=152
+SELECT * FROM 008v1.business_message  WHERE 1  AND business_id in (2396689)     
+Dec 05 14:28:26 [SQL]_null_0.0.0.0_/008/v1/branch//Information/getPlan?regions=185&avgConsume=99&rankScore=152
+SELECT * FROM 008v1.regions  LEFT JOIN 008v1.district ON regions.district_id = district.id  WHERE 1  AND regions.id in (185)     
+Dec 05 14:28:26 [RETURN]_null_0.0.0.0_/008/v1/branch//Information/getPlan?regions=185&avgConsume=99&rankScore=152
+{"plan":{"id":"2","first_state_id":{"id":"8","business_id":"3205237","name":"\u4e0a\u6d77*****","branch_name":"\u9f99\u4e4b\u68a6\u5e97","address":"**\u533a*\u8def*\u5f04*\u53f7(\u6d4b\u8bd5\u6570\u636e\uff0c\u7528\u4e8e\u5f00\u53d1\u6d4b\u8bd5\uff0c\u5f00\u53d1\u5b8c\u6210\u540e\u8bf7\u7533\u8bf7\u6b63\u5f0f\u6570\u636e)","telephone":"021-********","regions":{"regions_name":"\u6dee\u6d77\u8def","district_name":"\u5362\u6e7e\u533a"},"categories":"1","latitude":"31.21900368","longitude":"121.41655731","avg_rating":"4","rating_img_url":"http:\/\/i2.dpfile.com\/s\/i\/app\/api\/32_4star.png","rating_s_img_url":"http:\/\/i2.dpfile.com\/s\/i\/app\/api\/16_4star.png","product_grade":"3","decoration_grade":"4","service_grade":"3","avg_price":"113","review_count":"1660","business_url":"http:\/\/dpurl.cn\/p\/mwKA3Mq6Ki","photo_url":"http:\/\/i1.dpfile.com\/pc\/bae61f6bab689ca8f67d1d7759ed5715(700x700)\/thumb.jpg","s_photo_url":"http:\/\/i2.dpfile.com\/pc\/bae61f6bab689ca8f67d1d7759ed5715(278x200)\/thumb.jpg","has_coupon":"1","coupon_id":"204804","coupon_url":"http:\/\/dpurl.cn\/p\/Yf4radQfgw","coupon_description":"\u591a\u6b3e\u5546\u52a1\u5957\u9910\u7279\u60e0\u4e2d\uff01","has_deal":"1","city":"\u4e0a\u6d77","distance":"494","deal_count":"3","rank_score":"150"},"first_state_time":null,"use_time_1":null,"second_state_id":{"id":"9","business_id":"2371969","name":"\u8fc7\u95e8*","branch_name":"","address":"**\u533a*\u8def*\u5f04*\u53f7(\u6d4b\u8bd5\u6570\u636e\uff0c\u7528\u4e8e\u5f00\u53d1\u6d4b\u8bd5\uff0c\u5f00\u53d1\u5b8c\u6210\u540e\u8bf7\u7533\u8bf7\u6b63\u5f0f\u6570\u636e)","telephone":"021-********","regions":{"regions_name":"\u6dee\u6d77\u8def","district_name":"\u5362\u6e7e\u533a"},"categories":"2","latitude":"31.21904182","longitude":"121.41658020","avg_rating":"4","rating_img_url":"http:\/\/i1.dpfile.com\/s\/i\/app\/api\/32_4star.png","rating_s_img_url":"http:\/\/i2.dpfile.com\/s\/i\/app\/api\/16_4star.png","product_grade":"3","decoration_grade":"3","service_grade":"3","avg_price":"96","review_count":"1589","business_url":"http:\/\/dpurl.cn\/p\/ITIlji1N+8","photo_url":"http:\/\/i1.dpfile.com\/pc\/c38bcaa1c66b8ad8298a48bc01b2de88(700x700)\/thumb.jpg","s_photo_url":"http:\/\/i3.dpfile.com\/pc\/c38bcaa1c66b8ad8298a48bc01b2de88(278x200)\/thumb.jpg","has_coupon":"1","coupon_id":"205357","coupon_url":"http:\/\/dpurl.cn\/p\/fxwNEmRGxi","coupon_description":"\u91d1\u79cb\u9001\u723d","has_deal":"1","city":"\u4e0a\u6d77","distance":"495","deal_count":"4","rank_score":"130"},"second_state_time":"5:00-7:00","use_time_2":"0","third_state_id":{"id":"11","business_id":"2396689","name":"\u96cd\u5ef7","branch_name":"\u8679\u6865\u5e97","address":"**\u533a*\u8def*\u5f04*\u53f7(\u6d4b\u8bd5\u6570\u636e\uff0c\u7528\u4e8e\u5f00\u53d1\u6d4b\u8bd5\uff0c\u5f00\u53d1\u5b8c\u6210\u540e\u8bf7\u7533\u8bf7\u6b63\u5f0f\u6570\u636e)","telephone":"021-********","regions":{"regions_name":"\u6dee\u6d77\u8def","district_name":"\u5362\u6e7e\u533a"},"categories":"3","latitude":"31.21015549","longitude":"121.40695190","avg_rating":"4","rating_img_url":"http:\/\/i1.dpfile.com\/s\/i\/app\/api\/32_4star.png","rating_s_img_url":"http:\/\/i3.dpfile.com\/s\/i\/app\/api\/16_4star.png","product_grade":"3","decoration_grade":"3","service_grade":"3","avg_price":"88","review_count":"909","business_url":"http:\/\/dpurl.cn\/p\/hoIg8nQu5D","photo_url":"http:\/\/i2.dpfile.com\/pc\/c53760f9859183fdd239a47ff51514b3(700x700)\/thumb.jpg","s_photo_url":"http:\/\/i3.dpfile.com\/pc\/c53760f9859183fdd239a47ff51514b3(278x200)\/thumb.jpg","has_coupon":"1","coupon_id":"202019","coupon_url":"http:\/\/dpurl.cn\/p\/qypwU9RF1e","coupon_description":"\u6e05\u6c34\u751f\u6001\u5927\u95f8\u87f912.8\/\u53ea","has_deal":"1","city":"\u4e0a\u6d77","distance":"1224","deal_count":"3","rank_score":"175"},"third_state_time":"7:00-12:00","state_type":null,"avg_consume":"99","rank_score":"152","regions":"185"},"error":{"error_status":100,"status_info":"php \u9519\u8bef"}}
+Dec 05 14:29:19 [VISIT]_information_getPlan_0.0.0.0_/008/v1/branch//Information/getPlan?regions=185&avgConsume=99&rankScore=152
+{"regions":"185","avgConsume":"99","rankScore":"152"}
+Dec 05 14:29:20 [SQL]_null_0.0.0.0_/008/v1/branch//Information/getPlan?regions=185&avgConsume=99&rankScore=152
+SELECT * FROM 008v1.plan  WHERE 1  AND rank_score='152' and avg_consume <='99' and regions='185'    ORDER BY rank_score,regions  
+Dec 05 14:31:06 [VISIT]_information_getPlan_0.0.0.0_/008/v1/branch//Information/getPlan?regions=185&avgConsume=99&rankScore=152
+{"regions":"185","avgConsume":"99","rankScore":"152"}
+Dec 05 14:31:07 [SQL]_null_0.0.0.0_/008/v1/branch//Information/getPlan?regions=185&avgConsume=99&rankScore=152
+SELECT * FROM 008v1.plan  WHERE 1  AND rank_score='152' and avg_consume <='99' and regions='185'    ORDER BY rank_score,regions  
+Dec 05 14:31:07 [VISIT]_information_getPlan_0.0.0.0_/008/v1/branch//Information/getPlan?regions=185&avgConsume=99&rankScore=152
+{"regions":"185","avgConsume":"99","rankScore":"152"}
+Dec 05 14:31:08 [SQL]_null_0.0.0.0_/008/v1/branch//Information/getPlan?regions=185&avgConsume=99&rankScore=152
+SELECT * FROM 008v1.plan  WHERE 1  AND rank_score='152' and avg_consume <='99' and regions='185'    ORDER BY rank_score,regions  
+Dec 05 14:31:11 [VISIT]_information_getPlan_0.0.0.0_/008/v1/branch//Information/getPlan?regions=185&avgConsume=99&rankScore=152
+{"regions":"185","avgConsume":"99","rankScore":"152"}
+Dec 05 14:31:12 [SQL]_null_0.0.0.0_/008/v1/branch//Information/getPlan?regions=185&avgConsume=99&rankScore=152
+SELECT * FROM 008v1.plan  WHERE 1  AND rank_score='152' and avg_consume <='99' and regions='185'    ORDER BY rank_score,regions  
+Dec 05 14:31:24 [VISIT]_information_getPlan_0.0.0.0_/008/v1/branch//Information/getPlan?regions=185&avgConsume=99&rankScore=152
+{"regions":"185","avgConsume":"99","rankScore":"152"}
+Dec 05 14:31:25 [SQL]_null_0.0.0.0_/008/v1/branch//Information/getPlan?regions=185&avgConsume=99&rankScore=152
+SELECT * FROM 008v1.plan  WHERE 1  AND rank_score='152' and avg_consume <='99' and regions='185'    ORDER BY rank_score,regions  
+Dec 05 14:31:26 [VISIT]_information_getPlan_0.0.0.0_/008/v1/branch//Information/getPlan?regions=185&avgConsume=99&rankScore=152
+{"regions":"185","avgConsume":"99","rankScore":"152"}
+Dec 05 14:31:27 [SQL]_null_0.0.0.0_/008/v1/branch//Information/getPlan?regions=185&avgConsume=99&rankScore=152
+SELECT * FROM 008v1.plan  WHERE 1  AND rank_score='152' and avg_consume <='99' and regions='185'    ORDER BY rank_score,regions  
+Dec 05 14:31:27 [VISIT]_information_getPlan_0.0.0.0_/008/v1/branch//Information/getPlan?regions=185&avgConsume=99&rankScore=152
+{"regions":"185","avgConsume":"99","rankScore":"152"}
+Dec 05 14:31:28 [SQL]_null_0.0.0.0_/008/v1/branch//Information/getPlan?regions=185&avgConsume=99&rankScore=152
+SELECT * FROM 008v1.plan  WHERE 1  AND rank_score='152' and avg_consume <='99' and regions='185'    ORDER BY rank_score,regions  
+Dec 05 14:31:28 [VISIT]_information_getPlan_0.0.0.0_/008/v1/branch//Information/getPlan?regions=185&avgConsume=99&rankScore=152
+{"regions":"185","avgConsume":"99","rankScore":"152"}
+Dec 05 14:31:29 [SQL]_null_0.0.0.0_/008/v1/branch//Information/getPlan?regions=185&avgConsume=99&rankScore=152
+SELECT * FROM 008v1.plan  WHERE 1  AND rank_score='152' and avg_consume <='99' and regions='185'    ORDER BY rank_score,regions  
+Dec 05 14:31:30 [VISIT]_information_getPlan_0.0.0.0_/008/v1/branch//Information/getPlan?regions=185&avgConsume=99&rankScore=152
+{"regions":"185","avgConsume":"99","rankScore":"152"}
+Dec 05 14:31:31 [SQL]_null_0.0.0.0_/008/v1/branch//Information/getPlan?regions=185&avgConsume=99&rankScore=152
+SELECT * FROM 008v1.plan  WHERE 1  AND rank_score='152' and avg_consume <='99' and regions='185'    ORDER BY rank_score,regions  
+Dec 05 14:33:05 [VISIT]_information_getPlan_0.0.0.0_/008/v1/branch//Information/getPlan?regions=185&avgConsume=99&rankScore=152
+{"regions":"185","avgConsume":"99","rankScore":"152"}
+Dec 05 14:33:06 [SQL]_null_0.0.0.0_/008/v1/branch//Information/getPlan?regions=185&avgConsume=99&rankScore=152
+SELECT * FROM 008v1.plan  WHERE 1  AND rank_score='152' and avg_consume <='99' and regions='185'    ORDER BY rank_score,regions  
+Dec 05 14:33:13 [VISIT]_information_getPlan_0.0.0.0_/008/v1/branch//Information/getPlan?regions=185&avgConsume=99&rankScore=152
+{"regions":"185","avgConsume":"99","rankScore":"152"}
+Dec 05 14:33:14 [SQL]_null_0.0.0.0_/008/v1/branch//Information/getPlan?regions=185&avgConsume=99&rankScore=152
+SELECT * FROM 008v1.plan  WHERE 1  AND rank_score='152' and avg_consume <='99' and regions='185'    ORDER BY rank_score,regions  
+Dec 05 14:33:26 [VISIT]_information_getPlan_0.0.0.0_/008/v1/branch//Information/getPlan?regions=185&avgConsume=99&rankScore=152
+{"regions":"185","avgConsume":"99","rankScore":"152"}
+Dec 05 14:33:27 [SQL]_null_0.0.0.0_/008/v1/branch//Information/getPlan?regions=185&avgConsume=99&rankScore=152
+SELECT * FROM 008v1.plan  WHERE 1  AND rank_score='152' and avg_consume <='99' and regions='185'    ORDER BY rank_score,regions  
+Dec 05 14:33:27 [SQL]_null_0.0.0.0_/008/v1/branch//Information/getPlan?regions=185&avgConsume=99&rankScore=152
+SELECT * FROM 008v1.business_message  WHERE 1  AND business_id in (3205237)     
+Dec 05 14:33:27 [SQL]_null_0.0.0.0_/008/v1/branch//Information/getPlan?regions=185&avgConsume=99&rankScore=152
+SELECT * FROM 008v1.regions  LEFT JOIN 008v1.district ON regions.district_id = district.id  WHERE 1  AND regions.id in (185)     
+Dec 05 14:33:27 [SQL]_null_0.0.0.0_/008/v1/branch//Information/getPlan?regions=185&avgConsume=99&rankScore=152
+SELECT * FROM 008v1.business_message  WHERE 1  AND business_id in (2371969)     
+Dec 05 14:33:27 [SQL]_null_0.0.0.0_/008/v1/branch//Information/getPlan?regions=185&avgConsume=99&rankScore=152
+SELECT * FROM 008v1.regions  LEFT JOIN 008v1.district ON regions.district_id = district.id  WHERE 1  AND regions.id in (185)     
+Dec 05 14:33:27 [SQL]_null_0.0.0.0_/008/v1/branch//Information/getPlan?regions=185&avgConsume=99&rankScore=152
+SELECT * FROM 008v1.business_message  WHERE 1  AND business_id in (2396689)     
+Dec 05 14:33:27 [SQL]_null_0.0.0.0_/008/v1/branch//Information/getPlan?regions=185&avgConsume=99&rankScore=152
+SELECT * FROM 008v1.regions  LEFT JOIN 008v1.district ON regions.district_id = district.id  WHERE 1  AND regions.id in (185)     
+Dec 05 14:33:27 [RETURN]_null_0.0.0.0_/008/v1/branch//Information/getPlan?regions=185&avgConsume=99&rankScore=152
+{"plan":{"id":"2","first_state_id":{"id":"8","business_id":"3205237","name":"\u4e0a\u6d77*****","branch_name":"\u9f99\u4e4b\u68a6\u5e97","address":"**\u533a*\u8def*\u5f04*\u53f7(\u6d4b\u8bd5\u6570\u636e\uff0c\u7528\u4e8e\u5f00\u53d1\u6d4b\u8bd5\uff0c\u5f00\u53d1\u5b8c\u6210\u540e\u8bf7\u7533\u8bf7\u6b63\u5f0f\u6570\u636e)","telephone":"021-********","regions":{"regions_name":"\u6dee\u6d77\u8def","district_name":"\u5362\u6e7e\u533a"},"categories":"1","latitude":"31.21900368","longitude":"121.41655731","avg_rating":"4","rating_img_url":"http:\/\/i2.dpfile.com\/s\/i\/app\/api\/32_4star.png","rating_s_img_url":"http:\/\/i2.dpfile.com\/s\/i\/app\/api\/16_4star.png","product_grade":"3","decoration_grade":"4","service_grade":"3","avg_price":"113","review_count":"1660","business_url":"http:\/\/dpurl.cn\/p\/mwKA3Mq6Ki","photo_url":"http:\/\/i1.dpfile.com\/pc\/bae61f6bab689ca8f67d1d7759ed5715(700x700)\/thumb.jpg","s_photo_url":"http:\/\/i2.dpfile.com\/pc\/bae61f6bab689ca8f67d1d7759ed5715(278x200)\/thumb.jpg","has_coupon":"1","coupon_id":"204804","coupon_url":"http:\/\/dpurl.cn\/p\/Yf4radQfgw","coupon_description":"\u591a\u6b3e\u5546\u52a1\u5957\u9910\u7279\u60e0\u4e2d\uff01","has_deal":"1","city":"\u4e0a\u6d77","distance":"494","deal_count":"3","rank_score":"150"},"first_state_time":null,"use_time_1":null,"second_state_id":{"id":"9","business_id":"2371969","name":"\u8fc7\u95e8*","branch_name":"","address":"**\u533a*\u8def*\u5f04*\u53f7(\u6d4b\u8bd5\u6570\u636e\uff0c\u7528\u4e8e\u5f00\u53d1\u6d4b\u8bd5\uff0c\u5f00\u53d1\u5b8c\u6210\u540e\u8bf7\u7533\u8bf7\u6b63\u5f0f\u6570\u636e)","telephone":"021-********","regions":{"regions_name":"\u6dee\u6d77\u8def","district_name":"\u5362\u6e7e\u533a"},"categories":"2","latitude":"31.21904182","longitude":"121.41658020","avg_rating":"4","rating_img_url":"http:\/\/i1.dpfile.com\/s\/i\/app\/api\/32_4star.png","rating_s_img_url":"http:\/\/i2.dpfile.com\/s\/i\/app\/api\/16_4star.png","product_grade":"3","decoration_grade":"3","service_grade":"3","avg_price":"96","review_count":"1589","business_url":"http:\/\/dpurl.cn\/p\/ITIlji1N+8","photo_url":"http:\/\/i1.dpfile.com\/pc\/c38bcaa1c66b8ad8298a48bc01b2de88(700x700)\/thumb.jpg","s_photo_url":"http:\/\/i3.dpfile.com\/pc\/c38bcaa1c66b8ad8298a48bc01b2de88(278x200)\/thumb.jpg","has_coupon":"1","coupon_id":"205357","coupon_url":"http:\/\/dpurl.cn\/p\/fxwNEmRGxi","coupon_description":"\u91d1\u79cb\u9001\u723d","has_deal":"1","city":"\u4e0a\u6d77","distance":"495","deal_count":"4","rank_score":"130"},"second_state_time":"5:00-7:00","use_time_2":"0","third_state_id":{"id":"11","business_id":"2396689","name":"\u96cd\u5ef7","branch_name":"\u8679\u6865\u5e97","address":"**\u533a*\u8def*\u5f04*\u53f7(\u6d4b\u8bd5\u6570\u636e\uff0c\u7528\u4e8e\u5f00\u53d1\u6d4b\u8bd5\uff0c\u5f00\u53d1\u5b8c\u6210\u540e\u8bf7\u7533\u8bf7\u6b63\u5f0f\u6570\u636e)","telephone":"021-********","regions":{"regions_name":"\u6dee\u6d77\u8def","district_name":"\u5362\u6e7e\u533a"},"categories":"3","latitude":"31.21015549","longitude":"121.40695190","avg_rating":"4","rating_img_url":"http:\/\/i1.dpfile.com\/s\/i\/app\/api\/32_4star.png","rating_s_img_url":"http:\/\/i3.dpfile.com\/s\/i\/app\/api\/16_4star.png","product_grade":"3","decoration_grade":"3","service_grade":"3","avg_price":"88","review_count":"909","business_url":"http:\/\/dpurl.cn\/p\/hoIg8nQu5D","photo_url":"http:\/\/i2.dpfile.com\/pc\/c53760f9859183fdd239a47ff51514b3(700x700)\/thumb.jpg","s_photo_url":"http:\/\/i3.dpfile.com\/pc\/c53760f9859183fdd239a47ff51514b3(278x200)\/thumb.jpg","has_coupon":"1","coupon_id":"202019","coupon_url":"http:\/\/dpurl.cn\/p\/qypwU9RF1e","coupon_description":"\u6e05\u6c34\u751f\u6001\u5927\u95f8\u87f912.8\/\u53ea","has_deal":"1","city":"\u4e0a\u6d77","distance":"1224","deal_count":"3","rank_score":"175"},"third_state_time":"7:00-12:00","state_type":null,"avg_consume":"99","rank_score":"152","regions":"185"},"error":{"error_status":100,"status_info":"php \u9519\u8bef"}}
+Dec 05 14:33:30 [VISIT]_information_getPlan_0.0.0.0_/008/v1/branch//Information/getPlan?regions=185&avgConsume=99&rankScore=152
+{"regions":"185","avgConsume":"99","rankScore":"152"}
+Dec 05 14:33:31 [SQL]_null_0.0.0.0_/008/v1/branch//Information/getPlan?regions=185&avgConsume=99&rankScore=152
+SELECT * FROM 008v1.plan  WHERE 1  AND rank_score='152' and avg_consume <='99' and regions='185'    ORDER BY rank_score,regions  
+Dec 05 14:33:31 [SQL]_null_0.0.0.0_/008/v1/branch//Information/getPlan?regions=185&avgConsume=99&rankScore=152
+SELECT * FROM 008v1.business_message  WHERE 1  AND business_id in (3205237)     
+Dec 05 14:33:31 [SQL]_null_0.0.0.0_/008/v1/branch//Information/getPlan?regions=185&avgConsume=99&rankScore=152
+SELECT * FROM 008v1.regions  LEFT JOIN 008v1.district ON regions.district_id = district.id  WHERE 1  AND regions.id in (185)     
+Dec 05 14:33:31 [SQL]_null_0.0.0.0_/008/v1/branch//Information/getPlan?regions=185&avgConsume=99&rankScore=152
+SELECT * FROM 008v1.business_message  WHERE 1  AND business_id in (2371969)     
+Dec 05 14:33:31 [SQL]_null_0.0.0.0_/008/v1/branch//Information/getPlan?regions=185&avgConsume=99&rankScore=152
+SELECT * FROM 008v1.regions  LEFT JOIN 008v1.district ON regions.district_id = district.id  WHERE 1  AND regions.id in (185)     
+Dec 05 14:33:31 [SQL]_null_0.0.0.0_/008/v1/branch//Information/getPlan?regions=185&avgConsume=99&rankScore=152
+SELECT * FROM 008v1.business_message  WHERE 1  AND business_id in (2396689)     
+Dec 05 14:33:31 [SQL]_null_0.0.0.0_/008/v1/branch//Information/getPlan?regions=185&avgConsume=99&rankScore=152
+SELECT * FROM 008v1.regions  LEFT JOIN 008v1.district ON regions.district_id = district.id  WHERE 1  AND regions.id in (185)     
+Dec 05 14:33:31 [RETURN]_null_0.0.0.0_/008/v1/branch//Information/getPlan?regions=185&avgConsume=99&rankScore=152
+{"plan":{"id":"2","first_state_id":{"id":"8","business_id":"3205237","name":"\u4e0a\u6d77*****","branch_name":"\u9f99\u4e4b\u68a6\u5e97","address":"**\u533a*\u8def*\u5f04*\u53f7(\u6d4b\u8bd5\u6570\u636e\uff0c\u7528\u4e8e\u5f00\u53d1\u6d4b\u8bd5\uff0c\u5f00\u53d1\u5b8c\u6210\u540e\u8bf7\u7533\u8bf7\u6b63\u5f0f\u6570\u636e)","telephone":"021-********","regions":{"regions_name":"\u6dee\u6d77\u8def","district_name":"\u5362\u6e7e\u533a"},"categories":"1","latitude":"31.21900368","longitude":"121.41655731","avg_rating":"4","rating_img_url":"http:\/\/i2.dpfile.com\/s\/i\/app\/api\/32_4star.png","rating_s_img_url":"http:\/\/i2.dpfile.com\/s\/i\/app\/api\/16_4star.png","product_grade":"3","decoration_grade":"4","service_grade":"3","avg_price":"113","review_count":"1660","business_url":"http:\/\/dpurl.cn\/p\/mwKA3Mq6Ki","photo_url":"http:\/\/i1.dpfile.com\/pc\/bae61f6bab689ca8f67d1d7759ed5715(700x700)\/thumb.jpg","s_photo_url":"http:\/\/i2.dpfile.com\/pc\/bae61f6bab689ca8f67d1d7759ed5715(278x200)\/thumb.jpg","has_coupon":"1","coupon_id":"204804","coupon_url":"http:\/\/dpurl.cn\/p\/Yf4radQfgw","coupon_description":"\u591a\u6b3e\u5546\u52a1\u5957\u9910\u7279\u60e0\u4e2d\uff01","has_deal":"1","city":"\u4e0a\u6d77","distance":"494","deal_count":"3","rank_score":"150"},"first_state_time":null,"use_time_1":null,"second_state_id":{"id":"9","business_id":"2371969","name":"\u8fc7\u95e8*","branch_name":"","address":"**\u533a*\u8def*\u5f04*\u53f7(\u6d4b\u8bd5\u6570\u636e\uff0c\u7528\u4e8e\u5f00\u53d1\u6d4b\u8bd5\uff0c\u5f00\u53d1\u5b8c\u6210\u540e\u8bf7\u7533\u8bf7\u6b63\u5f0f\u6570\u636e)","telephone":"021-********","regions":{"regions_name":"\u6dee\u6d77\u8def","district_name":"\u5362\u6e7e\u533a"},"categories":"2","latitude":"31.21904182","longitude":"121.41658020","avg_rating":"4","rating_img_url":"http:\/\/i1.dpfile.com\/s\/i\/app\/api\/32_4star.png","rating_s_img_url":"http:\/\/i2.dpfile.com\/s\/i\/app\/api\/16_4star.png","product_grade":"3","decoration_grade":"3","service_grade":"3","avg_price":"96","review_count":"1589","business_url":"http:\/\/dpurl.cn\/p\/ITIlji1N+8","photo_url":"http:\/\/i1.dpfile.com\/pc\/c38bcaa1c66b8ad8298a48bc01b2de88(700x700)\/thumb.jpg","s_photo_url":"http:\/\/i3.dpfile.com\/pc\/c38bcaa1c66b8ad8298a48bc01b2de88(278x200)\/thumb.jpg","has_coupon":"1","coupon_id":"205357","coupon_url":"http:\/\/dpurl.cn\/p\/fxwNEmRGxi","coupon_description":"\u91d1\u79cb\u9001\u723d","has_deal":"1","city":"\u4e0a\u6d77","distance":"495","deal_count":"4","rank_score":"130"},"second_state_time":"5:00-7:00","use_time_2":"0","third_state_id":{"id":"11","business_id":"2396689","name":"\u96cd\u5ef7","branch_name":"\u8679\u6865\u5e97","address":"**\u533a*\u8def*\u5f04*\u53f7(\u6d4b\u8bd5\u6570\u636e\uff0c\u7528\u4e8e\u5f00\u53d1\u6d4b\u8bd5\uff0c\u5f00\u53d1\u5b8c\u6210\u540e\u8bf7\u7533\u8bf7\u6b63\u5f0f\u6570\u636e)","telephone":"021-********","regions":{"regions_name":"\u6dee\u6d77\u8def","district_name":"\u5362\u6e7e\u533a"},"categories":"3","latitude":"31.21015549","longitude":"121.40695190","avg_rating":"4","rating_img_url":"http:\/\/i1.dpfile.com\/s\/i\/app\/api\/32_4star.png","rating_s_img_url":"http:\/\/i3.dpfile.com\/s\/i\/app\/api\/16_4star.png","product_grade":"3","decoration_grade":"3","service_grade":"3","avg_price":"88","review_count":"909","business_url":"http:\/\/dpurl.cn\/p\/hoIg8nQu5D","photo_url":"http:\/\/i2.dpfile.com\/pc\/c53760f9859183fdd239a47ff51514b3(700x700)\/thumb.jpg","s_photo_url":"http:\/\/i3.dpfile.com\/pc\/c53760f9859183fdd239a47ff51514b3(278x200)\/thumb.jpg","has_coupon":"1","coupon_id":"202019","coupon_url":"http:\/\/dpurl.cn\/p\/qypwU9RF1e","coupon_description":"\u6e05\u6c34\u751f\u6001\u5927\u95f8\u87f912.8\/\u53ea","has_deal":"1","city":"\u4e0a\u6d77","distance":"1224","deal_count":"3","rank_score":"175"},"third_state_time":"7:00-12:00","state_type":null,"avg_consume":"99","rank_score":"152","regions":"185"},"error":{"error_status":100,"status_info":"php \u9519\u8bef"}}
+Dec 05 14:36:18 [VISIT]_information_getRegionsInformationWithDistrictId_0.0.0.0_/008/v1/branch//Information/getRegionsInformationWithDistrictId?businessId=3205237
+{"businessId":"3205237"}
+Dec 05 14:36:18 [RETURN]_null_0.0.0.0_/008/v1/branch//Information/getRegionsInformationWithDistrictId?businessId=3205237
+{"error":{"error_status":"200001","status_info":null}}
+Dec 05 14:36:39 [VISIT]_information_getRegionsInformationWithDistrictId_0.0.0.0_/008/v1/branch//Information/getRegionsInformationWithDistrictId?districtId=1
+{"districtId":"1"}
+Dec 05 14:36:40 [SQL]_null_0.0.0.0_/008/v1/branch//Information/getRegionsInformationWithDistrictId?districtId=1
+SELECT regions.id,regions_name,district_name,district_id FROM 008v1.regions  LEFT JOIN 008v1.district ON regions.district_id = district.id  WHERE 1  AND regions.district_id in (1)     
+Dec 05 14:36:40 [RETURN]_null_0.0.0.0_/008/v1/branch//Information/getRegionsInformationWithDistrictId?districtId=1
+[{"id":"185","regions_name":"\u6dee\u6d77\u8def","district_name":"\u5362\u6e7e\u533a","district_id":"1"},{"id":"186","regions_name":"\u6253\u6d66\u6865","district_name":"\u5362\u6e7e\u533a","district_id":"1"},{"id":"187","regions_name":"\u65b0\u5929\u5730","district_name":"\u5362\u6e7e\u533a","district_id":"1"},{"id":"188","regions_name":"\u745e\u91d1\u5bbe\u9986\u533a","district_name":"\u5362\u6e7e\u533a","district_id":"1"}]
+Dec 05 14:38:14 [VISIT]_information_getRegionsInformationWithDistrictId_0.0.0.0_/008/v1/branch//Information/getRegionsInformationWithDistrictId?districtId=1
+{"districtId":"1"}
+Dec 05 14:38:15 [SQL]_null_0.0.0.0_/008/v1/branch//Information/getRegionsInformationWithDistrictId?districtId=1
+SELECT regions.id,regions_name,district_name,district_id FROM 008v1.regions  LEFT JOIN 008v1.district ON regions.district_id = district.id  WHERE 1  AND regions.district_id in (1)     
+Dec 05 14:38:15 [RETURN]_null_0.0.0.0_/008/v1/branch//Information/getRegionsInformationWithDistrictId?districtId=1
+{"Regions":{"id":"188","regions_name":"\u745e\u91d1\u5bbe\u9986\u533a"}}
+Dec 05 14:39:20 [VISIT]_information_getRegionsInformationWithDistrictId_0.0.0.0_/008/v1/branch//Information/getRegionsInformationWithDistrictId?districtId=1
+{"districtId":"1"}
+Dec 05 14:39:21 [SQL]_null_0.0.0.0_/008/v1/branch//Information/getRegionsInformationWithDistrictId?districtId=1
+SELECT regions.id,regions_name,district_name,district_id FROM 008v1.regions  LEFT JOIN 008v1.district ON regions.district_id = district.id  WHERE 1  AND regions.district_id in (1)     
+Dec 05 14:39:21 [RETURN]_null_0.0.0.0_/008/v1/branch//Information/getRegionsInformationWithDistrictId?districtId=1
+{"Regions":{"id":"188","regions_name":"\u745e\u91d1\u5bbe\u9986\u533a"}}
+Dec 05 14:39:41 [VISIT]_information_getRegionsInformationWithDistrictId_0.0.0.0_/008/v1/branch//Information/getRegionsInformationWithDistrictId?districtId=1
+{"districtId":"1"}
+Dec 05 14:39:42 [SQL]_null_0.0.0.0_/008/v1/branch//Information/getRegionsInformationWithDistrictId?districtId=1
+SELECT regions.id,regions_name,district_name,district_id FROM 008v1.regions  LEFT JOIN 008v1.district ON regions.district_id = district.id  WHERE 1  AND regions.district_id in (1)     
+Dec 05 14:39:42 [RETURN]_null_0.0.0.0_/008/v1/branch//Information/getRegionsInformationWithDistrictId?districtId=1
+{"Regions":{"id":"188","regions_name":"\u745e\u91d1\u5bbe\u9986\u533a"},"error":{"error_status":100,"status_info":"php \u9519\u8bef"}}
+Dec 05 14:41:31 [VISIT]_information_getRegionsInformationWithDistrictId_0.0.0.0_/008/v1/branch//Information/getRegionsInformationWithDistrictId?districtId=1
+{"districtId":"1"}
+Dec 05 14:41:32 [SQL]_null_0.0.0.0_/008/v1/branch//Information/getRegionsInformationWithDistrictId?districtId=1
+SELECT regions.id,regions_name,district_name,district_id FROM 008v1.regions  LEFT JOIN 008v1.district ON regions.district_id = district.id  WHERE 1  AND regions.district_id in (1)     
+Dec 05 14:41:32 [RETURN]_null_0.0.0.0_/008/v1/branch//Information/getRegionsInformationWithDistrictId?districtId=1
+{"Regions":{"id":"188","regions_name":"\u745e\u91d1\u5bbe\u9986\u533a"},"error":{"error_status":100,"status_info":"php \u9519\u8bef"}}
+Dec 05 14:42:13 [VISIT]_information_getRegionsInformationWithDistrictId_0.0.0.0_/008/v1/branch//Information/getRegionsInformationWithDistrictId?districtId=1
+{"districtId":"1"}
+Dec 05 14:42:14 [SQL]_null_0.0.0.0_/008/v1/branch//Information/getRegionsInformationWithDistrictId?districtId=1
+SELECT regions.id,regions_name,district_name,district_id FROM 008v1.regions  LEFT JOIN 008v1.district ON regions.district_id = district.id  WHERE 1  AND regions.district_id in (1)     
+Dec 05 14:42:14 [RETURN]_null_0.0.0.0_/008/v1/branch//Information/getRegionsInformationWithDistrictId?districtId=1
+{"Regions":{"id":"188","regions_name":"\u745e\u91d1\u5bbe\u9986\u533a"}}
+Dec 05 14:42:54 [VISIT]_information_getRegionsInformationWithDistrictId_0.0.0.0_/008/v1/branch//Information/getRegionsInformationWithDistrictId?districtId=1
+{"districtId":"1"}
+Dec 05 14:42:55 [SQL]_null_0.0.0.0_/008/v1/branch//Information/getRegionsInformationWithDistrictId?districtId=1
+SELECT regions.id,regions_name,district_name,district_id FROM 008v1.regions  LEFT JOIN 008v1.district ON regions.district_id = district.id  WHERE 1  AND regions.district_id in (1)     
+Dec 05 14:42:55 [RETURN]_null_0.0.0.0_/008/v1/branch//Information/getRegionsInformationWithDistrictId?districtId=1
+{"Regions":{"1":{"id":"188","regions_name":"\u745e\u91d1\u5bbe\u9986\u533a"}}}
+Dec 05 14:43:22 [VISIT]_information_getRegionsInformationWithDistrictId_0.0.0.0_/008/v1/branch//Information/getRegionsInformationWithDistrictId?districtId=1
+{"districtId":"1"}
+Dec 05 14:43:23 [SQL]_null_0.0.0.0_/008/v1/branch//Information/getRegionsInformationWithDistrictId?districtId=1
+SELECT regions.id,regions_name,district_name,district_id FROM 008v1.regions  LEFT JOIN 008v1.district ON regions.district_id = district.id  WHERE 1  AND regions.district_id in (1)     
+Dec 05 14:43:23 [RETURN]_null_0.0.0.0_/008/v1/branch//Information/getRegionsInformationWithDistrictId?districtId=1
+{"Regions":[{"id":"185","regions_name":"\u6dee\u6d77\u8def"},{"id":"186","regions_name":"\u6253\u6d66\u6865"},{"id":"187","regions_name":"\u65b0\u5929\u5730"},{"id":"188","regions_name":"\u745e\u91d1\u5bbe\u9986\u533a"}]}
+Dec 05 14:45:49 [VISIT]_information_getRegionsInformationWithDistrictId_0.0.0.0_/008/v1/branch//Information/getRegionsInformationWithDistrictId?districtId=1
+{"districtId":"1"}
+Dec 05 14:45:50 [SQL]_null_0.0.0.0_/008/v1/branch//Information/getRegionsInformationWithDistrictId?districtId=1
+SELECT regions.id,regions_name,district_name,district_id FROM 008v1.regions  LEFT JOIN 008v1.district ON regions.district_id = district.id  WHERE 1  AND regions.district_id in (1)     
+Dec 05 14:45:50 [RETURN]_null_0.0.0.0_/008/v1/branch//Information/getRegionsInformationWithDistrictId?districtId=1
+{"Regions":[{"id":"185","regions_name":"\u6dee\u6d77\u8def"},{"id":"186","regions_name":"\u6253\u6d66\u6865"},{"id":"187","regions_name":"\u65b0\u5929\u5730"},{"id":"188","regions_name":"\u745e\u91d1\u5bbe\u9986\u533a"}]}
+Dec 05 14:48:03 [VISIT]_information_AllRegionsInformation_0.0.0.0_/008/v1/branch//Information/AllRegionsInformation?districtId=1
+""
+Dec 05 14:48:04 [SQL]_null_0.0.0.0_/008/v1/branch//Information/AllRegionsInformation?districtId=1
+SELECT * FROM 008v1.district  WHERE 1      
+Dec 05 14:48:04 [SQL]_null_0.0.0.0_/008/v1/branch//Information/AllRegionsInformation?districtId=1
+SELECT regions.id,regions_name FROM 008v1.regions  LEFT JOIN 008v1.district ON regions.district_id = district.id  WHERE 1  AND regions.district_id in (1)     
+Dec 05 14:48:04 [SQL]_null_0.0.0.0_/008/v1/branch//Information/AllRegionsInformation?districtId=1
+SELECT regions.id,regions_name FROM 008v1.regions  LEFT JOIN 008v1.district ON regions.district_id = district.id  WHERE 1  AND regions.district_id in (2)     
+Dec 05 14:48:04 [SQL]_null_0.0.0.0_/008/v1/branch//Information/AllRegionsInformation?districtId=1
+SELECT regions.id,regions_name FROM 008v1.regions  LEFT JOIN 008v1.district ON regions.district_id = district.id  WHERE 1  AND regions.district_id in (3)     
+Dec 05 14:48:04 [SQL]_null_0.0.0.0_/008/v1/branch//Information/AllRegionsInformation?districtId=1
+SELECT regions.id,regions_name FROM 008v1.regions  LEFT JOIN 008v1.district ON regions.district_id = district.id  WHERE 1  AND regions.district_id in (4)     
+Dec 05 14:48:04 [SQL]_null_0.0.0.0_/008/v1/branch//Information/AllRegionsInformation?districtId=1
+SELECT regions.id,regions_name FROM 008v1.regions  LEFT JOIN 008v1.district ON regions.district_id = district.id  WHERE 1  AND regions.district_id in (5)     
+Dec 05 14:48:04 [SQL]_null_0.0.0.0_/008/v1/branch//Information/AllRegionsInformation?districtId=1
+SELECT regions.id,regions_name FROM 008v1.regions  LEFT JOIN 008v1.district ON regions.district_id = district.id  WHERE 1  AND regions.district_id in (6)     
+Dec 05 14:48:04 [SQL]_null_0.0.0.0_/008/v1/branch//Information/AllRegionsInformation?districtId=1
+SELECT regions.id,regions_name FROM 008v1.regions  LEFT JOIN 008v1.district ON regions.district_id = district.id  WHERE 1  AND regions.district_id in (7)     
+Dec 05 14:48:04 [SQL]_null_0.0.0.0_/008/v1/branch//Information/AllRegionsInformation?districtId=1
+SELECT regions.id,regions_name FROM 008v1.regions  LEFT JOIN 008v1.district ON regions.district_id = district.id  WHERE 1  AND regions.district_id in (8)     
+Dec 05 14:48:04 [SQL]_null_0.0.0.0_/008/v1/branch//Information/AllRegionsInformation?districtId=1
+SELECT regions.id,regions_name FROM 008v1.regions  LEFT JOIN 008v1.district ON regions.district_id = district.id  WHERE 1  AND regions.district_id in (9)     
+Dec 05 14:48:04 [SQL]_null_0.0.0.0_/008/v1/branch//Information/AllRegionsInformation?districtId=1
+SELECT regions.id,regions_name FROM 008v1.regions  LEFT JOIN 008v1.district ON regions.district_id = district.id  WHERE 1  AND regions.district_id in (10)     
+Dec 05 14:48:04 [SQL]_null_0.0.0.0_/008/v1/branch//Information/AllRegionsInformation?districtId=1
+SELECT regions.id,regions_name FROM 008v1.regions  LEFT JOIN 008v1.district ON regions.district_id = district.id  WHERE 1  AND regions.district_id in (11)     
+Dec 05 14:48:04 [SQL]_null_0.0.0.0_/008/v1/branch//Information/AllRegionsInformation?districtId=1
+SELECT regions.id,regions_name FROM 008v1.regions  LEFT JOIN 008v1.district ON regions.district_id = district.id  WHERE 1  AND regions.district_id in (12)     
+Dec 05 14:48:04 [SQL]_null_0.0.0.0_/008/v1/branch//Information/AllRegionsInformation?districtId=1
+SELECT regions.id,regions_name FROM 008v1.regions  LEFT JOIN 008v1.district ON regions.district_id = district.id  WHERE 1  AND regions.district_id in (13)     
+Dec 05 14:48:04 [SQL]_null_0.0.0.0_/008/v1/branch//Information/AllRegionsInformation?districtId=1
+SELECT regions.id,regions_name FROM 008v1.regions  LEFT JOIN 008v1.district ON regions.district_id = district.id  WHERE 1  AND regions.district_id in (14)     
+Dec 05 14:48:04 [SQL]_null_0.0.0.0_/008/v1/branch//Information/AllRegionsInformation?districtId=1
+SELECT regions.id,regions_name FROM 008v1.regions  LEFT JOIN 008v1.district ON regions.district_id = district.id  WHERE 1  AND regions.district_id in (15)     
+Dec 05 14:48:04 [SQL]_null_0.0.0.0_/008/v1/branch//Information/AllRegionsInformation?districtId=1
+SELECT regions.id,regions_name FROM 008v1.regions  LEFT JOIN 008v1.district ON regions.district_id = district.id  WHERE 1  AND regions.district_id in (16)     
+Dec 05 14:48:04 [SQL]_null_0.0.0.0_/008/v1/branch//Information/AllRegionsInformation?districtId=1
+SELECT regions.id,regions_name FROM 008v1.regions  LEFT JOIN 008v1.district ON regions.district_id = district.id  WHERE 1  AND regions.district_id in (17)     
+Dec 05 14:48:04 [SQL]_null_0.0.0.0_/008/v1/branch//Information/AllRegionsInformation?districtId=1
+SELECT regions.id,regions_name FROM 008v1.regions  LEFT JOIN 008v1.district ON regions.district_id = district.id  WHERE 1  AND regions.district_id in (18)     
+Dec 05 14:48:04 [RETURN]_null_0.0.0.0_/008/v1/branch//Information/AllRegionsInformation?districtId=1
+{"\u5362\u6e7e\u533a":[{"id":"185","regions_name":"\u6dee\u6d77\u8def"},{"id":"186","regions_name":"\u6253\u6d66\u6865"},{"id":"187","regions_name":"\u65b0\u5929\u5730"},{"id":"188","regions_name":"\u745e\u91d1\u5bbe\u9986\u533a"}],"\u5f90\u6c47\u533a":[{"id":"189","regions_name":"\u5f90\u5bb6\u6c47"},{"id":"190","regions_name":"\u4e07\u4f53\u9986"},{"id":"191","regions_name":"\u8861\u5c71\u8def"},{"id":"192","regions_name":"\u590d\u5174\u897f\u8def\/\u4e01\u9999\u82b1\u56ed"},{"id":"193","regions_name":"\u8087\u5609\u6d5c\u8def\u6cbf\u7ebf"},{"id":"194","regions_name":"\u97f3\u4e50\u5b66\u9662"},{"id":"195","regions_name":"\u9f99\u534e"},{"id":"196","regions_name":"\u6f15\u6cb3\u6cfe\/\u7530\u6797"},{"id":"197","regions_name":"\u4e0a\u6d77\u5357\u7ad9"}],"\u9759\u5b89\u533a":[{"id":"198","regions_name":"\u9759\u5b89\u5bfa"},{"id":"199","regions_name":"\u540c\u4e50\u574a"},{"id":"200","regions_name":"\u5357\u4eac\u897f\u8def"}],"\u957f\u5b81\u533a":[{"id":"201","regions_name":"\u8679\u6865"},{"id":"202","regions_name":"\u4e2d\u5c71\u516c\u56ed"},{"id":"203","regions_name":"\u4e0a\u6d77\u5f71\u57ce\/\u65b0\u534e\u8def"},{"id":"204","regions_name":"\u5929\u5c71"},{"id":"205","regions_name":"\u53e4\u5317"},{"id":"206","regions_name":"\u52a8\u7269\u56ed\/\u8679\u6865\u673a\u573a"},{"id":"207","regions_name":"\u5317\u65b0\u6cfe"}],"\u6d66\u4e1c\u65b0\u533a":[{"id":"208","regions_name":"\u4e0a\u5357\u5730\u533a"},{"id":"209","regions_name":"\u5916\u9ad8\u6865"},{"id":"210","regions_name":"\u91d1\u6865"},{"id":"211","regions_name":"\u6e90\u6df1\u4f53\u80b2\u4e2d\u5fc3"},{"id":"212","regions_name":"\u9646\u5bb6\u5634"},{"id":"213","regions_name":"\u516b\u4f70\u4f34"},{"id":"214","regions_name":"\u4e16\u7eaa\u516c\u56ed"},{"id":"215","regions_name":"\u5f20\u6c5f"},{"id":"216","regions_name":"\u5858\u6865"},{"id":"217","regions_name":"\u5ddd\u6c99"},{"id":"218","regions_name":"\u91d1\u6768\u5730\u533a"},{"id":"219","regions_name":"\u78a7\u4e91\u793e\u533a"},{"id":"220","regions_name":"\u4e09\u6797\u5730\u533a"},{"id":"221","regions_name":"\u60e0\u5357\u9547"},{"id":"222","regions_name":"\u5eb7\u6865\/\u5468\u6d66"},{"id":"223","regions_name":"\u4e1c\u660e"},{"id":"224","regions_name":"\u6d66\u4e1c\u673a\u573a"},{"id":"225","regions_name":"\u4e34\u6c82\/\u5357\u7801\u5934"}],"\u9ec4\u6d66\u533a":[{"id":"226","regions_name":"\u8463\u5bb6\u6e21"},{"id":"227","regions_name":"\u5916\u6ee9"},{"id":"228","regions_name":"\u8001\u897f\u95e8"},{"id":"229","regions_name":"\u57ce\u968d\u5e99"},{"id":"230","regions_name":"\u5357\u4eac\u4e1c\u8def"},{"id":"231","regions_name":"\u4eba\u6c11\u5e7f\u573a"}],"\u666e\u9640\u533a":[{"id":"232","regions_name":"\u66f9\u6768\u5730\u533a"},{"id":"233","regions_name":"\u957f\u98ce\u516c\u56ed\/\u534e\u5e08\u5927"},{"id":"234","regions_name":"\u4e2d\u5c71\u5317\u8def\/\u7518\u6cc9\u5730\u533a"},{"id":"235","regions_name":"\u6885\u5ddd\u8def"},{"id":"236","regions_name":"\u66f9\u5bb6\u6e21"},{"id":"237","regions_name":"\u957f\u5bff\u8def"},{"id":"238","regions_name":"\u771f\u5982"},{"id":"239","regions_name":"\u6b66\u5b81\u5730\u533a"},{"id":"240","regions_name":"\u6708\u661f\u73af\u7403\u6e2f"}],"\u95f8\u5317\u533a":[{"id":"241","regions_name":"\u5f6d\u6d66\u65b0\u6751"},{"id":"242","regions_name":"\u5927\u5b81\u5730\u533a"},{"id":"243","regions_name":"\u95f8\u5317\u516c\u56ed"},{"id":"244","regions_name":"\u706b\u8f66\u7ad9"},{"id":"245","regions_name":"\u5317\u533a\u6c7d\u8f66\u7ad9"}],"\u8679\u53e3\u533a":[{"id":"246","regions_name":"\u8679\u53e3\u8db3\u7403\u573a"},{"id":"247","regions_name":"\u66f2\u9633\u5730\u533a"},{"id":"248","regions_name":"\u6d77\u5b81\u8def\/\u4e03\u6d66\u8def"},{"id":"249","regions_name":"\u56db\u5ddd\u5317\u8def"},{"id":"250","regions_name":"\u5317\u5916\u6ee9"},{"id":"251","regions_name":"\u4e34\u5e73\u8def\/\u548c\u5e73\u516c\u56ed"},{"id":"252","regions_name":"\u51c9\u57ce\/\u6c5f\u6e7e\u9547"}],"\u6768\u6d66\u533a":[{"id":"253","regions_name":"\u63a7\u6c5f\u5730\u533a"},{"id":"254","regions_name":"\u4e94\u89d2\u573a\/\u5927\u5b66\u533a"},{"id":"255","regions_name":"\u5e73\u51c9\u8def"},{"id":"256","regions_name":"\u9ec4\u5174\u516c\u56ed"},{"id":"257","regions_name":"\u4e2d\u539f\u5730\u533a"},{"id":"258","regions_name":"\u978d\u5c71\u65b0\u6751"}],"\u95f5\u884c\u533a":[{"id":"259","regions_name":"\u6625\u7533\u5730\u533a"},{"id":"260","regions_name":"\u5357\u65b9\u5546\u57ce"},{"id":"261","regions_name":"\u8398\u5e84"},{"id":"262","regions_name":"\u4e03\u5b9d"},{"id":"263","regions_name":"\u4e07\u6e90\u57ce\/\u4e1c\u5170\u8def"},{"id":"264","regions_name":"\u8001\u95f5\u884c"},{"id":"265","regions_name":"\u8679\u6865\u9547"},{"id":"266","regions_name":"\u8679\u6885\u8def"},{"id":"267","regions_name":"\u9f99\u67cf\u5730\u533a"},{"id":"268","regions_name":"\u6d66\u6c5f\u9547"}],"\u5b9d\u5c71\u533a":[{"id":"269","regions_name":"\u5927\u534e\u5730\u533a"},{"id":"270","regions_name":"\u5e99\u884c\/\u5171\u5eb7"},{"id":"271","regions_name":"\u6dde\u6ee8\u5730\u533a"},{"id":"272","regions_name":"\u4e0a\u6d77\u5927\u5b66"},{"id":"273","regions_name":"\u6768\u884c"},{"id":"274","regions_name":"\u9ad8\u5883"},{"id":"275","regions_name":"\u6dde\u5357"},{"id":"276","regions_name":"\u6708\u6d66"},{"id":"277","regions_name":"\u5b9d\u5c71\u57ce\u533a"},{"id":"278","regions_name":"\u901a\u6cb3\/\u6cd7\u5858"},{"id":"279","regions_name":"\u987e\u6751\u516c\u56ed"},{"id":"280","regions_name":"\u7f8e\u5170\u6e56"}],"\u677e\u6c5f\u533a":[{"id":"281","regions_name":"\u677e\u6c5f\u9547"},{"id":"282","regions_name":"\u677e\u6c5f\u5927\u5b66\u57ce"},{"id":"283","regions_name":"\u4f58\u5c71"},{"id":"284","regions_name":"\u4e5d\u4ead"},{"id":"285","regions_name":"\u6cd7\u6cfe"}],"\u5609\u5b9a\u533a":[{"id":"286","regions_name":"\u6c5f\u6865"},{"id":"287","regions_name":"\u5357\u7fd4"},{"id":"288","regions_name":"\u5b89\u4ead"},{"id":"289","regions_name":"\u5609\u5b9a\u9547"}],"\u9752\u6d66\u533a":[{"id":"290","regions_name":"\u6731\u5bb6\u89d2"},{"id":"291","regions_name":"\u9752\u6d66\u9547"}],"\u91d1\u5c71\u533a":[{"id":"292","regions_name":"\u91d1\u5c71\u536b"}],"\u5949\u8d24\u533a":[{"id":"293","regions_name":"\u5357\u6865"},{"id":"294","regions_name":"\u897f\u6e21"}],"\u5d07\u660e\u53bf":[{"id":"295","regions_name":"\u4e1c\u6ee9\/\u524d\u54e8\u519c\u573a"},{"id":"296","regions_name":"\u5357\u95e8"}]}
+Dec 05 14:53:04 [VISIT]_information_AllRegionsInformation_0.0.0.0_/008/v1/branch//Information/AllRegionsInformation?districtId=1
+""
+Dec 05 14:53:05 [SQL]_null_0.0.0.0_/008/v1/branch//Information/AllRegionsInformation?districtId=1
+SELECT * FROM 008v1.district  WHERE 1      
+Dec 05 14:53:05 [SQL]_null_0.0.0.0_/008/v1/branch//Information/AllRegionsInformation?districtId=1
+SELECT regions.id,regions_name FROM 008v1.regions  LEFT JOIN 008v1.district ON regions.district_id = district.id  WHERE 1  AND regions.district_id in (1)     
+Dec 05 14:53:05 [SQL]_null_0.0.0.0_/008/v1/branch//Information/AllRegionsInformation?districtId=1
+SELECT regions.id,regions_name FROM 008v1.regions  LEFT JOIN 008v1.district ON regions.district_id = district.id  WHERE 1  AND regions.district_id in (2)     
+Dec 05 14:53:05 [SQL]_null_0.0.0.0_/008/v1/branch//Information/AllRegionsInformation?districtId=1
+SELECT regions.id,regions_name FROM 008v1.regions  LEFT JOIN 008v1.district ON regions.district_id = district.id  WHERE 1  AND regions.district_id in (3)     
+Dec 05 14:53:05 [SQL]_null_0.0.0.0_/008/v1/branch//Information/AllRegionsInformation?districtId=1
+SELECT regions.id,regions_name FROM 008v1.regions  LEFT JOIN 008v1.district ON regions.district_id = district.id  WHERE 1  AND regions.district_id in (4)     
+Dec 05 14:53:05 [SQL]_null_0.0.0.0_/008/v1/branch//Information/AllRegionsInformation?districtId=1
+SELECT regions.id,regions_name FROM 008v1.regions  LEFT JOIN 008v1.district ON regions.district_id = district.id  WHERE 1  AND regions.district_id in (5)     
+Dec 05 14:53:05 [SQL]_null_0.0.0.0_/008/v1/branch//Information/AllRegionsInformation?districtId=1
+SELECT regions.id,regions_name FROM 008v1.regions  LEFT JOIN 008v1.district ON regions.district_id = district.id  WHERE 1  AND regions.district_id in (6)     
+Dec 05 14:53:05 [SQL]_null_0.0.0.0_/008/v1/branch//Information/AllRegionsInformation?districtId=1
+SELECT regions.id,regions_name FROM 008v1.regions  LEFT JOIN 008v1.district ON regions.district_id = district.id  WHERE 1  AND regions.district_id in (7)     
+Dec 05 14:53:05 [SQL]_null_0.0.0.0_/008/v1/branch//Information/AllRegionsInformation?districtId=1
+SELECT regions.id,regions_name FROM 008v1.regions  LEFT JOIN 008v1.district ON regions.district_id = district.id  WHERE 1  AND regions.district_id in (8)     
+Dec 05 14:53:05 [SQL]_null_0.0.0.0_/008/v1/branch//Information/AllRegionsInformation?districtId=1
+SELECT regions.id,regions_name FROM 008v1.regions  LEFT JOIN 008v1.district ON regions.district_id = district.id  WHERE 1  AND regions.district_id in (9)     
+Dec 05 14:53:05 [SQL]_null_0.0.0.0_/008/v1/branch//Information/AllRegionsInformation?districtId=1
+SELECT regions.id,regions_name FROM 008v1.regions  LEFT JOIN 008v1.district ON regions.district_id = district.id  WHERE 1  AND regions.district_id in (10)     
+Dec 05 14:53:05 [SQL]_null_0.0.0.0_/008/v1/branch//Information/AllRegionsInformation?districtId=1
+SELECT regions.id,regions_name FROM 008v1.regions  LEFT JOIN 008v1.district ON regions.district_id = district.id  WHERE 1  AND regions.district_id in (11)     
+Dec 05 14:53:05 [SQL]_null_0.0.0.0_/008/v1/branch//Information/AllRegionsInformation?districtId=1
+SELECT regions.id,regions_name FROM 008v1.regions  LEFT JOIN 008v1.district ON regions.district_id = district.id  WHERE 1  AND regions.district_id in (12)     
+Dec 05 14:53:05 [SQL]_null_0.0.0.0_/008/v1/branch//Information/AllRegionsInformation?districtId=1
+SELECT regions.id,regions_name FROM 008v1.regions  LEFT JOIN 008v1.district ON regions.district_id = district.id  WHERE 1  AND regions.district_id in (13)     
+Dec 05 14:53:05 [SQL]_null_0.0.0.0_/008/v1/branch//Information/AllRegionsInformation?districtId=1
+SELECT regions.id,regions_name FROM 008v1.regions  LEFT JOIN 008v1.district ON regions.district_id = district.id  WHERE 1  AND regions.district_id in (14)     
+Dec 05 14:53:05 [SQL]_null_0.0.0.0_/008/v1/branch//Information/AllRegionsInformation?districtId=1
+SELECT regions.id,regions_name FROM 008v1.regions  LEFT JOIN 008v1.district ON regions.district_id = district.id  WHERE 1  AND regions.district_id in (15)     
+Dec 05 14:53:05 [SQL]_null_0.0.0.0_/008/v1/branch//Information/AllRegionsInformation?districtId=1
+SELECT regions.id,regions_name FROM 008v1.regions  LEFT JOIN 008v1.district ON regions.district_id = district.id  WHERE 1  AND regions.district_id in (16)     
+Dec 05 14:53:05 [SQL]_null_0.0.0.0_/008/v1/branch//Information/AllRegionsInformation?districtId=1
+SELECT regions.id,regions_name FROM 008v1.regions  LEFT JOIN 008v1.district ON regions.district_id = district.id  WHERE 1  AND regions.district_id in (17)     
+Dec 05 14:53:05 [SQL]_null_0.0.0.0_/008/v1/branch//Information/AllRegionsInformation?districtId=1
+SELECT regions.id,regions_name FROM 008v1.regions  LEFT JOIN 008v1.district ON regions.district_id = district.id  WHERE 1  AND regions.district_id in (18)     
+Dec 05 14:53:05 [RETURN]_null_0.0.0.0_/008/v1/branch//Information/AllRegionsInformation?districtId=1
+{"\u5362\u6e7e\u533a":[{"id":"185","regions_name":"\u6dee\u6d77\u8def"},{"id":"186","regions_name":"\u6253\u6d66\u6865"},{"id":"187","regions_name":"\u65b0\u5929\u5730"},{"id":"188","regions_name":"\u745e\u91d1\u5bbe\u9986\u533a"}],"\u5f90\u6c47\u533a":[{"id":"189","regions_name":"\u5f90\u5bb6\u6c47"},{"id":"190","regions_name":"\u4e07\u4f53\u9986"},{"id":"191","regions_name":"\u8861\u5c71\u8def"},{"id":"192","regions_name":"\u590d\u5174\u897f\u8def\/\u4e01\u9999\u82b1\u56ed"},{"id":"193","regions_name":"\u8087\u5609\u6d5c\u8def\u6cbf\u7ebf"},{"id":"194","regions_name":"\u97f3\u4e50\u5b66\u9662"},{"id":"195","regions_name":"\u9f99\u534e"},{"id":"196","regions_name":"\u6f15\u6cb3\u6cfe\/\u7530\u6797"},{"id":"197","regions_name":"\u4e0a\u6d77\u5357\u7ad9"}],"\u9759\u5b89\u533a":[{"id":"198","regions_name":"\u9759\u5b89\u5bfa"},{"id":"199","regions_name":"\u540c\u4e50\u574a"},{"id":"200","regions_name":"\u5357\u4eac\u897f\u8def"}],"\u957f\u5b81\u533a":[{"id":"201","regions_name":"\u8679\u6865"},{"id":"202","regions_name":"\u4e2d\u5c71\u516c\u56ed"},{"id":"203","regions_name":"\u4e0a\u6d77\u5f71\u57ce\/\u65b0\u534e\u8def"},{"id":"204","regions_name":"\u5929\u5c71"},{"id":"205","regions_name":"\u53e4\u5317"},{"id":"206","regions_name":"\u52a8\u7269\u56ed\/\u8679\u6865\u673a\u573a"},{"id":"207","regions_name":"\u5317\u65b0\u6cfe"}],"\u6d66\u4e1c\u65b0\u533a":[{"id":"208","regions_name":"\u4e0a\u5357\u5730\u533a"},{"id":"209","regions_name":"\u5916\u9ad8\u6865"},{"id":"210","regions_name":"\u91d1\u6865"},{"id":"211","regions_name":"\u6e90\u6df1\u4f53\u80b2\u4e2d\u5fc3"},{"id":"212","regions_name":"\u9646\u5bb6\u5634"},{"id":"213","regions_name":"\u516b\u4f70\u4f34"},{"id":"214","regions_name":"\u4e16\u7eaa\u516c\u56ed"},{"id":"215","regions_name":"\u5f20\u6c5f"},{"id":"216","regions_name":"\u5858\u6865"},{"id":"217","regions_name":"\u5ddd\u6c99"},{"id":"218","regions_name":"\u91d1\u6768\u5730\u533a"},{"id":"219","regions_name":"\u78a7\u4e91\u793e\u533a"},{"id":"220","regions_name":"\u4e09\u6797\u5730\u533a"},{"id":"221","regions_name":"\u60e0\u5357\u9547"},{"id":"222","regions_name":"\u5eb7\u6865\/\u5468\u6d66"},{"id":"223","regions_name":"\u4e1c\u660e"},{"id":"224","regions_name":"\u6d66\u4e1c\u673a\u573a"},{"id":"225","regions_name":"\u4e34\u6c82\/\u5357\u7801\u5934"}],"\u9ec4\u6d66\u533a":[{"id":"226","regions_name":"\u8463\u5bb6\u6e21"},{"id":"227","regions_name":"\u5916\u6ee9"},{"id":"228","regions_name":"\u8001\u897f\u95e8"},{"id":"229","regions_name":"\u57ce\u968d\u5e99"},{"id":"230","regions_name":"\u5357\u4eac\u4e1c\u8def"},{"id":"231","regions_name":"\u4eba\u6c11\u5e7f\u573a"}],"\u666e\u9640\u533a":[{"id":"232","regions_name":"\u66f9\u6768\u5730\u533a"},{"id":"233","regions_name":"\u957f\u98ce\u516c\u56ed\/\u534e\u5e08\u5927"},{"id":"234","regions_name":"\u4e2d\u5c71\u5317\u8def\/\u7518\u6cc9\u5730\u533a"},{"id":"235","regions_name":"\u6885\u5ddd\u8def"},{"id":"236","regions_name":"\u66f9\u5bb6\u6e21"},{"id":"237","regions_name":"\u957f\u5bff\u8def"},{"id":"238","regions_name":"\u771f\u5982"},{"id":"239","regions_name":"\u6b66\u5b81\u5730\u533a"},{"id":"240","regions_name":"\u6708\u661f\u73af\u7403\u6e2f"}],"\u95f8\u5317\u533a":[{"id":"241","regions_name":"\u5f6d\u6d66\u65b0\u6751"},{"id":"242","regions_name":"\u5927\u5b81\u5730\u533a"},{"id":"243","regions_name":"\u95f8\u5317\u516c\u56ed"},{"id":"244","regions_name":"\u706b\u8f66\u7ad9"},{"id":"245","regions_name":"\u5317\u533a\u6c7d\u8f66\u7ad9"}],"\u8679\u53e3\u533a":[{"id":"246","regions_name":"\u8679\u53e3\u8db3\u7403\u573a"},{"id":"247","regions_name":"\u66f2\u9633\u5730\u533a"},{"id":"248","regions_name":"\u6d77\u5b81\u8def\/\u4e03\u6d66\u8def"},{"id":"249","regions_name":"\u56db\u5ddd\u5317\u8def"},{"id":"250","regions_name":"\u5317\u5916\u6ee9"},{"id":"251","regions_name":"\u4e34\u5e73\u8def\/\u548c\u5e73\u516c\u56ed"},{"id":"252","regions_name":"\u51c9\u57ce\/\u6c5f\u6e7e\u9547"}],"\u6768\u6d66\u533a":[{"id":"253","regions_name":"\u63a7\u6c5f\u5730\u533a"},{"id":"254","regions_name":"\u4e94\u89d2\u573a\/\u5927\u5b66\u533a"},{"id":"255","regions_name":"\u5e73\u51c9\u8def"},{"id":"256","regions_name":"\u9ec4\u5174\u516c\u56ed"},{"id":"257","regions_name":"\u4e2d\u539f\u5730\u533a"},{"id":"258","regions_name":"\u978d\u5c71\u65b0\u6751"}],"\u95f5\u884c\u533a":[{"id":"259","regions_name":"\u6625\u7533\u5730\u533a"},{"id":"260","regions_name":"\u5357\u65b9\u5546\u57ce"},{"id":"261","regions_name":"\u8398\u5e84"},{"id":"262","regions_name":"\u4e03\u5b9d"},{"id":"263","regions_name":"\u4e07\u6e90\u57ce\/\u4e1c\u5170\u8def"},{"id":"264","regions_name":"\u8001\u95f5\u884c"},{"id":"265","regions_name":"\u8679\u6865\u9547"},{"id":"266","regions_name":"\u8679\u6885\u8def"},{"id":"267","regions_name":"\u9f99\u67cf\u5730\u533a"},{"id":"268","regions_name":"\u6d66\u6c5f\u9547"}],"\u5b9d\u5c71\u533a":[{"id":"269","regions_name":"\u5927\u534e\u5730\u533a"},{"id":"270","regions_name":"\u5e99\u884c\/\u5171\u5eb7"},{"id":"271","regions_name":"\u6dde\u6ee8\u5730\u533a"},{"id":"272","regions_name":"\u4e0a\u6d77\u5927\u5b66"},{"id":"273","regions_name":"\u6768\u884c"},{"id":"274","regions_name":"\u9ad8\u5883"},{"id":"275","regions_name":"\u6dde\u5357"},{"id":"276","regions_name":"\u6708\u6d66"},{"id":"277","regions_name":"\u5b9d\u5c71\u57ce\u533a"},{"id":"278","regions_name":"\u901a\u6cb3\/\u6cd7\u5858"},{"id":"279","regions_name":"\u987e\u6751\u516c\u56ed"},{"id":"280","regions_name":"\u7f8e\u5170\u6e56"}],"\u677e\u6c5f\u533a":[{"id":"281","regions_name":"\u677e\u6c5f\u9547"},{"id":"282","regions_name":"\u677e\u6c5f\u5927\u5b66\u57ce"},{"id":"283","regions_name":"\u4f58\u5c71"},{"id":"284","regions_name":"\u4e5d\u4ead"},{"id":"285","regions_name":"\u6cd7\u6cfe"}],"\u5609\u5b9a\u533a":[{"id":"286","regions_name":"\u6c5f\u6865"},{"id":"287","regions_name":"\u5357\u7fd4"},{"id":"288","regions_name":"\u5b89\u4ead"},{"id":"289","regions_name":"\u5609\u5b9a\u9547"}],"\u9752\u6d66\u533a":[{"id":"290","regions_name":"\u6731\u5bb6\u89d2"},{"id":"291","regions_name":"\u9752\u6d66\u9547"}],"\u91d1\u5c71\u533a":[{"id":"292","regions_name":"\u91d1\u5c71\u536b"}],"\u5949\u8d24\u533a":[{"id":"293","regions_name":"\u5357\u6865"},{"id":"294","regions_name":"\u897f\u6e21"}],"\u5d07\u660e\u53bf":[{"id":"295","regions_name":"\u4e1c\u6ee9\/\u524d\u54e8\u519c\u573a"},{"id":"296","regions_name":"\u5357\u95e8"}]}
+Dec 05 14:55:10 [VISIT]_information_getRegionsInformationWithDistrictId_0.0.0.0_/008/v1/branch//Information/getRegionsInformationWithDistrictId?districtId=1
+{"districtId":"1"}
+Dec 05 14:55:11 [SQL]_null_0.0.0.0_/008/v1/branch//Information/getRegionsInformationWithDistrictId?districtId=1
+SELECT * FROM 008v1.regions  LEFT JOIN 008v1.district ON regions.district_id = district.id  WHERE 1  AND regions.district_id in (1)     
+Dec 05 14:55:11 [RETURN]_null_0.0.0.0_/008/v1/branch//Information/getRegionsInformationWithDistrictId?districtId=1
+{"Regions":[{"id":"1","regions_name":"\u6dee\u6d77\u8def"},{"id":"1","regions_name":"\u6253\u6d66\u6865"},{"id":"1","regions_name":"\u65b0\u5929\u5730"},{"id":"1","regions_name":"\u745e\u91d1\u5bbe\u9986\u533a"}]}
+Dec 05 14:56:49 [VISIT]_information_getRegionsInformationWithDistrictId_0.0.0.0_/008/v1/branch/Information/getRegionsInformationWithDistrictId
+[]
+Dec 05 14:56:49 [RETURN]_null_0.0.0.0_/008/v1/branch/Information/getRegionsInformationWithDistrictId
+{"error":{"error_status":"200001","status_info":null}}
+Dec 05 14:56:58 [VISIT]_information_getRegionsInformationWithDistrictId？districtId=1_0.0.0.0_/008/v1/branch/Information/getRegionsInformationWithDistrictId%EF%BC%9FdistrictId=1
+""
+Dec 05 14:57:06 [VISIT]_information_getRegionsInformationWithDistrictId_0.0.0.0_/008/v1/branch/Information/getRegionsInformationWithDistrictId?districtId=1
+{"districtId":"1"}
+Dec 05 14:57:07 [SQL]_null_0.0.0.0_/008/v1/branch/Information/getRegionsInformationWithDistrictId?districtId=1
+SELECT * FROM 008v1.regions  LEFT JOIN 008v1.district ON regions.district_id = district.id  WHERE 1  AND regions.district_id in (1)     
+Dec 05 14:57:55 [VISIT]_information_getRegionsInformationWithDistrictId_0.0.0.0_/008/v1/branch/Information/getRegionsInformationWithDistrictId?districtId=1
+{"districtId":"1"}
+Dec 05 14:57:56 [SQL]_null_0.0.0.0_/008/v1/branch/Information/getRegionsInformationWithDistrictId?districtId=1
+SELECT regions.id,regions_name,district_name,district_id FROM 008v1.regions  LEFT JOIN 008v1.district ON regions.district_id = district.id  WHERE 1  AND regions.district_id in (1)     
+Dec 05 14:58:05 [VISIT]_information_getRegionsInformationWithDistrictId_0.0.0.0_/008/v1/branch//Information/getRegionsInformationWithDistrictId?districtId=1
+{"districtId":"1"}
+Dec 05 14:58:06 [SQL]_null_0.0.0.0_/008/v1/branch//Information/getRegionsInformationWithDistrictId?districtId=1
+SELECT regions.id,regions_name,district_name,district_id FROM 008v1.regions  LEFT JOIN 008v1.district ON regions.district_id = district.id  WHERE 1  AND regions.district_id in (1)     
+Dec 05 14:58:29 [VISIT]_information_getRegionsInformationWithDistrictId_0.0.0.0_/008/v1/branch//Information/getRegionsInformationWithDistrictId?districtId=1
+{"districtId":"1"}
+Dec 05 14:58:30 [SQL]_null_0.0.0.0_/008/v1/branch//Information/getRegionsInformationWithDistrictId?districtId=1
+SELECT regions.id,regions_name,district_name,district_id FROM 008v1.regions  LEFT JOIN 008v1.district ON regions.district_id = district.id  WHERE 1  AND regions.district_id in (1)     
+Dec 05 14:58:30 [RETURN]_null_0.0.0.0_/008/v1/branch//Information/getRegionsInformationWithDistrictId?districtId=1
+{"Regions":[{"id":"185","regions_name":"\u6dee\u6d77\u8def"},{"id":"186","regions_name":"\u6253\u6d66\u6865"},{"id":"187","regions_name":"\u65b0\u5929\u5730"},{"id":"188","regions_name":"\u745e\u91d1\u5bbe\u9986\u533a"}]}

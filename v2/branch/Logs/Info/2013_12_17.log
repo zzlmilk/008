@@ -1,0 +1,512 @@
+Dec 17 15:33:33 [VISIT]_information_AllDistrictInformation_0.0.0.0_/008/v2/branch/Information/AllDistrictInformation
+""
+Dec 17 15:33:34 [SQL]_null_0.0.0.0_/008/v2/branch/Information/AllDistrictInformation
+SELECT * FROM 008v1.district  WHERE 1      
+Dec 17 15:33:34 [RETURN]_null_0.0.0.0_/008/v2/branch/Information/AllDistrictInformation
+[{"id":"1","district_name":"\u5362\u6e7e\u533a"},{"id":"2","district_name":"\u5f90\u6c47\u533a"},{"id":"3","district_name":"\u9759\u5b89\u533a"},{"id":"4","district_name":"\u957f\u5b81\u533a"},{"id":"5","district_name":"\u6d66\u4e1c\u65b0\u533a"},{"id":"6","district_name":"\u9ec4\u6d66\u533a"},{"id":"7","district_name":"\u666e\u9640\u533a"},{"id":"8","district_name":"\u95f8\u5317\u533a"},{"id":"9","district_name":"\u8679\u53e3\u533a"},{"id":"10","district_name":"\u6768\u6d66\u533a"},{"id":"11","district_name":"\u95f5\u884c\u533a"},{"id":"12","district_name":"\u5b9d\u5c71\u533a"},{"id":"13","district_name":"\u677e\u6c5f\u533a"},{"id":"14","district_name":"\u5609\u5b9a\u533a"},{"id":"15","district_name":"\u9752\u6d66\u533a"},{"id":"16","district_name":"\u91d1\u5c71\u533a"},{"id":"17","district_name":"\u5949\u8d24\u533a"},{"id":"18","district_name":"\u5d07\u660e\u53bf"}]
+Dec 17 15:34:06 [VISIT]_favorite_getUserFavorite_0.0.0.0_/008/v2/branch/Favorite/getUserFavorite
+""
+Dec 17 15:34:35 [VISIT]_favorite_getUserFavorite_0.0.0.0_/008/v2/branch/Favorite/getUserFavorite
+""
+Dec 17 15:35:52 [VISIT]_favorite_getUserFavorite_0.0.0.0_/008/v2/branch/Favorite/getUserFavorite
+""
+Dec 17 15:36:02 [VISIT]_favorite_getUserFavorite_0.0.0.0_/008/v2/branch/Favorite/getUserFavorite
+""
+Dec 17 15:36:45 [VISIT]_favorite_getUserFavorite_0.0.0.0_/008/v2/branch/Favorite/getUserFavorite
+""
+Dec 17 15:36:58 [VISIT]_favorite_getUserFavorite_0.0.0.0_/008/v2/branch/Favorite/getUserFavorite
+""
+Dec 17 15:37:25 [VISIT]_favorite_getUserFavorite_0.0.0.0_/008/v2/branch/Favorite/getUserFavorite
+""
+Dec 17 15:39:25 [VISIT]_favorite_getUserFavorite_0.0.0.0_/008/v2/branch/Favorite/getUserFavorite
+""
+Dec 17 15:41:06 [VISIT]_favorite_getUserFavorite_0.0.0.0_/008/v2/branch/Favorite/getUserFavorite
+""
+Dec 17 15:41:07 [SQL]_null_0.0.0.0_/008/v2/branch/Favorite/getUserFavorite
+SELECT * FROM 008v1.user_favorite  WHERE 1  AND user_id in (80)     
+Dec 17 16:02:37 [VISIT]_favorite_getUserFavorite_0.0.0.0_/008/v2/branch/Favorite/getUserFavorite
+""
+Dec 17 16:02:39 [SQL]_null_0.0.0.0_/008/v2/branch/Favorite/getUserFavorite
+SELECT * FROM 008v1.user_favorite  WHERE 1  AND user_id in (80)     
+Dec 17 16:02:39 [SQL]_null_0.0.0.0_/008/v2/branch/Favorite/getUserFavorite
+SELECT * FROM 008v1.plan  WHERE 1  AND id = '1'      
+Dec 17 16:04:08 [VISIT]_favorite_getUserFavorite_0.0.0.0_/008/v2/branch/Favorite/getUserFavorite
+""
+Dec 17 16:04:18 [SQL]_null_0.0.0.0_/008/v2/branch/Favorite/getUserFavorite
+SELECT * FROM 008v1.user_favorite  WHERE 1  AND user_id in (80)     
+Dec 17 16:04:34 [SQL]_null_0.0.0.0_/008/v2/branch/Favorite/getUserFavorite
+SELECT * FROM 008v1.plan  WHERE 1  AND id = '1'      
+Dec 17 16:04:58 [VISIT]_favorite_getUserFavorite_0.0.0.0_/008/v2/branch/Favorite/getUserFavorite
+""
+Dec 17 16:05:04 [SQL]_null_0.0.0.0_/008/v2/branch/Favorite/getUserFavorite
+SELECT * FROM 008v1.user_favorite  WHERE 1  AND user_id in (80)     
+Dec 17 16:05:07 [SQL]_null_0.0.0.0_/008/v2/branch/Favorite/getUserFavorite
+SELECT * FROM 008v1.plan  WHERE 1  AND id = '1'      
+Dec 17 16:05:59 [VISIT]_favorite_getUserFavorite_0.0.0.0_/008/v2/branch/Favorite/getUserFavorite
+""
+Dec 17 16:06:00 [SQL]_null_0.0.0.0_/008/v2/branch/Favorite/getUserFavorite
+SELECT * FROM 008v1.user_favorite  WHERE 1  AND user_id in (80)     
+Dec 17 16:06:00 [SQL]_null_0.0.0.0_/008/v2/branch/Favorite/getUserFavorite
+SELECT * FROM 008v1.plan  WHERE 1  AND id = '1'      
+Dec 17 16:06:09 [VISIT]_favorite_getUserFavorite_0.0.0.0_/008/v2/branch/Favorite/getUserFavorite
+""
+Dec 17 16:06:10 [SQL]_null_0.0.0.0_/008/v2/branch/Favorite/getUserFavorite
+SELECT * FROM 008v1.user_favorite  WHERE 1  AND user_id in (80)     
+Dec 17 16:06:10 [SQL]_null_0.0.0.0_/008/v2/branch/Favorite/getUserFavorite
+SELECT * FROM 008v1.plan  WHERE 1  AND id = '1'      
+Dec 17 16:08:07 [VISIT]_favorite_getUserFavorite_0.0.0.0_/008/v2/branch/Favorite/getUserFavorite
+""
+Dec 17 16:08:08 [SQL]_null_0.0.0.0_/008/v2/branch/Favorite/getUserFavorite
+SELECT * FROM 008v1.user_favorite  WHERE 1  AND user_id in (80)     
+Dec 17 16:08:08 [SQL]_null_0.0.0.0_/008/v2/branch/Favorite/getUserFavorite
+SELECT * FROM 008v1.plan  WHERE 1  AND id = '1'      
+Dec 17 16:08:08 [SQL]_null_0.0.0.0_/008/v2/branch/Favorite/getUserFavorite
+SELECT * FROM 008v1.tags  WHERE 1  AND id in (5,7)     
+Dec 17 16:08:08 [SQL]_null_0.0.0.0_/008/v2/branch/Favorite/getUserFavorite
+SELECT * FROM 008v1.plan_business  WHERE 1  AND id in (2)     
+Dec 17 16:08:08 [SQL]_null_0.0.0.0_/008/v2/branch/Favorite/getUserFavorite
+SELECT * FROM 008v1.regions  LEFT JOIN 008v1.district ON regions.district_id = district.id  WHERE 1  AND regions.id in (185)     
+Dec 17 16:08:08 [SQL]_null_0.0.0.0_/008/v2/branch/Favorite/getUserFavorite
+SELECT * FROM 008v1.plan_business  WHERE 1  AND id in (3)     
+Dec 17 16:08:08 [SQL]_null_0.0.0.0_/008/v2/branch/Favorite/getUserFavorite
+SELECT * FROM 008v1.regions  LEFT JOIN 008v1.district ON regions.district_id = district.id  WHERE 1  AND regions.id in (185)     
+Dec 17 16:08:08 [SQL]_null_0.0.0.0_/008/v2/branch/Favorite/getUserFavorite
+SELECT * FROM 008v1.plan_business  WHERE 1  AND id in (4)     
+Dec 17 16:08:08 [SQL]_null_0.0.0.0_/008/v2/branch/Favorite/getUserFavorite
+SELECT * FROM 008v1.regions  LEFT JOIN 008v1.district ON regions.district_id = district.id  WHERE 1  AND regions.id in (185)     
+Dec 17 16:08:08 [RETURN]_null_0.0.0.0_/008/v2/branch/Favorite/getUserFavorite
+{"id":"1","state_1":"2","state_2":"3","state_3":"4","state_type":["\u653e\u677e","\u9ad8\u901f"],"avg_consume":"99","rank_score":"398","regions":"185","characteristic":"\u545c\u545c\u545c\u545c145613","is_auto_create":"1","Business":[{"id":"2","business_id":"3205237","name":"\u4e0a\u6d77*****","branch_name":"\u9f99\u4e4b\u68a6\u5e97","address":"**\u533a*\u8def*\u5f04*\u53f7(\u6d4b\u8bd5\u6570\u636e\uff0c\u7528\u4e8e\u5f00\u53d1\u6d4b\u8bd5\uff0c\u5f00\u53d1\u5b8c\u6210\u540e\u8bf7\u7533\u8bf7\u6b63\u5f0f\u6570\u636e)","telephone":"021-********","regions":{"regions_name":"\u6dee\u6d77\u8def","district_name":"\u5362\u6e7e\u533a"},"longitude":null,"latitude":null,"product_grade":"3","decoration_grade":"4","service_grade":"3","avg_rating":"4","avg_price":"113","state_time":"","rank_score":"484","business_url":"http:\/\/dpurl.cn\/p\/pMo6k7csCA","review_count":"1702","has_deal":"1"},{"id":"3","business_id":"2396689","name":"\u96cd\u5ef7","branch_name":"\u8679\u6865\u5e97","address":"**\u533a*\u8def*\u5f04*\u53f7(\u6d4b\u8bd5\u6570\u636e\uff0c\u7528\u4e8e\u5f00\u53d1\u6d4b\u8bd5\uff0c\u5f00\u53d1\u5b8c\u6210\u540e\u8bf7\u7533\u8bf7\u6b63\u5f0f\u6570\u636e)","telephone":"021-********","regions":{"regions_name":"\u6dee\u6d77\u8def","district_name":"\u5362\u6e7e\u533a"},"longitude":null,"latitude":null,"product_grade":"3","decoration_grade":"3","service_grade":"3","avg_rating":"4","avg_price":"88","state_time":"","rank_score":"251","business_url":"http:\/\/dpurl.cn\/p\/ItR5GsnFC4","review_count":"926","has_deal":"1"},{"id":"4","business_id":"2371969","name":"\u8fc7\u95e8*","branch_name":"","address":"**\u533a*\u8def*\u5f04*\u53f7(\u6d4b\u8bd5\u6570\u636e\uff0c\u7528\u4e8e\u5f00\u53d1\u6d4b\u8bd5\uff0c\u5f00\u53d1\u5b8c\u6210\u540e\u8bf7\u7533\u8bf7\u6b63\u5f0f\u6570\u636e)","telephone":"021-********","regions":{"regions_name":"\u6dee\u6d77\u8def","district_name":"\u5362\u6e7e\u533a"},"longitude":null,"latitude":null,"product_grade":"3","decoration_grade":"3","service_grade":"3","avg_rating":"4","avg_price":"96","state_time":"","rank_score":"460","business_url":"http:\/\/dpurl.cn\/p\/kor17FTpFZ","review_count":"1621","has_deal":"1"}]}
+Dec 17 16:12:36 [VISIT]_favorite_getUserFavorite_0.0.0.0_/008/v2/branch/Favorite/getUserFavorite
+""
+Dec 17 16:12:37 [SQL]_null_0.0.0.0_/008/v2/branch/Favorite/getUserFavorite
+SELECT * FROM 008v1.user_favorite  WHERE 1  AND user_id in (80)     
+Dec 17 16:12:37 [SQL]_null_0.0.0.0_/008/v2/branch/Favorite/getUserFavorite
+SELECT * FROM 008v1.plan  WHERE 1  AND id = '1'      
+Dec 17 16:12:37 [SQL]_null_0.0.0.0_/008/v2/branch/Favorite/getUserFavorite
+SELECT * FROM 008v1.tags  WHERE 1  AND id in (5,7)     
+Dec 17 16:12:37 [SQL]_null_0.0.0.0_/008/v2/branch/Favorite/getUserFavorite
+SELECT * FROM 008v1.plan_business  WHERE 1  AND id in (2)     
+Dec 17 16:12:37 [SQL]_null_0.0.0.0_/008/v2/branch/Favorite/getUserFavorite
+SELECT * FROM 008v1.regions  LEFT JOIN 008v1.district ON regions.district_id = district.id  WHERE 1  AND regions.id in (185)     
+Dec 17 16:12:37 [SQL]_null_0.0.0.0_/008/v2/branch/Favorite/getUserFavorite
+SELECT * FROM 008v1.plan_business  WHERE 1  AND id in (3)     
+Dec 17 16:12:37 [SQL]_null_0.0.0.0_/008/v2/branch/Favorite/getUserFavorite
+SELECT * FROM 008v1.regions  LEFT JOIN 008v1.district ON regions.district_id = district.id  WHERE 1  AND regions.id in (185)     
+Dec 17 16:12:37 [SQL]_null_0.0.0.0_/008/v2/branch/Favorite/getUserFavorite
+SELECT * FROM 008v1.plan_business  WHERE 1  AND id in (4)     
+Dec 17 16:12:37 [SQL]_null_0.0.0.0_/008/v2/branch/Favorite/getUserFavorite
+SELECT * FROM 008v1.regions  LEFT JOIN 008v1.district ON regions.district_id = district.id  WHERE 1  AND regions.id in (185)     
+Dec 17 16:12:37 [RETURN]_null_0.0.0.0_/008/v2/branch/Favorite/getUserFavorite
+{"id":"1","state_1":"2","state_2":"3","state_3":"4","state_type":["\u653e\u677e","\u9ad8\u901f"],"avg_consume":"99","rank_score":"398","regions":"185","characteristic":"\u545c\u545c\u545c\u545c145613","is_auto_create":"1","Business":[{"id":"2","business_id":"3205237","name":"\u4e0a\u6d77*****","branch_name":"\u9f99\u4e4b\u68a6\u5e97","address":"**\u533a*\u8def*\u5f04*\u53f7(\u6d4b\u8bd5\u6570\u636e\uff0c\u7528\u4e8e\u5f00\u53d1\u6d4b\u8bd5\uff0c\u5f00\u53d1\u5b8c\u6210\u540e\u8bf7\u7533\u8bf7\u6b63\u5f0f\u6570\u636e)","telephone":"021-********","regions":{"regions_name":"\u6dee\u6d77\u8def","district_name":"\u5362\u6e7e\u533a"},"longitude":null,"latitude":null,"product_grade":"3","decoration_grade":"4","service_grade":"3","avg_rating":"4","avg_price":"113","state_time":"","rank_score":"484","business_url":"http:\/\/dpurl.cn\/p\/pMo6k7csCA","review_count":"1702","has_deal":"1"},{"id":"3","business_id":"2396689","name":"\u96cd\u5ef7","branch_name":"\u8679\u6865\u5e97","address":"**\u533a*\u8def*\u5f04*\u53f7(\u6d4b\u8bd5\u6570\u636e\uff0c\u7528\u4e8e\u5f00\u53d1\u6d4b\u8bd5\uff0c\u5f00\u53d1\u5b8c\u6210\u540e\u8bf7\u7533\u8bf7\u6b63\u5f0f\u6570\u636e)","telephone":"021-********","regions":{"regions_name":"\u6dee\u6d77\u8def","district_name":"\u5362\u6e7e\u533a"},"longitude":null,"latitude":null,"product_grade":"3","decoration_grade":"3","service_grade":"3","avg_rating":"4","avg_price":"88","state_time":"","rank_score":"251","business_url":"http:\/\/dpurl.cn\/p\/ItR5GsnFC4","review_count":"926","has_deal":"1"},{"id":"4","business_id":"2371969","name":"\u8fc7\u95e8*","branch_name":"","address":"**\u533a*\u8def*\u5f04*\u53f7(\u6d4b\u8bd5\u6570\u636e\uff0c\u7528\u4e8e\u5f00\u53d1\u6d4b\u8bd5\uff0c\u5f00\u53d1\u5b8c\u6210\u540e\u8bf7\u7533\u8bf7\u6b63\u5f0f\u6570\u636e)","telephone":"021-********","regions":{"regions_name":"\u6dee\u6d77\u8def","district_name":"\u5362\u6e7e\u533a"},"longitude":null,"latitude":null,"product_grade":"3","decoration_grade":"3","service_grade":"3","avg_rating":"4","avg_price":"96","state_time":"","rank_score":"460","business_url":"http:\/\/dpurl.cn\/p\/kor17FTpFZ","review_count":"1621","has_deal":"1"}]}
+Dec 17 16:12:45 [VISIT]_favorite_getUserFavorite_0.0.0.0_/008/v2/branch/Favorite/getUserFavorite
+""
+Dec 17 16:12:46 [SQL]_null_0.0.0.0_/008/v2/branch/Favorite/getUserFavorite
+SELECT * FROM 008v1.user_favorite  WHERE 1  AND user_id in (80)     
+Dec 17 16:12:46 [SQL]_null_0.0.0.0_/008/v2/branch/Favorite/getUserFavorite
+SELECT * FROM 008v1.plan  WHERE 1  AND id = '1'      
+Dec 17 16:12:46 [SQL]_null_0.0.0.0_/008/v2/branch/Favorite/getUserFavorite
+SELECT * FROM 008v1.tags  WHERE 1  AND id in (5,7)     
+Dec 17 16:12:46 [SQL]_null_0.0.0.0_/008/v2/branch/Favorite/getUserFavorite
+SELECT * FROM 008v1.plan_business  WHERE 1  AND id in (2)     
+Dec 17 16:12:46 [SQL]_null_0.0.0.0_/008/v2/branch/Favorite/getUserFavorite
+SELECT * FROM 008v1.regions  LEFT JOIN 008v1.district ON regions.district_id = district.id  WHERE 1  AND regions.id in (185)     
+Dec 17 16:12:46 [SQL]_null_0.0.0.0_/008/v2/branch/Favorite/getUserFavorite
+SELECT * FROM 008v1.plan_business  WHERE 1  AND id in (3)     
+Dec 17 16:12:46 [SQL]_null_0.0.0.0_/008/v2/branch/Favorite/getUserFavorite
+SELECT * FROM 008v1.regions  LEFT JOIN 008v1.district ON regions.district_id = district.id  WHERE 1  AND regions.id in (185)     
+Dec 17 16:12:46 [SQL]_null_0.0.0.0_/008/v2/branch/Favorite/getUserFavorite
+SELECT * FROM 008v1.plan_business  WHERE 1  AND id in (4)     
+Dec 17 16:12:46 [SQL]_null_0.0.0.0_/008/v2/branch/Favorite/getUserFavorite
+SELECT * FROM 008v1.regions  LEFT JOIN 008v1.district ON regions.district_id = district.id  WHERE 1  AND regions.id in (185)     
+Dec 17 16:12:46 [RETURN]_null_0.0.0.0_/008/v2/branch/Favorite/getUserFavorite
+{"id":"1","state_1":"2","state_2":"3","state_3":"4","state_type":["\u653e\u677e","\u9ad8\u901f"],"avg_consume":"99","rank_score":"398","regions":"185","characteristic":"\u545c\u545c\u545c\u545c145613","is_auto_create":"1","Business":[{"id":"2","business_id":"3205237","name":"\u4e0a\u6d77*****","branch_name":"\u9f99\u4e4b\u68a6\u5e97","address":"**\u533a*\u8def*\u5f04*\u53f7(\u6d4b\u8bd5\u6570\u636e\uff0c\u7528\u4e8e\u5f00\u53d1\u6d4b\u8bd5\uff0c\u5f00\u53d1\u5b8c\u6210\u540e\u8bf7\u7533\u8bf7\u6b63\u5f0f\u6570\u636e)","telephone":"021-********","regions":{"regions_name":"\u6dee\u6d77\u8def","district_name":"\u5362\u6e7e\u533a"},"longitude":null,"latitude":null,"product_grade":"3","decoration_grade":"4","service_grade":"3","avg_rating":"4","avg_price":"113","state_time":"","rank_score":"484","business_url":"http:\/\/dpurl.cn\/p\/pMo6k7csCA","review_count":"1702","has_deal":"1"},{"id":"3","business_id":"2396689","name":"\u96cd\u5ef7","branch_name":"\u8679\u6865\u5e97","address":"**\u533a*\u8def*\u5f04*\u53f7(\u6d4b\u8bd5\u6570\u636e\uff0c\u7528\u4e8e\u5f00\u53d1\u6d4b\u8bd5\uff0c\u5f00\u53d1\u5b8c\u6210\u540e\u8bf7\u7533\u8bf7\u6b63\u5f0f\u6570\u636e)","telephone":"021-********","regions":{"regions_name":"\u6dee\u6d77\u8def","district_name":"\u5362\u6e7e\u533a"},"longitude":null,"latitude":null,"product_grade":"3","decoration_grade":"3","service_grade":"3","avg_rating":"4","avg_price":"88","state_time":"","rank_score":"251","business_url":"http:\/\/dpurl.cn\/p\/ItR5GsnFC4","review_count":"926","has_deal":"1"},{"id":"4","business_id":"2371969","name":"\u8fc7\u95e8*","branch_name":"","address":"**\u533a*\u8def*\u5f04*\u53f7(\u6d4b\u8bd5\u6570\u636e\uff0c\u7528\u4e8e\u5f00\u53d1\u6d4b\u8bd5\uff0c\u5f00\u53d1\u5b8c\u6210\u540e\u8bf7\u7533\u8bf7\u6b63\u5f0f\u6570\u636e)","telephone":"021-********","regions":{"regions_name":"\u6dee\u6d77\u8def","district_name":"\u5362\u6e7e\u533a"},"longitude":null,"latitude":null,"product_grade":"3","decoration_grade":"3","service_grade":"3","avg_rating":"4","avg_price":"96","state_time":"","rank_score":"460","business_url":"http:\/\/dpurl.cn\/p\/kor17FTpFZ","review_count":"1621","has_deal":"1"}]}
+Dec 17 16:13:29 [VISIT]_favorite_getUserFavorite_0.0.0.0_/008/v2/branch/Favorite/getUserFavorite
+""
+Dec 17 16:13:34 [SQL]_null_0.0.0.0_/008/v2/branch/Favorite/getUserFavorite
+SELECT * FROM 008v1.user_favorite  WHERE 1  AND user_id in (80)     
+Dec 17 16:13:41 [SQL]_null_0.0.0.0_/008/v2/branch/Favorite/getUserFavorite
+SELECT * FROM 008v1.plan  WHERE 1  AND id = '1'      
+Dec 17 16:13:41 [SQL]_null_0.0.0.0_/008/v2/branch/Favorite/getUserFavorite
+SELECT * FROM 008v1.tags  WHERE 1  AND id in (5,7)     
+Dec 17 16:13:41 [SQL]_null_0.0.0.0_/008/v2/branch/Favorite/getUserFavorite
+SELECT * FROM 008v1.plan_business  WHERE 1  AND id in (2)     
+Dec 17 16:13:41 [SQL]_null_0.0.0.0_/008/v2/branch/Favorite/getUserFavorite
+SELECT * FROM 008v1.regions  LEFT JOIN 008v1.district ON regions.district_id = district.id  WHERE 1  AND regions.id in (185)     
+Dec 17 16:13:41 [SQL]_null_0.0.0.0_/008/v2/branch/Favorite/getUserFavorite
+SELECT * FROM 008v1.plan_business  WHERE 1  AND id in (3)     
+Dec 17 16:13:41 [SQL]_null_0.0.0.0_/008/v2/branch/Favorite/getUserFavorite
+SELECT * FROM 008v1.regions  LEFT JOIN 008v1.district ON regions.district_id = district.id  WHERE 1  AND regions.id in (185)     
+Dec 17 16:13:41 [SQL]_null_0.0.0.0_/008/v2/branch/Favorite/getUserFavorite
+SELECT * FROM 008v1.plan_business  WHERE 1  AND id in (4)     
+Dec 17 16:13:41 [SQL]_null_0.0.0.0_/008/v2/branch/Favorite/getUserFavorite
+SELECT * FROM 008v1.regions  LEFT JOIN 008v1.district ON regions.district_id = district.id  WHERE 1  AND regions.id in (185)     
+Dec 17 16:13:41 [RETURN]_null_0.0.0.0_/008/v2/branch/Favorite/getUserFavorite
+{"id":"1","state_1":"2","state_2":"3","state_3":"4","state_type":["\u653e\u677e","\u9ad8\u901f"],"avg_consume":"99","rank_score":"398","regions":"185","characteristic":"\u545c\u545c\u545c\u545c145613","is_auto_create":"1","Business":[{"id":"2","business_id":"3205237","name":"\u4e0a\u6d77*****","branch_name":"\u9f99\u4e4b\u68a6\u5e97","address":"**\u533a*\u8def*\u5f04*\u53f7(\u6d4b\u8bd5\u6570\u636e\uff0c\u7528\u4e8e\u5f00\u53d1\u6d4b\u8bd5\uff0c\u5f00\u53d1\u5b8c\u6210\u540e\u8bf7\u7533\u8bf7\u6b63\u5f0f\u6570\u636e)","telephone":"021-********","regions":{"regions_name":"\u6dee\u6d77\u8def","district_name":"\u5362\u6e7e\u533a"},"longitude":null,"latitude":null,"product_grade":"3","decoration_grade":"4","service_grade":"3","avg_rating":"4","avg_price":"113","state_time":"","rank_score":"484","business_url":"http:\/\/dpurl.cn\/p\/pMo6k7csCA","review_count":"1702","has_deal":"1"},{"id":"3","business_id":"2396689","name":"\u96cd\u5ef7","branch_name":"\u8679\u6865\u5e97","address":"**\u533a*\u8def*\u5f04*\u53f7(\u6d4b\u8bd5\u6570\u636e\uff0c\u7528\u4e8e\u5f00\u53d1\u6d4b\u8bd5\uff0c\u5f00\u53d1\u5b8c\u6210\u540e\u8bf7\u7533\u8bf7\u6b63\u5f0f\u6570\u636e)","telephone":"021-********","regions":{"regions_name":"\u6dee\u6d77\u8def","district_name":"\u5362\u6e7e\u533a"},"longitude":null,"latitude":null,"product_grade":"3","decoration_grade":"3","service_grade":"3","avg_rating":"4","avg_price":"88","state_time":"","rank_score":"251","business_url":"http:\/\/dpurl.cn\/p\/ItR5GsnFC4","review_count":"926","has_deal":"1"},{"id":"4","business_id":"2371969","name":"\u8fc7\u95e8*","branch_name":"","address":"**\u533a*\u8def*\u5f04*\u53f7(\u6d4b\u8bd5\u6570\u636e\uff0c\u7528\u4e8e\u5f00\u53d1\u6d4b\u8bd5\uff0c\u5f00\u53d1\u5b8c\u6210\u540e\u8bf7\u7533\u8bf7\u6b63\u5f0f\u6570\u636e)","telephone":"021-********","regions":{"regions_name":"\u6dee\u6d77\u8def","district_name":"\u5362\u6e7e\u533a"},"longitude":null,"latitude":null,"product_grade":"3","decoration_grade":"3","service_grade":"3","avg_rating":"4","avg_price":"96","state_time":"","rank_score":"460","business_url":"http:\/\/dpurl.cn\/p\/kor17FTpFZ","review_count":"1621","has_deal":"1"}]}
+Dec 17 16:16:34 [VISIT]_favorite_getUserFavorite_0.0.0.0_/008/v2/branch/Favorite/getUserFavorite
+""
+Dec 17 16:16:41 [SQL]_null_0.0.0.0_/008/v2/branch/Favorite/getUserFavorite
+SELECT * FROM 008v1.user_favorite  WHERE 1  AND user_id in (80)     
+Dec 17 16:16:46 [SQL]_null_0.0.0.0_/008/v2/branch/Favorite/getUserFavorite
+SELECT * FROM 008v1.plan  WHERE 1  AND id = '1'      
+Dec 17 16:16:55 [SQL]_null_0.0.0.0_/008/v2/branch/Favorite/getUserFavorite
+SELECT * FROM 008v1.tags  WHERE 1  AND id in (5,7)     
+Dec 17 16:17:08 [SQL]_null_0.0.0.0_/008/v2/branch/Favorite/getUserFavorite
+SELECT * FROM 008v1.plan_business  WHERE 1  AND id in (2)     
+Dec 17 16:17:08 [SQL]_null_0.0.0.0_/008/v2/branch/Favorite/getUserFavorite
+SELECT * FROM 008v1.regions  LEFT JOIN 008v1.district ON regions.district_id = district.id  WHERE 1  AND regions.id in (185)     
+Dec 17 16:17:11 [SQL]_null_0.0.0.0_/008/v2/branch/Favorite/getUserFavorite
+SELECT * FROM 008v1.plan_business  WHERE 1  AND id in (3)     
+Dec 17 16:17:11 [SQL]_null_0.0.0.0_/008/v2/branch/Favorite/getUserFavorite
+SELECT * FROM 008v1.regions  LEFT JOIN 008v1.district ON regions.district_id = district.id  WHERE 1  AND regions.id in (185)     
+Dec 17 16:17:14 [SQL]_null_0.0.0.0_/008/v2/branch/Favorite/getUserFavorite
+SELECT * FROM 008v1.plan_business  WHERE 1  AND id in (4)     
+Dec 17 16:17:14 [SQL]_null_0.0.0.0_/008/v2/branch/Favorite/getUserFavorite
+SELECT * FROM 008v1.regions  LEFT JOIN 008v1.district ON regions.district_id = district.id  WHERE 1  AND regions.id in (185)     
+Dec 17 16:17:23 [SQL]_null_0.0.0.0_/008/v2/branch/Favorite/getUserFavorite
+SELECT * FROM 008v1.plan  WHERE 1  AND id = '2'      
+Dec 17 16:17:23 [SQL]_null_0.0.0.0_/008/v2/branch/Favorite/getUserFavorite
+SELECT * FROM 008v1.tags  WHERE 1  AND id in (2,5)     
+Dec 17 16:17:23 [SQL]_null_0.0.0.0_/008/v2/branch/Favorite/getUserFavorite
+SELECT * FROM 008v1.plan_business  WHERE 1  AND id in (27)     
+Dec 17 16:17:23 [SQL]_null_0.0.0.0_/008/v2/branch/Favorite/getUserFavorite
+SELECT * FROM 008v1.regions  LEFT JOIN 008v1.district ON regions.district_id = district.id  WHERE 1  AND regions.id in (227)     
+Dec 17 16:17:23 [SQL]_null_0.0.0.0_/008/v2/branch/Favorite/getUserFavorite
+SELECT * FROM 008v1.plan_business  WHERE 1  AND id in (28)     
+Dec 17 16:17:23 [SQL]_null_0.0.0.0_/008/v2/branch/Favorite/getUserFavorite
+SELECT * FROM 008v1.regions  LEFT JOIN 008v1.district ON regions.district_id = district.id  WHERE 1  AND regions.id in (227)     
+Dec 17 16:17:23 [SQL]_null_0.0.0.0_/008/v2/branch/Favorite/getUserFavorite
+SELECT * FROM 008v1.plan_business  WHERE 1  AND id in (29)     
+Dec 17 16:17:23 [SQL]_null_0.0.0.0_/008/v2/branch/Favorite/getUserFavorite
+SELECT * FROM 008v1.regions  LEFT JOIN 008v1.district ON regions.district_id = district.id  WHERE 1  AND regions.id in (227)     
+Dec 17 16:20:09 [VISIT]_favorite_getUserFavorite_0.0.0.0_/008/v2/branch/Favorite/getUserFavorite
+""
+Dec 17 16:20:13 [SQL]_null_0.0.0.0_/008/v2/branch/Favorite/getUserFavorite
+SELECT * FROM 008v1.user_favorite  WHERE 1  AND user_id in (80)     
+Dec 17 16:20:15 [SQL]_null_0.0.0.0_/008/v2/branch/Favorite/getUserFavorite
+SELECT * FROM 008v1.plan  WHERE 1  AND id = '1'      
+Dec 17 16:20:15 [SQL]_null_0.0.0.0_/008/v2/branch/Favorite/getUserFavorite
+SELECT * FROM 008v1.tags  WHERE 1  AND id in (5,7)     
+Dec 17 16:20:15 [SQL]_null_0.0.0.0_/008/v2/branch/Favorite/getUserFavorite
+SELECT * FROM 008v1.plan_business  WHERE 1  AND id in (2)     
+Dec 17 16:20:15 [SQL]_null_0.0.0.0_/008/v2/branch/Favorite/getUserFavorite
+SELECT * FROM 008v1.regions  LEFT JOIN 008v1.district ON regions.district_id = district.id  WHERE 1  AND regions.id in (185)     
+Dec 17 16:20:15 [SQL]_null_0.0.0.0_/008/v2/branch/Favorite/getUserFavorite
+SELECT * FROM 008v1.plan_business  WHERE 1  AND id in (3)     
+Dec 17 16:20:15 [SQL]_null_0.0.0.0_/008/v2/branch/Favorite/getUserFavorite
+SELECT * FROM 008v1.regions  LEFT JOIN 008v1.district ON regions.district_id = district.id  WHERE 1  AND regions.id in (185)     
+Dec 17 16:20:15 [SQL]_null_0.0.0.0_/008/v2/branch/Favorite/getUserFavorite
+SELECT * FROM 008v1.plan_business  WHERE 1  AND id in (4)     
+Dec 17 16:20:15 [SQL]_null_0.0.0.0_/008/v2/branch/Favorite/getUserFavorite
+SELECT * FROM 008v1.regions  LEFT JOIN 008v1.district ON regions.district_id = district.id  WHERE 1  AND regions.id in (185)     
+Dec 17 16:20:17 [SQL]_null_0.0.0.0_/008/v2/branch/Favorite/getUserFavorite
+SELECT * FROM 008v1.plan  WHERE 1  AND id = '2'      
+Dec 17 16:20:17 [SQL]_null_0.0.0.0_/008/v2/branch/Favorite/getUserFavorite
+SELECT * FROM 008v1.tags  WHERE 1  AND id in (2,5)     
+Dec 17 16:20:17 [SQL]_null_0.0.0.0_/008/v2/branch/Favorite/getUserFavorite
+SELECT * FROM 008v1.plan_business  WHERE 1  AND id in (27)     
+Dec 17 16:20:17 [SQL]_null_0.0.0.0_/008/v2/branch/Favorite/getUserFavorite
+SELECT * FROM 008v1.regions  LEFT JOIN 008v1.district ON regions.district_id = district.id  WHERE 1  AND regions.id in (227)     
+Dec 17 16:20:17 [SQL]_null_0.0.0.0_/008/v2/branch/Favorite/getUserFavorite
+SELECT * FROM 008v1.plan_business  WHERE 1  AND id in (28)     
+Dec 17 16:20:17 [SQL]_null_0.0.0.0_/008/v2/branch/Favorite/getUserFavorite
+SELECT * FROM 008v1.regions  LEFT JOIN 008v1.district ON regions.district_id = district.id  WHERE 1  AND regions.id in (227)     
+Dec 17 16:20:17 [SQL]_null_0.0.0.0_/008/v2/branch/Favorite/getUserFavorite
+SELECT * FROM 008v1.plan_business  WHERE 1  AND id in (29)     
+Dec 17 16:20:17 [SQL]_null_0.0.0.0_/008/v2/branch/Favorite/getUserFavorite
+SELECT * FROM 008v1.regions  LEFT JOIN 008v1.district ON regions.district_id = district.id  WHERE 1  AND regions.id in (227)     
+Dec 17 16:21:07 [VISIT]_favorite_getUserFavorite_0.0.0.0_/008/v2/branch/Favorite/getUserFavorite
+""
+Dec 17 16:21:08 [SQL]_null_0.0.0.0_/008/v2/branch/Favorite/getUserFavorite
+SELECT * FROM 008v1.user_favorite  WHERE 1  AND user_id in (80)     
+Dec 17 16:21:08 [SQL]_null_0.0.0.0_/008/v2/branch/Favorite/getUserFavorite
+SELECT * FROM 008v1.plan  WHERE 1  AND id = '1'      
+Dec 17 16:21:08 [SQL]_null_0.0.0.0_/008/v2/branch/Favorite/getUserFavorite
+SELECT * FROM 008v1.tags  WHERE 1  AND id in (5,7)     
+Dec 17 16:21:08 [SQL]_null_0.0.0.0_/008/v2/branch/Favorite/getUserFavorite
+SELECT * FROM 008v1.plan_business  WHERE 1  AND id in (2)     
+Dec 17 16:21:08 [SQL]_null_0.0.0.0_/008/v2/branch/Favorite/getUserFavorite
+SELECT * FROM 008v1.regions  LEFT JOIN 008v1.district ON regions.district_id = district.id  WHERE 1  AND regions.id in (185)     
+Dec 17 16:21:08 [SQL]_null_0.0.0.0_/008/v2/branch/Favorite/getUserFavorite
+SELECT * FROM 008v1.plan_business  WHERE 1  AND id in (3)     
+Dec 17 16:21:08 [SQL]_null_0.0.0.0_/008/v2/branch/Favorite/getUserFavorite
+SELECT * FROM 008v1.regions  LEFT JOIN 008v1.district ON regions.district_id = district.id  WHERE 1  AND regions.id in (185)     
+Dec 17 16:21:08 [SQL]_null_0.0.0.0_/008/v2/branch/Favorite/getUserFavorite
+SELECT * FROM 008v1.plan_business  WHERE 1  AND id in (4)     
+Dec 17 16:21:08 [SQL]_null_0.0.0.0_/008/v2/branch/Favorite/getUserFavorite
+SELECT * FROM 008v1.regions  LEFT JOIN 008v1.district ON regions.district_id = district.id  WHERE 1  AND regions.id in (185)     
+Dec 17 16:21:08 [SQL]_null_0.0.0.0_/008/v2/branch/Favorite/getUserFavorite
+SELECT * FROM 008v1.plan  WHERE 1  AND id = '2'      
+Dec 17 16:21:08 [SQL]_null_0.0.0.0_/008/v2/branch/Favorite/getUserFavorite
+SELECT * FROM 008v1.tags  WHERE 1  AND id in (2,5)     
+Dec 17 16:21:08 [SQL]_null_0.0.0.0_/008/v2/branch/Favorite/getUserFavorite
+SELECT * FROM 008v1.plan_business  WHERE 1  AND id in (27)     
+Dec 17 16:21:08 [SQL]_null_0.0.0.0_/008/v2/branch/Favorite/getUserFavorite
+SELECT * FROM 008v1.regions  LEFT JOIN 008v1.district ON regions.district_id = district.id  WHERE 1  AND regions.id in (227)     
+Dec 17 16:21:08 [SQL]_null_0.0.0.0_/008/v2/branch/Favorite/getUserFavorite
+SELECT * FROM 008v1.plan_business  WHERE 1  AND id in (28)     
+Dec 17 16:21:08 [SQL]_null_0.0.0.0_/008/v2/branch/Favorite/getUserFavorite
+SELECT * FROM 008v1.regions  LEFT JOIN 008v1.district ON regions.district_id = district.id  WHERE 1  AND regions.id in (227)     
+Dec 17 16:21:08 [SQL]_null_0.0.0.0_/008/v2/branch/Favorite/getUserFavorite
+SELECT * FROM 008v1.plan_business  WHERE 1  AND id in (29)     
+Dec 17 16:21:08 [SQL]_null_0.0.0.0_/008/v2/branch/Favorite/getUserFavorite
+SELECT * FROM 008v1.regions  LEFT JOIN 008v1.district ON regions.district_id = district.id  WHERE 1  AND regions.id in (227)     
+Dec 17 16:21:08 [RETURN]_null_0.0.0.0_/008/v2/branch/Favorite/getUserFavorite
+[{"id":"1","state_1":"2","state_2":"3","state_3":"4","state_type":["\u653e\u677e","\u9ad8\u901f"],"avg_consume":"99","rank_score":"398","regions":"185","characteristic":"\u545c\u545c\u545c\u545c145613","is_auto_create":"1","Business":[{"id":"2","business_id":"3205237","name":"\u4e0a\u6d77*****","branch_name":"\u9f99\u4e4b\u68a6\u5e97","address":"**\u533a*\u8def*\u5f04*\u53f7(\u6d4b\u8bd5\u6570\u636e\uff0c\u7528\u4e8e\u5f00\u53d1\u6d4b\u8bd5\uff0c\u5f00\u53d1\u5b8c\u6210\u540e\u8bf7\u7533\u8bf7\u6b63\u5f0f\u6570\u636e)","telephone":"021-********","regions":{"regions_name":"\u6dee\u6d77\u8def","district_name":"\u5362\u6e7e\u533a"},"longitude":null,"latitude":null,"product_grade":"3","decoration_grade":"4","service_grade":"3","avg_rating":"4","avg_price":"113","state_time":"","rank_score":"484","business_url":"http:\/\/dpurl.cn\/p\/pMo6k7csCA","review_count":"1702","has_deal":"1"},{"id":"3","business_id":"2396689","name":"\u96cd\u5ef7","branch_name":"\u8679\u6865\u5e97","address":"**\u533a*\u8def*\u5f04*\u53f7(\u6d4b\u8bd5\u6570\u636e\uff0c\u7528\u4e8e\u5f00\u53d1\u6d4b\u8bd5\uff0c\u5f00\u53d1\u5b8c\u6210\u540e\u8bf7\u7533\u8bf7\u6b63\u5f0f\u6570\u636e)","telephone":"021-********","regions":{"regions_name":"\u6dee\u6d77\u8def","district_name":"\u5362\u6e7e\u533a"},"longitude":null,"latitude":null,"product_grade":"3","decoration_grade":"3","service_grade":"3","avg_rating":"4","avg_price":"88","state_time":"","rank_score":"251","business_url":"http:\/\/dpurl.cn\/p\/ItR5GsnFC4","review_count":"926","has_deal":"1"},{"id":"4","business_id":"2371969","name":"\u8fc7\u95e8*","branch_name":"","address":"**\u533a*\u8def*\u5f04*\u53f7(\u6d4b\u8bd5\u6570\u636e\uff0c\u7528\u4e8e\u5f00\u53d1\u6d4b\u8bd5\uff0c\u5f00\u53d1\u5b8c\u6210\u540e\u8bf7\u7533\u8bf7\u6b63\u5f0f\u6570\u636e)","telephone":"021-********","regions":{"regions_name":"\u6dee\u6d77\u8def","district_name":"\u5362\u6e7e\u533a"},"longitude":null,"latitude":null,"product_grade":"3","decoration_grade":"3","service_grade":"3","avg_rating":"4","avg_price":"96","state_time":"","rank_score":"460","business_url":"http:\/\/dpurl.cn\/p\/kor17FTpFZ","review_count":"1621","has_deal":"1"}]},{"id":"2","state_1":"27","state_2":"28","state_3":"29","state_type":["\u5c0f\u8d44","\u653e\u677e"],"avg_consume":"168","rank_score":"193","regions":"227","characteristic":"\u5916\u6ee9\u4e00\u65e5\u6e38","is_auto_create":"1","Business":[{"id":"27","business_id":"500245","name":"\u548c\u5e73*****","branch_name":"","address":"**\u533a*\u8def*\u5f04*\u53f7(\u6d4b\u8bd5\u6570\u636e\uff0c\u7528\u4e8e\u5f00\u53d1\u6d4b\u8bd5\uff0c\u5f00\u53d1\u5b8c\u6210\u540e\u8bf7\u7533\u8bf7\u6b63\u5f0f\u6570\u636e)","telephone":"021-********","regions":{"regions_name":"\u5916\u6ee9","district_name":"\u9ec4\u6d66\u533a"},"longitude":"121.48960876","latitude":"31.23896027","product_grade":"3","decoration_grade":"4","service_grade":"3","avg_rating":"4","avg_price":"321","state_time":"15:00-16:00","rank_score":"86","business_url":"http:\/\/dpurl.cn\/p\/jX53PMDsP7","review_count":"377","has_deal":"0"},{"id":"28","business_id":"2396689","name":"\u96cd\u5ef7","branch_name":"\u8679\u6865\u5e97","address":"**\u533a*\u8def*\u5f04*\u53f7(\u6d4b\u8bd5\u6570\u636e\uff0c\u7528\u4e8e\u5f00\u53d1\u6d4b\u8bd5\uff0c\u5f00\u53d1\u5b8c\u6210\u540e\u8bf7\u7533\u8bf7\u6b63\u5f0f\u6570\u636e)","telephone":"021-********","regions":{"regions_name":"\u5916\u6ee9","district_name":"\u9ec4\u6d66\u533a"},"longitude":"121.40695190","latitude":"31.21015549","product_grade":"3","decoration_grade":"3","service_grade":"3","avg_rating":"4","avg_price":"88","state_time":"15:00-16:00","rank_score":"251","business_url":"http:\/\/dpurl.cn\/p\/ItR5GsnFC4","review_count":"926","has_deal":"1"},{"id":"29","business_id":"504784","name":"\u97f3\u4e50*****","branch_name":"\u6b66\u5937\u8def\u5e97","address":"**\u533a*\u8def*\u5f04*\u53f7(\u6d4b\u8bd5\u6570\u636e\uff0c\u7528\u4e8e\u5f00\u53d1\u6d4b\u8bd5\uff0c\u5f00\u53d1\u5b8c\u6210\u540e\u8bf7\u7533\u8bf7\u6b63\u5f0f\u6570\u636e)","telephone":"021-********","regions":{"regions_name":"\u5916\u6ee9","district_name":"\u9ec4\u6d66\u533a"},"longitude":"121.42144775","latitude":"31.21285248","product_grade":"3","decoration_grade":"3","service_grade":"3","avg_rating":"4","avg_price":"95","state_time":"15:00-16:00","rank_score":"242","business_url":"http:\/\/dpurl.cn\/p\/SAQYngytC6","review_count":"895","has_deal":"1"}]}]
+Dec 17 16:34:30 [VISIT]_favorite_getUserFavorite_0.0.0.0_/008/v2/branch/Favorite/getUserFavorite
+""
+Dec 17 16:34:31 [SQL]_null_0.0.0.0_/008/v2/branch/Favorite/getUserFavorite
+SELECT * FROM 008v1.user_favorite  WHERE 1  AND user_id in (80)     
+Dec 17 16:34:31 [SQL]_null_0.0.0.0_/008/v2/branch/Favorite/getUserFavorite
+SELECT * FROM 008v1.plan  WHERE 1  AND id = '1'      
+Dec 17 16:34:31 [SQL]_null_0.0.0.0_/008/v2/branch/Favorite/getUserFavorite
+SELECT * FROM 008v1.tags  WHERE 1  AND id in (5,7)     
+Dec 17 16:34:31 [SQL]_null_0.0.0.0_/008/v2/branch/Favorite/getUserFavorite
+SELECT * FROM 008v1.plan_business  WHERE 1  AND id in (2)     
+Dec 17 16:34:31 [SQL]_null_0.0.0.0_/008/v2/branch/Favorite/getUserFavorite
+SELECT * FROM 008v1.regions  LEFT JOIN 008v1.district ON regions.district_id = district.id  WHERE 1  AND regions.id in (185)     
+Dec 17 16:34:31 [SQL]_null_0.0.0.0_/008/v2/branch/Favorite/getUserFavorite
+SELECT * FROM 008v1.plan_business  WHERE 1  AND id in (3)     
+Dec 17 16:34:31 [SQL]_null_0.0.0.0_/008/v2/branch/Favorite/getUserFavorite
+SELECT * FROM 008v1.regions  LEFT JOIN 008v1.district ON regions.district_id = district.id  WHERE 1  AND regions.id in (185)     
+Dec 17 16:34:31 [SQL]_null_0.0.0.0_/008/v2/branch/Favorite/getUserFavorite
+SELECT * FROM 008v1.plan_business  WHERE 1  AND id in (4)     
+Dec 17 16:34:31 [SQL]_null_0.0.0.0_/008/v2/branch/Favorite/getUserFavorite
+SELECT * FROM 008v1.regions  LEFT JOIN 008v1.district ON regions.district_id = district.id  WHERE 1  AND regions.id in (185)     
+Dec 17 16:34:31 [SQL]_null_0.0.0.0_/008/v2/branch/Favorite/getUserFavorite
+SELECT * FROM 008v1.plan  WHERE 1  AND id = '2'      
+Dec 17 16:34:31 [SQL]_null_0.0.0.0_/008/v2/branch/Favorite/getUserFavorite
+SELECT * FROM 008v1.tags  WHERE 1  AND id in (2,5)     
+Dec 17 16:34:31 [SQL]_null_0.0.0.0_/008/v2/branch/Favorite/getUserFavorite
+SELECT * FROM 008v1.plan_business  WHERE 1  AND id in (27)     
+Dec 17 16:34:31 [SQL]_null_0.0.0.0_/008/v2/branch/Favorite/getUserFavorite
+SELECT * FROM 008v1.regions  LEFT JOIN 008v1.district ON regions.district_id = district.id  WHERE 1  AND regions.id in (227)     
+Dec 17 16:34:31 [SQL]_null_0.0.0.0_/008/v2/branch/Favorite/getUserFavorite
+SELECT * FROM 008v1.plan_business  WHERE 1  AND id in (28)     
+Dec 17 16:34:31 [SQL]_null_0.0.0.0_/008/v2/branch/Favorite/getUserFavorite
+SELECT * FROM 008v1.regions  LEFT JOIN 008v1.district ON regions.district_id = district.id  WHERE 1  AND regions.id in (227)     
+Dec 17 16:34:31 [SQL]_null_0.0.0.0_/008/v2/branch/Favorite/getUserFavorite
+SELECT * FROM 008v1.plan_business  WHERE 1  AND id in (29)     
+Dec 17 16:34:31 [SQL]_null_0.0.0.0_/008/v2/branch/Favorite/getUserFavorite
+SELECT * FROM 008v1.regions  LEFT JOIN 008v1.district ON regions.district_id = district.id  WHERE 1  AND regions.id in (227)     
+Dec 17 16:34:31 [RETURN]_null_0.0.0.0_/008/v2/branch/Favorite/getUserFavorite
+[{"id":"1","state_1":"2","state_2":"3","state_3":"4","state_type":["\u653e\u677e","\u9ad8\u901f"],"avg_consume":"99","rank_score":"398","regions":"185","characteristic":"\u545c\u545c\u545c\u545c145613","is_auto_create":"1","Business":[{"id":"2","business_id":"3205237","name":"\u4e0a\u6d77*****","branch_name":"\u9f99\u4e4b\u68a6\u5e97","address":"**\u533a*\u8def*\u5f04*\u53f7(\u6d4b\u8bd5\u6570\u636e\uff0c\u7528\u4e8e\u5f00\u53d1\u6d4b\u8bd5\uff0c\u5f00\u53d1\u5b8c\u6210\u540e\u8bf7\u7533\u8bf7\u6b63\u5f0f\u6570\u636e)","telephone":"021-********","regions":{"regions_name":"\u6dee\u6d77\u8def","district_name":"\u5362\u6e7e\u533a"},"longitude":null,"latitude":null,"product_grade":"3","decoration_grade":"4","service_grade":"3","avg_rating":"4","avg_price":"113","state_time":"","rank_score":"484","business_url":"http:\/\/dpurl.cn\/p\/pMo6k7csCA","review_count":"1702","has_deal":"1"},{"id":"3","business_id":"2396689","name":"\u96cd\u5ef7","branch_name":"\u8679\u6865\u5e97","address":"**\u533a*\u8def*\u5f04*\u53f7(\u6d4b\u8bd5\u6570\u636e\uff0c\u7528\u4e8e\u5f00\u53d1\u6d4b\u8bd5\uff0c\u5f00\u53d1\u5b8c\u6210\u540e\u8bf7\u7533\u8bf7\u6b63\u5f0f\u6570\u636e)","telephone":"021-********","regions":{"regions_name":"\u6dee\u6d77\u8def","district_name":"\u5362\u6e7e\u533a"},"longitude":null,"latitude":null,"product_grade":"3","decoration_grade":"3","service_grade":"3","avg_rating":"4","avg_price":"88","state_time":"","rank_score":"251","business_url":"http:\/\/dpurl.cn\/p\/ItR5GsnFC4","review_count":"926","has_deal":"1"},{"id":"4","business_id":"2371969","name":"\u8fc7\u95e8*","branch_name":"","address":"**\u533a*\u8def*\u5f04*\u53f7(\u6d4b\u8bd5\u6570\u636e\uff0c\u7528\u4e8e\u5f00\u53d1\u6d4b\u8bd5\uff0c\u5f00\u53d1\u5b8c\u6210\u540e\u8bf7\u7533\u8bf7\u6b63\u5f0f\u6570\u636e)","telephone":"021-********","regions":{"regions_name":"\u6dee\u6d77\u8def","district_name":"\u5362\u6e7e\u533a"},"longitude":null,"latitude":null,"product_grade":"3","decoration_grade":"3","service_grade":"3","avg_rating":"4","avg_price":"96","state_time":"","rank_score":"460","business_url":"http:\/\/dpurl.cn\/p\/kor17FTpFZ","review_count":"1621","has_deal":"1"}]},{"id":"2","state_1":"27","state_2":"28","state_3":"29","state_type":["\u5c0f\u8d44","\u653e\u677e"],"avg_consume":"168","rank_score":"193","regions":"227","characteristic":"\u5916\u6ee9\u4e00\u65e5\u6e38","is_auto_create":"1","Business":[{"id":"27","business_id":"500245","name":"\u548c\u5e73*****","branch_name":"","address":"**\u533a*\u8def*\u5f04*\u53f7(\u6d4b\u8bd5\u6570\u636e\uff0c\u7528\u4e8e\u5f00\u53d1\u6d4b\u8bd5\uff0c\u5f00\u53d1\u5b8c\u6210\u540e\u8bf7\u7533\u8bf7\u6b63\u5f0f\u6570\u636e)","telephone":"021-********","regions":{"regions_name":"\u5916\u6ee9","district_name":"\u9ec4\u6d66\u533a"},"longitude":"121.48960876","latitude":"31.23896027","product_grade":"3","decoration_grade":"4","service_grade":"3","avg_rating":"4","avg_price":"321","state_time":"15:00-16:00","rank_score":"86","business_url":"http:\/\/dpurl.cn\/p\/jX53PMDsP7","review_count":"377","has_deal":"0"},{"id":"28","business_id":"2396689","name":"\u96cd\u5ef7","branch_name":"\u8679\u6865\u5e97","address":"**\u533a*\u8def*\u5f04*\u53f7(\u6d4b\u8bd5\u6570\u636e\uff0c\u7528\u4e8e\u5f00\u53d1\u6d4b\u8bd5\uff0c\u5f00\u53d1\u5b8c\u6210\u540e\u8bf7\u7533\u8bf7\u6b63\u5f0f\u6570\u636e)","telephone":"021-********","regions":{"regions_name":"\u5916\u6ee9","district_name":"\u9ec4\u6d66\u533a"},"longitude":"121.40695190","latitude":"31.21015549","product_grade":"3","decoration_grade":"3","service_grade":"3","avg_rating":"4","avg_price":"88","state_time":"15:00-16:00","rank_score":"251","business_url":"http:\/\/dpurl.cn\/p\/ItR5GsnFC4","review_count":"926","has_deal":"1"},{"id":"29","business_id":"504784","name":"\u97f3\u4e50*****","branch_name":"\u6b66\u5937\u8def\u5e97","address":"**\u533a*\u8def*\u5f04*\u53f7(\u6d4b\u8bd5\u6570\u636e\uff0c\u7528\u4e8e\u5f00\u53d1\u6d4b\u8bd5\uff0c\u5f00\u53d1\u5b8c\u6210\u540e\u8bf7\u7533\u8bf7\u6b63\u5f0f\u6570\u636e)","telephone":"021-********","regions":{"regions_name":"\u5916\u6ee9","district_name":"\u9ec4\u6d66\u533a"},"longitude":"121.42144775","latitude":"31.21285248","product_grade":"3","decoration_grade":"3","service_grade":"3","avg_rating":"4","avg_price":"95","state_time":"15:00-16:00","rank_score":"242","business_url":"http:\/\/dpurl.cn\/p\/SAQYngytC6","review_count":"895","has_deal":"1"}]}]
+Dec 17 16:34:52 [VISIT]_favorite_getUserFavorite_0.0.0.0_/008/v2/branch/Favorite/getUserFavorite
+""
+Dec 17 16:34:53 [SQL]_null_0.0.0.0_/008/v2/branch/Favorite/getUserFavorite
+SELECT * FROM 008v1.user_favorite  WHERE 1  AND user_id in (80)     
+Dec 17 16:34:53 [SQL]_null_0.0.0.0_/008/v2/branch/Favorite/getUserFavorite
+SELECT * FROM 008v1.plan  WHERE 1  AND id = '1'      
+Dec 17 16:34:53 [SQL]_null_0.0.0.0_/008/v2/branch/Favorite/getUserFavorite
+SELECT * FROM 008v1.tags  WHERE 1  AND id in (5,7)     
+Dec 17 16:34:53 [SQL]_null_0.0.0.0_/008/v2/branch/Favorite/getUserFavorite
+SELECT * FROM 008v1.plan_business  WHERE 1  AND id in (2)     
+Dec 17 16:34:53 [SQL]_null_0.0.0.0_/008/v2/branch/Favorite/getUserFavorite
+SELECT * FROM 008v1.regions  LEFT JOIN 008v1.district ON regions.district_id = district.id  WHERE 1  AND regions.id in (185)     
+Dec 17 16:34:53 [SQL]_null_0.0.0.0_/008/v2/branch/Favorite/getUserFavorite
+SELECT * FROM 008v1.plan_business  WHERE 1  AND id in (3)     
+Dec 17 16:34:53 [SQL]_null_0.0.0.0_/008/v2/branch/Favorite/getUserFavorite
+SELECT * FROM 008v1.regions  LEFT JOIN 008v1.district ON regions.district_id = district.id  WHERE 1  AND regions.id in (185)     
+Dec 17 16:34:53 [SQL]_null_0.0.0.0_/008/v2/branch/Favorite/getUserFavorite
+SELECT * FROM 008v1.plan_business  WHERE 1  AND id in (4)     
+Dec 17 16:34:53 [SQL]_null_0.0.0.0_/008/v2/branch/Favorite/getUserFavorite
+SELECT * FROM 008v1.regions  LEFT JOIN 008v1.district ON regions.district_id = district.id  WHERE 1  AND regions.id in (185)     
+Dec 17 16:34:53 [SQL]_null_0.0.0.0_/008/v2/branch/Favorite/getUserFavorite
+SELECT * FROM 008v1.plan  WHERE 1  AND id = '2'      
+Dec 17 16:34:53 [SQL]_null_0.0.0.0_/008/v2/branch/Favorite/getUserFavorite
+SELECT * FROM 008v1.tags  WHERE 1  AND id in (2,5)     
+Dec 17 16:34:53 [SQL]_null_0.0.0.0_/008/v2/branch/Favorite/getUserFavorite
+SELECT * FROM 008v1.plan_business  WHERE 1  AND id in (27)     
+Dec 17 16:34:53 [SQL]_null_0.0.0.0_/008/v2/branch/Favorite/getUserFavorite
+SELECT * FROM 008v1.regions  LEFT JOIN 008v1.district ON regions.district_id = district.id  WHERE 1  AND regions.id in (227)     
+Dec 17 16:34:53 [SQL]_null_0.0.0.0_/008/v2/branch/Favorite/getUserFavorite
+SELECT * FROM 008v1.plan_business  WHERE 1  AND id in (28)     
+Dec 17 16:34:53 [SQL]_null_0.0.0.0_/008/v2/branch/Favorite/getUserFavorite
+SELECT * FROM 008v1.regions  LEFT JOIN 008v1.district ON regions.district_id = district.id  WHERE 1  AND regions.id in (227)     
+Dec 17 16:34:53 [SQL]_null_0.0.0.0_/008/v2/branch/Favorite/getUserFavorite
+SELECT * FROM 008v1.plan_business  WHERE 1  AND id in (29)     
+Dec 17 16:34:53 [SQL]_null_0.0.0.0_/008/v2/branch/Favorite/getUserFavorite
+SELECT * FROM 008v1.regions  LEFT JOIN 008v1.district ON regions.district_id = district.id  WHERE 1  AND regions.id in (227)     
+Dec 17 16:34:53 [RETURN]_null_0.0.0.0_/008/v2/branch/Favorite/getUserFavorite
+[{"id":"1","state_1":"2","state_2":"3","state_3":"4","state_type":["\u653e\u677e","\u9ad8\u901f"],"avg_consume":"99","rank_score":"398","regions":"185","characteristic":"\u545c\u545c\u545c\u545c145613","is_auto_create":"1","Business":[{"id":"2","business_id":"3205237","name":"\u4e0a\u6d77*****","branch_name":"\u9f99\u4e4b\u68a6\u5e97","address":"**\u533a*\u8def*\u5f04*\u53f7(\u6d4b\u8bd5\u6570\u636e\uff0c\u7528\u4e8e\u5f00\u53d1\u6d4b\u8bd5\uff0c\u5f00\u53d1\u5b8c\u6210\u540e\u8bf7\u7533\u8bf7\u6b63\u5f0f\u6570\u636e)","telephone":"021-********","regions":{"regions_name":"\u6dee\u6d77\u8def","district_name":"\u5362\u6e7e\u533a"},"longitude":null,"latitude":null,"product_grade":"3","decoration_grade":"4","service_grade":"3","avg_rating":"4","avg_price":"113","state_time":"","rank_score":"484","business_url":"http:\/\/dpurl.cn\/p\/pMo6k7csCA","review_count":"1702","has_deal":"1"},{"id":"3","business_id":"2396689","name":"\u96cd\u5ef7","branch_name":"\u8679\u6865\u5e97","address":"**\u533a*\u8def*\u5f04*\u53f7(\u6d4b\u8bd5\u6570\u636e\uff0c\u7528\u4e8e\u5f00\u53d1\u6d4b\u8bd5\uff0c\u5f00\u53d1\u5b8c\u6210\u540e\u8bf7\u7533\u8bf7\u6b63\u5f0f\u6570\u636e)","telephone":"021-********","regions":{"regions_name":"\u6dee\u6d77\u8def","district_name":"\u5362\u6e7e\u533a"},"longitude":null,"latitude":null,"product_grade":"3","decoration_grade":"3","service_grade":"3","avg_rating":"4","avg_price":"88","state_time":"","rank_score":"251","business_url":"http:\/\/dpurl.cn\/p\/ItR5GsnFC4","review_count":"926","has_deal":"1"},{"id":"4","business_id":"2371969","name":"\u8fc7\u95e8*","branch_name":"","address":"**\u533a*\u8def*\u5f04*\u53f7(\u6d4b\u8bd5\u6570\u636e\uff0c\u7528\u4e8e\u5f00\u53d1\u6d4b\u8bd5\uff0c\u5f00\u53d1\u5b8c\u6210\u540e\u8bf7\u7533\u8bf7\u6b63\u5f0f\u6570\u636e)","telephone":"021-********","regions":{"regions_name":"\u6dee\u6d77\u8def","district_name":"\u5362\u6e7e\u533a"},"longitude":null,"latitude":null,"product_grade":"3","decoration_grade":"3","service_grade":"3","avg_rating":"4","avg_price":"96","state_time":"","rank_score":"460","business_url":"http:\/\/dpurl.cn\/p\/kor17FTpFZ","review_count":"1621","has_deal":"1"}]},{"id":"2","state_1":"27","state_2":"28","state_3":"29","state_type":["\u5c0f\u8d44","\u653e\u677e"],"avg_consume":"168","rank_score":"193","regions":"227","characteristic":"\u5916\u6ee9\u4e00\u65e5\u6e38","is_auto_create":"1","Business":[{"id":"27","business_id":"500245","name":"\u548c\u5e73*****","branch_name":"","address":"**\u533a*\u8def*\u5f04*\u53f7(\u6d4b\u8bd5\u6570\u636e\uff0c\u7528\u4e8e\u5f00\u53d1\u6d4b\u8bd5\uff0c\u5f00\u53d1\u5b8c\u6210\u540e\u8bf7\u7533\u8bf7\u6b63\u5f0f\u6570\u636e)","telephone":"021-********","regions":{"regions_name":"\u5916\u6ee9","district_name":"\u9ec4\u6d66\u533a"},"longitude":"121.48960876","latitude":"31.23896027","product_grade":"3","decoration_grade":"4","service_grade":"3","avg_rating":"4","avg_price":"321","state_time":"15:00-16:00","rank_score":"86","business_url":"http:\/\/dpurl.cn\/p\/jX53PMDsP7","review_count":"377","has_deal":"0"},{"id":"28","business_id":"2396689","name":"\u96cd\u5ef7","branch_name":"\u8679\u6865\u5e97","address":"**\u533a*\u8def*\u5f04*\u53f7(\u6d4b\u8bd5\u6570\u636e\uff0c\u7528\u4e8e\u5f00\u53d1\u6d4b\u8bd5\uff0c\u5f00\u53d1\u5b8c\u6210\u540e\u8bf7\u7533\u8bf7\u6b63\u5f0f\u6570\u636e)","telephone":"021-********","regions":{"regions_name":"\u5916\u6ee9","district_name":"\u9ec4\u6d66\u533a"},"longitude":"121.40695190","latitude":"31.21015549","product_grade":"3","decoration_grade":"3","service_grade":"3","avg_rating":"4","avg_price":"88","state_time":"15:00-16:00","rank_score":"251","business_url":"http:\/\/dpurl.cn\/p\/ItR5GsnFC4","review_count":"926","has_deal":"1"},{"id":"29","business_id":"504784","name":"\u97f3\u4e50*****","branch_name":"\u6b66\u5937\u8def\u5e97","address":"**\u533a*\u8def*\u5f04*\u53f7(\u6d4b\u8bd5\u6570\u636e\uff0c\u7528\u4e8e\u5f00\u53d1\u6d4b\u8bd5\uff0c\u5f00\u53d1\u5b8c\u6210\u540e\u8bf7\u7533\u8bf7\u6b63\u5f0f\u6570\u636e)","telephone":"021-********","regions":{"regions_name":"\u5916\u6ee9","district_name":"\u9ec4\u6d66\u533a"},"longitude":"121.42144775","latitude":"31.21285248","product_grade":"3","decoration_grade":"3","service_grade":"3","avg_rating":"4","avg_price":"95","state_time":"15:00-16:00","rank_score":"242","business_url":"http:\/\/dpurl.cn\/p\/SAQYngytC6","review_count":"895","has_deal":"1"}]}]
+Dec 17 16:40:39 [VISIT]_favorite_addFavorite_0.0.0.0_/008/v2/branch/Favorite/addFavorite
+""
+Dec 17 16:40:39 [SQL]__0.0.0.0_/008/v2/branch/Favorite/addFavorite
+insert into 008v1.user_favorite (user_id,plan_id) values('79','1')
+Dec 17 16:44:03 [VISIT]_favorite_addFavorite_0.0.0.0_/008/v2/branch/Favorite/addFavorite
+[]
+Dec 17 16:44:03 [RETURN]_null_0.0.0.0_/008/v2/branch/Favorite/addFavorite
+{"error":{"error_status":"200001","status_info":null}}
+Dec 17 16:44:59 [VISIT]_favorite_getUserFavorite_0.0.0.0_/008/v2/branch/Favorite/getUserFavorite?userId=80
+{"userId":"80"}
+Dec 17 16:45:00 [SQL]_null_0.0.0.0_/008/v2/branch/Favorite/getUserFavorite?userId=80
+SELECT * FROM 008v1.user_favorite  WHERE 1  AND user_id in (80)     
+Dec 17 16:45:00 [SQL]_null_0.0.0.0_/008/v2/branch/Favorite/getUserFavorite?userId=80
+SELECT * FROM 008v1.plan  WHERE 1  AND id = '1'      
+Dec 17 16:45:00 [SQL]_null_0.0.0.0_/008/v2/branch/Favorite/getUserFavorite?userId=80
+SELECT * FROM 008v1.tags  WHERE 1  AND id in (5,7)     
+Dec 17 16:45:00 [SQL]_null_0.0.0.0_/008/v2/branch/Favorite/getUserFavorite?userId=80
+SELECT * FROM 008v1.plan_business  WHERE 1  AND id in (2)     
+Dec 17 16:45:00 [SQL]_null_0.0.0.0_/008/v2/branch/Favorite/getUserFavorite?userId=80
+SELECT * FROM 008v1.regions  LEFT JOIN 008v1.district ON regions.district_id = district.id  WHERE 1  AND regions.id in (185)     
+Dec 17 16:45:00 [SQL]_null_0.0.0.0_/008/v2/branch/Favorite/getUserFavorite?userId=80
+SELECT * FROM 008v1.plan_business  WHERE 1  AND id in (3)     
+Dec 17 16:45:00 [SQL]_null_0.0.0.0_/008/v2/branch/Favorite/getUserFavorite?userId=80
+SELECT * FROM 008v1.regions  LEFT JOIN 008v1.district ON regions.district_id = district.id  WHERE 1  AND regions.id in (185)     
+Dec 17 16:45:00 [SQL]_null_0.0.0.0_/008/v2/branch/Favorite/getUserFavorite?userId=80
+SELECT * FROM 008v1.plan_business  WHERE 1  AND id in (4)     
+Dec 17 16:45:00 [SQL]_null_0.0.0.0_/008/v2/branch/Favorite/getUserFavorite?userId=80
+SELECT * FROM 008v1.regions  LEFT JOIN 008v1.district ON regions.district_id = district.id  WHERE 1  AND regions.id in (185)     
+Dec 17 16:45:00 [SQL]_null_0.0.0.0_/008/v2/branch/Favorite/getUserFavorite?userId=80
+SELECT * FROM 008v1.plan  WHERE 1  AND id = '2'      
+Dec 17 16:45:00 [SQL]_null_0.0.0.0_/008/v2/branch/Favorite/getUserFavorite?userId=80
+SELECT * FROM 008v1.tags  WHERE 1  AND id in (2,5)     
+Dec 17 16:45:00 [SQL]_null_0.0.0.0_/008/v2/branch/Favorite/getUserFavorite?userId=80
+SELECT * FROM 008v1.plan_business  WHERE 1  AND id in (27)     
+Dec 17 16:45:00 [SQL]_null_0.0.0.0_/008/v2/branch/Favorite/getUserFavorite?userId=80
+SELECT * FROM 008v1.regions  LEFT JOIN 008v1.district ON regions.district_id = district.id  WHERE 1  AND regions.id in (227)     
+Dec 17 16:45:00 [SQL]_null_0.0.0.0_/008/v2/branch/Favorite/getUserFavorite?userId=80
+SELECT * FROM 008v1.plan_business  WHERE 1  AND id in (28)     
+Dec 17 16:45:00 [SQL]_null_0.0.0.0_/008/v2/branch/Favorite/getUserFavorite?userId=80
+SELECT * FROM 008v1.regions  LEFT JOIN 008v1.district ON regions.district_id = district.id  WHERE 1  AND regions.id in (227)     
+Dec 17 16:45:00 [SQL]_null_0.0.0.0_/008/v2/branch/Favorite/getUserFavorite?userId=80
+SELECT * FROM 008v1.plan_business  WHERE 1  AND id in (29)     
+Dec 17 16:45:00 [SQL]_null_0.0.0.0_/008/v2/branch/Favorite/getUserFavorite?userId=80
+SELECT * FROM 008v1.regions  LEFT JOIN 008v1.district ON regions.district_id = district.id  WHERE 1  AND regions.id in (227)     
+Dec 17 16:45:00 [RETURN]_null_0.0.0.0_/008/v2/branch/Favorite/getUserFavorite?userId=80
+[{"id":"1","state_1":"2","state_2":"3","state_3":"4","state_type":["\u653e\u677e","\u9ad8\u901f"],"avg_consume":"99","rank_score":"398","regions":"185","characteristic":"\u545c\u545c\u545c\u545c145613","is_auto_create":"1","Business":[{"id":"2","business_id":"3205237","name":"\u4e0a\u6d77*****","branch_name":"\u9f99\u4e4b\u68a6\u5e97","address":"**\u533a*\u8def*\u5f04*\u53f7(\u6d4b\u8bd5\u6570\u636e\uff0c\u7528\u4e8e\u5f00\u53d1\u6d4b\u8bd5\uff0c\u5f00\u53d1\u5b8c\u6210\u540e\u8bf7\u7533\u8bf7\u6b63\u5f0f\u6570\u636e)","telephone":"021-********","regions":{"regions_name":"\u6dee\u6d77\u8def","district_name":"\u5362\u6e7e\u533a"},"longitude":null,"latitude":null,"product_grade":"3","decoration_grade":"4","service_grade":"3","avg_rating":"4","avg_price":"113","state_time":"","rank_score":"484","business_url":"http:\/\/dpurl.cn\/p\/pMo6k7csCA","review_count":"1702","has_deal":"1"},{"id":"3","business_id":"2396689","name":"\u96cd\u5ef7","branch_name":"\u8679\u6865\u5e97","address":"**\u533a*\u8def*\u5f04*\u53f7(\u6d4b\u8bd5\u6570\u636e\uff0c\u7528\u4e8e\u5f00\u53d1\u6d4b\u8bd5\uff0c\u5f00\u53d1\u5b8c\u6210\u540e\u8bf7\u7533\u8bf7\u6b63\u5f0f\u6570\u636e)","telephone":"021-********","regions":{"regions_name":"\u6dee\u6d77\u8def","district_name":"\u5362\u6e7e\u533a"},"longitude":null,"latitude":null,"product_grade":"3","decoration_grade":"3","service_grade":"3","avg_rating":"4","avg_price":"88","state_time":"","rank_score":"251","business_url":"http:\/\/dpurl.cn\/p\/ItR5GsnFC4","review_count":"926","has_deal":"1"},{"id":"4","business_id":"2371969","name":"\u8fc7\u95e8*","branch_name":"","address":"**\u533a*\u8def*\u5f04*\u53f7(\u6d4b\u8bd5\u6570\u636e\uff0c\u7528\u4e8e\u5f00\u53d1\u6d4b\u8bd5\uff0c\u5f00\u53d1\u5b8c\u6210\u540e\u8bf7\u7533\u8bf7\u6b63\u5f0f\u6570\u636e)","telephone":"021-********","regions":{"regions_name":"\u6dee\u6d77\u8def","district_name":"\u5362\u6e7e\u533a"},"longitude":null,"latitude":null,"product_grade":"3","decoration_grade":"3","service_grade":"3","avg_rating":"4","avg_price":"96","state_time":"","rank_score":"460","business_url":"http:\/\/dpurl.cn\/p\/kor17FTpFZ","review_count":"1621","has_deal":"1"}]},{"id":"2","state_1":"27","state_2":"28","state_3":"29","state_type":["\u5c0f\u8d44","\u653e\u677e"],"avg_consume":"168","rank_score":"193","regions":"227","characteristic":"\u5916\u6ee9\u4e00\u65e5\u6e38","is_auto_create":"1","Business":[{"id":"27","business_id":"500245","name":"\u548c\u5e73*****","branch_name":"","address":"**\u533a*\u8def*\u5f04*\u53f7(\u6d4b\u8bd5\u6570\u636e\uff0c\u7528\u4e8e\u5f00\u53d1\u6d4b\u8bd5\uff0c\u5f00\u53d1\u5b8c\u6210\u540e\u8bf7\u7533\u8bf7\u6b63\u5f0f\u6570\u636e)","telephone":"021-********","regions":{"regions_name":"\u5916\u6ee9","district_name":"\u9ec4\u6d66\u533a"},"longitude":"121.48960876","latitude":"31.23896027","product_grade":"3","decoration_grade":"4","service_grade":"3","avg_rating":"4","avg_price":"321","state_time":"15:00-16:00","rank_score":"86","business_url":"http:\/\/dpurl.cn\/p\/jX53PMDsP7","review_count":"377","has_deal":"0"},{"id":"28","business_id":"2396689","name":"\u96cd\u5ef7","branch_name":"\u8679\u6865\u5e97","address":"**\u533a*\u8def*\u5f04*\u53f7(\u6d4b\u8bd5\u6570\u636e\uff0c\u7528\u4e8e\u5f00\u53d1\u6d4b\u8bd5\uff0c\u5f00\u53d1\u5b8c\u6210\u540e\u8bf7\u7533\u8bf7\u6b63\u5f0f\u6570\u636e)","telephone":"021-********","regions":{"regions_name":"\u5916\u6ee9","district_name":"\u9ec4\u6d66\u533a"},"longitude":"121.40695190","latitude":"31.21015549","product_grade":"3","decoration_grade":"3","service_grade":"3","avg_rating":"4","avg_price":"88","state_time":"15:00-16:00","rank_score":"251","business_url":"http:\/\/dpurl.cn\/p\/ItR5GsnFC4","review_count":"926","has_deal":"1"},{"id":"29","business_id":"504784","name":"\u97f3\u4e50*****","branch_name":"\u6b66\u5937\u8def\u5e97","address":"**\u533a*\u8def*\u5f04*\u53f7(\u6d4b\u8bd5\u6570\u636e\uff0c\u7528\u4e8e\u5f00\u53d1\u6d4b\u8bd5\uff0c\u5f00\u53d1\u5b8c\u6210\u540e\u8bf7\u7533\u8bf7\u6b63\u5f0f\u6570\u636e)","telephone":"021-********","regions":{"regions_name":"\u5916\u6ee9","district_name":"\u9ec4\u6d66\u533a"},"longitude":"121.42144775","latitude":"31.21285248","product_grade":"3","decoration_grade":"3","service_grade":"3","avg_rating":"4","avg_price":"95","state_time":"15:00-16:00","rank_score":"242","business_url":"http:\/\/dpurl.cn\/p\/SAQYngytC6","review_count":"895","has_deal":"1"}]}]
+Dec 17 16:45:31 [VISIT]_favorite_addFavorite_0.0.0.0_/008/v2/branch/Favorite/addFavorite?userId=79&planId=2
+{"userId":"79","planId":"2"}
+Dec 17 16:45:31 [SQL]__0.0.0.0_/008/v2/branch/Favorite/addFavorite?userId=79&planId=2
+insert into 008v1.user_favorite (user_id,plan_id) values('79','2')
+Dec 17 16:45:42 [VISIT]_favorite_addFavorite_0.0.0.0_/008/v2/branch/Favorite/addFavorite?userId=80
+{"userId":"80"}
+Dec 17 16:45:42 [RETURN]_null_0.0.0.0_/008/v2/branch/Favorite/addFavorite?userId=80
+{"error":{"error_status":"200001","status_info":null}}
+Dec 17 16:45:54 [VISIT]_favorite_getUserFavorite_0.0.0.0_/008/v2/branch/Favorite/getUserFavorite?userId=80
+{"userId":"80"}
+Dec 17 16:45:55 [SQL]_null_0.0.0.0_/008/v2/branch/Favorite/getUserFavorite?userId=80
+SELECT * FROM 008v1.user_favorite  WHERE 1  AND user_id in (80)     
+Dec 17 16:45:55 [SQL]_null_0.0.0.0_/008/v2/branch/Favorite/getUserFavorite?userId=80
+SELECT * FROM 008v1.plan  WHERE 1  AND id = '1'      
+Dec 17 16:45:55 [SQL]_null_0.0.0.0_/008/v2/branch/Favorite/getUserFavorite?userId=80
+SELECT * FROM 008v1.tags  WHERE 1  AND id in (5,7)     
+Dec 17 16:45:55 [SQL]_null_0.0.0.0_/008/v2/branch/Favorite/getUserFavorite?userId=80
+SELECT * FROM 008v1.plan_business  WHERE 1  AND id in (2)     
+Dec 17 16:45:55 [SQL]_null_0.0.0.0_/008/v2/branch/Favorite/getUserFavorite?userId=80
+SELECT * FROM 008v1.regions  LEFT JOIN 008v1.district ON regions.district_id = district.id  WHERE 1  AND regions.id in (185)     
+Dec 17 16:45:55 [SQL]_null_0.0.0.0_/008/v2/branch/Favorite/getUserFavorite?userId=80
+SELECT * FROM 008v1.plan_business  WHERE 1  AND id in (3)     
+Dec 17 16:45:55 [SQL]_null_0.0.0.0_/008/v2/branch/Favorite/getUserFavorite?userId=80
+SELECT * FROM 008v1.regions  LEFT JOIN 008v1.district ON regions.district_id = district.id  WHERE 1  AND regions.id in (185)     
+Dec 17 16:45:55 [SQL]_null_0.0.0.0_/008/v2/branch/Favorite/getUserFavorite?userId=80
+SELECT * FROM 008v1.plan_business  WHERE 1  AND id in (4)     
+Dec 17 16:45:55 [SQL]_null_0.0.0.0_/008/v2/branch/Favorite/getUserFavorite?userId=80
+SELECT * FROM 008v1.regions  LEFT JOIN 008v1.district ON regions.district_id = district.id  WHERE 1  AND regions.id in (185)     
+Dec 17 16:45:55 [SQL]_null_0.0.0.0_/008/v2/branch/Favorite/getUserFavorite?userId=80
+SELECT * FROM 008v1.plan  WHERE 1  AND id = '2'      
+Dec 17 16:45:55 [SQL]_null_0.0.0.0_/008/v2/branch/Favorite/getUserFavorite?userId=80
+SELECT * FROM 008v1.tags  WHERE 1  AND id in (2,5)     
+Dec 17 16:45:55 [SQL]_null_0.0.0.0_/008/v2/branch/Favorite/getUserFavorite?userId=80
+SELECT * FROM 008v1.plan_business  WHERE 1  AND id in (27)     
+Dec 17 16:45:55 [SQL]_null_0.0.0.0_/008/v2/branch/Favorite/getUserFavorite?userId=80
+SELECT * FROM 008v1.regions  LEFT JOIN 008v1.district ON regions.district_id = district.id  WHERE 1  AND regions.id in (227)     
+Dec 17 16:45:55 [SQL]_null_0.0.0.0_/008/v2/branch/Favorite/getUserFavorite?userId=80
+SELECT * FROM 008v1.plan_business  WHERE 1  AND id in (28)     
+Dec 17 16:45:55 [SQL]_null_0.0.0.0_/008/v2/branch/Favorite/getUserFavorite?userId=80
+SELECT * FROM 008v1.regions  LEFT JOIN 008v1.district ON regions.district_id = district.id  WHERE 1  AND regions.id in (227)     
+Dec 17 16:45:55 [SQL]_null_0.0.0.0_/008/v2/branch/Favorite/getUserFavorite?userId=80
+SELECT * FROM 008v1.plan_business  WHERE 1  AND id in (29)     
+Dec 17 16:45:55 [SQL]_null_0.0.0.0_/008/v2/branch/Favorite/getUserFavorite?userId=80
+SELECT * FROM 008v1.regions  LEFT JOIN 008v1.district ON regions.district_id = district.id  WHERE 1  AND regions.id in (227)     
+Dec 17 16:45:55 [RETURN]_null_0.0.0.0_/008/v2/branch/Favorite/getUserFavorite?userId=80
+[{"id":"1","state_1":"2","state_2":"3","state_3":"4","state_type":["\u653e\u677e","\u9ad8\u901f"],"avg_consume":"99","rank_score":"398","regions":"185","characteristic":"\u545c\u545c\u545c\u545c145613","is_auto_create":"1","Business":[{"id":"2","business_id":"3205237","name":"\u4e0a\u6d77*****","branch_name":"\u9f99\u4e4b\u68a6\u5e97","address":"**\u533a*\u8def*\u5f04*\u53f7(\u6d4b\u8bd5\u6570\u636e\uff0c\u7528\u4e8e\u5f00\u53d1\u6d4b\u8bd5\uff0c\u5f00\u53d1\u5b8c\u6210\u540e\u8bf7\u7533\u8bf7\u6b63\u5f0f\u6570\u636e)","telephone":"021-********","regions":{"regions_name":"\u6dee\u6d77\u8def","district_name":"\u5362\u6e7e\u533a"},"longitude":null,"latitude":null,"product_grade":"3","decoration_grade":"4","service_grade":"3","avg_rating":"4","avg_price":"113","state_time":"","rank_score":"484","business_url":"http:\/\/dpurl.cn\/p\/pMo6k7csCA","review_count":"1702","has_deal":"1"},{"id":"3","business_id":"2396689","name":"\u96cd\u5ef7","branch_name":"\u8679\u6865\u5e97","address":"**\u533a*\u8def*\u5f04*\u53f7(\u6d4b\u8bd5\u6570\u636e\uff0c\u7528\u4e8e\u5f00\u53d1\u6d4b\u8bd5\uff0c\u5f00\u53d1\u5b8c\u6210\u540e\u8bf7\u7533\u8bf7\u6b63\u5f0f\u6570\u636e)","telephone":"021-********","regions":{"regions_name":"\u6dee\u6d77\u8def","district_name":"\u5362\u6e7e\u533a"},"longitude":null,"latitude":null,"product_grade":"3","decoration_grade":"3","service_grade":"3","avg_rating":"4","avg_price":"88","state_time":"","rank_score":"251","business_url":"http:\/\/dpurl.cn\/p\/ItR5GsnFC4","review_count":"926","has_deal":"1"},{"id":"4","business_id":"2371969","name":"\u8fc7\u95e8*","branch_name":"","address":"**\u533a*\u8def*\u5f04*\u53f7(\u6d4b\u8bd5\u6570\u636e\uff0c\u7528\u4e8e\u5f00\u53d1\u6d4b\u8bd5\uff0c\u5f00\u53d1\u5b8c\u6210\u540e\u8bf7\u7533\u8bf7\u6b63\u5f0f\u6570\u636e)","telephone":"021-********","regions":{"regions_name":"\u6dee\u6d77\u8def","district_name":"\u5362\u6e7e\u533a"},"longitude":null,"latitude":null,"product_grade":"3","decoration_grade":"3","service_grade":"3","avg_rating":"4","avg_price":"96","state_time":"","rank_score":"460","business_url":"http:\/\/dpurl.cn\/p\/kor17FTpFZ","review_count":"1621","has_deal":"1"}]},{"id":"2","state_1":"27","state_2":"28","state_3":"29","state_type":["\u5c0f\u8d44","\u653e\u677e"],"avg_consume":"168","rank_score":"193","regions":"227","characteristic":"\u5916\u6ee9\u4e00\u65e5\u6e38","is_auto_create":"1","Business":[{"id":"27","business_id":"500245","name":"\u548c\u5e73*****","branch_name":"","address":"**\u533a*\u8def*\u5f04*\u53f7(\u6d4b\u8bd5\u6570\u636e\uff0c\u7528\u4e8e\u5f00\u53d1\u6d4b\u8bd5\uff0c\u5f00\u53d1\u5b8c\u6210\u540e\u8bf7\u7533\u8bf7\u6b63\u5f0f\u6570\u636e)","telephone":"021-********","regions":{"regions_name":"\u5916\u6ee9","district_name":"\u9ec4\u6d66\u533a"},"longitude":"121.48960876","latitude":"31.23896027","product_grade":"3","decoration_grade":"4","service_grade":"3","avg_rating":"4","avg_price":"321","state_time":"15:00-16:00","rank_score":"86","business_url":"http:\/\/dpurl.cn\/p\/jX53PMDsP7","review_count":"377","has_deal":"0"},{"id":"28","business_id":"2396689","name":"\u96cd\u5ef7","branch_name":"\u8679\u6865\u5e97","address":"**\u533a*\u8def*\u5f04*\u53f7(\u6d4b\u8bd5\u6570\u636e\uff0c\u7528\u4e8e\u5f00\u53d1\u6d4b\u8bd5\uff0c\u5f00\u53d1\u5b8c\u6210\u540e\u8bf7\u7533\u8bf7\u6b63\u5f0f\u6570\u636e)","telephone":"021-********","regions":{"regions_name":"\u5916\u6ee9","district_name":"\u9ec4\u6d66\u533a"},"longitude":"121.40695190","latitude":"31.21015549","product_grade":"3","decoration_grade":"3","service_grade":"3","avg_rating":"4","avg_price":"88","state_time":"15:00-16:00","rank_score":"251","business_url":"http:\/\/dpurl.cn\/p\/ItR5GsnFC4","review_count":"926","has_deal":"1"},{"id":"29","business_id":"504784","name":"\u97f3\u4e50*****","branch_name":"\u6b66\u5937\u8def\u5e97","address":"**\u533a*\u8def*\u5f04*\u53f7(\u6d4b\u8bd5\u6570\u636e\uff0c\u7528\u4e8e\u5f00\u53d1\u6d4b\u8bd5\uff0c\u5f00\u53d1\u5b8c\u6210\u540e\u8bf7\u7533\u8bf7\u6b63\u5f0f\u6570\u636e)","telephone":"021-********","regions":{"regions_name":"\u5916\u6ee9","district_name":"\u9ec4\u6d66\u533a"},"longitude":"121.42144775","latitude":"31.21285248","product_grade":"3","decoration_grade":"3","service_grade":"3","avg_rating":"4","avg_price":"95","state_time":"15:00-16:00","rank_score":"242","business_url":"http:\/\/dpurl.cn\/p\/SAQYngytC6","review_count":"895","has_deal":"1"}]}]
+Dec 17 16:45:58 [VISIT]_favorite_getUserFavorite_0.0.0.0_/008/v2/branch/Favorite/getUserFavorite?userId=79
+{"userId":"79"}
+Dec 17 16:45:59 [SQL]_null_0.0.0.0_/008/v2/branch/Favorite/getUserFavorite?userId=79
+SELECT * FROM 008v1.user_favorite  WHERE 1  AND user_id in (79)     
+Dec 17 16:45:59 [SQL]_null_0.0.0.0_/008/v2/branch/Favorite/getUserFavorite?userId=79
+SELECT * FROM 008v1.plan  WHERE 1  AND id = '1'      
+Dec 17 16:45:59 [SQL]_null_0.0.0.0_/008/v2/branch/Favorite/getUserFavorite?userId=79
+SELECT * FROM 008v1.tags  WHERE 1  AND id in (5,7)     
+Dec 17 16:45:59 [SQL]_null_0.0.0.0_/008/v2/branch/Favorite/getUserFavorite?userId=79
+SELECT * FROM 008v1.plan_business  WHERE 1  AND id in (2)     
+Dec 17 16:45:59 [SQL]_null_0.0.0.0_/008/v2/branch/Favorite/getUserFavorite?userId=79
+SELECT * FROM 008v1.regions  LEFT JOIN 008v1.district ON regions.district_id = district.id  WHERE 1  AND regions.id in (185)     
+Dec 17 16:45:59 [SQL]_null_0.0.0.0_/008/v2/branch/Favorite/getUserFavorite?userId=79
+SELECT * FROM 008v1.plan_business  WHERE 1  AND id in (3)     
+Dec 17 16:45:59 [SQL]_null_0.0.0.0_/008/v2/branch/Favorite/getUserFavorite?userId=79
+SELECT * FROM 008v1.regions  LEFT JOIN 008v1.district ON regions.district_id = district.id  WHERE 1  AND regions.id in (185)     
+Dec 17 16:45:59 [SQL]_null_0.0.0.0_/008/v2/branch/Favorite/getUserFavorite?userId=79
+SELECT * FROM 008v1.plan_business  WHERE 1  AND id in (4)     
+Dec 17 16:45:59 [SQL]_null_0.0.0.0_/008/v2/branch/Favorite/getUserFavorite?userId=79
+SELECT * FROM 008v1.regions  LEFT JOIN 008v1.district ON regions.district_id = district.id  WHERE 1  AND regions.id in (185)     
+Dec 17 16:45:59 [SQL]_null_0.0.0.0_/008/v2/branch/Favorite/getUserFavorite?userId=79
+SELECT * FROM 008v1.plan  WHERE 1  AND id = '2'      
+Dec 17 16:45:59 [SQL]_null_0.0.0.0_/008/v2/branch/Favorite/getUserFavorite?userId=79
+SELECT * FROM 008v1.tags  WHERE 1  AND id in (2,5)     
+Dec 17 16:45:59 [SQL]_null_0.0.0.0_/008/v2/branch/Favorite/getUserFavorite?userId=79
+SELECT * FROM 008v1.plan_business  WHERE 1  AND id in (27)     
+Dec 17 16:45:59 [SQL]_null_0.0.0.0_/008/v2/branch/Favorite/getUserFavorite?userId=79
+SELECT * FROM 008v1.regions  LEFT JOIN 008v1.district ON regions.district_id = district.id  WHERE 1  AND regions.id in (227)     
+Dec 17 16:45:59 [SQL]_null_0.0.0.0_/008/v2/branch/Favorite/getUserFavorite?userId=79
+SELECT * FROM 008v1.plan_business  WHERE 1  AND id in (28)     
+Dec 17 16:45:59 [SQL]_null_0.0.0.0_/008/v2/branch/Favorite/getUserFavorite?userId=79
+SELECT * FROM 008v1.regions  LEFT JOIN 008v1.district ON regions.district_id = district.id  WHERE 1  AND regions.id in (227)     
+Dec 17 16:45:59 [SQL]_null_0.0.0.0_/008/v2/branch/Favorite/getUserFavorite?userId=79
+SELECT * FROM 008v1.plan_business  WHERE 1  AND id in (29)     
+Dec 17 16:45:59 [SQL]_null_0.0.0.0_/008/v2/branch/Favorite/getUserFavorite?userId=79
+SELECT * FROM 008v1.regions  LEFT JOIN 008v1.district ON regions.district_id = district.id  WHERE 1  AND regions.id in (227)     
+Dec 17 16:45:59 [RETURN]_null_0.0.0.0_/008/v2/branch/Favorite/getUserFavorite?userId=79
+[{"id":"1","state_1":"2","state_2":"3","state_3":"4","state_type":["\u653e\u677e","\u9ad8\u901f"],"avg_consume":"99","rank_score":"398","regions":"185","characteristic":"\u545c\u545c\u545c\u545c145613","is_auto_create":"1","Business":[{"id":"2","business_id":"3205237","name":"\u4e0a\u6d77*****","branch_name":"\u9f99\u4e4b\u68a6\u5e97","address":"**\u533a*\u8def*\u5f04*\u53f7(\u6d4b\u8bd5\u6570\u636e\uff0c\u7528\u4e8e\u5f00\u53d1\u6d4b\u8bd5\uff0c\u5f00\u53d1\u5b8c\u6210\u540e\u8bf7\u7533\u8bf7\u6b63\u5f0f\u6570\u636e)","telephone":"021-********","regions":{"regions_name":"\u6dee\u6d77\u8def","district_name":"\u5362\u6e7e\u533a"},"longitude":null,"latitude":null,"product_grade":"3","decoration_grade":"4","service_grade":"3","avg_rating":"4","avg_price":"113","state_time":"","rank_score":"484","business_url":"http:\/\/dpurl.cn\/p\/pMo6k7csCA","review_count":"1702","has_deal":"1"},{"id":"3","business_id":"2396689","name":"\u96cd\u5ef7","branch_name":"\u8679\u6865\u5e97","address":"**\u533a*\u8def*\u5f04*\u53f7(\u6d4b\u8bd5\u6570\u636e\uff0c\u7528\u4e8e\u5f00\u53d1\u6d4b\u8bd5\uff0c\u5f00\u53d1\u5b8c\u6210\u540e\u8bf7\u7533\u8bf7\u6b63\u5f0f\u6570\u636e)","telephone":"021-********","regions":{"regions_name":"\u6dee\u6d77\u8def","district_name":"\u5362\u6e7e\u533a"},"longitude":null,"latitude":null,"product_grade":"3","decoration_grade":"3","service_grade":"3","avg_rating":"4","avg_price":"88","state_time":"","rank_score":"251","business_url":"http:\/\/dpurl.cn\/p\/ItR5GsnFC4","review_count":"926","has_deal":"1"},{"id":"4","business_id":"2371969","name":"\u8fc7\u95e8*","branch_name":"","address":"**\u533a*\u8def*\u5f04*\u53f7(\u6d4b\u8bd5\u6570\u636e\uff0c\u7528\u4e8e\u5f00\u53d1\u6d4b\u8bd5\uff0c\u5f00\u53d1\u5b8c\u6210\u540e\u8bf7\u7533\u8bf7\u6b63\u5f0f\u6570\u636e)","telephone":"021-********","regions":{"regions_name":"\u6dee\u6d77\u8def","district_name":"\u5362\u6e7e\u533a"},"longitude":null,"latitude":null,"product_grade":"3","decoration_grade":"3","service_grade":"3","avg_rating":"4","avg_price":"96","state_time":"","rank_score":"460","business_url":"http:\/\/dpurl.cn\/p\/kor17FTpFZ","review_count":"1621","has_deal":"1"}]},{"id":"2","state_1":"27","state_2":"28","state_3":"29","state_type":["\u5c0f\u8d44","\u653e\u677e"],"avg_consume":"168","rank_score":"193","regions":"227","characteristic":"\u5916\u6ee9\u4e00\u65e5\u6e38","is_auto_create":"1","Business":[{"id":"27","business_id":"500245","name":"\u548c\u5e73*****","branch_name":"","address":"**\u533a*\u8def*\u5f04*\u53f7(\u6d4b\u8bd5\u6570\u636e\uff0c\u7528\u4e8e\u5f00\u53d1\u6d4b\u8bd5\uff0c\u5f00\u53d1\u5b8c\u6210\u540e\u8bf7\u7533\u8bf7\u6b63\u5f0f\u6570\u636e)","telephone":"021-********","regions":{"regions_name":"\u5916\u6ee9","district_name":"\u9ec4\u6d66\u533a"},"longitude":"121.48960876","latitude":"31.23896027","product_grade":"3","decoration_grade":"4","service_grade":"3","avg_rating":"4","avg_price":"321","state_time":"15:00-16:00","rank_score":"86","business_url":"http:\/\/dpurl.cn\/p\/jX53PMDsP7","review_count":"377","has_deal":"0"},{"id":"28","business_id":"2396689","name":"\u96cd\u5ef7","branch_name":"\u8679\u6865\u5e97","address":"**\u533a*\u8def*\u5f04*\u53f7(\u6d4b\u8bd5\u6570\u636e\uff0c\u7528\u4e8e\u5f00\u53d1\u6d4b\u8bd5\uff0c\u5f00\u53d1\u5b8c\u6210\u540e\u8bf7\u7533\u8bf7\u6b63\u5f0f\u6570\u636e)","telephone":"021-********","regions":{"regions_name":"\u5916\u6ee9","district_name":"\u9ec4\u6d66\u533a"},"longitude":"121.40695190","latitude":"31.21015549","product_grade":"3","decoration_grade":"3","service_grade":"3","avg_rating":"4","avg_price":"88","state_time":"15:00-16:00","rank_score":"251","business_url":"http:\/\/dpurl.cn\/p\/ItR5GsnFC4","review_count":"926","has_deal":"1"},{"id":"29","business_id":"504784","name":"\u97f3\u4e50*****","branch_name":"\u6b66\u5937\u8def\u5e97","address":"**\u533a*\u8def*\u5f04*\u53f7(\u6d4b\u8bd5\u6570\u636e\uff0c\u7528\u4e8e\u5f00\u53d1\u6d4b\u8bd5\uff0c\u5f00\u53d1\u5b8c\u6210\u540e\u8bf7\u7533\u8bf7\u6b63\u5f0f\u6570\u636e)","telephone":"021-********","regions":{"regions_name":"\u5916\u6ee9","district_name":"\u9ec4\u6d66\u533a"},"longitude":"121.42144775","latitude":"31.21285248","product_grade":"3","decoration_grade":"3","service_grade":"3","avg_rating":"4","avg_price":"95","state_time":"15:00-16:00","rank_score":"242","business_url":"http:\/\/dpurl.cn\/p\/SAQYngytC6","review_count":"895","has_deal":"1"}]}]
+Dec 17 16:51:58 [VISIT]_favorite_delFavorite_0.0.0.0_/008/v2/branch/Favorite/delFavorite
+""
+Dec 17 16:51:59 [SQL]_null_0.0.0.0_/008/v2/branch/Favorite/delFavorite
+SELECT * FROM 008v1.user_favorite  WHERE 1  AND user_id ='79' and plan_id='1'     
+Dec 17 16:52:40 [VISIT]_favorite_delFavorite_0.0.0.0_/008/v2/branch/Favorite/delFavorite
+""
+Dec 17 16:52:41 [SQL]_null_0.0.0.0_/008/v2/branch/Favorite/delFavorite
+SELECT * FROM 008v1.user_favorite  WHERE 1  AND user_id ='79' and plan_id='1'     
+Dec 17 16:53:07 [VISIT]_favorite_delFavorite_0.0.0.0_/008/v2/branch/Favorite/delFavorite
+""
+Dec 17 16:53:24 [SQL]_null_0.0.0.0_/008/v2/branch/Favorite/delFavorite
+SELECT * FROM 008v1.user_favorite  WHERE 1  AND user_id ='79' and plan_id='1'     
+Dec 17 16:53:56 [VISIT]_favorite_delFavorite_0.0.0.0_/008/v2/branch/Favorite/delFavorite
+""
+Dec 17 16:53:58 [SQL]_null_0.0.0.0_/008/v2/branch/Favorite/delFavorite
+SELECT * FROM 008v1.user_favorite  WHERE 1  AND user_id ='79' and plan_id='1'     
+Dec 17 16:55:13 [VISIT]_favorite_delFavorite_0.0.0.0_/008/v2/branch/Favorite/delFavorite
+""
+Dec 17 16:55:14 [SQL]_null_0.0.0.0_/008/v2/branch/Favorite/delFavorite
+SELECT * FROM 008v1.user_favorite  WHERE 1  AND user_id ='79' and plan_id='1'     
+Dec 17 16:55:14 [SQL]_null_0.0.0.0_/008/v2/branch/Favorite/delFavorite
+DELETE FROM 008v1.user_favorite WHERE 1 AND user_id ='79' and plan_id='1'
+Dec 17 16:56:51 [VISIT]_favorite_delFavorite_0.0.0.0_/008/v2/branch/Favorite/delFavorite
+""
+Dec 17 16:56:52 [SQL]_null_0.0.0.0_/008/v2/branch/Favorite/delFavorite
+SELECT * FROM 008v1.user_favorite  WHERE 1  AND user_id ='79' and plan_id='1'     
+Dec 17 16:57:46 [VISIT]_favorite_delFavorite_0.0.0.0_/008/v2/branch/Favorite/delFavorite
+[]
+Dec 17 16:57:46 [RETURN]_null_0.0.0.0_/008/v2/branch/Favorite/delFavorite
+{"error":{"error_status":"200001","status_info":null}}
+Dec 17 17:37:17 [VISIT]_information_getPosition_0.0.0.0_/008/v2/branch/Information/getPosition
+""
+Dec 17 17:37:19 [VISIT]_information_getPosition_0.0.0.0_/008/v2/branch/Information/getPosition
+""
+Dec 17 17:37:21 [VISIT]_information_getPosition_0.0.0.0_/008/v2/branch/Information/getPosition
+""
+Dec 17 17:37:31 [VISIT]_information_getSingleBusinessById_0.0.0.0_/008/v2/branch/Information/getSingleBusinessById
+[]
+Dec 17 17:37:31 [RETURN]_null_0.0.0.0_/008/v2/branch/Information/getSingleBusinessById
+{"error":{"error_status":"200001","status_info":null}}
+Dec 17 17:38:02 [VISIT]_information_getPosition_0.0.0.0_/008/v2/branch/Information/getPosition
+""
+Dec 17 17:39:17 [VISIT]_position_getPosition_0.0.0.0_/008/v2/branch/Position/getPosition
+""
+Dec 17 17:39:20 [VISIT]_position_getPosition_0.0.0.0_/008/v2/branch/Position/getPosition
+""
+Dec 17 17:39:30 [VISIT]_position_getPosition_0.0.0.0_/008/v2/branch/Position/getPosition
+""
+Dec 17 17:46:23 [VISIT]_favorite_getUserFavorite_0.0.0.0_/008/v2/branch/Favorite/getUserFavorite
+[]
+Dec 17 17:46:23 [RETURN]_null_0.0.0.0_/008/v2/branch/Favorite/getUserFavorite
+{"error":{"error_status":"200001","status_info":null}}

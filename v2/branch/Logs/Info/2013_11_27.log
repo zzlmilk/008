@@ -1,0 +1,390 @@
+Nov 27 09:16:02 [VISIT]_user_userRegistration_0.0.0.0_/008/v1/branch/user/userRegistration
+""
+Nov 27 09:16:06 [SQL]_null_0.0.0.0_/008/v1/branch/user/userRegistration
+SELECT * FROM 008v1.user  WHERE 1  AND user_name =  "Xbruence111"     
+Nov 27 09:16:06 [RETURN]_null_0.0.0.0_/008/v1/branch/user/userRegistration
+{"error":{"error_status":106,"status_info":null}}
+Nov 27 09:19:36 [VISIT]_user_userRegistration_0.0.0.0_/008/v1/branch/user/userRegistration
+""
+Nov 27 09:19:37 [SQL]_null_0.0.0.0_/008/v1/branch/user/userRegistration
+SELECT * FROM 008v1.user  WHERE 1  AND user_name =  "Xbruence111"     
+Nov 27 09:19:37 [RETURN]_null_0.0.0.0_/008/v1/branch/user/userRegistration
+{"error":{"error_status":106,"status_info":null}}
+Nov 27 09:19:50 [VISIT]_user_userRegistration_0.0.0.0_/008/v1/branch/user/userRegistration
+""
+Nov 27 09:19:51 [SQL]_null_0.0.0.0_/008/v1/branch/user/userRegistration
+SELECT * FROM 008v1.user  WHERE 1  AND user_name =  "Xbruence1111"     
+Nov 27 09:19:51 [SQL]__0.0.0.0_/008/v1/branch/user/userRegistration
+insert into 008v1.user (email,user_name,password) values('372260652@qq.com','Xbruence1111','111111')
+Nov 27 09:19:52 [RETURN]_null_0.0.0.0_/008/v1/branch/user/userRegistration
+{"regInfo":0}
+Nov 27 09:21:16 [VISIT]_user_userRegistration_0.0.0.0_/008/v1/branch/user/userRegistration
+""
+Nov 27 09:21:17 [SQL]_null_0.0.0.0_/008/v1/branch/user/userRegistration
+SELECT * FROM 008v1.user  WHERE 1  AND user_name =  "Xbruence11111"     
+Nov 27 09:21:17 [SQL]__0.0.0.0_/008/v1/branch/user/userRegistration
+insert into 008v1.user (email,user_name,password) values('372260652@qq.com','Xbruence11111','111111')
+Nov 27 09:21:17 [RETURN]_null_0.0.0.0_/008/v1/branch/user/userRegistration
+[]
+Nov 27 09:21:24 [VISIT]_user_userRegistration_0.0.0.0_/008/v1/branch/user/userRegistration
+""
+Nov 27 09:21:25 [SQL]_null_0.0.0.0_/008/v1/branch/user/userRegistration
+SELECT * FROM 008v1.user  WHERE 1  AND user_name =  "Xbruence11111"     
+Nov 27 09:21:25 [RETURN]_null_0.0.0.0_/008/v1/branch/user/userRegistration
+{"error":{"error_status":106,"status_info":null}}
+Nov 27 09:21:34 [VISIT]_user_userRegistration_0.0.0.0_/008/v1/branch/user/userRegistration
+""
+Nov 27 09:21:35 [SQL]_null_0.0.0.0_/008/v1/branch/user/userRegistration
+SELECT * FROM 008v1.user  WHERE 1  AND user_name =  "Xbruence112111"     
+Nov 27 09:21:35 [SQL]__0.0.0.0_/008/v1/branch/user/userRegistration
+insert into 008v1.user (email,user_name,password) values('372260652@qq.com','Xbruence112111','111111')
+Nov 27 09:21:35 [RETURN]_null_0.0.0.0_/008/v1/branch/user/userRegistration
+[]
+Nov 27 09:22:00 [VISIT]_user_userRegistration_0.0.0.0_/008/v1/branch/user/userRegistration
+""
+Nov 27 09:22:01 [SQL]_null_0.0.0.0_/008/v1/branch/user/userRegistration
+SELECT * FROM 008v1.user  WHERE 1  AND user_name =  "Xbruence1112111"     
+Nov 27 09:22:01 [SQL]__0.0.0.0_/008/v1/branch/user/userRegistration
+insert into 008v1.user (email,user_name,password) values('372260652@qq.com','Xbruence1112111','111111')
+Nov 27 09:22:01 [RETURN]_null_0.0.0.0_/008/v1/branch/user/userRegistration
+[]
+Nov 27 09:24:56 [VISIT]_user_userRegistration_0.0.0.0_/008/v1/branch/user/userRegistration
+""
+Nov 27 09:24:57 [SQL]_null_0.0.0.0_/008/v1/branch/user/userRegistration
+SELECT * FROM 008v1.user  WHERE 1  AND user_name =  "Xbruence132111"     
+Nov 27 09:24:57 [SQL]__0.0.0.0_/008/v1/branch/user/userRegistration
+insert into 008v1.user (email,user_name,password) values('372260652@qq.com','Xbruence132111','111111')
+Nov 27 09:24:57 [RETURN]_null_0.0.0.0_/008/v1/branch/user/userRegistration
+[]
+Nov 27 09:26:11 [VISIT]_user_userRegistration_0.0.0.0_/008/v1/branch/user/userRegistration
+""
+Nov 27 09:26:12 [SQL]_null_0.0.0.0_/008/v1/branch/user/userRegistration
+SELECT * FROM 008v1.user  WHERE 1  AND user_name =  "Xbruence1232111"     
+Nov 27 09:26:12 [SQL]__0.0.0.0_/008/v1/branch/user/userRegistration
+insert into 008v1.user (email,user_name,password) values('372260652@qq.com','Xbruence1232111','111111')
+Nov 27 09:26:12 [RETURN]_null_0.0.0.0_/008/v1/branch/user/userRegistration
+[]
+Nov 27 09:30:13 [VISIT]_user_userRegistration_0.0.0.0_/008/v1/branch/user/userRegistration
+""
+Nov 27 09:30:14 [SQL]_null_0.0.0.0_/008/v1/branch/user/userRegistration
+SELECT * FROM 008v1.user  WHERE 1  AND user_name =  "Xbruence1241"     
+Nov 27 09:30:14 [SQL]__0.0.0.0_/008/v1/branch/user/userRegistration
+insert into 008v1.user (email,user_name,password) values('372260652@qq.com','Xbruence1241','111111')
+Nov 27 09:30:15 [RETURN]_null_0.0.0.0_/008/v1/branch/user/userRegistration
+[]
+Nov 27 09:30:49 [VISIT]_user_userRegistration_0.0.0.0_/008/v1/branch/user/userRegistration
+""
+Nov 27 09:30:50 [SQL]_null_0.0.0.0_/008/v1/branch/user/userRegistration
+SELECT * FROM 008v1.user  WHERE 1  AND user_name =  "Xbruence21241"     
+Nov 27 09:30:50 [SQL]__0.0.0.0_/008/v1/branch/user/userRegistration
+insert into 008v1.user (email,user_name,password) values('372260652@qq.com','Xbruence21241','111111')
+Nov 27 09:30:51 [RETURN]_null_0.0.0.0_/008/v1/branch/user/userRegistration
+{"regInfo":{"email":"372260652@qq.com","user_name":"Xbruence21241","password":"111111"}}
+Nov 27 09:34:38 [VISIT]_user_userRegistration_0.0.0.0_/008/v1/branch/user/userRegistration
+""
+Nov 27 09:34:39 [SQL]_null_0.0.0.0_/008/v1/branch/user/userRegistration
+SELECT * FROM 008v1.user  WHERE 1  AND user_name =  "Xbruence221241"     
+Nov 27 09:34:39 [SQL]__0.0.0.0_/008/v1/branch/user/userRegistration
+insert into 008v1.user (email,user_name,password) values('372260652@qq.com','Xbruence221241','111111')
+Nov 27 09:34:40 [RETURN]_null_0.0.0.0_/008/v1/branch/user/userRegistration
+{"regInfo":{"email":"372260652@qq.com","user_name":"Xbruence221241","password":"111111"}}
+Nov 27 15:24:12 [VISIT]_information_getRegTest_0.0.0.0_/008/v1/branch/Information/getRegTest
+""
+Nov 27 15:24:13 [SQL]_null_0.0.0.0_/008/v1/branch/Information/getRegTest
+SELECT * FROM 008v1.regions  WHERE 1  AND id in (1)     
+Nov 27 15:25:05 [VISIT]_information_getSingleBusinessById_0.0.0.0_/008/v1/branch/Information/getSingleBusinessById
+""
+Nov 27 15:25:06 [SQL]_null_0.0.0.0_/008/v1/branch/Information/getSingleBusinessById
+SELECT * FROM 008v1.business_message  WHERE 1  AND business_id in (1550)     
+Nov 27 15:26:03 [VISIT]_information_getSingleBusinessById_0.0.0.0_/008/v1/branch/Information/getSingleBusinessById
+""
+Nov 27 15:26:04 [SQL]_null_0.0.0.0_/008/v1/branch/Information/getSingleBusinessById
+SELECT * FROM 008v1.business_message  WHERE 1  AND business_id in (1550)     
+Nov 27 15:26:04 [SQL]_null_0.0.0.0_/008/v1/branch/Information/getSingleBusinessById
+SELECT * FROM 008v1.regions  WHERE 1  AND id in (1)     
+Nov 27 15:27:22 [VISIT]_information_getSingleBusinessById_0.0.0.0_/008/v1/branch/Information/getSingleBusinessById
+""
+Nov 27 15:27:23 [SQL]_null_0.0.0.0_/008/v1/branch/Information/getSingleBusinessById
+SELECT * FROM 008v1.business_message  WHERE 1  AND business_id in (1550)     
+Nov 27 15:27:23 [SQL]_null_0.0.0.0_/008/v1/branch/Information/getSingleBusinessById
+SELECT * FROM 008v1.regions  WHERE 1  AND id in (1)     
+Nov 27 15:28:08 [VISIT]_information_getSingleBusinessById_0.0.0.0_/008/v1/branch/Information/getSingleBusinessById
+""
+Nov 27 15:28:10 [SQL]_null_0.0.0.0_/008/v1/branch/Information/getSingleBusinessById
+SELECT * FROM 008v1.business_message  WHERE 1  AND business_id in (1550)     
+Nov 27 15:28:10 [SQL]_null_0.0.0.0_/008/v1/branch/Information/getSingleBusinessById
+SELECT * FROM 008v1.regions  WHERE 1  AND id in (1)     
+Nov 27 15:31:50 [VISIT]_information_getSingleBusinessById_0.0.0.0_/008/v1/branch/Information/getSingleBusinessById
+""
+Nov 27 15:31:51 [SQL]_null_0.0.0.0_/008/v1/branch/Information/getSingleBusinessById
+SELECT * FROM 008v1.business_message  WHERE 1  AND business_id in (1550)     
+Nov 27 15:31:51 [SQL]_null_0.0.0.0_/008/v1/branch/Information/getSingleBusinessById
+SELECT * FROM 008v1.regions  WHERE 1  AND id in (1)     
+Nov 27 15:32:47 [VISIT]_information_getSingleBusinessById_0.0.0.0_/008/v1/branch/Information/getSingleBusinessById
+""
+Nov 27 15:32:48 [SQL]_null_0.0.0.0_/008/v1/branch/Information/getSingleBusinessById
+SELECT * FROM 008v1.business_message  WHERE 1  AND business_id in (1550)     
+Nov 27 15:32:48 [SQL]_null_0.0.0.0_/008/v1/branch/Information/getSingleBusinessById
+SELECT * FROM 008v1.regions  WHERE 1  AND id in (1)     
+Nov 27 15:32:48 [SQL]_null_0.0.0.0_/008/v1/branch/Information/getSingleBusinessById
+SELECT * FROM 008v1.area  WHERE 1  AND id in (1)     
+Nov 27 15:33:05 [VISIT]_information_getSingleBusinessById_0.0.0.0_/008/v1/branch/Information/getSingleBusinessById
+""
+Nov 27 15:33:06 [SQL]_null_0.0.0.0_/008/v1/branch/Information/getSingleBusinessById
+SELECT * FROM 008v1.business_message  WHERE 1  AND business_id in (1550)     
+Nov 27 15:33:06 [SQL]_null_0.0.0.0_/008/v1/branch/Information/getSingleBusinessById
+SELECT * FROM 008v1.regions  WHERE 1  AND id in (1)     
+Nov 27 15:33:06 [SQL]_null_0.0.0.0_/008/v1/branch/Information/getSingleBusinessById
+SELECT * FROM 008v1.area  WHERE 1  AND id in (1)     
+Nov 27 15:33:08 [VISIT]_information_getSingleBusinessById_0.0.0.0_/008/v1/branch/Information/getSingleBusinessById
+""
+Nov 27 15:33:09 [SQL]_null_0.0.0.0_/008/v1/branch/Information/getSingleBusinessById
+SELECT * FROM 008v1.business_message  WHERE 1  AND business_id in (1550)     
+Nov 27 15:33:09 [SQL]_null_0.0.0.0_/008/v1/branch/Information/getSingleBusinessById
+SELECT * FROM 008v1.regions  WHERE 1  AND id in (1)     
+Nov 27 15:33:09 [SQL]_null_0.0.0.0_/008/v1/branch/Information/getSingleBusinessById
+SELECT * FROM 008v1.area  WHERE 1  AND id in (1)     
+Nov 27 15:42:59 [VISIT]_information_getSingleBusinessById_0.0.0.0_/008/v1/branch/Information/getSingleBusinessById
+""
+Nov 27 15:43:00 [SQL]_null_0.0.0.0_/008/v1/branch/Information/getSingleBusinessById
+SELECT * FROM 008v1.business_message  WHERE 1  AND business_id in (1550)     
+Nov 27 15:43:00 [SQL]_null_0.0.0.0_/008/v1/branch/Information/getSingleBusinessById
+SELECT * FROM 008v1.regions  WHERE 1  AND id in (1)     
+Nov 27 15:43:00 [SQL]_null_0.0.0.0_/008/v1/branch/Information/getSingleBusinessById
+SELECT * FROM 008v1.regions  WHERE 1  AND id in (1)     
+Nov 27 15:44:19 [VISIT]_information_getSingleBusinessById_0.0.0.0_/008/v1/branch/Information/getSingleBusinessById
+""
+Nov 27 15:44:20 [SQL]_null_0.0.0.0_/008/v1/branch/Information/getSingleBusinessById
+SELECT * FROM 008v1.business_message  WHERE 1  AND business_id in (1550)     
+Nov 27 15:44:44 [VISIT]_information_getSingleBusinessById_0.0.0.0_/008/v1/branch/Information/getSingleBusinessById
+""
+Nov 27 15:44:45 [SQL]_null_0.0.0.0_/008/v1/branch/Information/getSingleBusinessById
+SELECT * FROM 008v1.business_message  WHERE 1  AND business_id in (1550)     
+Nov 27 15:48:47 [VISIT]_information_getSingleBusinessById_0.0.0.0_/008/v1/branch/Information/getSingleBusinessById
+""
+Nov 27 15:48:48 [SQL]_null_0.0.0.0_/008/v1/branch/Information/getSingleBusinessById
+SELECT * FROM 008v1.business_message  WHERE 1  AND business_id in (1550)     
+Nov 27 15:51:21 [VISIT]_information_getSingleBusinessById_0.0.0.0_/008/v1/branch/Information/getSingleBusinessById
+""
+Nov 27 15:51:23 [SQL]_null_0.0.0.0_/008/v1/branch/Information/getSingleBusinessById
+SELECT * FROM 008v1.business_message  WHERE 1  AND business_id in (1550)     
+Nov 27 15:51:24 [VISIT]_information_getSingleBusinessById_0.0.0.0_/008/v1/branch/Information/getSingleBusinessById
+""
+Nov 27 15:51:25 [SQL]_null_0.0.0.0_/008/v1/branch/Information/getSingleBusinessById
+SELECT * FROM 008v1.business_message  WHERE 1  AND business_id in (1550)     
+Nov 27 15:52:11 [VISIT]_information_getSingleBusinessById_0.0.0.0_/008/v1/branch/Information/getSingleBusinessById
+""
+Nov 27 15:52:13 [SQL]_null_0.0.0.0_/008/v1/branch/Information/getSingleBusinessById
+SELECT * FROM 008v1.business_message  WHERE 1  AND business_id in (1550)     
+Nov 27 15:54:39 [VISIT]_information_getSingleBusinessById_0.0.0.0_/008/v1/branch/Information/getSingleBusinessById
+""
+Nov 27 15:54:40 [SQL]_null_0.0.0.0_/008/v1/branch/Information/getSingleBusinessById
+SELECT * FROM 008v1.business_message  WHERE 1  AND business_id in (1550)     
+Nov 27 15:54:40 [SQL]_null_0.0.0.0_/008/v1/branch/Information/getSingleBusinessById
+SELECT area_name,regions_name FROM 008v1.regions  LEFT JOIN 008v1.area ON regions.area_id = area.id  WHERE 1  AND regions.id in (1)     
+Nov 27 15:55:20 [VISIT]_information_getSingleBusinessById_0.0.0.0_/008/v1/branch/Information/getSingleBusinessById
+""
+Nov 27 15:55:21 [SQL]_null_0.0.0.0_/008/v1/branch/Information/getSingleBusinessById
+SELECT * FROM 008v1.business_message  WHERE 1  AND business_id in (1550)     
+Nov 27 15:55:21 [SQL]_null_0.0.0.0_/008/v1/branch/Information/getSingleBusinessById
+SELECT area_name,regions_name FROM 008v1.regions  LEFT JOIN 008v1.area ON regions.area_id = area.id  WHERE 1  AND regions.id in (1)     
+Nov 27 15:58:11 [VISIT]_information_getSingleBusinessById_0.0.0.0_/008/v1/branch/Information/getSingleBusinessById
+""
+Nov 27 15:58:12 [SQL]_null_0.0.0.0_/008/v1/branch/Information/getSingleBusinessById
+SELECT * FROM 008v1.business_message  WHERE 1  AND business_id in (1550)     
+Nov 27 15:58:12 [SQL]_null_0.0.0.0_/008/v1/branch/Information/getSingleBusinessById
+SELECT * FROM 008v1.regions  LEFT JOIN 008v1.area ON regions.area_id = area.id  WHERE 1  AND regions.id in (1)     
+Nov 27 15:59:18 [VISIT]_information_getSingleBusinessById_0.0.0.0_/008/v1/branch/Information/getSingleBusinessById
+""
+Nov 27 15:59:19 [SQL]_null_0.0.0.0_/008/v1/branch/Information/getSingleBusinessById
+SELECT * FROM 008v1.business_message  WHERE 1  AND business_id in (1550)     
+Nov 27 15:59:19 [SQL]_null_0.0.0.0_/008/v1/branch/Information/getSingleBusinessById
+SELECT * FROM 008v1.regions  LEFT JOIN 008v1.area ON regions.area_id = area.id  WHERE 1  AND regions.id in (1)     
+Nov 27 15:59:25 [VISIT]_information_getSingleBusinessById_0.0.0.0_/008/v1/branch/Information/getSingleBusinessById
+""
+Nov 27 15:59:26 [SQL]_null_0.0.0.0_/008/v1/branch/Information/getSingleBusinessById
+SELECT * FROM 008v1.business_message  WHERE 1  AND business_id in (1550)     
+Nov 27 15:59:26 [SQL]_null_0.0.0.0_/008/v1/branch/Information/getSingleBusinessById
+SELECT * FROM 008v1.regions  LEFT JOIN 008v1.area ON regions.area_id = area.id  WHERE 1  AND regions.id in (1)     
+Nov 27 16:00:18 [VISIT]_information_getSingleBusinessById_0.0.0.0_/008/v1/branch/Information/getSingleBusinessById
+""
+Nov 27 16:00:19 [SQL]_null_0.0.0.0_/008/v1/branch/Information/getSingleBusinessById
+SELECT * FROM 008v1.business_message  WHERE 1  AND business_id in (1550)     
+Nov 27 16:00:19 [SQL]_null_0.0.0.0_/008/v1/branch/Information/getSingleBusinessById
+SELECT * FROM 008v1.regions  LEFT JOIN 008v1.area ON regions.area_id = area.id  WHERE 1  AND regions.id in (1)     
+Nov 27 16:13:14 [VISIT]_information_getSingleBusinessById_0.0.0.0_/008/v1/branch/Information/getSingleBusinessById
+""
+Nov 27 16:13:15 [SQL]_null_0.0.0.0_/008/v1/branch/Information/getSingleBusinessById
+SELECT * FROM 008v1.business_message  WHERE 1  AND business_id in (1550)     
+Nov 27 16:13:15 [SQL]_null_0.0.0.0_/008/v1/branch/Information/getSingleBusinessById
+SELECT * FROM 008v1.regions  LEFT JOIN 008v1.area ON regions.area_id = area.id  WHERE 1  AND regions.id in (1)     
+Nov 27 16:20:14 [VISIT]_information_getSingleBusinessById_0.0.0.0_/008/v1/branch/Information/getSingleBusinessById
+""
+Nov 27 16:20:15 [SQL]_null_0.0.0.0_/008/v1/branch/Information/getSingleBusinessById
+SELECT * FROM 008v1.business_message  WHERE 1  AND business_id in (1550)     
+Nov 27 16:20:15 [SQL]_null_0.0.0.0_/008/v1/branch/Information/getSingleBusinessById
+SELECT * FROM 008v1.regions  LEFT JOIN 008v1.area ON regions.area_id = area.id  WHERE 1  AND regions.id in (1)     
+Nov 27 16:20:15 [RETURN]_null_0.0.0.0_/008/v1/branch/Information/getSingleBusinessById
+{"user":{"id":"1","business_id":"1550","name":"\u5929\u56fd\u7684gsc","branch_name":null,"address":"xx\u8defxxxx\u53f7xx\u697cx0x\u5ba4","telephone":"021-56565656","regions":{"regions_name":"test","area_name":"\u5f90\u6c47"},"categories":"","latitude":"125.32499695","longitude":"144.33334351","avg_rating":null,"rating_img_url":null,"rating_s_img_url":null,"product_grade":null,"decoration_grade":null,"service_grade":null,"avg_price":null,"review_count":null,"business_url":null,"photo_url":null,"s_photo_url":null,"has_coupon":null,"coupon_id":null,"coupon_url":null,"coupon_description":null,"has_deal":null}}
+Nov 27 16:22:50 [VISIT]_information_getSingleBusinessById_0.0.0.0_/008/v1/branch/Information/getSingleBusinessById
+""
+Nov 27 16:22:51 [SQL]_null_0.0.0.0_/008/v1/branch/Information/getSingleBusinessById
+SELECT * FROM 008v1.business_message  WHERE 1  AND business_id in (1550)     
+Nov 27 16:22:51 [SQL]_null_0.0.0.0_/008/v1/branch/Information/getSingleBusinessById
+SELECT * FROM 008v1.regions  LEFT JOIN 008v1.area ON regions.area_id = area.id  WHERE 1  AND regions.id in (1)     
+Nov 27 16:22:51 [RETURN]_null_0.0.0.0_/008/v1/branch/Information/getSingleBusinessById
+{"user":{"id":"1","business_id":"1550","name":"\u5929\u56fd\u7684gsc","branch_name":null,"address":"xx\u8defxxxx\u53f7xx\u697cx0x\u5ba4","telephone":"021-56565656","regions":{"regions_name":"test","area_name":"\u5f90\u6c47"},"categories":"","latitude":"125.32499695","longitude":"144.33334351","avg_rating":null,"rating_img_url":null,"rating_s_img_url":null,"product_grade":null,"decoration_grade":null,"service_grade":null,"avg_price":null,"review_count":null,"business_url":null,"photo_url":null,"s_photo_url":null,"has_coupon":null,"coupon_id":null,"coupon_url":null,"coupon_description":null,"has_deal":null}}
+Nov 27 16:27:53 [VISIT]_information_getSingleBusinessById_0.0.0.0_/008/v1/branch/Information/getSingleBusinessById
+""
+Nov 27 16:27:54 [SQL]_null_0.0.0.0_/008/v1/branch/Information/getSingleBusinessById
+SELECT * FROM 008v1.business_message  WHERE 1  AND business_id in (1550)     
+Nov 27 16:28:05 [VISIT]_information_getSingleBusinessById_0.0.0.0_/008/v1/branch/Information/getSingleBusinessById
+""
+Nov 27 16:28:06 [SQL]_null_0.0.0.0_/008/v1/branch/Information/getSingleBusinessById
+SELECT * FROM 008v1.business_message  WHERE 1  AND business_id in (1550)     
+Nov 27 16:28:27 [VISIT]_information_getSingleBusinessById_0.0.0.0_/008/v1/branch/Information/getSingleBusinessById
+""
+Nov 27 16:28:28 [SQL]_null_0.0.0.0_/008/v1/branch/Information/getSingleBusinessById
+SELECT * FROM 008v1.business_message  WHERE 1  AND business_id in (1550)     
+Nov 27 16:28:40 [VISIT]_information_getSingleBusinessById_0.0.0.0_/008/v1/branch/Information/getSingleBusinessById
+""
+Nov 27 16:28:41 [SQL]_null_0.0.0.0_/008/v1/branch/Information/getSingleBusinessById
+SELECT * FROM 008v1.business_message  WHERE 1  AND business_id in (1550)     
+Nov 27 16:28:53 [VISIT]_information_getSingleBusinessById_0.0.0.0_/008/v1/branch/Information/getSingleBusinessById
+""
+Nov 27 16:28:54 [SQL]_null_0.0.0.0_/008/v1/branch/Information/getSingleBusinessById
+SELECT * FROM 008v1.business_message  WHERE 1  AND business_id in (1550)     
+Nov 27 16:29:20 [VISIT]_information_getSingleBusinessById_0.0.0.0_/008/v1/branch/Information/getSingleBusinessById
+""
+Nov 27 16:29:21 [SQL]_null_0.0.0.0_/008/v1/branch/Information/getSingleBusinessById
+SELECT * FROM 008v1.business_message  WHERE 1  AND business_id in (1550)     
+Nov 27 16:29:26 [VISIT]_information_getSingleBusinessById_0.0.0.0_/008/v1/branch/Information/getSingleBusinessById
+""
+Nov 27 16:29:28 [SQL]_null_0.0.0.0_/008/v1/branch/Information/getSingleBusinessById
+SELECT * FROM 008v1.business_message  WHERE 1  AND business_id in (1550)     
+Nov 27 16:30:51 [VISIT]_information_getSingleBusinessById_0.0.0.0_/008/v1/branch/Information/getSingleBusinessById
+""
+Nov 27 16:30:53 [SQL]_null_0.0.0.0_/008/v1/branch/Information/getSingleBusinessById
+SELECT * FROM 008v1.business_message  WHERE 1  AND business_id in (1550)     
+Nov 27 16:30:53 [SQL]_null_0.0.0.0_/008/v1/branch/Information/getSingleBusinessById
+SELECT * FROM 008v1.regions  LEFT JOIN 008v1.area ON regions.area_id = area.id  WHERE 1  AND regions.id in (0)     
+Nov 27 16:30:53 [RETURN]_null_0.0.0.0_/008/v1/branch/Information/getSingleBusinessById
+{"user":{"id":"1","business_id":"1550","name":"\u5929\u56fd\u7684gsc","branch_name":null,"address":"xx\u8defxxxx\u53f7xx\u697cx0x\u5ba4","telephone":"021-56565656","regions":{"regions_name":null,"area_name":null},"categories":"","latitude":"125.32499695","longitude":"144.33334351","avg_rating":null,"rating_img_url":null,"rating_s_img_url":null,"product_grade":null,"decoration_grade":null,"service_grade":null,"avg_price":null,"review_count":null,"business_url":null,"photo_url":null,"s_photo_url":null,"has_coupon":null,"coupon_id":null,"coupon_url":null,"coupon_description":null,"has_deal":null}}
+Nov 27 16:31:27 [VISIT]_information_getSingleBusinessById_0.0.0.0_/008/v1/branch/Information/getSingleBusinessById
+""
+Nov 27 16:31:28 [SQL]_null_0.0.0.0_/008/v1/branch/Information/getSingleBusinessById
+SELECT * FROM 008v1.business_message  WHERE 1  AND business_id in (1550)     
+Nov 27 16:31:28 [SQL]_null_0.0.0.0_/008/v1/branch/Information/getSingleBusinessById
+SELECT * FROM 008v1.regions  LEFT JOIN 008v1.area ON regions.area_id = area.id  WHERE 1  AND regions.id in (1)     
+Nov 27 16:31:28 [RETURN]_null_0.0.0.0_/008/v1/branch/Information/getSingleBusinessById
+{"user":{"id":"1","business_id":"1550","name":"\u5929\u56fd\u7684gsc","branch_name":null,"address":"xx\u8defxxxx\u53f7xx\u697cx0x\u5ba4","telephone":"021-56565656","regions":{"regions_name":"test","area_name":"\u5f90\u6c47"},"categories":"","latitude":"125.32499695","longitude":"144.33334351","avg_rating":null,"rating_img_url":null,"rating_s_img_url":null,"product_grade":null,"decoration_grade":null,"service_grade":null,"avg_price":null,"review_count":null,"business_url":null,"photo_url":null,"s_photo_url":null,"has_coupon":null,"coupon_id":null,"coupon_url":null,"coupon_description":null,"has_deal":null}}
+Nov 27 16:34:14 [VISIT]_information_getSingleBusinessById_0.0.0.0_/008/v1/branch/Information/getSingleBusinessById
+""
+Nov 27 16:34:15 [SQL]_null_0.0.0.0_/008/v1/branch/Information/getSingleBusinessById
+SELECT * FROM 008v1.business_message  WHERE 1  AND business_id in (1550)     
+Nov 27 16:34:15 [RETURN]_null_0.0.0.0_/008/v1/branch/Information/getSingleBusinessById
+{"is_scuess":0,"errorCode":1}
+Nov 27 16:34:46 [VISIT]_information_getSingleBusinessById_0.0.0.0_/008/v1/branch/Information/getSingleBusinessById
+""
+Nov 27 16:34:47 [SQL]_null_0.0.0.0_/008/v1/branch/Information/getSingleBusinessById
+SELECT * FROM 008v1.business_message  WHERE 1  AND business_id in (3205237)     
+Nov 27 16:35:18 [VISIT]_information_getSingleBusinessById_0.0.0.0_/008/v1/branch/Information/getSingleBusinessById
+""
+Nov 27 16:35:22 [SQL]_null_0.0.0.0_/008/v1/branch/Information/getSingleBusinessById
+SELECT * FROM 008v1.business_message  WHERE 1  AND business_id in (3205237)     
+Nov 27 16:36:08 [VISIT]_information_getSingleBusinessById_0.0.0.0_/008/v1/branch/Information/getSingleBusinessById
+""
+Nov 27 16:36:09 [SQL]_null_0.0.0.0_/008/v1/branch/Information/getSingleBusinessById
+SELECT * FROM 008v1.business_message  WHERE 1  AND business_id in (3205237)     
+Nov 27 16:37:32 [VISIT]_information_getSingleBusinessById_0.0.0.0_/008/v1/branch/Information/getSingleBusinessById
+""
+Nov 27 16:37:33 [SQL]_null_0.0.0.0_/008/v1/branch/Information/getSingleBusinessById
+SELECT * FROM 008v1.business_message  WHERE 1  AND business_id in (3205237)     
+Nov 27 16:37:35 [VISIT]_information_getSingleBusinessById_0.0.0.0_/008/v1/branch/Information/getSingleBusinessById
+""
+Nov 27 16:37:36 [SQL]_null_0.0.0.0_/008/v1/branch/Information/getSingleBusinessById
+SELECT * FROM 008v1.business_message  WHERE 1  AND business_id in (3205237)     
+Nov 27 16:39:07 [VISIT]_information_getSingleBusinessById_0.0.0.0_/008/v1/branch/Information/getSingleBusinessById
+""
+Nov 27 16:39:09 [SQL]_null_0.0.0.0_/008/v1/branch/Information/getSingleBusinessById
+SELECT * FROM 008v1.business_message  WHERE 1  AND business_id in (3205237)     
+Nov 27 16:40:49 [VISIT]_information_getSingleBusinessById_0.0.0.0_/008/v1/branch/Information/getSingleBusinessById
+""
+Nov 27 16:41:11 [SQL]_null_0.0.0.0_/008/v1/branch/Information/getSingleBusinessById
+SELECT * FROM 008v1.business_message  WHERE 1  AND business_id in (3205237)     
+Nov 27 16:43:40 [VISIT]_information_getSingleBusinessById_0.0.0.0_/008/v1/branch/Information/getSingleBusinessById
+""
+Nov 27 16:43:43 [SQL]_null_0.0.0.0_/008/v1/branch/Information/getSingleBusinessById
+SELECT * FROM 008v1.business_message  WHERE 1  AND business_id in (3205237)     
+Nov 27 16:43:56 [VISIT]_information_getSingleBusinessById_0.0.0.0_/008/v1/branch/Information/getSingleBusinessById
+""
+Nov 27 16:44:00 [SQL]_null_0.0.0.0_/008/v1/branch/Information/getSingleBusinessById
+SELECT * FROM 008v1.business_message  WHERE 1  AND business_id in (3205237)     
+Nov 27 16:44:18 [VISIT]_information_getSingleBusinessById_0.0.0.0_/008/v1/branch/Information/getSingleBusinessById
+""
+Nov 27 16:44:22 [SQL]_null_0.0.0.0_/008/v1/branch/Information/getSingleBusinessById
+SELECT * FROM 008v1.business_message  WHERE 1  AND business_id in (3205237)     
+Nov 27 16:52:24 [VISIT]_information_getSingleBusinessById_0.0.0.0_/008/v1/branch/Information/getSingleBusinessById
+""
+Nov 27 16:52:27 [SQL]_null_0.0.0.0_/008/v1/branch/Information/getSingleBusinessById
+SELECT * FROM 008v1.business_message  WHERE 1  AND business_id in (3205237)     
+Nov 27 16:52:32 [VISIT]_information_getSingleBusinessById_0.0.0.0_/008/v1/branch/Information/getSingleBusinessById
+""
+Nov 27 16:52:33 [SQL]_null_0.0.0.0_/008/v1/branch/Information/getSingleBusinessById
+SELECT * FROM 008v1.business_message  WHERE 1  AND business_id in (3205237)     
+Nov 27 16:52:33 [SQL]_null_0.0.0.0_/008/v1/branch/Information/getSingleBusinessById
+SELECT * FROM 008v1.regions  LEFT JOIN 008v1.area ON regions.area_id = area.id  WHERE 1  AND regions.id in (1)     
+Nov 27 16:52:33 [RETURN]_null_0.0.0.0_/008/v1/branch/Information/getSingleBusinessById
+{"user":{"id":"8","business_id":"3205237","name":"\u4e0a\u6d77*****","branch_name":"\u9f99\u4e4b\u68a6\u5e97","address":"**\u533a*\u8def*\u5f04*\u53f7(\u6d4b\u8bd5\u6570\u636e\uff0c\u7528\u4e8e\u5f00\u53d1\u6d4b\u8bd5\uff0c\u5f00\u53d1\u5b8c\u6210\u540e\u8bf7\u7533\u8bf7\u6b63\u5f0f\u6570\u636e)","telephone":"021-********","regions":{"regions_name":"test","area_name":"\u5f90\u6c47"},"categories":"\u672c\u5e2e\u83dc,\u5a5a\u5bb4\u9152\u5e97","latitude":"31.21900368","longitude":"121.41655731","avg_rating":"4","rating_img_url":"http:\/\/i2.dpfile.com\/s\/i\/app\/api\/32_4star.png","rating_s_img_url":"http:\/\/i2.dpfile.com\/s\/i\/app\/api\/16_4star.png","product_grade":"3","decoration_grade":"4","service_grade":"3","avg_price":"113","review_count":"1660","business_url":"http:\/\/dpurl.cn\/p\/mwKA3Mq6Ki","photo_url":"http:\/\/i1.dpfile.com\/pc\/bae61f6bab689ca8f67d1d7759ed5715(700x700)\/thumb.jpg","s_photo_url":"http:\/\/i2.dpfile.com\/pc\/bae61f6bab689ca8f67d1d7759ed5715(278x200)\/thumb.jpg","has_coupon":"1","coupon_id":"204804","coupon_url":"http:\/\/dpurl.cn\/p\/Yf4radQfgw","coupon_description":"\u591a\u6b3e\u5546\u52a1\u5957\u9910\u7279\u60e0\u4e2d\uff01","has_deal":"1","city":"\u4e0a\u6d77","distance":"494","deal_count":"3"}}
+Nov 27 17:00:49 [VISIT]_information_getSingleBusinessById_0.0.0.0_/008/v1/branch/Information/getSingleBusinessById
+""
+Nov 27 17:00:51 [SQL]_null_0.0.0.0_/008/v1/branch/Information/getSingleBusinessById
+SELECT * FROM 008v1.business_message  WHERE 1  AND business_id in (3205237)     
+Nov 27 17:01:18 [VISIT]_information_getSingleBusinessById_0.0.0.0_/008/v1/branch/Information/getSingleBusinessById
+""
+Nov 27 17:01:19 [SQL]_null_0.0.0.0_/008/v1/branch/Information/getSingleBusinessById
+SELECT * FROM 008v1.business_message  WHERE 1  AND business_id in (3205237)     
+Nov 27 17:01:19 [SQL]_null_0.0.0.0_/008/v1/branch/Information/getSingleBusinessById
+SELECT * FROM 008v1.regions  LEFT JOIN 008v1.district ON regions.district_id = district.id  WHERE 1  AND regions.id in (1)     
+Nov 27 17:01:20 [RETURN]_null_0.0.0.0_/008/v1/branch/Information/getSingleBusinessById
+{"user":{"id":"8","business_id":"3205237","name":"\u4e0a\u6d77*****","branch_name":"\u9f99\u4e4b\u68a6\u5e97","address":"**\u533a*\u8def*\u5f04*\u53f7(\u6d4b\u8bd5\u6570\u636e\uff0c\u7528\u4e8e\u5f00\u53d1\u6d4b\u8bd5\uff0c\u5f00\u53d1\u5b8c\u6210\u540e\u8bf7\u7533\u8bf7\u6b63\u5f0f\u6570\u636e)","telephone":"021-********","regions":{"regions_name":"test","district":null},"categories":"\u672c\u5e2e\u83dc,\u5a5a\u5bb4\u9152\u5e97","latitude":"31.21900368","longitude":"121.41655731","avg_rating":"4","rating_img_url":"http:\/\/i2.dpfile.com\/s\/i\/app\/api\/32_4star.png","rating_s_img_url":"http:\/\/i2.dpfile.com\/s\/i\/app\/api\/16_4star.png","product_grade":"3","decoration_grade":"4","service_grade":"3","avg_price":"113","review_count":"1660","business_url":"http:\/\/dpurl.cn\/p\/mwKA3Mq6Ki","photo_url":"http:\/\/i1.dpfile.com\/pc\/bae61f6bab689ca8f67d1d7759ed5715(700x700)\/thumb.jpg","s_photo_url":"http:\/\/i2.dpfile.com\/pc\/bae61f6bab689ca8f67d1d7759ed5715(278x200)\/thumb.jpg","has_coupon":"1","coupon_id":"204804","coupon_url":"http:\/\/dpurl.cn\/p\/Yf4radQfgw","coupon_description":"\u591a\u6b3e\u5546\u52a1\u5957\u9910\u7279\u60e0\u4e2d\uff01","has_deal":"1","city":"\u4e0a\u6d77","distance":"494","deal_count":"3"},"error":{"error_status":100,"status_info":"php \u9519\u8bef"}}
+Nov 27 17:02:02 [VISIT]_information_getSingleBusinessById_0.0.0.0_/008/v1/branch/Information/getSingleBusinessById
+""
+Nov 27 17:02:03 [SQL]_null_0.0.0.0_/008/v1/branch/Information/getSingleBusinessById
+SELECT * FROM 008v1.business_message  WHERE 1  AND business_id in (3205237)     
+Nov 27 17:02:03 [SQL]_null_0.0.0.0_/008/v1/branch/Information/getSingleBusinessById
+SELECT * FROM 008v1.regions  LEFT JOIN 008v1.district ON regions.district_id = district.id  WHERE 1  AND regions.id in (1)     
+Nov 27 17:02:18 [VISIT]_information_getSingleBusinessById_0.0.0.0_/008/v1/branch/Information/getSingleBusinessById
+""
+Nov 27 17:02:19 [SQL]_null_0.0.0.0_/008/v1/branch/Information/getSingleBusinessById
+SELECT * FROM 008v1.business_message  WHERE 1  AND business_id in (3205237)     
+Nov 27 17:02:19 [SQL]_null_0.0.0.0_/008/v1/branch/Information/getSingleBusinessById
+SELECT * FROM 008v1.regions  LEFT JOIN 008v1.district ON regions.district_id = district.id  WHERE 1  AND regions.id in (1)     
+Nov 27 17:02:19 [RETURN]_null_0.0.0.0_/008/v1/branch/Information/getSingleBusinessById
+{"user":{"id":"8","business_id":"3205237","name":"\u4e0a\u6d77*****","branch_name":"\u9f99\u4e4b\u68a6\u5e97","address":"**\u533a*\u8def*\u5f04*\u53f7(\u6d4b\u8bd5\u6570\u636e\uff0c\u7528\u4e8e\u5f00\u53d1\u6d4b\u8bd5\uff0c\u5f00\u53d1\u5b8c\u6210\u540e\u8bf7\u7533\u8bf7\u6b63\u5f0f\u6570\u636e)","telephone":"021-********","regions":{"regions_name":"test","district_name":"\u5362\u6e7e\u533a"},"categories":"\u672c\u5e2e\u83dc,\u5a5a\u5bb4\u9152\u5e97","latitude":"31.21900368","longitude":"121.41655731","avg_rating":"4","rating_img_url":"http:\/\/i2.dpfile.com\/s\/i\/app\/api\/32_4star.png","rating_s_img_url":"http:\/\/i2.dpfile.com\/s\/i\/app\/api\/16_4star.png","product_grade":"3","decoration_grade":"4","service_grade":"3","avg_price":"113","review_count":"1660","business_url":"http:\/\/dpurl.cn\/p\/mwKA3Mq6Ki","photo_url":"http:\/\/i1.dpfile.com\/pc\/bae61f6bab689ca8f67d1d7759ed5715(700x700)\/thumb.jpg","s_photo_url":"http:\/\/i2.dpfile.com\/pc\/bae61f6bab689ca8f67d1d7759ed5715(278x200)\/thumb.jpg","has_coupon":"1","coupon_id":"204804","coupon_url":"http:\/\/dpurl.cn\/p\/Yf4radQfgw","coupon_description":"\u591a\u6b3e\u5546\u52a1\u5957\u9910\u7279\u60e0\u4e2d\uff01","has_deal":"1","city":"\u4e0a\u6d77","distance":"494","deal_count":"3"}}
+Nov 27 17:02:29 [VISIT]_information_getSingleBusinessById_0.0.0.0_/008/v1/branch/Information/getSingleBusinessById
+""
+Nov 27 17:02:31 [SQL]_null_0.0.0.0_/008/v1/branch/Information/getSingleBusinessById
+SELECT * FROM 008v1.business_message  WHERE 1  AND business_id in (3205237)     
+Nov 27 17:02:31 [SQL]_null_0.0.0.0_/008/v1/branch/Information/getSingleBusinessById
+SELECT * FROM 008v1.regions  LEFT JOIN 008v1.district ON regions.district_id = district.id  WHERE 1  AND regions.id in (1)     
+Nov 27 17:03:02 [VISIT]_information_getSingleBusinessById_0.0.0.0_/008/v1/branch/Information/getSingleBusinessById
+""
+Nov 27 17:03:03 [SQL]_null_0.0.0.0_/008/v1/branch/Information/getSingleBusinessById
+SELECT * FROM 008v1.business_message  WHERE 1  AND business_id in (3205237)     
+Nov 27 17:03:03 [SQL]_null_0.0.0.0_/008/v1/branch/Information/getSingleBusinessById
+SELECT * FROM 008v1.regions  LEFT JOIN 008v1.district ON regions.district_id = district.id  WHERE 1  AND regions.id in (1)     
+Nov 27 17:03:19 [VISIT]_information_getSingleBusinessById_0.0.0.0_/008/v1/branch/Information/getSingleBusinessById
+""
+Nov 27 17:03:20 [SQL]_null_0.0.0.0_/008/v1/branch/Information/getSingleBusinessById
+SELECT * FROM 008v1.business_message  WHERE 1  AND business_id in (3205237)     
+Nov 27 17:03:20 [SQL]_null_0.0.0.0_/008/v1/branch/Information/getSingleBusinessById
+SELECT * FROM 008v1.regions  LEFT JOIN 008v1.district ON regions.district_id = district.id  WHERE 1  AND regions.id in (1)     
+Nov 27 17:03:28 [VISIT]_information_getSingleBusinessById_0.0.0.0_/008/v1/branch/Information/getSingleBusinessById
+""
+Nov 27 17:03:29 [SQL]_null_0.0.0.0_/008/v1/branch/Information/getSingleBusinessById
+SELECT * FROM 008v1.business_message  WHERE 1  AND business_id in (3205237)     
+Nov 27 17:03:29 [SQL]_null_0.0.0.0_/008/v1/branch/Information/getSingleBusinessById
+SELECT * FROM 008v1.regions  LEFT JOIN 008v1.district ON regions.district_id = district.id  WHERE 1  AND regions.id in (1)     
+Nov 27 17:03:29 [RETURN]_null_0.0.0.0_/008/v1/branch/Information/getSingleBusinessById
+{"user":{"id":"8","business_id":"3205237","name":"\u4e0a\u6d77*****","branch_name":"\u9f99\u4e4b\u68a6\u5e97","address":"**\u533a*\u8def*\u5f04*\u53f7(\u6d4b\u8bd5\u6570\u636e\uff0c\u7528\u4e8e\u5f00\u53d1\u6d4b\u8bd5\uff0c\u5f00\u53d1\u5b8c\u6210\u540e\u8bf7\u7533\u8bf7\u6b63\u5f0f\u6570\u636e)","telephone":"021-********","regions":{"regions_name":"test","district_name":"\u5362\u6e7e\u533a"},"categories":"\u672c\u5e2e\u83dc,\u5a5a\u5bb4\u9152\u5e97","latitude":"31.21900368","longitude":"121.41655731","avg_rating":"4","rating_img_url":"http:\/\/i2.dpfile.com\/s\/i\/app\/api\/32_4star.png","rating_s_img_url":"http:\/\/i2.dpfile.com\/s\/i\/app\/api\/16_4star.png","product_grade":"3","decoration_grade":"4","service_grade":"3","avg_price":"113","review_count":"1660","business_url":"http:\/\/dpurl.cn\/p\/mwKA3Mq6Ki","photo_url":"http:\/\/i1.dpfile.com\/pc\/bae61f6bab689ca8f67d1d7759ed5715(700x700)\/thumb.jpg","s_photo_url":"http:\/\/i2.dpfile.com\/pc\/bae61f6bab689ca8f67d1d7759ed5715(278x200)\/thumb.jpg","has_coupon":"1","coupon_id":"204804","coupon_url":"http:\/\/dpurl.cn\/p\/Yf4radQfgw","coupon_description":"\u591a\u6b3e\u5546\u52a1\u5957\u9910\u7279\u60e0\u4e2d\uff01","has_deal":"1","city":"\u4e0a\u6d77","distance":"494","deal_count":"3"}}
