@@ -27,8 +27,19 @@ class planDalModel extends Basic {
     public function __set($name, $value) {
         $this->$name = $value;
     }
+    
+    //此处暂时使用state_1为搜索条件
+    public function getManyBasicPalnByStateId($stateId) {
+        if (!empty($stateId) && is_array($stateId)) {
+            $stateId=  implode(',', $stateId);
+            $this->clearup();
+            $this->initialize("state_1 in ($stateId) ");
+            return $this->vars_all;
+        } else {
+            $this->echoErrorCode('3003');
+        }
+    }
 
-    //排序以后再添加一个参数以判断如何排序
     public function getSingleBasicPalnById($planId) {
         if (!empty($planId) && ctype_digit($planId)) {
             $this->clearup();
@@ -38,7 +49,7 @@ class planDalModel extends Basic {
             $this->echoErrorCode('3003');
         }
     }
-
+    //排序以后再添加一个参数以判断如何排序
     public function getBasicPalnSingal($extOrderStr = 0, $selectArray = 0, $sort = 0) {
 //        if(!empty($DistrictId)){
         $basicOrderStr = array();

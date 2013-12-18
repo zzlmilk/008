@@ -37,6 +37,16 @@ class FavoriteDalModel extends Basic {
             $this->echoErrorCode('3002');
         }
     }
+        public function getFavoriteMessageByWhereString($where) {
+        if (!empty($where)) {
+            $this->clearup();
+            $this->initialize($where);
+            return $this->vars_all;
+        }
+        else {
+            $this->echoErrorCode("4001");
+        }
+    }
 
     public function addFavoriteByUserId($userId, $favoriteId) {
         if (empty($userId) || !ctype_digit($userId)) {

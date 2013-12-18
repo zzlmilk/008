@@ -20,19 +20,53 @@ class PlanBllModel extends planDalModel {
     }
 
     public function getPlanByPosition($latitude, $longitude) {
+        $stateLength = 3;
+        $planArray=array();
         if (!is_numeric($latitude) || empty($latitude)) {
             $this->echoErrorCode("2014");
         } else if (!is_numeric($longitude) || empty($longitude)) {
             $this->echoErrorCode("2015");
         } else {
-            $range=$this->computeDistanceAndPosition($latitude, $longitude);
-            $selectStr="longitude  BETWEEN '".$range['minLng']."' and '".$range['maxLng'].
-                    "' and latitude BETWEEN '".$range['minLat']. "'and '".$range['maxLat']."'";
+            $range = $this->computeDistanceAndPosition($latitude, $longitude);
+            $selectStr = "longitude  BETWEEN '" . $range['minLng'] . "' and '" . $range['maxLng'] .
+                    "' and latitude BETWEEN '" . $range['minLat'] . "'and '" . $range['maxLat'] . "'";
+            $PlanBusiness = new PlanBusinessInformationBllModel();
+            $result = $PlanBusiness->getPlanBusinessByWhereString($selectStr);
+            foreach ($result as $PlanBusinessValue) {
+                $firstStatePlanBusinessId[] = $PlanBusinessValue["id"];
+            }
+            $resultPlan = $this->getManyBasicPalnByStateId($firstStatePlanBusinessId);
+            if ($resultPlan) {
+                foreach ($resultPlan as $planValue) {
+                    $tags = new tagsInformationDalModel();
+                    $resultTags = $tags->getManyTagsInformation($planValue['state_type']);
+                    foreach ($resultTags as $tag) {
+                        $tagsArray[] = $tag['tag_name'];
+                    }
+                    for ($i = 1; $i <= $stateLength; $i++) {
+                        $BusinessInfo = new PlanBusinessInformationBllModel();
+                        $stateId = $planValue['state_' . $i];
+                        if (!empty($stateId)) {
+                            $resultBusiness = $BusinessInfo->getSinglePlanBusinessInformationWithId($stateId, 1);
+                            if ($resultBusiness) {
+
+                                $businessArray[] = $resultBusiness;
+                            }
+                        } else {
+                            break;
+                        }
+                    }
+                    $planValue["Business"] = $businessArray;
+                    $planValue["state_type"] = $tagsArray;
+                    $planArray[]=$planValue;
+                }
+             $this->AssemblyJson($planArray);
+            }
         }
     }
 
-    public function computeDistanceAndPosition($myLat,$myLng,$Distance=1) {
-        if(empty($Distance)||!is_numeric($Distance)){
+    public function computeDistanceAndPosition($myLat, $myLng, $Distance = 1) {
+        if (empty($Distance) || !is_numeric($Distance)) {
             $this->echoErrorCode('2016');
         }
         $range = 180 / pi() * $Distance / 6372.797;     //里面的 1 就代表搜索 1km 之内，单位km  

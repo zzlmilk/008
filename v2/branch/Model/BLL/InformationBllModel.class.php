@@ -17,6 +17,7 @@ class PlanBusinessInformationBllModel extends planBusinessInformationDalModel{
 
         parent::__construct();
     }
+        
         public function getSinglePlanBusinessInformationWithId($Id,$returnType=0) {
         if (!empty($Id)) {
             $result = $this->getOncePlanBusinessInformationById($Id);
@@ -49,6 +50,11 @@ class PlanBusinessInformationBllModel extends planBusinessInformationDalModel{
         else{
            $this->echoErrorCode("2013");
         }
+    }
+    public  function getPlanBusinessByWhereString($whereString){
+        $result=$this->getPlanBusinessInformationByWhereString($whereString);
+        return $result;
+        
     }
 }
 class BusinessInformationBllModel extends BusinessInformationDalModel{

@@ -40,6 +40,16 @@ class planBusinessInformationDalModel extends Basic {
             $this->echoErrorCode('2001');
         }
     }
+    public function getPlanBusinessInformationByWhereString($where) {
+        if (!empty($where)) {
+            $this->clearup();
+            $this->initialize($where);
+            return $this->vars_all;
+        }
+        else {
+            $this->echoErrorCode("4001");
+        }
+    }
 
 }
 class BusinessInformationDalModel extends Basic {
