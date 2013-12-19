@@ -18,7 +18,7 @@ class PlanBllModel extends planDalModel {
 
         parent::__construct();
     }
-
+    //通过坐标获取附近的路线
     public function getPlanByPosition($latitude, $longitude) {
         $stateLength = 3;
         $planArray=array();
@@ -64,7 +64,7 @@ class PlanBllModel extends planDalModel {
             }
         }
     }
-
+    //计算经纬度范围
     public function computeDistanceAndPosition($myLat, $myLng, $Distance = 1) {
         if (empty($Distance) || !is_numeric($Distance)) {
             $this->echoErrorCode('2016');

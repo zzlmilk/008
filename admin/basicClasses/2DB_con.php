@@ -302,7 +302,7 @@ class Query extends DB_Mysql_search {
             $attributeString = $this->convertor->convertArrayToString($array,'KEY');
             $valueString = $this->convertor->convertArrayToString($array,'DB_VALUE');
             $insert = 'insert into '.$this->dbname.'.'.$this->table.' ('.$attributeString.') values('.$valueString.')';
-            echo $insert.'<br />';
+            //echo $insert.'<br />';
             if($this->mode==1) {
                 $this->clearUp();
             }

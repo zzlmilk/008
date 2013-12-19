@@ -217,9 +217,9 @@ class RegionsInformationBllModel extends RegionsInformationDalModel{
              $catchArray['regions_name']=$resultArray['regions_name'];
              array_push($ca, $catchArray);
              }
-                 $RegionsArray=array();
-                 $RegionsArray['Regions']=$ca;
-                 $this->AssemblyJson($RegionsArray);
+//                 $RegionsArray=array();
+//                 $RegionsArray['Regions']=$ca;
+                 $this->AssemblyJson($ca);
              }
              else if($isJSONCodeReturn==1){
             foreach ($result as $resultArray){

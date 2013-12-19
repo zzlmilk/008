@@ -34,6 +34,7 @@ class InformationController extends BaseController {
     }
 
     public function getRegionsInformationWithDistrictId() {
+       
         $DistrictId = $this->request['districtId'];
         $Regions = new RegionsInformationBllModel();
         $Regions->getManyRegionsInformationWithDistrictId($DistrictId);

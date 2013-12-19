@@ -9,6 +9,7 @@ class FavoriteController extends BaseController{
 //        $userId='80';
         $favorite->getFavorite($userId);
     }
+    //取消收藏
     public function delFavorite(){
         $userId = $this->request['userId'];
         $favoriteId = $this->request['planId'];
@@ -17,7 +18,7 @@ class FavoriteController extends BaseController{
 //        $favoriteId='1';
         $favorite->delFavoriteByUserId($userId, $favoriteId);
     }
-
+//添加收藏
     public function addFavorite(){
         $userId = $this->request['userId'];
         $favoriteId = $this->request['planId'];

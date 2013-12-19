@@ -3,7 +3,7 @@ class PositionController extends BaseController{
     public function __construct() {
         parent::__construct();
     }
-
+    //test
     public function getPosition(){
         $myLat=31.21900368;
         $myLng=121.41655731;
@@ -20,6 +20,8 @@ class PositionController extends BaseController{
         $a['minLng']=$minLng;
         var_dump($a);
     }
+    //获取坐标附近的所有路线，默认范围为一公里
+    //http://localhost/008/v2/branch/Position/getNearbyPlan?latitude=31.23096027&longitude=121.48060876
     public function getNearbyPlan(){
         $latitude = $this->request['latitude'];
         $longitude = $this->request['longitude'];

@@ -19,7 +19,7 @@
     <script src="./jquery-1.9.1.min.js"></script>
     <script>
         $("#buttom").click(function(){
-            var setUrl="http://localhost/008/v1/branch/"+$("#functionName").val()+"?"+$("#paramName").val();
+            var setUrl="http://localhost/008/v2/branch/"+$("#functionName").val()+"?"+$("#paramName").val();
            // 'http://localhost/008/v1/branch/Information/AllDistrictInformation'
         $.ajax({
             url:setUrl,

@@ -18,7 +18,7 @@ class FavoriteBllModel extends FavoriteDalModel {
 
         parent::__construct();
     }
-
+    //   获取某用户的收藏数据并对数据输出格式进行处理
     public function getFavorite($userId) {
         if (!empty($userId) && ctype_digit($userId)) {
             $result = $this->getFavoriteByUserId($userId);
