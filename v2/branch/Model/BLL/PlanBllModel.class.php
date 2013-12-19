@@ -32,17 +32,22 @@ class PlanBllModel extends planDalModel {
                     "' and latitude BETWEEN '" . $range['minLat'] . "'and '" . $range['maxLat'] . "'";
             $PlanBusiness = new PlanBusinessInformationBllModel();
             $result = $PlanBusiness->getPlanBusinessByWhereString($selectStr);
+            if($result==''){
+                $this->echoErrorCode('3001');
+            }
             foreach ($result as $PlanBusinessValue) {
                 $firstStatePlanBusinessId[] = $PlanBusinessValue["id"];
             }
             $resultPlan = $this->getManyBasicPalnByStateId($firstStatePlanBusinessId);
             if ($resultPlan) {
+                //遍历所有获取到的路线得到商铺的详细信息
                 foreach ($resultPlan as $planValue) {
                     $tags = new tagsInformationDalModel();
                     $resultTags = $tags->getManyTagsInformation($planValue['state_type']);
                     foreach ($resultTags as $tag) {
                         $tagsArray[] = $tag['tag_name'];
                     }
+                     //遍历stateid获取类型；
                     for ($i = 1; $i <= $stateLength; $i++) {
                         $BusinessInfo = new PlanBusinessInformationBllModel();
                         $stateId = $planValue['state_' . $i];
@@ -56,11 +61,14 @@ class PlanBllModel extends planDalModel {
                             break;
                         }
                     }
-                    $planValue["Business"] = $businessArray;
+                    $planValue["Businesses"] = $businessArray;
                     $planValue["state_type"] = $tagsArray;
-                    $planArray[]=$planValue;
+                    $planArray=$planValue;
                 }
              $this->AssemblyJson($planArray);
+            }
+            else{
+               $this->echoErrorCode('3001');
             }
         }
     }
@@ -110,7 +118,7 @@ class PlanBllModel extends planDalModel {
                     break;
                 }
             }
-            $result["Business"] = $businessArray;
+            $result["Businesses"] = $businessArray;
             $result["state_type"] = $tagsArray;
             $planObject = new stdClass();
             $planObject = $this->createDateObject($planObject, $result);
@@ -160,6 +168,7 @@ class PlanBllModel extends planDalModel {
             foreach ($resultTags as $tag) {
                 $tagsArray[] = $tag['tag_name'];
             }
+            //遍历stateid获取类型；
             for ($i = 1; $i <= $stateLength; $i++) {
                 $BusinessInfo = new PlanBusinessInformationBllModel();
                 $stateId = $result['state_' . $i];
