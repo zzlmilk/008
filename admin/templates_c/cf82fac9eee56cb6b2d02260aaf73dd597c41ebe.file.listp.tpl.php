@@ -1,16 +1,16 @@
-<?php /* Smarty version Smarty-3.0-RC2, created on 2013-12-18 14:51:03
+<?php /* Smarty version Smarty-3.0-RC2, created on 2013-12-20 17:38:37
          compiled from "/Users/Lev/Sites/008/admin//templates/listp.tpl" */ ?>
-<?php /*%%SmartyHeaderCode:194618186852b145d7ed27c2-36113532%%*/if(!defined('SMARTY_DIR')) exit('no direct access allowed');
+<?php /*%%SmartyHeaderCode:168305395052b4101d78aab5-76612825%%*/if(!defined('SMARTY_DIR')) exit('no direct access allowed');
 $_smarty_tpl->decodeProperties(array (
   'file_dependency' => 
   array (
     'cf82fac9eee56cb6b2d02260aaf73dd597c41ebe' => 
     array (
       0 => '/Users/Lev/Sites/008/admin//templates/listp.tpl',
-      1 => 1387349458,
+      1 => 1387532314,
     ),
   ),
-  'nocache_hash' => '194618186852b145d7ed27c2-36113532',
+  'nocache_hash' => '168305395052b4101d78aab5-76612825',
   'function' => 
   array (
   ),
@@ -24,18 +24,25 @@ $_smarty_tpl->decodeProperties(array (
         <script type="text/javascript" src="<?php echo $_smarty_tpl->getVariable('URLController')->value;?>
 js/jquery-1.7.2.min.js"></script>
         <script type="text/javascript">
-                //删除审核路线
-                function delInfo(tid){
+                //删除审核路线 lid 审核表中路线id  tid1 第一家店铺id,tid2 第二家店铺id,tid3 第三家店铺id
+                function delInfo(lid,tid1,tid2,tid3){
                    $.ajax({
                     type: "GET",
                     data:{
-                     tid : tid
+                     lid : lid,
+                     tid1 : tid1,
+                     tid2 : tid2,
+                     tid3 : tid3
                      },
                     url:"<?php echo $_smarty_tpl->getVariable('URLController')->value;?>
 redirst.php?action=listp&function=delInfo",
                     success: function(res){
+                        if(res == 1){
                         alert('ok');
-                        location.reload();
+                        location.reload();        
+                        }else{
+                            alert("删除失败，请稍后再试");
+                        }
                     }
                 }); 
              }
@@ -52,13 +59,12 @@ redirst.php?action=listp&function=auditInfo",
                     success: function(res){
                     if(res == 1){
                     location.reload();
-                        }
+                     }
                     }
                 }); 
               }
-              //预览
-              function viewInfo(characteristic,tid1,tid2,tid3){
-                alert(characteristic);
+              //预览  tid1 第一家店铺id,tid2 第二家店铺id,tid3 第三家店铺id,characteristic 路线名称
+              function viewInfo(tid1,tid2,tid3,characteristic){
                $.ajax({
                     type: "GET",
                     data:{
@@ -83,18 +89,18 @@ redirst.php?action=view&function=viewInfo",
       }
               
              //批量导入审核路线
-             function impData(){
-                  $.ajax({
-                    type: "GET",
-                    url:"<?php echo $_smarty_tpl->getVariable('URLController')->value;?>
+         //     function impData(){
+         //          $.ajax({
+         //            type: "GET",
+         //            url:"<?php echo $_smarty_tpl->getVariable('URLController')->value;?>
 redirst.php?action=listp&function=impData",
-                    success: function(res){
-                        if(res == 1){
-                            alert("数据已全部成功录入");
-                        }
-                    }
-              });     
-         }
+         //            success: function(res){
+         //                if(res == 1){
+         //                    alert("数据已全部成功录入");
+         //                }
+         //            }
+         //      });     
+         // }
          
     </script> 
         <style>
@@ -123,14 +129,14 @@ redirst.php?action=listp&function=impData",
                 cursor: pointer;
             }
             .closeView{
-                border: solid 1px #ccc;
-                width: 30px;
-                height: 50px;
+                /*border: solid 1px #ccc;*/
+                width: 44px;
+                height: 52px;
                 line-height: 50px;
                 text-align: center;
                 font-size: 29px;
                 color: red;
-                float: left;
+                float: right;
                 display: block;
             }
             
@@ -138,13 +144,13 @@ redirst.php?action=listp&function=impData",
             text-align: center; 
             background: black; 
             opacity: 0.5; 
-            width: 30px;
-            height: 50px;
+            width: 44px;
+            height: 52px;
             line-height: 50px;
             cursor: pointer;
             color: red; 
             font-size: 29px;
-            float: left; 
+            float: right; 
             display: block;
             }
         </style>
@@ -153,7 +159,7 @@ redirst.php?action=listp&function=impData",
     <body>
         <div id="mask" style=" width: 100%; height: 100%; opacity: 0.5; background: black; display: none; position: fixed; z-index: 100"></div>
         <div id="dataWarp" style=" width:99%; margin: 0 auto; height: 100%; border: solid 1px #ccc; display: none; position: fixed; z-index: 300">
-            <div style=" width: 100%; height:52px; text-align: right; margin-right: 20px; background: #fff;  border: solid 1px #ccc;" >
+            <div style=" width: 100%; height:52px; text-align: right; margin-right: 20px; background: #fff; " >
                 <span style="text-align: center;display: block;float: left;height: 52px;line-height: 50px;width: 96%;
                       font-size: 24px;background: #ccc;">审核路线预览</span>
                 <span onclick="closeView()" class="closeView" >X</span></div>
@@ -200,27 +206,25 @@ $_smarty_tpl->tpl_vars['smarty']->value['section']['sn']['last']       = ($_smar
             <tr class="trStyle">
                 <td><?php echo $_smarty_tpl->getVariable('planInfo')->value[$_smarty_tpl->getVariable('smarty')->value['section']['sn']['index']]['characteristic'];?>
 </td>
-                <td><?php echo $_smarty_tpl->getVariable('planInfo')->value[$_smarty_tpl->getVariable('smarty')->value['section']['sn']['index']]['regions'];?>
+                <td><?php echo $_smarty_tpl->getVariable('planInfo')->value[$_smarty_tpl->getVariable('smarty')->value['section']['sn']['index']]['regions_name'];?>
 </td>
-                <td><?php echo $_smarty_tpl->getVariable('planInfo')->value[$_smarty_tpl->getVariable('smarty')->value['section']['sn']['index']]['state_type'];?>
+                <td><?php echo $_smarty_tpl->getVariable('planInfo')->value[$_smarty_tpl->getVariable('smarty')->value['section']['sn']['index']]['tags_name'];?>
 </td>
-                <td style=" width: 100px; text-align: center;"><input type="button" id="btnView" class="btnstyle" name="btnAudit" onclick ="viewInfo(<?php echo $_smarty_tpl->getVariable('planInfo')->value[$_smarty_tpl->getVariable('smarty')->value['section']['sn']['index']]['characteristic'];?>
-,<?php echo $_smarty_tpl->getVariable('planInfo')->value[$_smarty_tpl->getVariable('smarty')->value['section']['sn']['index']]['state_1'];?>
+                <td style=" width: 100px; text-align: center;"><input type="button" id="btnView" class="btnstyle" name="btnAudit" onclick ="viewInfo(<?php echo $_smarty_tpl->getVariable('planInfo')->value[$_smarty_tpl->getVariable('smarty')->value['section']['sn']['index']]['state_1'];?>
 ,<?php echo $_smarty_tpl->getVariable('planInfo')->value[$_smarty_tpl->getVariable('smarty')->value['section']['sn']['index']]['state_2'];?>
 ,<?php echo $_smarty_tpl->getVariable('planInfo')->value[$_smarty_tpl->getVariable('smarty')->value['section']['sn']['index']]['state_3'];?>
-)"value="预览" /></td>
+,'<?php echo $_smarty_tpl->getVariable('planInfo')->value[$_smarty_tpl->getVariable('smarty')->value['section']['sn']['index']]['characteristic'];?>
+')"value="预览" /></td>
                 <td style=" width: 100px;"><input type="button" id="btnEdit" class="btnstyle" name="btnAudit" onclick ="auditInfo(<?php echo $_smarty_tpl->getVariable('planInfo')->value[$_smarty_tpl->getVariable('smarty')->value['section']['sn']['index']]['id'];?>
 )"value="通过" /></td>
                 <td style=" width: 100px;"><input type="button" id="btnDel" class="btnstyle" name="btnDelete" onclick ="delInfo(<?php echo $_smarty_tpl->getVariable('planInfo')->value[$_smarty_tpl->getVariable('smarty')->value['section']['sn']['index']]['id'];?>
+,<?php echo $_smarty_tpl->getVariable('planInfo')->value[$_smarty_tpl->getVariable('smarty')->value['section']['sn']['index']]['state_1'];?>
+,<?php echo $_smarty_tpl->getVariable('planInfo')->value[$_smarty_tpl->getVariable('smarty')->value['section']['sn']['index']]['state_2'];?>
+,<?php echo $_smarty_tpl->getVariable('planInfo')->value[$_smarty_tpl->getVariable('smarty')->value['section']['sn']['index']]['state_3'];?>
 )" value="删除" /></td>
             </tr>
             <?php endfor; endif; ?>
-
         </table>
-            <div style=" margin-left: 243px;margin-top: 44px;color: red;">
-                <span>数据审核完毕，点击此处将数据全部录入路线表--></span>
-                <input type="button" id = 'impData' name="impData" style=" width: 135px; height: 32px; cursor: pointer;" value="录入全部数据" onclick="impData()">
-            </div>
       </div>
     </body>
 </html>

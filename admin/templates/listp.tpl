@@ -5,17 +5,24 @@
         <title></title>
         <script type="text/javascript" src="{$URLController}js/jquery-1.7.2.min.js"></script>
         <script type="text/javascript">
-                //删除审核路线
-                function delInfo(tid){
+                //删除审核路线 lid 审核表中路线id  tid1 第一家店铺id,tid2 第二家店铺id,tid3 第三家店铺id
+                function delInfo(lid,tid1,tid2,tid3){
                    $.ajax({
                     type: "GET",
                     data:{
-                     tid : tid
+                     lid : lid,
+                     tid1 : tid1,
+                     tid2 : tid2,
+                     tid3 : tid3
                      },
                     url:"{$URLController}redirst.php?action=listp&function=delInfo",
                     success: function(res){
+                        if(res == 1){
                         alert('ok');
-                        location.reload();
+                        location.reload();        
+                        }else{
+                            alert("删除失败，请稍后再试");
+                        }
                     }
                 }); 
              }
@@ -31,13 +38,12 @@
                     success: function(res){
                     if(res == 1){
                     location.reload();
-                        }
+                     }
                     }
                 }); 
               }
-              //预览
-              function viewInfo(characteristic,tid1,tid2,tid3){
-                alert(characteristic);
+              //预览  tid1 第一家店铺id,tid2 第二家店铺id,tid3 第三家店铺id,characteristic 路线名称
+              function viewInfo(tid1,tid2,tid3,characteristic){
                $.ajax({
                     type: "GET",
                     data:{
@@ -61,17 +67,17 @@
       }
               
              //批量导入审核路线
-             function impData(){
-                  $.ajax({
-                    type: "GET",
-                    url:"{$URLController}redirst.php?action=listp&function=impData",
-                    success: function(res){
-                        if(res == 1){
-                            alert("数据已全部成功录入");
-                        }
-                    }
-              });     
-         }
+         //     function impData(){
+         //          $.ajax({
+         //            type: "GET",
+         //            url:"{$URLController}redirst.php?action=listp&function=impData",
+         //            success: function(res){
+         //                if(res == 1){
+         //                    alert("数据已全部成功录入");
+         //                }
+         //            }
+         //      });     
+         // }
          
     </script> 
         <style>
@@ -100,14 +106,14 @@
                 cursor: pointer;
             }
             .closeView{
-                border: solid 1px #ccc;
-                width: 30px;
-                height: 50px;
+                /*border: solid 1px #ccc;*/
+                width: 44px;
+                height: 52px;
                 line-height: 50px;
                 text-align: center;
                 font-size: 29px;
                 color: red;
-                float: left;
+                float: right;
                 display: block;
             }
             
@@ -115,13 +121,13 @@
             text-align: center; 
             background: black; 
             opacity: 0.5; 
-            width: 30px;
-            height: 50px;
+            width: 44px;
+            height: 52px;
             line-height: 50px;
             cursor: pointer;
             color: red; 
             font-size: 29px;
-            float: left; 
+            float: right; 
             display: block;
             }
         </style>
@@ -130,7 +136,7 @@
     <body>
         <div id="mask" style=" width: 100%; height: 100%; opacity: 0.5; background: black; display: none; position: fixed; z-index: 100"></div>
         <div id="dataWarp" style=" width:99%; margin: 0 auto; height: 100%; border: solid 1px #ccc; display: none; position: fixed; z-index: 300">
-            <div style=" width: 100%; height:52px; text-align: right; margin-right: 20px; background: #fff;  border: solid 1px #ccc;" >
+            <div style=" width: 100%; height:52px; text-align: right; margin-right: 20px; background: #fff; " >
                 <span style="text-align: center;display: block;float: left;height: 52px;line-height: 50px;width: 96%;
                       font-size: 24px;background: #ccc;">审核路线预览</span>
                 <span onclick="closeView()" class="closeView" >X</span></div>
@@ -153,19 +159,14 @@
              {section name=sn loop=$planInfo}
             <tr class="trStyle">
                 <td>{$planInfo[sn].characteristic}</td>
-                <td>{$planInfo[sn].regions}</td>
-                <td>{$planInfo[sn].state_type}</td>
-                <td style=" width: 100px; text-align: center;"><input type="button" id="btnView" class="btnstyle" name="btnAudit" onclick ="viewInfo({$planInfo[sn].characteristic},{$planInfo[sn].state_1},{$planInfo[sn].state_2},{$planInfo[sn].state_3})"value="预览" /></td>
+                <td>{$planInfo[sn].regions_name}</td>
+                <td>{$planInfo[sn].tags_name}</td>
+                <td style=" width: 100px; text-align: center;"><input type="button" id="btnView" class="btnstyle" name="btnAudit" onclick ="viewInfo({$planInfo[sn].state_1},{$planInfo[sn].state_2},{$planInfo[sn].state_3},'{$planInfo[sn].characteristic}')"value="预览" /></td>
                 <td style=" width: 100px;"><input type="button" id="btnEdit" class="btnstyle" name="btnAudit" onclick ="auditInfo({$planInfo[sn].id})"value="通过" /></td>
-                <td style=" width: 100px;"><input type="button" id="btnDel" class="btnstyle" name="btnDelete" onclick ="delInfo({$planInfo[sn].id})" value="删除" /></td>
+                <td style=" width: 100px;"><input type="button" id="btnDel" class="btnstyle" name="btnDelete" onclick ="delInfo({$planInfo[sn].id},{$planInfo[sn].state_1},{$planInfo[sn].state_2},{$planInfo[sn].state_3})" value="删除" /></td>
             </tr>
             {/section}
-
         </table>
-            <div style=" margin-left: 243px;margin-top: 44px;color: red;">
-                <span>数据审核完毕，点击此处将数据全部录入路线表--></span>
-                <input type="button" id = 'impData' name="impData" style=" width: 135px; height: 32px; cursor: pointer;" value="录入全部数据" onclick="impData()">
-            </div>
       </div>
     </body>
 </html>

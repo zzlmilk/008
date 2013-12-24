@@ -1,7 +1,6 @@
 <!DOCTYPE html>
 <html>
     <head>
-
         <title></title>
         <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
         <link href="./css/admin.css" rel="stylesheet" type="text/css" />
@@ -9,8 +8,9 @@
         <script src="./js/addcontext.js"></script>
         <script src="./js/sha.js"></script>
         <script>
-            urlString='{$URLAPI}v1/branch/';
+            urlString='{$URLAPI}008/v1/branch/';
             $(document).ready(function(){
+            
             $.ajax({
                     type: "GET",
                     url: "{$URLController}redirst.php?action=route&function=getArea",

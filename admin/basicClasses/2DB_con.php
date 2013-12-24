@@ -60,7 +60,7 @@ class Query extends DB_Mysql_search {
         $this->pass=$DBInfo['pass'];
     }
 
-    protected function clearUp() {
+    public function clearUp() {
         $this->select= array();
         $this->condition = array();
         $this->offset = 0;

@@ -8,7 +8,7 @@ defined('FOOTController') or define('FOOTController', FOOT_ . '/008/admin/public
 defined('URLController') or define('URLController', 'http://localhost/008/admin/');
 defined('URLAjaxController') or define('URLAjaxController', 'http://localhost/008/admin/ajax');
 defined('URLJsController') or define('URLJsController', 'http://localhost/008/admin/js');
-defined('URLAPI') or define('URLAPI', 'http://localhost/008/');
+defined('URLAPI') or define('URLAPI', 'http://localhost/008');
 defined('EXCELREAD') or define('EXCELREAD', FOOT . 'excelfile/');
 require_once FOOT . 'js/smarty.php';
 require_once FOOT . '/plug/reader.php';   //excel 文件问题
@@ -44,5 +44,4 @@ if ($handle = opendir(FOOTCLASS)) {
 $smarty->assign('URLController', URLController);
 $smarty->assign('URLAjaxController', URLAjaxController);
 $smarty->assign('URLJsController', URLJsController);
-$smarty->assign('URLAPI', URLAPI);
 ?>
