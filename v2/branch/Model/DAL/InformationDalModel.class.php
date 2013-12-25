@@ -382,12 +382,14 @@ class recommendInformationDalModel extends Basic {
         $this->$name = $value;
     }
 
-    public function getSpecifiedNumberRecommend($limit=3){
+    public function getSpecifiedNumberRecommend($limit=0){
         if(!ctype_digit($limit)&&!is_numeric($limit)){
             $this->echoErrorCode('2017');
         }
         $this->clearUp();
+        if($limit>0){
         $this->addOffset(0, $limit-1);
+        }
         $this->initialize();
         return $this->vars_all;
     }
