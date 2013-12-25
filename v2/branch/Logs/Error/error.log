@@ -482,3 +482,43 @@ Stack trace:
 [25-Dec-2013 06:58:00 UTC] PHP   2. website->run() C:\Apache24\htdocs\008\v2\branch\index.php:5
 [25-Dec-2013 06:58:00 UTC] PHP   3. website->initializationWebsiteUrl() C:\Apache24\htdocs\008\v2\branch\Config\bootstrap\bootstrap.php:32
 [25-Dec-2013 06:58:00 UTC] PHP   4. call_user_func() C:\Apache24\htdocs\008\v2\branch\Config\bootstrap\bootstrap.php:55
+[25-Dec-2013 07:31:15 UTC] PHP Warning:  opendir(C:/Apache24/htdocs/008/v2/branch/Controllers/Statuses/,C:/Apache24/htdocs/008/v2/branch/Controllers/Statuses/):  in C:\Apache24\htdocs\008\v2\branch\Config\bootstrap\extends.php on line 11
+[25-Dec-2013 07:31:15 UTC] PHP Stack trace:
+[25-Dec-2013 07:31:15 UTC] PHP   1. {main}() C:\Apache24\htdocs\008\v2\branch\index.php:0
+[25-Dec-2013 07:31:15 UTC] PHP   2. website->run() C:\Apache24\htdocs\008\v2\branch\index.php:5
+[25-Dec-2013 07:31:15 UTC] PHP   3. website->initializationWebsiteUrl() C:\Apache24\htdocs\008\v2\branch\Config\bootstrap\bootstrap.php:32
+[25-Dec-2013 07:31:15 UTC] PHP   4. Dispatcher->dispatcher() C:\Apache24\htdocs\008\v2\branch\Config\bootstrap\bootstrap.php:39
+[25-Dec-2013 07:31:15 UTC] PHP   5. Dispatcher->DataProcess() C:\Apache24\htdocs\008\v2\branch\Config\bootstrap\Dispatcher.class.php:8
+[25-Dec-2013 07:31:15 UTC] PHP   6. include_path_file() C:\Apache24\htdocs\008\v2\branch\Config\bootstrap\Dispatcher.class.php:29
+[25-Dec-2013 07:31:15 UTC] PHP   7. fileRead() C:\Apache24\htdocs\008\v2\branch\Config\bootstrap\extends.php:267
+[25-Dec-2013 07:31:15 UTC] PHP   8. opendir() C:\Apache24\htdocs\008\v2\branch\Config\bootstrap\extends.php:11
+[25-Dec-2013 07:31:15 UTC] PHP Warning:  opendir(C:/Apache24/htdocs/008/v2/branch/Controllers/Statuses/): failed to open dir: No such file or directory in C:\Apache24\htdocs\008\v2\branch\Config\bootstrap\extends.php on line 11
+[25-Dec-2013 07:31:15 UTC] PHP Stack trace:
+[25-Dec-2013 07:31:15 UTC] PHP   1. {main}() C:\Apache24\htdocs\008\v2\branch\index.php:0
+[25-Dec-2013 07:31:15 UTC] PHP   2. website->run() C:\Apache24\htdocs\008\v2\branch\index.php:5
+[25-Dec-2013 07:31:15 UTC] PHP   3. website->initializationWebsiteUrl() C:\Apache24\htdocs\008\v2\branch\Config\bootstrap\bootstrap.php:32
+[25-Dec-2013 07:31:15 UTC] PHP   4. Dispatcher->dispatcher() C:\Apache24\htdocs\008\v2\branch\Config\bootstrap\bootstrap.php:39
+[25-Dec-2013 07:31:15 UTC] PHP   5. Dispatcher->DataProcess() C:\Apache24\htdocs\008\v2\branch\Config\bootstrap\Dispatcher.class.php:8
+[25-Dec-2013 07:31:15 UTC] PHP   6. include_path_file() C:\Apache24\htdocs\008\v2\branch\Config\bootstrap\Dispatcher.class.php:29
+[25-Dec-2013 07:31:15 UTC] PHP   7. fileRead() C:\Apache24\htdocs\008\v2\branch\Config\bootstrap\extends.php:267
+[25-Dec-2013 07:31:15 UTC] PHP   8. opendir() C:\Apache24\htdocs\008\v2\branch\Config\bootstrap\extends.php:11
+[25-Dec-2013 07:31:15 UTC] PHP Warning:  opendir(C:/Apache24/htdocs/008/v2/branch/Controllers/Statuses/,C:/Apache24/htdocs/008/v2/branch/Controllers/Statuses/):  in C:\Apache24\htdocs\008\v2\branch\Config\bootstrap\extends.php on line 11
+[25-Dec-2013 07:31:15 UTC] PHP Stack trace:
+[25-Dec-2013 07:31:15 UTC] PHP   1. {main}() C:\Apache24\htdocs\008\v2\branch\index.php:0
+[25-Dec-2013 07:31:15 UTC] PHP   2. website->run() C:\Apache24\htdocs\008\v2\branch\index.php:5
+[25-Dec-2013 07:31:15 UTC] PHP   3. website->initializationWebsiteUrl() C:\Apache24\htdocs\008\v2\branch\Config\bootstrap\bootstrap.php:32
+[25-Dec-2013 07:31:15 UTC] PHP   4. Dispatcher->dispatcher() C:\Apache24\htdocs\008\v2\branch\Config\bootstrap\bootstrap.php:40
+[25-Dec-2013 07:31:15 UTC] PHP   5. Dispatcher->DataProcess() C:\Apache24\htdocs\008\v2\branch\Config\bootstrap\Dispatcher.class.php:8
+[25-Dec-2013 07:31:15 UTC] PHP   6. include_path_file() C:\Apache24\htdocs\008\v2\branch\Config\bootstrap\Dispatcher.class.php:29
+[25-Dec-2013 07:31:15 UTC] PHP   7. fileRead() C:\Apache24\htdocs\008\v2\branch\Config\bootstrap\extends.php:267
+[25-Dec-2013 07:31:15 UTC] PHP   8. opendir() C:\Apache24\htdocs\008\v2\branch\Config\bootstrap\extends.php:11
+[25-Dec-2013 07:31:15 UTC] PHP Warning:  opendir(C:/Apache24/htdocs/008/v2/branch/Controllers/Statuses/): failed to open dir: No such file or directory in C:\Apache24\htdocs\008\v2\branch\Config\bootstrap\extends.php on line 11
+[25-Dec-2013 07:31:15 UTC] PHP Stack trace:
+[25-Dec-2013 07:31:15 UTC] PHP   1. {main}() C:\Apache24\htdocs\008\v2\branch\index.php:0
+[25-Dec-2013 07:31:15 UTC] PHP   2. website->run() C:\Apache24\htdocs\008\v2\branch\index.php:5
+[25-Dec-2013 07:31:15 UTC] PHP   3. website->initializationWebsiteUrl() C:\Apache24\htdocs\008\v2\branch\Config\bootstrap\bootstrap.php:32
+[25-Dec-2013 07:31:15 UTC] PHP   4. Dispatcher->dispatcher() C:\Apache24\htdocs\008\v2\branch\Config\bootstrap\bootstrap.php:40
+[25-Dec-2013 07:31:15 UTC] PHP   5. Dispatcher->DataProcess() C:\Apache24\htdocs\008\v2\branch\Config\bootstrap\Dispatcher.class.php:8
+[25-Dec-2013 07:31:15 UTC] PHP   6. include_path_file() C:\Apache24\htdocs\008\v2\branch\Config\bootstrap\Dispatcher.class.php:29
+[25-Dec-2013 07:31:15 UTC] PHP   7. fileRead() C:\Apache24\htdocs\008\v2\branch\Config\bootstrap\extends.php:267
+[25-Dec-2013 07:31:15 UTC] PHP   8. opendir() C:\Apache24\htdocs\008\v2\branch\Config\bootstrap\extends.php:11
