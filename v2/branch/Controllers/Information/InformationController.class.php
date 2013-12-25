@@ -18,6 +18,8 @@ class InformationController extends BaseController {
 
     public function getSingleBusinessById() {
         $BusinessId = $this->request['businessId'];
+
+ 
 //        $BusinessId='3205237';
         $Business = new BusinessInformationBllModel();
         $Business->getSingleBusinessInformationWithId($BusinessId);

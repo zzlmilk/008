@@ -38,6 +38,8 @@ class website {
          */
         $url = new Dispatcher();
         $url->dispatcher();
+
+
         /**
          * 判断模块是否存在
          */
@@ -54,7 +56,7 @@ class website {
                  */
                 call_user_func(array(&$module, ACTION_NAME));
             }
-        }
+        }  
     }
 
 }

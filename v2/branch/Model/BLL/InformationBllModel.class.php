@@ -67,6 +67,7 @@ class BusinessInformationBllModel extends BusinessInformationDalModel{
     
         public function getSingleBusinessInformationWithId($BusinessId,$returnType=0) {
         if (!empty($BusinessId)) {
+
             $result = $this->getOneBusinessInformationById($BusinessId);
             if ($result) {
                 $BusinessObject = new stdClass();

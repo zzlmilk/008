@@ -1,0 +1,12 @@
+Dec 25 15:18:47 [VISIT]_Information_getSingleBusinessById_0.0.0.0_/008/v2/branch/Information/getSingleBusinessById?businessId=3205237
+""
+Dec 25 15:18:47 [RETURN]_null_0.0.0.0_/008/v2/branch/Information/getSingleBusinessById?businessId=3205237
+{"error":{"error_status":"2013","status_info":"\u5546\u94faID\u4e0d\u80fd\u4e3a\u7a7a"}}
+Dec 25 15:21:37 [VISIT]_Information_getSingleBusinessById_0.0.0.0_/008/v2/branch/Information/getSingleBusinessById?businessId=3205237
+{"businessId":"3205237"}
+Dec 25 15:22:36 [VISIT]_Information_getSingleBusinessById_0.0.0.0_/008/v2/branch/Information/getSingleBusinessById?businessId=3205237
+{"businessId":"3205237"}
+Dec 25 15:23:50 [VISIT]_Information_getSingleBusinessById_0.0.0.0_/008/v2/branch/Information/getSingleBusinessById?businessId=3205237
+{"businessId":"3205237"}
+Dec 25 15:23:52 [VISIT]_Information_getSingleBusinessById_0.0.0.0_/008/v2/branch/Information/getSingleBusinessById?businessId=3205237
+{"businessId":"3205237"}
