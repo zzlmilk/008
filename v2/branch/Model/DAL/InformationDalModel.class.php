@@ -383,10 +383,13 @@ class recommendInformationDalModel extends Basic {
     }
 
     public function getSpecifiedNumberRecommend($limit=3){
+        if(!ctype_digit($limit)&&!is_numeric($limit)){
+            $this->echoErrorCode('2017');
+        }
         $this->clearUp();
-        $this->addOffset(0, $limit);
+        $this->addOffset(0, $limit-1);
         $this->initialize();
-//        $limit
+        return $this->vars_all;
     }
 }
 ?>

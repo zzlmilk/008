@@ -91,13 +91,16 @@ class PlanBllModel extends planDalModel {
     }
 
     //$JSONReturnType 1为返回plan对象
-    public function getOncePlanById($planId, $JSONReturnType) {
+    public function getOncePlanById($planId, $JSONReturnType=0) {
         $businessArray = array();
         $tagsArray = array();
         $stateLength = 3;
 //        $rankScore=30;
 //        $avgConsume=50;
 //        $stateType=3;
+        if(!ctype_digit($planId)&&!is_numeric($planId)){
+            $this->echoErrorCode('3003');
+        }
         $result = $this->getSingleBasicPalnById($planId);
         if ($result) {
             $tags = new tagsInformationDalModel();

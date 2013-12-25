@@ -6,6 +6,7 @@ $apiInterface = array(
     'Information_getSingleBusinessById' => array('GET', 'businessId', '200001'),
     'Information_getRegionsInformationWithDistrictId' => array('GET', 'districtId', '200001'),
     'Information_getDealsByBusinessId' => array('GET', 'businessId', '200001'),
+    'Information_getPlanByPlanId' => array('GET', 'planId', '200001'),
     'Information_getPlan' => array('GET', 'regions', '200001'),
     'Information_getAllRegionsNameByDistrictId' => array('GET', 'districtId', '200001'),
     "Fnformation_addFavorite" => array('GET', 'userId,planId', '200001'),

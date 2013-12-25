@@ -275,5 +275,27 @@ class tagsInformationBllModel extends tagsInformationDalModel{
         }
     }
 }
+class  recommendInformationBllModel extends recommendInformationDalModel{
+         var $object;
+
+    public function __construct() {
+
+        parent::__construct();
+    }
+    public function getSpecifiedNumberRecommendMessage(){
+        $result= $this->getSpecifiedNumberRecommend();
+        $recommends=array();
+        $recommendCount= count($result);
+        if($recommendCount<=0){
+            $this->echoErrorCode('2018');
+        }
+        foreach ($result as $resetVal){
+            $resetValCache[]=$resetVal;
+        }
+        $recommends['recommends']=$resetValCache;
+        $recommends['total_number ']=$recommendCount;
+             $this->AssemblyJson($recommends);
+    }
+}
  
 ?>

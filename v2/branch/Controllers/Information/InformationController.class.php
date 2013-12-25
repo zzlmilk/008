@@ -66,6 +66,11 @@ class InformationController extends BaseController {
         $Plan = new planBllModel();
         $Plan->getOncePlan($rankScore, $avgConsume, $stateTag, $regions);
     }
+    public function getPlanByPlanId(){
+         $planId = $this->request['planId'];
+        $Plan = new planBllModel();
+        $Plan->getOncePlanById($planId);
+    }
 
     public function getDealsByBusinessId() {
         $BusinessId = $this->request['businessId'];
@@ -76,6 +81,10 @@ class InformationController extends BaseController {
     public function getAllDeals() {
         $deals = new DealsInformationBllModel();
         $deals->getAllDealsInformation();
+    }
+    public function getRecommendPlan(){
+        $recommend=new recommendInformationBllModel();
+        $recommend->getSpecifiedNumberRecommendMessage();
     }
 
     public function test() {
