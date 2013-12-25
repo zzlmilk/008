@@ -1,6 +1,6 @@
 <?php
 
-//include ('1DB.class.php');
+include_once '1DB.class.php';
 class DB_Mysql_search extends DB_Mysql {
 
     protected $user = "root";
