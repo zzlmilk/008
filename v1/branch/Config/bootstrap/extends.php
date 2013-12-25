@@ -245,6 +245,8 @@ function curl_get($url, $method, $headers = '') {
 
 function getApiArray($name) {
     $api = include_once 'Api.php';
+
+    
     if (!empty($api[$name])) {
         return $api[$name];
     } else {

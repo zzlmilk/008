@@ -16,10 +16,11 @@ defined('LOG_FILE_SIZE') or define('LOG_FILE_SIZE', 2097152);// 日志文件大�
 defined('LOG_STATE') or define('LOG_STATE', 0) ;  // 是否开启日志  0为开启 1 为关闭
 defined('URL_PATHINFO_DEPR') or define('URL_PATHINFO_DEPR', '/');
 defined('URL_PATHINFO_FETCH') or define('URL_PATHINFO_FETCH','ORIG_PATH_INFO,REDIRECT_PATH_INFO,REDIRECT_URL');
+
 /**
  * 关闭报错信息 把报错信息存储到错误文件中
  */
- ini_set("display_errors", "Off");
- ini_set("log_errors", "On");
- ini_set("error_log", ROOT_DIR . Logs . '/Error/error.log');
+  ini_set("display_errors", "Off");
+  ini_set("log_errors", "On");
+  ini_set("error_log", ROOT_DIR . Logs . '/Error/error.log');
 ?>

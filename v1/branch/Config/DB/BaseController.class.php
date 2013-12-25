@@ -7,10 +7,16 @@ class BaseController {
 
     public function __construct() {
 
+
+
         // 拼写方法  
-//        $this->functionname = lcfirst(MODULE_NAME) . '_' . ACTION_NAME;
+        $this->functionname = MODULE_NAME. '_' . ACTION_NAME;
+
+
         // 获取 该接口的 传递信息 以及 错误代码
         $array = getApiArray($this->functionname);
+
+       
         // 处理GET和POST 传递过来的值
         $this->functionsRequest($array);
     }
