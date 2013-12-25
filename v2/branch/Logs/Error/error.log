@@ -308,3 +308,177 @@ Stack trace:
 [17-Dec-2013 09:37:21 UTC] PHP   2. website->run() C:\Apache24\htdocs\008\v2\branch\index.php:5
 [17-Dec-2013 09:37:21 UTC] PHP   3. website->initializationWebsiteUrl() C:\Apache24\htdocs\008\v2\branch\Config\bootstrap\bootstrap.php:32
 [17-Dec-2013 09:37:21 UTC] PHP   4. call_user_func(*uninitialized*) C:\Apache24\htdocs\008\v2\branch\Config\bootstrap\bootstrap.php:55
+[19-Dec-2013 10:11:51 UTC] PHP Warning:  Invalid argument supplied for foreach() in C:\Apache24\htdocs\008\v2\branch\Model\BLL\PlanBllModel.class.php on line 38
+[19-Dec-2013 10:11:51 UTC] PHP Stack trace:
+[19-Dec-2013 10:11:51 UTC] PHP   1. {main}() C:\Apache24\htdocs\008\v2\branch\index.php:0
+[19-Dec-2013 10:11:51 UTC] PHP   2. website->run() C:\Apache24\htdocs\008\v2\branch\index.php:5
+[19-Dec-2013 10:11:51 UTC] PHP   3. website->initializationWebsiteUrl() C:\Apache24\htdocs\008\v2\branch\Config\bootstrap\bootstrap.php:32
+[19-Dec-2013 10:11:51 UTC] PHP   4. call_user_func() C:\Apache24\htdocs\008\v2\branch\Config\bootstrap\bootstrap.php:55
+[19-Dec-2013 10:11:51 UTC] PHP   5. PositionController->getNearbyPlan() C:\Apache24\htdocs\008\v2\branch\Config\bootstrap\bootstrap.php:55
+[19-Dec-2013 10:11:51 UTC] PHP   6. PlanBllModel->getPlanByPosition() C:\Apache24\htdocs\008\v2\branch\Controllers\Position\PositionController.class.php:31
+[19-Dec-2013 10:11:51 UTC] PHP Notice:  Undefined variable: firstStatePlanBusinessId in C:\Apache24\htdocs\008\v2\branch\Model\BLL\PlanBllModel.class.php on line 41
+[19-Dec-2013 10:11:51 UTC] PHP Stack trace:
+[19-Dec-2013 10:11:51 UTC] PHP   1. {main}() C:\Apache24\htdocs\008\v2\branch\index.php:0
+[19-Dec-2013 10:11:51 UTC] PHP   2. website->run() C:\Apache24\htdocs\008\v2\branch\index.php:5
+[19-Dec-2013 10:11:51 UTC] PHP   3. website->initializationWebsiteUrl() C:\Apache24\htdocs\008\v2\branch\Config\bootstrap\bootstrap.php:32
+[19-Dec-2013 10:11:51 UTC] PHP   4. call_user_func() C:\Apache24\htdocs\008\v2\branch\Config\bootstrap\bootstrap.php:55
+[19-Dec-2013 10:11:51 UTC] PHP   5. PositionController->getNearbyPlan() C:\Apache24\htdocs\008\v2\branch\Config\bootstrap\bootstrap.php:55
+[19-Dec-2013 10:11:51 UTC] PHP   6. PlanBllModel->getPlanByPosition() C:\Apache24\htdocs\008\v2\branch\Controllers\Position\PositionController.class.php:31
+[19-Dec-2013 10:12:16 UTC] PHP Warning:  Invalid argument supplied for foreach() in C:\Apache24\htdocs\008\v2\branch\Model\BLL\PlanBllModel.class.php on line 38
+[19-Dec-2013 10:12:16 UTC] PHP Stack trace:
+[19-Dec-2013 10:12:16 UTC] PHP   1. {main}() C:\Apache24\htdocs\008\v2\branch\index.php:0
+[19-Dec-2013 10:12:16 UTC] PHP   2. website->run() C:\Apache24\htdocs\008\v2\branch\index.php:5
+[19-Dec-2013 10:12:16 UTC] PHP   3. website->initializationWebsiteUrl() C:\Apache24\htdocs\008\v2\branch\Config\bootstrap\bootstrap.php:32
+[19-Dec-2013 10:12:16 UTC] PHP   4. call_user_func() C:\Apache24\htdocs\008\v2\branch\Config\bootstrap\bootstrap.php:55
+[19-Dec-2013 10:12:16 UTC] PHP   5. PositionController->getNearbyPlan() C:\Apache24\htdocs\008\v2\branch\Config\bootstrap\bootstrap.php:55
+[19-Dec-2013 10:12:16 UTC] PHP   6. PlanBllModel->getPlanByPosition() C:\Apache24\htdocs\008\v2\branch\Controllers\Position\PositionController.class.php:31
+[19-Dec-2013 10:12:16 UTC] PHP Notice:  Undefined variable: firstStatePlanBusinessId in C:\Apache24\htdocs\008\v2\branch\Model\BLL\PlanBllModel.class.php on line 41
+[19-Dec-2013 10:12:16 UTC] PHP Stack trace:
+[19-Dec-2013 10:12:16 UTC] PHP   1. {main}() C:\Apache24\htdocs\008\v2\branch\index.php:0
+[19-Dec-2013 10:12:16 UTC] PHP   2. website->run() C:\Apache24\htdocs\008\v2\branch\index.php:5
+[19-Dec-2013 10:12:16 UTC] PHP   3. website->initializationWebsiteUrl() C:\Apache24\htdocs\008\v2\branch\Config\bootstrap\bootstrap.php:32
+[19-Dec-2013 10:12:16 UTC] PHP   4. call_user_func() C:\Apache24\htdocs\008\v2\branch\Config\bootstrap\bootstrap.php:55
+[19-Dec-2013 10:12:16 UTC] PHP   5. PositionController->getNearbyPlan() C:\Apache24\htdocs\008\v2\branch\Config\bootstrap\bootstrap.php:55
+[19-Dec-2013 10:12:16 UTC] PHP   6. PlanBllModel->getPlanByPosition() C:\Apache24\htdocs\008\v2\branch\Controllers\Position\PositionController.class.php:31
+[19-Dec-2013 10:14:44 UTC] PHP Warning:  Invalid argument supplied for foreach() in C:\Apache24\htdocs\008\v2\branch\Model\BLL\PlanBllModel.class.php on line 39
+[19-Dec-2013 10:14:44 UTC] PHP Stack trace:
+[19-Dec-2013 10:14:44 UTC] PHP   1. {main}() C:\Apache24\htdocs\008\v2\branch\index.php:0
+[19-Dec-2013 10:14:44 UTC] PHP   2. website->run() C:\Apache24\htdocs\008\v2\branch\index.php:5
+[19-Dec-2013 10:14:44 UTC] PHP   3. website->initializationWebsiteUrl() C:\Apache24\htdocs\008\v2\branch\Config\bootstrap\bootstrap.php:32
+[19-Dec-2013 10:14:44 UTC] PHP   4. call_user_func() C:\Apache24\htdocs\008\v2\branch\Config\bootstrap\bootstrap.php:55
+[19-Dec-2013 10:14:44 UTC] PHP   5. PositionController->getNearbyPlan() C:\Apache24\htdocs\008\v2\branch\Config\bootstrap\bootstrap.php:55
+[19-Dec-2013 10:14:44 UTC] PHP   6. PlanBllModel->getPlanByPosition() C:\Apache24\htdocs\008\v2\branch\Controllers\Position\PositionController.class.php:31
+[19-Dec-2013 10:14:44 UTC] PHP Notice:  Undefined variable: firstStatePlanBusinessId in C:\Apache24\htdocs\008\v2\branch\Model\BLL\PlanBllModel.class.php on line 42
+[19-Dec-2013 10:14:44 UTC] PHP Stack trace:
+[19-Dec-2013 10:14:44 UTC] PHP   1. {main}() C:\Apache24\htdocs\008\v2\branch\index.php:0
+[19-Dec-2013 10:14:44 UTC] PHP   2. website->run() C:\Apache24\htdocs\008\v2\branch\index.php:5
+[19-Dec-2013 10:14:44 UTC] PHP   3. website->initializationWebsiteUrl() C:\Apache24\htdocs\008\v2\branch\Config\bootstrap\bootstrap.php:32
+[19-Dec-2013 10:14:44 UTC] PHP   4. call_user_func() C:\Apache24\htdocs\008\v2\branch\Config\bootstrap\bootstrap.php:55
+[19-Dec-2013 10:14:44 UTC] PHP   5. PositionController->getNearbyPlan() C:\Apache24\htdocs\008\v2\branch\Config\bootstrap\bootstrap.php:55
+[19-Dec-2013 10:14:44 UTC] PHP   6. PlanBllModel->getPlanByPosition() C:\Apache24\htdocs\008\v2\branch\Controllers\Position\PositionController.class.php:31
+[19-Dec-2013 10:15:35 UTC] PHP Warning:  Invalid argument supplied for foreach() in C:\Apache24\htdocs\008\v2\branch\Model\BLL\PlanBllModel.class.php on line 39
+[19-Dec-2013 10:15:35 UTC] PHP Stack trace:
+[19-Dec-2013 10:15:35 UTC] PHP   1. {main}() C:\Apache24\htdocs\008\v2\branch\index.php:0
+[19-Dec-2013 10:15:35 UTC] PHP   2. website->run() C:\Apache24\htdocs\008\v2\branch\index.php:5
+[19-Dec-2013 10:15:35 UTC] PHP   3. website->initializationWebsiteUrl() C:\Apache24\htdocs\008\v2\branch\Config\bootstrap\bootstrap.php:32
+[19-Dec-2013 10:15:35 UTC] PHP   4. call_user_func() C:\Apache24\htdocs\008\v2\branch\Config\bootstrap\bootstrap.php:55
+[19-Dec-2013 10:15:35 UTC] PHP   5. PositionController->getNearbyPlan() C:\Apache24\htdocs\008\v2\branch\Config\bootstrap\bootstrap.php:55
+[19-Dec-2013 10:15:35 UTC] PHP   6. PlanBllModel->getPlanByPosition() C:\Apache24\htdocs\008\v2\branch\Controllers\Position\PositionController.class.php:31
+[19-Dec-2013 10:15:35 UTC] PHP Notice:  Undefined variable: firstStatePlanBusinessId in C:\Apache24\htdocs\008\v2\branch\Model\BLL\PlanBllModel.class.php on line 42
+[19-Dec-2013 10:15:35 UTC] PHP Stack trace:
+[19-Dec-2013 10:15:35 UTC] PHP   1. {main}() C:\Apache24\htdocs\008\v2\branch\index.php:0
+[19-Dec-2013 10:15:35 UTC] PHP   2. website->run() C:\Apache24\htdocs\008\v2\branch\index.php:5
+[19-Dec-2013 10:15:35 UTC] PHP   3. website->initializationWebsiteUrl() C:\Apache24\htdocs\008\v2\branch\Config\bootstrap\bootstrap.php:32
+[19-Dec-2013 10:15:35 UTC] PHP   4. call_user_func() C:\Apache24\htdocs\008\v2\branch\Config\bootstrap\bootstrap.php:55
+[19-Dec-2013 10:15:35 UTC] PHP   5. PositionController->getNearbyPlan() C:\Apache24\htdocs\008\v2\branch\Config\bootstrap\bootstrap.php:55
+[19-Dec-2013 10:15:35 UTC] PHP   6. PlanBllModel->getPlanByPosition() C:\Apache24\htdocs\008\v2\branch\Controllers\Position\PositionController.class.php:31
+[19-Dec-2013 10:15:50 UTC] PHP Warning:  Invalid argument supplied for foreach() in C:\Apache24\htdocs\008\v2\branch\Model\BLL\PlanBllModel.class.php on line 39
+[19-Dec-2013 10:15:50 UTC] PHP Stack trace:
+[19-Dec-2013 10:15:50 UTC] PHP   1. {main}() C:\Apache24\htdocs\008\v2\branch\index.php:0
+[19-Dec-2013 10:15:50 UTC] PHP   2. website->run() C:\Apache24\htdocs\008\v2\branch\index.php:5
+[19-Dec-2013 10:15:50 UTC] PHP   3. website->initializationWebsiteUrl() C:\Apache24\htdocs\008\v2\branch\Config\bootstrap\bootstrap.php:32
+[19-Dec-2013 10:15:50 UTC] PHP   4. call_user_func() C:\Apache24\htdocs\008\v2\branch\Config\bootstrap\bootstrap.php:55
+[19-Dec-2013 10:15:50 UTC] PHP   5. PositionController->getNearbyPlan() C:\Apache24\htdocs\008\v2\branch\Config\bootstrap\bootstrap.php:55
+[19-Dec-2013 10:15:50 UTC] PHP   6. PlanBllModel->getPlanByPosition() C:\Apache24\htdocs\008\v2\branch\Controllers\Position\PositionController.class.php:31
+[19-Dec-2013 10:15:50 UTC] PHP Notice:  Undefined variable: firstStatePlanBusinessId in C:\Apache24\htdocs\008\v2\branch\Model\BLL\PlanBllModel.class.php on line 42
+[19-Dec-2013 10:15:50 UTC] PHP Stack trace:
+[19-Dec-2013 10:15:50 UTC] PHP   1. {main}() C:\Apache24\htdocs\008\v2\branch\index.php:0
+[19-Dec-2013 10:15:50 UTC] PHP   2. website->run() C:\Apache24\htdocs\008\v2\branch\index.php:5
+[19-Dec-2013 10:15:50 UTC] PHP   3. website->initializationWebsiteUrl() C:\Apache24\htdocs\008\v2\branch\Config\bootstrap\bootstrap.php:32
+[19-Dec-2013 10:15:50 UTC] PHP   4. call_user_func() C:\Apache24\htdocs\008\v2\branch\Config\bootstrap\bootstrap.php:55
+[19-Dec-2013 10:15:50 UTC] PHP   5. PositionController->getNearbyPlan() C:\Apache24\htdocs\008\v2\branch\Config\bootstrap\bootstrap.php:55
+[19-Dec-2013 10:15:50 UTC] PHP   6. PlanBllModel->getPlanByPosition() C:\Apache24\htdocs\008\v2\branch\Controllers\Position\PositionController.class.php:31
+[19-Dec-2013 10:16:07 UTC] PHP Warning:  Invalid argument supplied for foreach() in C:\Apache24\htdocs\008\v2\branch\Model\BLL\PlanBllModel.class.php on line 39
+[19-Dec-2013 10:16:07 UTC] PHP Stack trace:
+[19-Dec-2013 10:16:07 UTC] PHP   1. {main}() C:\Apache24\htdocs\008\v2\branch\index.php:0
+[19-Dec-2013 10:16:07 UTC] PHP   2. website->run() C:\Apache24\htdocs\008\v2\branch\index.php:5
+[19-Dec-2013 10:16:07 UTC] PHP   3. website->initializationWebsiteUrl() C:\Apache24\htdocs\008\v2\branch\Config\bootstrap\bootstrap.php:32
+[19-Dec-2013 10:16:07 UTC] PHP   4. call_user_func() C:\Apache24\htdocs\008\v2\branch\Config\bootstrap\bootstrap.php:55
+[19-Dec-2013 10:16:07 UTC] PHP   5. PositionController->getNearbyPlan() C:\Apache24\htdocs\008\v2\branch\Config\bootstrap\bootstrap.php:55
+[19-Dec-2013 10:16:07 UTC] PHP   6. PlanBllModel->getPlanByPosition() C:\Apache24\htdocs\008\v2\branch\Controllers\Position\PositionController.class.php:31
+[19-Dec-2013 10:16:07 UTC] PHP Notice:  Undefined variable: firstStatePlanBusinessId in C:\Apache24\htdocs\008\v2\branch\Model\BLL\PlanBllModel.class.php on line 42
+[19-Dec-2013 10:16:07 UTC] PHP Stack trace:
+[19-Dec-2013 10:16:07 UTC] PHP   1. {main}() C:\Apache24\htdocs\008\v2\branch\index.php:0
+[19-Dec-2013 10:16:07 UTC] PHP   2. website->run() C:\Apache24\htdocs\008\v2\branch\index.php:5
+[19-Dec-2013 10:16:07 UTC] PHP   3. website->initializationWebsiteUrl() C:\Apache24\htdocs\008\v2\branch\Config\bootstrap\bootstrap.php:32
+[19-Dec-2013 10:16:07 UTC] PHP   4. call_user_func() C:\Apache24\htdocs\008\v2\branch\Config\bootstrap\bootstrap.php:55
+[19-Dec-2013 10:16:07 UTC] PHP   5. PositionController->getNearbyPlan() C:\Apache24\htdocs\008\v2\branch\Config\bootstrap\bootstrap.php:55
+[19-Dec-2013 10:16:07 UTC] PHP   6. PlanBllModel->getPlanByPosition() C:\Apache24\htdocs\008\v2\branch\Controllers\Position\PositionController.class.php:31
+[19-Dec-2013 10:16:22 UTC] PHP Warning:  Invalid argument supplied for foreach() in C:\Apache24\htdocs\008\v2\branch\Model\BLL\PlanBllModel.class.php on line 39
+[19-Dec-2013 10:16:22 UTC] PHP Stack trace:
+[19-Dec-2013 10:16:22 UTC] PHP   1. {main}() C:\Apache24\htdocs\008\v2\branch\index.php:0
+[19-Dec-2013 10:16:22 UTC] PHP   2. website->run() C:\Apache24\htdocs\008\v2\branch\index.php:5
+[19-Dec-2013 10:16:22 UTC] PHP   3. website->initializationWebsiteUrl() C:\Apache24\htdocs\008\v2\branch\Config\bootstrap\bootstrap.php:32
+[19-Dec-2013 10:16:22 UTC] PHP   4. call_user_func() C:\Apache24\htdocs\008\v2\branch\Config\bootstrap\bootstrap.php:55
+[19-Dec-2013 10:16:22 UTC] PHP   5. PositionController->getNearbyPlan() C:\Apache24\htdocs\008\v2\branch\Config\bootstrap\bootstrap.php:55
+[19-Dec-2013 10:16:22 UTC] PHP   6. PlanBllModel->getPlanByPosition() C:\Apache24\htdocs\008\v2\branch\Controllers\Position\PositionController.class.php:31
+[19-Dec-2013 10:16:22 UTC] PHP Notice:  Undefined variable: firstStatePlanBusinessId in C:\Apache24\htdocs\008\v2\branch\Model\BLL\PlanBllModel.class.php on line 42
+[19-Dec-2013 10:16:22 UTC] PHP Stack trace:
+[19-Dec-2013 10:16:22 UTC] PHP   1. {main}() C:\Apache24\htdocs\008\v2\branch\index.php:0
+[19-Dec-2013 10:16:22 UTC] PHP   2. website->run() C:\Apache24\htdocs\008\v2\branch\index.php:5
+[19-Dec-2013 10:16:22 UTC] PHP   3. website->initializationWebsiteUrl() C:\Apache24\htdocs\008\v2\branch\Config\bootstrap\bootstrap.php:32
+[19-Dec-2013 10:16:22 UTC] PHP   4. call_user_func() C:\Apache24\htdocs\008\v2\branch\Config\bootstrap\bootstrap.php:55
+[19-Dec-2013 10:16:22 UTC] PHP   5. PositionController->getNearbyPlan() C:\Apache24\htdocs\008\v2\branch\Config\bootstrap\bootstrap.php:55
+[19-Dec-2013 10:16:22 UTC] PHP   6. PlanBllModel->getPlanByPosition() C:\Apache24\htdocs\008\v2\branch\Controllers\Position\PositionController.class.php:31
+[19-Dec-2013 10:16:50 UTC] PHP Warning:  Invalid argument supplied for foreach() in C:\Apache24\htdocs\008\v2\branch\Model\BLL\PlanBllModel.class.php on line 39
+[19-Dec-2013 10:16:50 UTC] PHP Stack trace:
+[19-Dec-2013 10:16:50 UTC] PHP   1. {main}() C:\Apache24\htdocs\008\v2\branch\index.php:0
+[19-Dec-2013 10:16:50 UTC] PHP   2. website->run() C:\Apache24\htdocs\008\v2\branch\index.php:5
+[19-Dec-2013 10:16:50 UTC] PHP   3. website->initializationWebsiteUrl() C:\Apache24\htdocs\008\v2\branch\Config\bootstrap\bootstrap.php:32
+[19-Dec-2013 10:16:50 UTC] PHP   4. call_user_func() C:\Apache24\htdocs\008\v2\branch\Config\bootstrap\bootstrap.php:55
+[19-Dec-2013 10:16:50 UTC] PHP   5. PositionController->getNearbyPlan() C:\Apache24\htdocs\008\v2\branch\Config\bootstrap\bootstrap.php:55
+[19-Dec-2013 10:16:50 UTC] PHP   6. PlanBllModel->getPlanByPosition() C:\Apache24\htdocs\008\v2\branch\Controllers\Position\PositionController.class.php:31
+[19-Dec-2013 10:16:50 UTC] PHP Notice:  Undefined variable: firstStatePlanBusinessId in C:\Apache24\htdocs\008\v2\branch\Model\BLL\PlanBllModel.class.php on line 42
+[19-Dec-2013 10:16:50 UTC] PHP Stack trace:
+[19-Dec-2013 10:16:50 UTC] PHP   1. {main}() C:\Apache24\htdocs\008\v2\branch\index.php:0
+[19-Dec-2013 10:16:50 UTC] PHP   2. website->run() C:\Apache24\htdocs\008\v2\branch\index.php:5
+[19-Dec-2013 10:16:50 UTC] PHP   3. website->initializationWebsiteUrl() C:\Apache24\htdocs\008\v2\branch\Config\bootstrap\bootstrap.php:32
+[19-Dec-2013 10:16:50 UTC] PHP   4. call_user_func() C:\Apache24\htdocs\008\v2\branch\Config\bootstrap\bootstrap.php:55
+[19-Dec-2013 10:16:50 UTC] PHP   5. PositionController->getNearbyPlan() C:\Apache24\htdocs\008\v2\branch\Config\bootstrap\bootstrap.php:55
+[19-Dec-2013 10:16:50 UTC] PHP   6. PlanBllModel->getPlanByPosition() C:\Apache24\htdocs\008\v2\branch\Controllers\Position\PositionController.class.php:31
+[19-Dec-2013 10:16:58 UTC] PHP Warning:  Invalid argument supplied for foreach() in C:\Apache24\htdocs\008\v2\branch\Model\BLL\PlanBllModel.class.php on line 39
+[19-Dec-2013 10:16:58 UTC] PHP Stack trace:
+[19-Dec-2013 10:16:58 UTC] PHP   1. {main}() C:\Apache24\htdocs\008\v2\branch\index.php:0
+[19-Dec-2013 10:16:58 UTC] PHP   2. website->run() C:\Apache24\htdocs\008\v2\branch\index.php:5
+[19-Dec-2013 10:16:58 UTC] PHP   3. website->initializationWebsiteUrl() C:\Apache24\htdocs\008\v2\branch\Config\bootstrap\bootstrap.php:32
+[19-Dec-2013 10:16:58 UTC] PHP   4. call_user_func() C:\Apache24\htdocs\008\v2\branch\Config\bootstrap\bootstrap.php:55
+[19-Dec-2013 10:16:58 UTC] PHP   5. PositionController->getNearbyPlan() C:\Apache24\htdocs\008\v2\branch\Config\bootstrap\bootstrap.php:55
+[19-Dec-2013 10:16:58 UTC] PHP   6. PlanBllModel->getPlanByPosition() C:\Apache24\htdocs\008\v2\branch\Controllers\Position\PositionController.class.php:31
+[19-Dec-2013 10:16:58 UTC] PHP Notice:  Undefined variable: firstStatePlanBusinessId in C:\Apache24\htdocs\008\v2\branch\Model\BLL\PlanBllModel.class.php on line 42
+[19-Dec-2013 10:16:58 UTC] PHP Stack trace:
+[19-Dec-2013 10:16:58 UTC] PHP   1. {main}() C:\Apache24\htdocs\008\v2\branch\index.php:0
+[19-Dec-2013 10:16:58 UTC] PHP   2. website->run() C:\Apache24\htdocs\008\v2\branch\index.php:5
+[19-Dec-2013 10:16:58 UTC] PHP   3. website->initializationWebsiteUrl() C:\Apache24\htdocs\008\v2\branch\Config\bootstrap\bootstrap.php:32
+[19-Dec-2013 10:16:58 UTC] PHP   4. call_user_func() C:\Apache24\htdocs\008\v2\branch\Config\bootstrap\bootstrap.php:55
+[19-Dec-2013 10:16:58 UTC] PHP   5. PositionController->getNearbyPlan() C:\Apache24\htdocs\008\v2\branch\Config\bootstrap\bootstrap.php:55
+[19-Dec-2013 10:16:58 UTC] PHP   6. PlanBllModel->getPlanByPosition() C:\Apache24\htdocs\008\v2\branch\Controllers\Position\PositionController.class.php:31
+[19-Dec-2013 10:19:02 UTC] PHP Parse error:  syntax error, unexpected '"null"' (T_CONSTANT_ENCAPSED_STRING) in C:\Apache24\htdocs\008\v2\branch\Model\BLL\PlanBllModel.class.php on line 36
+[19-Dec-2013 10:19:02 UTC] PHP Stack trace:
+[19-Dec-2013 10:19:02 UTC] PHP   1. {main}() C:\Apache24\htdocs\008\v2\branch\index.php:0
+[19-Dec-2013 10:19:02 UTC] PHP   2. website->run() C:\Apache24\htdocs\008\v2\branch\index.php:5
+[19-Dec-2013 10:19:02 UTC] PHP   3. include_path_file() C:\Apache24\htdocs\008\v2\branch\Config\bootstrap\bootstrap.php:26
+[19-Dec-2013 10:19:02 UTC] PHP   4. fileRead() C:\Apache24\htdocs\008\v2\branch\Config\bootstrap\extends.php:267
+[19-Dec-2013 10:20:18 UTC] PHP Parse error:  syntax error, unexpected ';' in C:\Apache24\htdocs\008\v2\branch\Model\BLL\PlanBllModel.class.php on line 36
+[19-Dec-2013 10:20:18 UTC] PHP Stack trace:
+[19-Dec-2013 10:20:18 UTC] PHP   1. {main}() C:\Apache24\htdocs\008\v2\branch\index.php:0
+[19-Dec-2013 10:20:18 UTC] PHP   2. website->run() C:\Apache24\htdocs\008\v2\branch\index.php:5
+[19-Dec-2013 10:20:18 UTC] PHP   3. include_path_file() C:\Apache24\htdocs\008\v2\branch\Config\bootstrap\bootstrap.php:26
+[19-Dec-2013 10:20:18 UTC] PHP   4. fileRead() C:\Apache24\htdocs\008\v2\branch\Config\bootstrap\extends.php:267
+[25-Dec-2013 06:56:59 UTC] PHP Warning:  call_user_func() expects parameter 1 to be a valid callback, class 'InformationController' does not have a method 'getSingleBusinessById=20' in C:\Apache24\htdocs\008\v2\branch\Config\bootstrap\bootstrap.php on line 55
+[25-Dec-2013 06:56:59 UTC] PHP Stack trace:
+[25-Dec-2013 06:56:59 UTC] PHP   1. {main}() C:\Apache24\htdocs\008\v2\branch\index.php:0
+[25-Dec-2013 06:56:59 UTC] PHP   2. website->run() C:\Apache24\htdocs\008\v2\branch\index.php:5
+[25-Dec-2013 06:56:59 UTC] PHP   3. website->initializationWebsiteUrl() C:\Apache24\htdocs\008\v2\branch\Config\bootstrap\bootstrap.php:32
+[25-Dec-2013 06:56:59 UTC] PHP   4. call_user_func() C:\Apache24\htdocs\008\v2\branch\Config\bootstrap\bootstrap.php:55
+[25-Dec-2013 06:57:53 UTC] PHP Warning:  call_user_func() expects parameter 1 to be a valid callback, class 'InformationController' does not have a method 'getSingleBusinessById=3205237' in C:\Apache24\htdocs\008\v2\branch\Config\bootstrap\bootstrap.php on line 55
+[25-Dec-2013 06:57:53 UTC] PHP Stack trace:
+[25-Dec-2013 06:57:53 UTC] PHP   1. {main}() C:\Apache24\htdocs\008\v2\branch\index.php:0
+[25-Dec-2013 06:57:53 UTC] PHP   2. website->run() C:\Apache24\htdocs\008\v2\branch\index.php:5
+[25-Dec-2013 06:57:53 UTC] PHP   3. website->initializationWebsiteUrl() C:\Apache24\htdocs\008\v2\branch\Config\bootstrap\bootstrap.php:32
+[25-Dec-2013 06:57:53 UTC] PHP   4. call_user_func() C:\Apache24\htdocs\008\v2\branch\Config\bootstrap\bootstrap.php:55
+[25-Dec-2013 06:58:00 UTC] PHP Warning:  call_user_func() expects parameter 1 to be a valid callback, class 'InformationController' does not have a method 'getSingleBusinessById=3205237' in C:\Apache24\htdocs\008\v2\branch\Config\bootstrap\bootstrap.php on line 55
+[25-Dec-2013 06:58:00 UTC] PHP Stack trace:
+[25-Dec-2013 06:58:00 UTC] PHP   1. {main}() C:\Apache24\htdocs\008\v2\branch\index.php:0
+[25-Dec-2013 06:58:00 UTC] PHP   2. website->run() C:\Apache24\htdocs\008\v2\branch\index.php:5
+[25-Dec-2013 06:58:00 UTC] PHP   3. website->initializationWebsiteUrl() C:\Apache24\htdocs\008\v2\branch\Config\bootstrap\bootstrap.php:32
+[25-Dec-2013 06:58:00 UTC] PHP   4. call_user_func() C:\Apache24\htdocs\008\v2\branch\Config\bootstrap\bootstrap.php:55

@@ -1,4 +1,4 @@
-<?php /* Smarty version Smarty-3.0-RC2, created on 2013-12-13 17:27:56
+<?php /* Smarty version Smarty-3.0-RC2, created on 2013-12-20 11:22:46
          compiled from "C:/Apache24/htdocs/008/admin//templates\listp.tpl" */ ?>
 <?php /*%%SmartyHeaderCode:1307552aad31ce13e70-72800103%%*/if(!defined('SMARTY_DIR')) exit('no direct access allowed');
 $_smarty_tpl->decodeProperties(array (
@@ -7,7 +7,7 @@ $_smarty_tpl->decodeProperties(array (
     '4ff9fbdd19e1b5b83fb9ba8b070ae1158c202deb' => 
     array (
       0 => 'C:/Apache24/htdocs/008/admin//templates\\listp.tpl',
-      1 => 1386926871,
+      1 => 1387352836,
     ),
   ),
   'nocache_hash' => '1307552aad31ce13e70-72800103',
@@ -21,7 +21,8 @@ $_smarty_tpl->decodeProperties(array (
     <head>
         <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
         <title></title>
-        <script src="./js/jquery-1.7.2.min.js"></script>
+        <script type="text/javascript" src="<?php echo $_smarty_tpl->getVariable('URLController')->value;?>
+js/jquery-1.7.2.min.js"></script>
         <script type="text/javascript">
                 //删除审核路线
                 function delInfo(tid){
@@ -56,15 +57,16 @@ redirst.php?action=listp&function=auditInfo",
                 }); 
               }
               //预览
-              function viewInfo(characteristic,tid1,tid2){
-
+              function viewInfo(characteristic,tid1,tid2,tid3){
+                alert(characteristic);
                $.ajax({
                     type: "GET",
                     data:{
                      characteristic : characteristic,
 //                     state_type : state_type,
                      tid1 : tid1,
-                     tid2 : tid2
+                     tid2 : tid2,
+                     tid3 : tid3
                      },
                     url:"<?php echo $_smarty_tpl->getVariable('URLController')->value;?>
 redirst.php?action=view&function=viewInfo",
@@ -94,7 +96,6 @@ redirst.php?action=listp&function=impData",
               });     
          }
          
-         
     </script> 
         <style>
             *{
@@ -123,7 +124,7 @@ redirst.php?action=listp&function=impData",
             }
             .closeView{
                 border: solid 1px #ccc;
-                width: 45px;
+                width: 30px;
                 height: 50px;
                 line-height: 50px;
                 text-align: center;
@@ -137,7 +138,7 @@ redirst.php?action=listp&function=impData",
             text-align: center; 
             background: black; 
             opacity: 0.5; 
-            width: 45px;
+            width: 30px;
             height: 50px;
             line-height: 50px;
             cursor: pointer;
@@ -206,6 +207,7 @@ $_smarty_tpl->tpl_vars['smarty']->value['section']['sn']['last']       = ($_smar
                 <td style=" width: 100px; text-align: center;"><input type="button" id="btnView" class="btnstyle" name="btnAudit" onclick ="viewInfo(<?php echo $_smarty_tpl->getVariable('planInfo')->value[$_smarty_tpl->getVariable('smarty')->value['section']['sn']['index']]['characteristic'];?>
 ,<?php echo $_smarty_tpl->getVariable('planInfo')->value[$_smarty_tpl->getVariable('smarty')->value['section']['sn']['index']]['state_1'];?>
 ,<?php echo $_smarty_tpl->getVariable('planInfo')->value[$_smarty_tpl->getVariable('smarty')->value['section']['sn']['index']]['state_2'];?>
+,<?php echo $_smarty_tpl->getVariable('planInfo')->value[$_smarty_tpl->getVariable('smarty')->value['section']['sn']['index']]['state_3'];?>
 )"value="预览" /></td>
                 <td style=" width: 100px;"><input type="button" id="btnEdit" class="btnstyle" name="btnAudit" onclick ="auditInfo(<?php echo $_smarty_tpl->getVariable('planInfo')->value[$_smarty_tpl->getVariable('smarty')->value['section']['sn']['index']]['id'];?>
 )"value="通过" /></td>
