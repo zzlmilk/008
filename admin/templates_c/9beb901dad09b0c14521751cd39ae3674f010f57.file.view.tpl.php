@@ -1,16 +1,16 @@
-<?php /* Smarty version Smarty-3.0-RC2, created on 2013-12-18 14:18:59
+<?php /* Smarty version Smarty-3.0-RC2, created on 2013-12-20 17:48:30
          compiled from "/Users/Lev/Sites/008/admin//templates/view.tpl" */ ?>
-<?php /*%%SmartyHeaderCode:31756703152b13e5351fd47-63983107%%*/if(!defined('SMARTY_DIR')) exit('no direct access allowed');
+<?php /*%%SmartyHeaderCode:106912089452b4126ecdeb13-15759222%%*/if(!defined('SMARTY_DIR')) exit('no direct access allowed');
 $_smarty_tpl->decodeProperties(array (
   'file_dependency' => 
   array (
     '9beb901dad09b0c14521751cd39ae3674f010f57' => 
     array (
       0 => '/Users/Lev/Sites/008/admin//templates/view.tpl',
-      1 => 1387347349,
+      1 => 1387532904,
     ),
   ),
-  'nocache_hash' => '31756703152b13e5351fd47-63983107',
+  'nocache_hash' => '106912089452b4126ecdeb13-15759222',
   'function' => 
   array (
   ),
@@ -18,6 +18,13 @@ $_smarty_tpl->decodeProperties(array (
 )); /*/%%SmartyHeaderCode%%*/?>
 
 <script type="text/javascript">
+
+    $(function(){
+        if ($("#business_id3").val() == ''){
+            $("#threeShopNF").hide();
+        }
+
+    })
 
     function editInfo(){
         $(":text").removeAttr("disabled");
@@ -41,7 +48,7 @@ $_smarty_tpl->decodeProperties(array (
                     url:"<?php echo $_smarty_tpl->getVariable('URLController')->value;?>
 redirst.php?action=listp&function=insertPlan",
                     success: function(res){
-                        // alert(res);
+                        alert(res);
                         if( res == 1){
                         alert("数据保存成功");    
                         }
@@ -52,7 +59,6 @@ redirst.php?action=listp&function=insertPlan",
 
                //更新第一家店铺信息
         function saveState1(){
-            alert(1);
                 $.ajax({
                     type: "GET",
                     data:{
@@ -75,7 +81,6 @@ redirst.php?action=listp&function=insertPlan",
                     url:"<?php echo $_smarty_tpl->getVariable('URLController')->value;?>
 redirst.php?action=view&function=saveInfoOne",
                     success: function(res){
-                        alert(res);
                         if( res == 1){
                         alert("数据保存成功");    
                         }
@@ -85,7 +90,6 @@ redirst.php?action=view&function=saveInfoOne",
 
           //更新第二家店铺信息
         function saveState2(){
-            alert(1);
                 $.ajax({
                     type: "GET",
                     data:{
@@ -117,7 +121,6 @@ redirst.php?action=view&function=saveInfoTwo",
         }
         //更新第三家店铺信息
         function saveState3(){
-            alert(1);
                 $.ajax({
                     type: "GET",
                     data:{
@@ -145,7 +148,6 @@ redirst.php?action=view&function=saveInfoTwo",
                         }
                     }
                 }); 
-            
         }
 
  </script>
@@ -173,7 +175,7 @@ text-indent:20px;
 width: 98%;
 height: 32px;
 border: solid 1px #ccc;
-margin-left:-13px;
+margin-left:-12px;
 margin-bottom: 2px;
 line-height: 32px;
 }
@@ -188,17 +190,17 @@ line-height: 32px;
 
 <div id="planWarp" style="width:98%; margin: auto;">
     <div style=" width: 98%; height: 30px; text-align: center;">
-                    <div class="rowStyle" style=" height: 40px;line-height: 40px; width: 103%;">
+                    <div class="rowStyle" style=" height: 40px;line-height: 40px; width: 105%;">
                      <span>路线名称：</span>
-                     <span><input type="text" disabled="disabled" name="characteristic" id="characteristic" value="<?php echo $_smarty_tpl->getVariable('result1')->value[0];?>
+                     <span><input type="text" disabled="disabled" name="characteristic" id="characteristic" value="<?php echo $_smarty_tpl->getVariable('result1')->value['characteristic'];?>
 "/></span>
                      <span>所处商区： </span>
-                     <span><input type="text" disabled="disabled" id="regions" name="regions" value="<?php echo $_smarty_tpl->getVariable('result1')->value['regions'];?>
+                     <span><input type="text" disabled="disabled" id="regions" name="regions" value="<?php echo $_smarty_tpl->getVariable('result1')->value['regions_name'];?>
 "></span>
                     </div>
                     
               
-        <div style="float: right; margin-top: -32px; margin-right: 50px;">   
+        <div style="float: right; margin-top: -39px; margin-right: 50px;">   
             <span>
             <input type="button" id="btnEdit" class="btnstyle"  name="btnEdit" onclick ="editInfo(<?php echo $_smarty_tpl->getVariable('result1')->value['id'];?>
 )"value="编辑" />
@@ -206,7 +208,7 @@ line-height: 32px;
 
             <span>
             <input type="button" id="btnSave" class="btnstyle"  name="btnSave" onclick ="saveData(<?php echo $_smarty_tpl->getVariable('result1')->value['id'];?>
-)"value="保存" />
+)"value="保存路线" />
             </span>
        </div>            
     </div>
@@ -286,8 +288,8 @@ line-height: 32px;
 "></span>
                  </div>
                  <div class="rowStyle" style=" text-align:center">
-                     <input type="button" id="btnSave1" style="" class="btnstyle"  name="btnSave" onclick ="saveState1(<?php echo $_smarty_tpl->getVariable('result1')->value['business_id'];?>
-)" value="保存" />
+                     <input type="button" id="btnSave1" style=" width: 100px;" class="btnstyle"  name="btnSave" onclick ="saveState1(<?php echo $_smarty_tpl->getVariable('result1')->value['business_id'];?>
+)" value="保存店铺信息" />
                  </div>
                  
              </div>    
@@ -368,14 +370,14 @@ line-height: 32px;
 "></span>
                  </div>
                  <div class="rowStyle" style=" text-align:center">
-                     <input type="button" id="btnSave2" class="btnstyle"  name="btnSave" onclick ="saveState2(<?php echo $_smarty_tpl->getVariable('result2')->value['business_id'];?>
-)"value="保存" />
+                     <input type="button" id="btnSave2" style=" width: 100px;" class="btnstyle"  name="btnSave" onclick ="saveState2(<?php echo $_smarty_tpl->getVariable('result2')->value['business_id'];?>
+)"value="保存店铺信息" />
                  </div>
              </div>     
 
 
 <!--                 第三家店铺-->
-
+<span id ="threeShopNF">
     <div style = " width: 32%; float:right">             
                   <div class="rowStyle">
                       <span class="fontStyle">(三)商铺ID：</span>
@@ -449,11 +451,11 @@ line-height: 32px;
 "></span>
                  </div>
                  <div class="rowStyle" style=" text-align:center">
-                     <input type="button" id="btnSave3" class="btnstyle"  name="btnSave" onclick ="saveState3(<?php echo $_smarty_tpl->getVariable('result3')->value['business_id'];?>
-)"value="保存" />
+                     <input type="button" id="btnSave3" class="btnstyle" style=" width: 100px;" name="btnSave" onclick ="saveState3(<?php echo $_smarty_tpl->getVariable('result3')->value['business_id'];?>
+)"value="保存店铺信息" />
                  </div>
              </div>     
-
+        </span>
           
 </div>
 

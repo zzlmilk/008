@@ -19,8 +19,8 @@ class viewController extends BaseController {
      */
 
     function viewInfo() {
-        echo "1";
-        die;
+        // echo "1";
+        // die;
         $characteristic = $_REQUEST['characteristic'];
         $tid1 = $_REQUEST['tid1'];
         $tid2 = $_REQUEST['tid2'];
@@ -32,18 +32,35 @@ class viewController extends BaseController {
             $plan_business2->initialize('id ="' . $tid2 . '"');
             $plan_business3 = new plan_business(); 
             $plan_business3->initialize('id ="' . $tid3 . '"');
-            $result1 = $plan_business1->vars;
-            $result2 = $plan_business2->vars;
-            $result3 = $plan_business3->vars;
-//            array_push($result1, $lid);
-            array_push($result1, $characteristic);
-            $this->assign("result1", $result1);
-            $this->assign("result2", $result2);
-            $this->assign("result3", $result3);
+            $result1 = $plan_business1->vars_all;
+            $result2 = $plan_business2->vars_all;
+            $result3 = $plan_business3->vars_all;
+
+           //  print_r($result1);
+    foreach ($result1 as $k => $v_regions) {
+            $aryRegionsId = $result1['regions'] = $v_regions;
+            $regionsId = $aryRegionsId['regions'];
+            $regionsName = $this->getRegionsNameById($regionsId);
+            $result1[$k]['regions_name'] = $regionsName;
+            $result1[$k]['characteristic'] = $characteristic;
+        }
+
+            $this->assign("result1", $result1[0]);
+            $this->assign("result2", $result2[0]);
+            $this->assign("result3", $result3[0]);
             $this->display("view");
         }
     }
-
+    /*
+     *根据商区id获取商区名称
+     */
+    function getRegionsNameById($regionsId){
+        $regions = new regions();
+        $regions -> initialize('id ="' . $regionsId . '"');
+        $regionsInfo = $regions -> vars;
+        $regionsName = $regionsInfo['regions_name'];
+        return $regionsName;
+    }
 
     /*
      * 更新第一家店铺信息

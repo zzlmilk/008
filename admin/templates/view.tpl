@@ -1,6 +1,13 @@
 
 <script type="text/javascript">
 
+    $(function(){
+        if ($("#business_id3").val() == ''){
+            $("#threeShopNF").hide();
+        }
+
+    })
+
     function editInfo(){
         $(":text").removeAttr("disabled");
     }
@@ -22,7 +29,7 @@
                      },
                     url:"{$URLController}redirst.php?action=listp&function=insertPlan",
                     success: function(res){
-                        // alert(res);
+                        alert(res);
                         if( res == 1){
                         alert("数据保存成功");    
                         }
@@ -33,7 +40,6 @@
 
                //更新第一家店铺信息
         function saveState1(){
-            alert(1);
                 $.ajax({
                     type: "GET",
                     data:{
@@ -55,7 +61,6 @@
                      },
                     url:"{$URLController}redirst.php?action=view&function=saveInfoOne",
                     success: function(res){
-                        alert(res);
                         if( res == 1){
                         alert("数据保存成功");    
                         }
@@ -65,7 +70,6 @@
 
           //更新第二家店铺信息
         function saveState2(){
-            alert(1);
                 $.ajax({
                     type: "GET",
                     data:{
@@ -96,7 +100,6 @@
         }
         //更新第三家店铺信息
         function saveState3(){
-            alert(1);
                 $.ajax({
                     type: "GET",
                     data:{
@@ -123,7 +126,6 @@
                         }
                     }
                 }); 
-            
         }
 
  </script>
@@ -151,7 +153,7 @@ text-indent:20px;
 width: 98%;
 height: 32px;
 border: solid 1px #ccc;
-margin-left:-13px;
+margin-left:-12px;
 margin-bottom: 2px;
 line-height: 32px;
 }
@@ -166,21 +168,21 @@ line-height: 32px;
 
 <div id="planWarp" style="width:98%; margin: auto;">
     <div style=" width: 98%; height: 30px; text-align: center;">
-                    <div class="rowStyle" style=" height: 40px;line-height: 40px; width: 103%;">
+                    <div class="rowStyle" style=" height: 40px;line-height: 40px; width: 105%;">
                      <span>路线名称：</span>
-                     <span><input type="text" disabled="disabled" name="characteristic" id="characteristic" value="{$result1.0}"/></span>
+                     <span><input type="text" disabled="disabled" name="characteristic" id="characteristic" value="{$result1.characteristic}"/></span>
                      <span>所处商区： </span>
-                     <span><input type="text" disabled="disabled" id="regions" name="regions" value="{$result1.regions}"></span>
+                     <span><input type="text" disabled="disabled" id="regions" name="regions" value="{$result1.regions_name}"></span>
                     </div>
                     
               
-        <div style="float: right; margin-top: -32px; margin-right: 50px;">   
+        <div style="float: right; margin-top: -39px; margin-right: 50px;">   
             <span>
             <input type="button" id="btnEdit" class="btnstyle"  name="btnEdit" onclick ="editInfo({$result1.id})"value="编辑" />
             </span>
 
             <span>
-            <input type="button" id="btnSave" class="btnstyle"  name="btnSave" onclick ="saveData({$result1.id})"value="保存" />
+            <input type="button" id="btnSave" class="btnstyle"  name="btnSave" onclick ="saveData({$result1.id})"value="保存路线" />
             </span>
        </div>            
     </div>
@@ -246,7 +248,7 @@ line-height: 32px;
                      <span class="infoStyle"><input type="text" disabled="disabled" id="has_deal1" name = "has_deal" value="{$result1.has_deal}"></span>
                  </div>
                  <div class="rowStyle" style=" text-align:center">
-                     <input type="button" id="btnSave1" style="" class="btnstyle"  name="btnSave" onclick ="saveState1({$result1.business_id})" value="保存" />
+                     <input type="button" id="btnSave1" style=" width: 100px;" class="btnstyle"  name="btnSave" onclick ="saveState1({$result1.business_id})" value="保存店铺信息" />
                  </div>
                  
              </div>    
@@ -313,13 +315,13 @@ line-height: 32px;
                      <span class="infoStyle"><input type="text" disabled="disabled" id="has_deal2" name = "has_deal" value="{$result2.has_deal}"></span>
                  </div>
                  <div class="rowStyle" style=" text-align:center">
-                     <input type="button" id="btnSave2" class="btnstyle"  name="btnSave" onclick ="saveState2({$result2.business_id})"value="保存" />
+                     <input type="button" id="btnSave2" style=" width: 100px;" class="btnstyle"  name="btnSave" onclick ="saveState2({$result2.business_id})"value="保存店铺信息" />
                  </div>
              </div>     
 
 
 <!--                 第三家店铺-->
-
+<span id ="threeShopNF">
     <div style = " width: 32%; float:right">             
                   <div class="rowStyle">
                       <span class="fontStyle">(三)商铺ID：</span>
@@ -379,10 +381,10 @@ line-height: 32px;
                      <span class="infoStyle"><input type="text" disabled="disabled" id="has_deal3" name = "has_deal" value="{$result3.has_deal}"></span>
                  </div>
                  <div class="rowStyle" style=" text-align:center">
-                     <input type="button" id="btnSave3" class="btnstyle"  name="btnSave" onclick ="saveState3({$result3.business_id})"value="保存" />
+                     <input type="button" id="btnSave3" class="btnstyle" style=" width: 100px;" name="btnSave" onclick ="saveState3({$result3.business_id})"value="保存店铺信息" />
                  </div>
              </div>     
-
+        </span>
           
 </div>
 

@@ -82,7 +82,7 @@ $(document).ready(function(){
         "<div>商铺"+ContextNum+"：</div>"+
         "<div>"+
         "<span class='tiFont mustInsert' style='width:auto'>商铺"+ContextNum+"id:&nbsp;</span>"+
-        "<span style='padding-left: 23px;'><input type='text' id='business_id"+ContextNum+"' name='business_id"+ContextNum+"' value='' class='textstyle  ' style=' width: 150px;'></span>"+
+        "<span style='padding-left: 23px;'><input type='text' id='business_id"+ContextNum+"' name='business_id"+ContextNum+"' value='' class='textstyle  lockText"+ContextNum+"' style=' width: 150px;'></span>"+
         "<span><button onclick='findBusiness("+ContextNum+");return false;'>搜索商铺</button></span>"+
         "</div>"+
         "<div>"+
