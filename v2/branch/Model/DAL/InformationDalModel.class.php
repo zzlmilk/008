@@ -33,7 +33,7 @@ class planBusinessInformationDalModel extends Basic {
 
     public function getOncePlanBusinessInformationById($BusinessId = 0) {
         if (!empty($BusinessId)&&  ctype_digit($BusinessId)) {
-            $this->clearup();
+            $this->clearUp();
             $this->initialize("id in (" . $BusinessId . ")");
             return $this->vars;
         } else {
@@ -42,7 +42,7 @@ class planBusinessInformationDalModel extends Basic {
     }
     public function getPlanBusinessInformationByWhereString($where) {
         if (!empty($where)) {
-            $this->clearup();
+            $this->clearUp();
             $this->initialize($where);
             return $this->vars_all;
         }
@@ -88,7 +88,7 @@ class BusinessInformationDalModel extends Basic {
 
     public function getOneBusinessInformationById($BusinessId = 0) {
         if (!empty($BusinessId)&&ctype_digit($BusinessId)) {
-            $this->clearup();
+            $this->clearUp();
             $this->initialize("business_id in (" . $BusinessId . ")");
             return $this->vars;
         } else {
@@ -97,7 +97,7 @@ class BusinessInformationDalModel extends Basic {
     }
     public function getOneBusinessInformationBySelectString($selectStr,$limit=0){
         if (!empty($selectStr)){
-            $this->clearup();
+            $this->clearUp();
             if(!empty($limit)){
                 $this->addOffset(0,$limit);
             }
@@ -112,7 +112,7 @@ class BusinessInformationDalModel extends Basic {
 
     public function getManyBusinessInformationById($BusinessId = 0) {
         if (!empty($BusinessId)) {
-            $this->clearup();
+            $this->clearUp();
             $this->initialize("business_id in (" . $BusinessId . ")");
             return $this->vars_all;
         } else {
@@ -150,7 +150,7 @@ class RegionsInformationDalModel extends Basic {
 
     public function getRegionsInformationById($RegionsId = 0) {
         if (!empty($RegionsId)) {
-            $this->clearup();
+            $this->clearUp();
 //            $RegionsIdArray = explode(",", $RegionsId);
 //            $RegionsIdLenth = count($RegionsIdArray);
 //            if ($RegionsIdArray[$RegionsIdLenth - 1] == '') {
@@ -186,7 +186,7 @@ class RegionsInformationDalModel extends Basic {
 
     public function getManyRegionsInformationByDistrictId($DistrictId = 0, $returnVarType = 0) {
         if (!empty($DistrictId)) {
-            $this->clearup();
+            $this->clearUp();
 //            $selectFiled=  array("area_name","regions_name");
 //            $this->addSelect($selectFiled);
             $RegionsIdArray = explode(",", $DistrictId);
@@ -220,7 +220,7 @@ class RegionsInformationDalModel extends Basic {
     }
 
     public function getAllRegionsInformation($complete=0) {
-        $this->clearup();
+        $this->clearUp();
 //            $selectFiled=  array("area_name","regions_name");
 //            $this->addSelect($selectFiled);
         $this->changeTable("regions");
@@ -235,7 +235,7 @@ class RegionsInformationDalModel extends Basic {
     }
 
     public function getAllDistrictInformation($type = 0) {
-        $this->clearup();
+        $this->clearUp();
 //            $selectFiled=  array("area_name","regions_name");
 //            $this->addSelect($selectFiled);
         $this->changeTable("district");
@@ -269,7 +269,7 @@ class DealsInformationDalModel extends Basic {
 
     public function getDealsInformationById($DealsId = 0) {
         if (!empty($DealsId)) {
-            $this->clearup();
+            $this->clearUp();
             $RegionsIdArray = explode(",", $DealsId);
             $RegionsIdLenth = count($RegionsIdArray);
             if ($RegionsIdLenth != 1) {
@@ -320,7 +320,7 @@ class DealsInformationDalModel extends Basic {
 
 //    public function getManyDealsInformationById($BusinessId = 0) {
 //        if (!empty($BusinessId)) {
-//            $this->clearup();
+//            $this->clearUp();
 //            $this->initialize("deal_id in (" . $DealsId . ")");
 //            return $this->vars_all;
 //        } else {
@@ -349,14 +349,14 @@ class tagsInformationDalModel extends Basic {
     }
 
     public function getAlltagsInformation() {
-        $this->clearup();
+        $this->clearUp();
 //            $selectFiled=  array("area_name","regions_name");
 //            $this->addSelect($selectFiled);
         $this->initialize();
         return $this->vars_all;
     }
         public function getManyTagsInformation($id) {
-        $this->clearup();
+        $this->clearUp();
 //            $selectFiled=  array("area_name","regions_name");
 //            $this->addSelect($selectFiled);
         $this->initialize("id in ($id)");
@@ -364,5 +364,29 @@ class tagsInformationDalModel extends Basic {
     }
 
 }
+class recommendInformationDalModel extends Basic {
 
+    private $id;
+    private $tableName = 'recommend';
+
+    public function __construct() {
+        $this->child_name = strtolower($this->tableName);
+        parent::__constructor($this->child_name);
+    }
+
+    public function __get($name) {
+        return isset($this->$name) ? $this->$name : null;
+    }
+
+    public function __set($name, $value) {
+        $this->$name = $value;
+    }
+
+    public function getSpecifiedNumberRecommend($limit=3){
+        $this->clearUp();
+        $this->addOffset(0, $limit);
+        $this->initialize();
+//        $limit
+    }
+}
 ?>
