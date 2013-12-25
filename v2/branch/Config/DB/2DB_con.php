@@ -6,7 +6,7 @@ class DB_Mysql_search extends DB_Mysql {
     protected $user = "root";
     protected $pass = "123456";
     protected $dbhost = "localhost";
-    protected $dbname = "008v2";
+    protected $dbname = "008v1";
 
     public function __construct($DB = NULL) {
         
@@ -207,7 +207,7 @@ class Query extends DB_Mysql_search {
         if ($this->table) {
 
             $select = 'SELECT ' . $this->select_string . ' FROM ' . $this->dbname . '.' . $this->table . ' ' . $this->join_string . ' WHERE 1 ' . $this->condition_string . ' ' . $this->groupby_string . ' ' . $this->having_string . ' ' . $this->orderby_string . ' ' . $this->limit_string . ' ' . $this->like_string;
-          // echo '<br>'.$select.'<br>';
+           //echo '<br>'.$select.'<br>';
             $db = $this->prepare($select)->execute();
             $records = $db->fetchall_assoc();
             log_write($select, $this->log_file,'SQL');
