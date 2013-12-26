@@ -8,7 +8,7 @@
         <script src="./js/addcontext.js"></script>
         <script src="./js/sha.js"></script>
         <script>
-            urlString='{$URLAPI}008/v1/branch/';
+            urlString='{$URLAPI}/v1/branch/';
             $(document).ready(function(){
             
             $.ajax({
@@ -23,16 +23,20 @@
                     type: "GET",
                     url: urlString+"Information/getAllTags",
                     success: function(rData){
-                    var checkStr='';
+                    var checkStr='<table>';
 //                    alert(JSON.stringify(rData));
                         var jsonRData=  eval(rData);
                             for(var i=0;i<jsonRData.length;i++){
-                                checkStr+="<span><input name='checkBox[]' type='checkbox' value='"+jsonRData[i].id+"' id='check"+jsonRData[i].id+"'>"+
-                                    "<label for='check"+jsonRData[i].id+"'>"+jsonRData[i].tag_name+"</label></span>";
+                            if((i+1)%3==1){
+                                checkStr+="<tr>";
+                            }
+                                checkStr+="<td><input name='checkBox[]' type='checkbox' value='"+jsonRData[i].id+"' id='check"+jsonRData[i].id+"'>"+
+                                    "<label for='check"+jsonRData[i].id+"'>"+jsonRData[i].tag_name+"</label></td>";
                                 if((i+1)%3==0){
-                                checkStr+="<br/>";
+                                checkStr+="</tr>";
                             }
                         } 
+                        checkStr+='</table>';
                         $("#c").html(checkStr);
                     }
                 }

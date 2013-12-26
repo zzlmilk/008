@@ -133,6 +133,9 @@ $(document).ready(function(){
         "<div>"+
         "<input type='hidden' id='regions"+ContextNum+"' name='regions"+ContextNum+"' value='' >"+
         "</div>"+
+        "<div>"+
+        "<input type='hidden' id='business_image"+ContextNum+"' name='business_image"+ContextNum+"' value='' >"+
+        "</div>"+
         "</div>";
         $("#Context").append(Addstring);
         $("#ContextNum").val(parseInt(ContextNum)+1);
@@ -159,7 +162,7 @@ function findBusiness(whoFind){
             BusinessId : businessId
         },
         success: function(rData){
-//            $("#d").html( JSON.stringify(rData));
+            //            $("#d").html( JSON.stringify(rData));
             $("#d").html( "读取完成");
             var jsonRData=  eval(rData);
             var businessesClass=jsonRData.businesses[0];
@@ -177,6 +180,7 @@ function findBusiness(whoFind){
             $("#has_deal"+whoFind).val(businessesClass.has_deal); 
             $("#longitude"+whoFind).val(businessesClass.longitude); 
             $("#latitude"+whoFind).val(businessesClass.latitude); 
+            $("#business_image"+whoFind).val(businessesClass.photo_url); 
             $("#regions"+whoFind).val(businessesClass.regions[1]); 
             $('.lockText'+whoFind).attr("readonly","readonly");
         }

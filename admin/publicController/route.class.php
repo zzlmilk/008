@@ -76,7 +76,8 @@ class routeController extends BaseController {
                 $businessUrl=$_POST['business_url'.$i]; 
                 $latitude=$_POST['latitude'.$i]; 
                 $longitude=$_POST['longitude'.$i]; 
-                
+                $businessregions=$_POST['regions'.$i];
+                $photoUrl=$_POST['business_image'.$i];
                 $insertValue['state_'.$i] = $businessId;
 //                $ruslt = $this->getBusinessInfoById($businessId);
                 $scoreVal['avg_rating'] = $avgRating;
@@ -85,6 +86,7 @@ class routeController extends BaseController {
                 $scoreVal['service_grade'] = $serviceGrade;
                 $scoreVal['review_count'] =$reviewCount; //添加为隐藏属性
                 $scoreVal['has_deal'] =$hasDeal;// 添加为隐藏的属性
+               
                 $ScoreRank= $this->gradeBusiness($scoreVal);
                 $ScoreRankTotal+=$ScoreRank;
                 $ConsumeTotal+=$avgPrice;
@@ -105,7 +107,12 @@ class routeController extends BaseController {
                 $insertPlanBusinessVal['business_url'] = $businessUrl;
                 $insertPlanBusinessVal['avg_price'] = $avgPrice;
                 $insertPlanBusinessVal['state_time'] = $state_time;
-                $insertPlanBusinessVal['regions'] = $_POST['regions'];
+                $insertPlanBusinessVal['photo_url'] = $photoUrl;
+                $regionsData=new regions();
+                $regionsData->initialize("regions_name like '%$businessregions%'");
+                $regionsVal=$regionsData->vars;
+                $regionsId=$regionsVal['id'];
+                $insertPlanBusinessVal['regions'] = $regionsId;
                 $planBusiness=new plan_business();
                $planBusinessId= $planBusiness->insert($insertPlanBusinessVal);
                $insertValue['state_'.$i]=$planBusinessId;

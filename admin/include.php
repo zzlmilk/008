@@ -44,4 +44,5 @@ if ($handle = opendir(FOOTCLASS)) {
 $smarty->assign('URLController', URLController);
 $smarty->assign('URLAjaxController', URLAjaxController);
 $smarty->assign('URLJsController', URLJsController);
+$smarty->assign('URLAPI', URLAPI);
 ?>
