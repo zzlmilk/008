@@ -39,12 +39,14 @@ class PlanBusinessInformationBllModel extends planBusinessInformationDalModel{
                 if($returnType==1){
                     return $PlanBusinessObject;
                 }else{
-                $BusinessArray['Business'] = $PlanBusinessObject;
+                $BusinessArray= $PlanBusinessObject;
                 $this->AssemblyJson($BusinessArray);
                 
                 }
             } else {
+                if($returnType!=1){
                 $this->echoErrorCode("2010");
+                }
             }
         }
         else{

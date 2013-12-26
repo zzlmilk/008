@@ -37,13 +37,13 @@ class FavoriteDalModel extends Basic {
             $this->echoErrorCode('3002');
         }
     }
-        public function getFavoriteMessageByWhereString($where) {
+
+    public function getFavoriteMessageByWhereString($where) {
         if (!empty($where)) {
             $this->clearup();
             $this->initialize($where);
             return $this->vars_all;
-        }
-        else {
+        } else {
             $this->echoErrorCode("4001");
         }
     }
@@ -54,11 +54,22 @@ class FavoriteDalModel extends Basic {
         } else if (empty($favoriteId) || !ctype_digit($favoriteId)) {
             $this->echoErrorCode('3003');
         } else {
-            $FavoriteVal['user_id'] = $userId;
-            $FavoriteVal['plan_id'] = $favoriteId;
-            $a = $this->insert($FavoriteVal);
-            if (!($a > 0)) {
-                $this->echoErrorCode('3004');
+            $this->initialize("user_id ='$userId' and plan_id='$favoriteId'");
+            $FavoriteNum = $this->vars_number;
+            if ($FavoriteNum <= 0) {
+                $FavoriteVal['user_id'] = $userId;
+                $FavoriteVal['plan_id'] = $favoriteId;
+                $a = $this->insert($FavoriteVal);
+                if (!($a > 0)) {
+                    $this->echoErrorCode('3004');
+                }
+                else{
+                    $json['state']='success';
+                    $this->AssemblyJson($json);
+                }
+            }
+            else{
+                 $this->echoErrorCode('3006');
             }
         }
     }
@@ -71,10 +82,14 @@ class FavoriteDalModel extends Basic {
         } else {
             $FavoriteVal['user_id'] = $userId;
             $FavoriteVal['plan_id'] = $favoriteId;
-             $this->initialize("user_id ='$userId' and plan_id='$favoriteId'");
-             $a =$this->vars_number;
-            if ($a > 0) {
+            $this->initialize("user_id ='$userId' and plan_id='$favoriteId'");
+            $FavoriteNum = $this->vars_number;
+            if ($FavoriteNum > 0) {
                 $this->remove();
+                    $json['state']='success';
+                    $this->AssemblyJson($json);
+            } else {
+                $this->echoErrorCode('3005');
             }
         }
     }

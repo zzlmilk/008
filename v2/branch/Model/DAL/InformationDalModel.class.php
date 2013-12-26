@@ -32,7 +32,7 @@ class planBusinessInformationDalModel extends Basic {
     }
 
     public function getOncePlanBusinessInformationById($BusinessId = 0) {
-        if (!empty($BusinessId)&&  ctype_digit($BusinessId)) {
+        if (!empty($BusinessId)&&(ctype_digit($BusinessId)||is_numeric($BusinessId))) {
             $this->clearUp();
             $this->initialize("id in (" . $BusinessId . ")");
             return $this->vars;

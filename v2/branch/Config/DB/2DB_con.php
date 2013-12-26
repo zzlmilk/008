@@ -207,7 +207,7 @@ class Query extends DB_Mysql_search {
         if ($this->table) {
 
             $select = 'SELECT ' . $this->select_string . ' FROM ' . $this->dbname . '.' . $this->table . ' ' . $this->join_string . ' WHERE 1 ' . $this->condition_string . ' ' . $this->groupby_string . ' ' . $this->having_string . ' ' . $this->orderby_string . ' ' . $this->limit_string . ' ' . $this->like_string;
-           //echo '<br>'.$select.'<br>'; 
+          // echo '<br>'.$select.'<br>'; 
             $db = $this->prepare($select)->execute();
             $records = $db->fetchall_assoc();
             log_write($select, $this->log_file,'SQL');
@@ -265,7 +265,7 @@ class Query extends DB_Mysql_search {
     protected function deleteQuery() {
         if (!empty($this->condition_string)) {
             $sql = 'DELETE FROM ' . $this->dbname . '.' . $this->table . ' WHERE 1' . $this->condition_string;
-           // echo $sql;
+          //  echo $sql;
             $this->prepare($sql)->execute();
             if ($this->mode == 1) {
                 $this->clearUp();

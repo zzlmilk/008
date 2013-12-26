@@ -148,7 +148,6 @@ class DB_MysqlStatement implements DB_Statement {
         // Get the ID number of the new record
         return $last_id;
     }
-
     public function fetch_row() {
         if (!$this->result) {
             throw new MysqlException("Query not executed");

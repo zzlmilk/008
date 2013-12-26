@@ -15,7 +15,7 @@ class FavoriteController extends BaseController{
         $favoriteId = $this->request['planId'];
         $favorite=new FavoriteBllModel();
 //                $userId='79';
-//        $favoriteId='1';
+//        $favoriteId='2';
         $favorite->delFavoriteByUserId($userId, $favoriteId);
     }
 //添加收藏

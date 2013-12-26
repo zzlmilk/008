@@ -69,7 +69,17 @@ class InformationController extends BaseController {
     public function getPlanByPlanId(){
          $planId = $this->request['planId'];
         $Plan = new planBllModel();
-        $Plan->getOncePlanById($planId);
+        $Plan->getOncePlanById($planId,0,1);
+    }
+    public function getPlanByTypeId(){
+        $typeId = $this->request['typeId'];
+        $plan=new PlanBllModel();
+        $plan->getPlanByType($typeId);
+    }
+    public function getPlanBusinessById(){
+        $BusinessId = $this->request['businessId'];
+        $planBusiness=new PlanBusinessInformationBllModel();
+        $planBusiness->getSinglePlanBusinessInformationWithId($BusinessId);
     }
 
     public function getDealsByBusinessId() {
