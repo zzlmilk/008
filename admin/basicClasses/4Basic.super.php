@@ -8,6 +8,9 @@
  */
 ini_set('date.timezone', 'Asia/Shanghai');
 
+
+include_once '2DB_con.php';
+
 class Basic extends Query {
 
     public $vars;
