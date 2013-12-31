@@ -26,5 +26,5 @@ defined('URL_PATHINFO_FETCH') or define('URL_PATHINFO_FETCH','ORIG_PATH_INFO,RED
   ini_set("error_log", ROOT_DIR . Logs . '/Error/error.log');
   
   //定义进入接口时间的常量
-  define("startTime",time());
+  define("startTime",microtime());
 ?>
