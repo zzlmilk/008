@@ -6,7 +6,7 @@ class DB_Mysql_search extends DB_Mysql {
     protected $user = "root";
     protected $pass = "123456";
     protected $dbhost = "127.0.0.1";
-    protected $dbname = "008v1";
+    protected $dbname = "008v2";
 
     public function __construct($DB = NULL) {
         

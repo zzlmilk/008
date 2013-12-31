@@ -4,7 +4,7 @@
 class AdminDalModel extends Basic {
 
     private $tableName = 'district';
-    private $dbName = '008v1';
+    private $dbName = '008v2';
 
     public function __construct() {
         $this->child_name = strtolower($this->tableName);

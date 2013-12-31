@@ -4,7 +4,7 @@
 class DealDalModel extends Basic {
 
     private $tableName = 'deal';
-    private $dbName = '008v1';
+    private $dbName = '008v2';
 
     public function __construct() {
         $this->child_name = strtolower($this->tableName);

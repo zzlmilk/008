@@ -21,9 +21,9 @@ defined('URL_PATHINFO_FETCH') or define('URL_PATHINFO_FETCH','ORIG_PATH_INFO,RED
 /**
  * 关闭报错信息 把报错信息存储到错误文件中
  */
-  ini_set("display_errors", "On");
-//  ini_set("log_errors", "On");
-//  ini_set("error_log", ROOT_DIR . Logs . '/Error/error.log');
+  ini_set("display_errors", "Off");
+  ini_set("log_errors", "On");
+  ini_set("error_log", ROOT_DIR . Logs . '/Error/error.log');
   
   //定义进入接口时间的常量
   define("startTime",time());
