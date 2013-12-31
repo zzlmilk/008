@@ -1,0 +1,40 @@
+/* 
+    Document   : admin
+    Created on : 2013-12-4, 13:39:54
+    Author     : Administrator
+    Description:
+        Purpose of the stylesheet follows.
+*/
+
+.tiFont {
+    display: block;
+    width: 70px;
+    float: left;
+    text-align: right;
+    font-family: serif;
+    color: #716F6C;
+    line-height: 25px;
+    font-size: 12px;
+}
+.rowStyle{
+    height: 35px;
+}
+.textstyle{
+    font-size: 17px; 
+    color: #716F6C; 
+    height: 22px;
+}
+.rowBtn{
+    width: 300px;
+}
+.btnStyle{
+    width: 60px;
+    height: 25px;
+    margin-top: 20px;
+}
+.checkType{
+    margin-left: 70px;
+}
+.mustInsert{
+    color:red;
+}

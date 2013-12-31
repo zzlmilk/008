@@ -225,6 +225,11 @@ class Basic extends Query {
         }
         $encodeJsonEncode = json_encode($jsonArray);
         log_write($encodeJsonEncode, $logs, 'RETURN');
+        $functionEndTime=  time();
+        $usedTime=startTime-$functionEndTime;
+        $message=MODULE_NAME_CONTROLLER.'/'.ACTION_NAME."     With a total of $usedTime seconds";
+        $useTimeLogs=useTimeLog.date("Y_m_d").'_usedTime.log';
+        log_write($message, $useTimeLogs, 'RETURN');
         switch (strtoupper($type)) {
             case 'JSON' :
                 // 返回JSON数据格式到客户端 包含状态信息

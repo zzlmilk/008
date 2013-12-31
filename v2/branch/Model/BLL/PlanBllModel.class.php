@@ -63,7 +63,7 @@ class PlanBllModel extends planDalModel {
                             break;
                         }
                     }
-                    $planValue["Businesses"] = $businessArray;
+                    $planValue["businesses"] = $businessArray;
                     $planValue["state_type"] = $tagsArray;
                     $planArray = $planValue;
                 }
@@ -145,7 +145,7 @@ class PlanBllModel extends planDalModel {
                     }
                 }
             }
-            $resultVal["Businesses"] = $businessArray;
+            $resultVal["businesses"] = $businessArray;
             
             $planObject = new stdClass();
             $planObject = $this->createDateObject($planObject, $resultVal);
@@ -237,7 +237,7 @@ class PlanBllModel extends planDalModel {
                     break;
                 }
             }
-            $result["Business"] = $businessArray;
+            $result["businesses"] = $businessArray;
             $result["state_type"] = $tagsArray;
             $planObject = new stdClass();
             $planObject = $this->createDateObject($planObject, $result);

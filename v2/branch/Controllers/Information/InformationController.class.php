@@ -98,7 +98,8 @@ class InformationController extends BaseController {
     }
 
     public function test() {
-        $test = new RegionsInformationDalModel();
+      echo  $_SERVER['SERVER_NAME'];
+//        $test = new RegionsInformationDalModel();
 //        $test1=new RegionsInformationBllModel();
 //        $test2=new planDalModel();
 //        $test3=new planBllModel();
@@ -112,9 +113,9 @@ class InformationController extends BaseController {
 //        $test1->getAllRegionInformation();
 //        $test->getAllDistrictInformation();
 //        $test->getRegionsInformationById('185,186,187');
-        $test5 = new DealsInformationDalModel();
-        $aarr = array("312002", "312001");
-        $test5->getDealsInformationByBusinessId($aarr);
+//        $test5 = new DealsInformationDalModel();
+//        $aarr = array("312002", "312001");
+//        $test5->getDealsInformationByBusinessId($aarr);
     }
 
 }

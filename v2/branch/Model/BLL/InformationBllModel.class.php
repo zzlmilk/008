@@ -89,7 +89,7 @@ class BusinessInformationBllModel extends BusinessInformationDalModel{
                 if($returnType==1){
                     return $BusinessObject;
                 }else{
-                $BusinessArray['Business'] = $BusinessObject;
+                $BusinessArray['business'] = $BusinessObject;
                 $this->AssemblyJson($BusinessArray);
                 
                 }
@@ -108,7 +108,7 @@ class BusinessInformationBllModel extends BusinessInformationDalModel{
                  return $result;
              }
              else{
-              $BusinessArray['Business'] = $result;
+              $BusinessArray['business'] = $result;
               $this->AssemblyJson($BusinessArray);
              }
          }
@@ -284,7 +284,7 @@ class  recommendInformationBllModel extends recommendInformationDalModel{
 
         parent::__construct();
     }
-    public function getSpecifiedNumberRecommendMessage(){
+    public function getSpecifiedNumberRecommendMessage($returnPicType=1){
         $result= $this->getSpecifiedNumberRecommend();
         $recommends=array();
         $recommendCount= count($result);
@@ -292,11 +292,14 @@ class  recommendInformationBllModel extends recommendInformationDalModel{
             $this->echoErrorCode('2018');
         }
         foreach ($result as $resetVal){
+            if($returnPicType==1){
+            $resetVal['url']="http://".$_SERVER['HTTP_HOST'].'/008/v2/branch/images/'.$resetVal['url'];
+            }
             $resetValCache[]=$resetVal;
         }
         $recommends['recommends']=$resetValCache;
         $recommends['total_number ']=$recommendCount;
-             $this->AssemblyJson($recommends);
+        $this->AssemblyJson($recommends);
     }
 }
  
