@@ -104,6 +104,7 @@ class listpController extends BaseController {
             $listp = new listp();
             $listp->initialize('id ="' . $tid . '"');
             $resultArry = $listp->vars;
+            unset($resultArry['id']);
             $plan = new plan();
 //            $plan->initialize();
             $plan->insert($resultArry);

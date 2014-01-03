@@ -24,7 +24,8 @@
                     url: urlString+"Information/getAllTags",
                     success: function(rData){
                     var checkStr='<table>';
-//                    alert(JSON.stringify(rData));
+//                         alert(JSON.stringify(rData));
+//                         return false;
                         var jsonRData=  eval(rData);
                             for(var i=0;i<jsonRData.length;i++){
                             if((i+1)%3==1){

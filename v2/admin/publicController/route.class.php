@@ -11,7 +11,6 @@ class routeController extends BaseController {
     }
 
     function index() {
-
         $this->display();
     }
 
@@ -164,7 +163,7 @@ class routeController extends BaseController {
 
     function getArea() {
         // $smarty = new Smarty();
-        $url = URLAPI . '/v1/branch/Information/AllDistrictInformation';
+        $url = URLAPI . '/v2/branch/Information/AllDistrictInformation';
         $html = file_get_contents($url);
         $area = json_decode($html, true);
         $str = '';
@@ -179,7 +178,8 @@ class routeController extends BaseController {
 
     function getBusiness() {
         $sid = $_REQUEST['sid'];
-        $url = URLAPI . "/v1/branch/Information/getAllRegionsNameByDistrictId?districtId=$sid";
+        $url = URLAPI . "/v2/branch/Information/getAllRegionsNameByDistrictId?districtId=$sid";
+        
         $ch = curl_init();
         $timeout = 5;
         curl_setopt($ch, CURLOPT_URL, $url);
