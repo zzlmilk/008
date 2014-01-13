@@ -245,18 +245,24 @@ class RegionsInformationBllModel extends RegionsInformationDalModel{
         }
     }
     public function getAllRegionInformation(){
+        
        $result= $this->getAllDistrictInformation();
        if($result){
-        $catchArray=array();
+        $catch=array();
        foreach ($result as $resultArray){
+        $catchArray=array();
          $resultName=$resultArray['district_name'];
 
          $regionsResult=$this->getManyRegionsInformationWithDistrictId($resultArray['id'],3,1);
-        $catchArray[$resultName]=$regionsResult;
          
+        $catchArray=$regionsResult;
+        $reg['district']=$resultName;
+        $reg['regions']=$catchArray;
+        array_push($catch,$reg);
        }
-        $this->AssemblyJson($catchArray);
-//       var_dump($catchArray);
+       $returnRegionVal['regions_information']=$catch;
+        $this->AssemblyJson($returnRegionVal);
+
        
        }
     }

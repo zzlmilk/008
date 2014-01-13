@@ -1,16 +1,17 @@
 <?php
-
 class listpController extends BaseController {
 
     protected $templateFile = "listp.tpl";
-
+     
     function __construct($smarty, $function = 'index') {
 //        ini_set("max_execution_time", 14000); //设置PHP文件最大执行时间 
         parent::__construct($smarty);
+
         $this->$function();
     }
 
     function index() {
+
         $listp = new listp();
         $listp->initialize();
         $planInfo = $listp->vars_all;
@@ -32,6 +33,7 @@ class listpController extends BaseController {
             unset($planInfo['regions']);
             unset($planInfo['state_type']);
             $this->assign("planInfo", $planInfo);
+            $this->assign("authority", $_SESSION['authority']);
         } else {
             $this->assign("planInfo", 'Nodate');
         }

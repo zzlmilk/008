@@ -47,15 +47,20 @@
                 }); 
               }
               //预览  tid1 第一家店铺id,tid2 第二家店铺id,tid3 第三家店铺id,characteristic 路线名称
-              function viewInfo(tid1,tid2,tid3,characteristic){
+              function viewInfo(infoGroup){
+
+                if(infoGroup==''){
+                    return false;
+                }
+                var group=infoGroup.split(',');
                $.ajax({
                     type: "GET",
                     data:{
-                     characteristic : characteristic,
+                     characteristic :group[3],
 //                     state_type : state_type,
-                     tid1 : tid1,
-                     tid2 : tid2,
-                     tid3 : tid3
+                     tid1 : group[0],
+                     tid2 : group[1],
+                     tid3 : group[2]
                      },
                     url:"{$URLController}redirst.php?action=view&function=viewInfo",
                     success: function(res){
@@ -142,23 +147,25 @@
         <div id="dataWarp" style=" width:99%; margin: 0 auto; height: 100%; border: solid 1px #ccc; display: none; position: fixed; z-index: 300">
             <div style=" width: 100%; height:52px; text-align: right; margin-right: 20px; background: #fff; " >
                 <span style="text-align: center;display: block;float: left;height: 52px;line-height: 50px;width: 96%;
-                      font-size: 24px;background: #ccc;">审核路线预览</span>
+                      font-size: 24px;background: #ccc;">审核路线预览 </span>
                 <span onclick="closeView()" class="closeView" >X</span>
             </div>
             <div id="dataInfo" style=" background: #fff; width: 100%; height: 100%;"></div>
         </div>
-        
     <div id="warp">
-        <div style=" text-align: center; font-size: 34px; margin-bottom: 10px;">008v2.0待审核路线列表</div>
+        <div style=" text-align: center; font-size: 34px; margin-bottom: 10px;">008v2.0待审核路线列表 </div>
         <table>
             <tr style=" font-weight: bold; background-color: #ccc">
                     <td>路线名称</td>
                     <td>商区</td>
                     <td>标签</td>
+                    {if $authority eq "2"}
+                         {else}
                     <td style=" width: 100px;">预览</td>
                     <td style=" width: 100px;">审核</td>
 <!--                    <td>编辑</td>-->
                     <td style=" width: 100px;">删除</td>
+                    {/if}
                 </tr>
             {if $planInfo eq "Nodate"}
                 <tr class="trStyle">
@@ -170,9 +177,12 @@
                 <td>{$planInfo[sn].characteristic}</td>
                 <td>{$planInfo[sn].regions_name}</td>
                 <td>{$planInfo[sn].tags_name}</td>
-                <td style=" width: 100px; text-align: center;"><input type="button" id="btnView" class="btnstyle" name="btnAudit" onclick ="viewInfo({$planInfo[sn].state_1},{$planInfo[sn].state_2},{$planInfo[sn].state_3},'{$planInfo[sn].characteristic}')"value="预览" /></td>
+                {if $authority eq "2"}
+                         {else}
+                <td style=" width: 100px; text-align: center;"><input type="button" id="btnView" class="btnstyle" name="btnAudit" onclick ="viewInfo('{$planInfo[sn].state_1},{$planInfo[sn].state_2},{$planInfo[sn].state_3},{$planInfo[sn].characteristic}')"value="预览" /></td>
                 <td style=" width: 100px;"><input type="button" id="btnEdit" class="btnstyle" name="btnAudit" onclick ="auditInfo({$planInfo[sn].id})"value="通过" /></td>
                 <td style=" width: 100px;"><input type="button" id="btnDel" class="btnstyle" name="btnDelete" onclick ="delInfo('{$planInfo[sn].id},{$planInfo[sn].state_1},{$planInfo[sn].state_2},{$planInfo[sn].state_3}')" value="删除" /></td>
+                {/if}
             </tr>
             {/section}
            {/if}

@@ -40,11 +40,6 @@ $(document).ready(function(){
                 waringStr+="请完整填写第"+i+"个商铺信息\r\n";
                 flag=false;
             }
-            else if(!rexString.test($("#state_time"+i).val())||$("#state_time"+i).val()==''){
-                        
-                waringStr+="请正确填写第"+i+"个游玩时间\r\n";
-                flag=false;
-            }
             else if(regionsName!=$("#regions"+i).val()){
                 if(i==1){
                     waringStr+="第一个商铺商区必须与路线相同\r\n";
@@ -53,6 +48,20 @@ $(document).ready(function(){
                 else{
                 }
                 isSameRegions=false;
+            }
+            if(!rexString.test($("#state_time"+i).val())||$("#state_time"+i).val()==''){
+                        
+                waringStr+="请正确填写第"+i+"个游玩时间\r\n";
+                flag=false;
+            }
+
+            if($("#longitude"+i).val()==''||$("#latitude"+i).val()==''){
+                waringStr+="请正确填写第"+i+"个商铺经纬度信息\r\n";
+                flag=false;
+            }
+            else if(isNaN($("#longitude"+i).val())||isNaN($("#latitude"+i).val())){
+                waringStr+="请正确填写第"+i+"个商铺经纬度信息\r\n";
+                flag=false;
             }
                    
 
@@ -79,41 +88,41 @@ $(document).ready(function(){
             return false;
         }
         var Addstring="<div style='margin-bottom: 30px;'>"+
-        "<div>商铺"+ContextNum+"：</div>"+
-        "<div>"+
-        "<span class='tiFont mustInsert' style='width:auto'>商铺"+ContextNum+"id:&nbsp;</span>"+
-        "<span style='padding-left: 23px;'><input type='text' id='business_id"+ContextNum+"' name='business_id"+ContextNum+"' value='' class='textstyle  lockText"+ContextNum+"' style=' width: 150px;'></span>"+
+        "<h3>商铺"+ContextNum+"：</h3>"+
+        "<div class='bnsRowStyle'>"+
+        "<span class='tiFont mustInsert bnsMustInsert' style='width:auto'>商铺"+ContextNum+"id:&nbsp;</span>"+
+        "<span style=''><input type='text' id='business_id"+ContextNum+"' name='business_id"+ContextNum+"' value='' class='textstyle  lockText"+ContextNum+"' style=' width: 150px;'></span>"+
         "<span><button onclick='findBusiness("+ContextNum+");return false;'>搜索商铺</button></span>"+
         "</div>"+
-        "<div>"+
+        "<div class='bnsRowStyle'>"+
         "<span>商铺名称：</span><span><input  type='text' id='name"+ContextNum+"' name='name"+ContextNum+"' value='' class='textstyle lockText"+ContextNum+"' style=' width: 150px;'></span>"+
         "</div>"+
-        "<div>"+
+        "<div class='bnsRowStyle'>"+
         "<span>分店名称：</span><span><input  type='text' id='branch_name"+ContextNum+"' name='branch_name"+ContextNum+"' value='' class='textstyle lockText"+ContextNum+"' style=' width: 150px;'></span>"+
         "</div>"+
-        "<div>"+
-        "<span>商铺地址：</span><span><textarea  id='address"+ContextNum+"' name='address"+ContextNum+"' class='textstyle lockText"+ContextNum+"' style='width: 150px; height: 65px; font-size:12px;'></textarea></span>"+
+        "<div class='bnsRowStyle'>"+
+        "<div style='float: left; height: 65px; line-height: 65px;'>商铺地址：</div><div style='float:left'><textarea  id='address"+ContextNum+"' name='address"+ContextNum+"' class='textstyle lockText"+ContextNum+"' style='width: 150px; height: 65px; font-size:12px;'></textarea></div><div style='clear:both'></div>"+
         "</div>"+
-        "<div>"+
+        "<div class='bnsRowStyle'>"+
         "<span>联系电话：</span><span><input type='text' id='telephone"+ContextNum+"' name='telephone"+ContextNum+"' value='' class='textstyle lockText"+ContextNum+"' style=' width: 150px;'></span>"+
         "</div>"+
-        "<div>"+
+        "<div class='bnsRowStyle'>"+
         "<span>环境评分：</span><span><input  type='text' id='product_grade"+ContextNum+"' name='product_grade"+ContextNum+"' value='' class='textstyle lockText"+ContextNum+"' style=' width: 150px;'></span>"+
         "</div>"+
-        "<div>"+
+        "<div class='bnsRowStyle'>"+
         "<span>口味评分：</span><span><input  type='text' id='decoration_grade"+ContextNum+"' name='decoration_grade"+ContextNum+"' value='' class='textstyle lockText"+ContextNum+"' style=' width: 150px;'></span>"+
         "</div>"+
-        "<div>"+
+        "<div class='bnsRowStyle'>"+
         "<span>服务评分：</span><span><input type='text' id='service_grade"+ContextNum+"' name='service_grade"+ContextNum+"' value='' class='textstyle lockText"+ContextNum+"' style=' width: 150px;'></span>"+
         "</div>"+
-        "<div>"+
-        "<span>综合评分：</span><span><input  type='text' id='avg_rating"+ContextNum+"' name='avg_rating"+ContextNum+"' value='' class='textstyle lockText"+ContextNum+"' style=' width: 150px;'></span>"+
+        "<div class='bnsRowStyle'>"+
+        "<span >综合评分：</span><span><input  type='text' id='avg_rating"+ContextNum+"' name='avg_rating"+ContextNum+"' value='' class='textstyle lockText"+ContextNum+"' style=' width: 150px;'></span>"+
         "</div>"+
-        "<div>"+
+        "<div class='bnsRowStyle'>"+
         "<span>人均消费：</span><span><input  type='text' id='avg_price"+ContextNum+"' name='avg_price"+ContextNum+"' value='' class='textstyle lockText"+ContextNum+"' style=' width: 150px;'></span>"+
         "</div>"+
-        "<div>"+
-        "<span class='mustInsert'>游玩时间段（必须填写 例如19:00-22:00）：</span><span><input type='text' id='state_time"+ContextNum+"' name='state_time"+ContextNum+"' value='' class='textstyle' style=' width: 150px;'></span>"+
+        "<div class='bnsRowStyle'>"+
+        "<span class='mustInsert'>游玩时间：</span><span><input type='text' id='state_time"+ContextNum+"' name='state_time"+ContextNum+"' value='' class='textstyle' style=' width: 150px;'></span><div style='margin-left: 63px; margin-top: 6px;'>（必须填写 例如19:00-22:00）</div>"+
         "</div>"+
         "<div>"+
         "<input type='hidden' id='business_url"+ContextNum+"' name='business_url"+ContextNum+"' value='' >"+
@@ -124,17 +133,21 @@ $(document).ready(function(){
         "<div>"+
         "<input type='hidden' id='has_deal"+ContextNum+"' name='has_deal"+ContextNum+"' value='' >"+
         "</div>"+
-        "<div>"+
-        "<input type='hidden' id='longitude"+ContextNum+"' name='longitude"+ContextNum+"' value='' >"+
+        "<div class='bnsRowStyle'>"+
+        "<span class='mustInsert'>商铺经度：</span><span><input class='textstyle' style=' width: 150px;' type='text' id='longitude"+ContextNum+"' name='longitude"+ContextNum+"' value='' ></span>"+
         "</div>"+
-        "<div>"+
-        "<input type='hidden' id='latitude"+ContextNum+"' name='latitude"+ContextNum+"' value='' >"+
+        "<div class='bnsRowStyle'>"+
+        "<span class='mustInsert'>商铺维度：</span><span><input type='text' id='latitude"+ContextNum+"'  class='textstyle' style=' width: 150px;' name='latitude"+ContextNum+"' value='' ></span>"+
         "</div>"+
         "<div>"+
         "<input type='hidden' id='regions"+ContextNum+"' name='regions"+ContextNum+"' value='' >"+
         "</div>"+
         "<div>"+
         "<input type='hidden' id='business_image"+ContextNum+"' name='business_image"+ContextNum+"' value='' >"+
+        "</div>"+
+        "<div>"+
+        "商铺经纬度获取请通过以下地址拾取坐标：<br>"+
+        "<a href='http://api.map.baidu.com/lbsapi/getpoint/' target='_blank'>http://api.map.baidu.com/lbsapi/getpoint/</a>"+
         "</div>"+
         "</div>";
         $("#Context").append(Addstring);
@@ -150,8 +163,9 @@ function findBusiness(whoFind){
         alert("请输入一个商铺ID");
         return false;
     }
-    var hostName="localhost";
-    var urlString="/008/admin/redirst.php?action=route&function=getBusinessFindUrl";
+    var hostName="127.0.0.1";
+//    var urlString="/getlocation/fetFile.php";
+     var urlString="/008/v2/admin/redirst.php?action=route&function=getBusinessUrl";
     $.ajax({
         type: "GET",
         url: urlString,
@@ -162,27 +176,35 @@ function findBusiness(whoFind){
             BusinessId : businessId
         },
         success: function(rData){
-            //            $("#d").html( JSON.stringify(rData));
-            $("#d").html( "读取完成");
+          //  $("#d").html( JSON.stringify(rData));
+
+            ("#d").html( "读取完成");
             var jsonRData=  eval(rData);
-            var businessesClass=jsonRData.businesses[0];
-            $("#name"+whoFind).val(businessesClass.name);
-            $("#branch_name"+whoFind).val(businessesClass.branch_name);
-            $("#address"+whoFind).html(businessesClass.address);
-            $("#telephone"+whoFind).val(businessesClass.telephone);
-            $("#product_grade"+whoFind).val(businessesClass.product_grade);
-            $("#decoration_grade"+whoFind).val(businessesClass.decoration_grade);
-            $("#service_grade"+whoFind).val(businessesClass.service_grade);
-            $("#avg_rating"+whoFind).val(businessesClass.avg_rating);
-            $("#avg_price"+whoFind).val(businessesClass.avg_price); 
-            $("#business_url"+whoFind).val(businessesClass.business_url); 
-            $("#review_count"+whoFind).val(businessesClass.review_count); 
-            $("#has_deal"+whoFind).val(businessesClass.has_deal); 
-            $("#longitude"+whoFind).val(businessesClass.longitude); 
-            $("#latitude"+whoFind).val(businessesClass.latitude); 
-            $("#business_image"+whoFind).val(businessesClass.photo_url); 
-            $("#regions"+whoFind).val(businessesClass.regions[1]); 
-            $('.lockText'+whoFind).attr("readonly","readonly");
+            if(jsonRData.sucress=='0'){
+                var businessesClass=jsonRData.businesses[0];
+                $("#name"+whoFind).val(businessesClass.name);
+                $("#branch_name"+whoFind).val(businessesClass.branch_name);
+                $("#address"+whoFind).html(businessesClass.address);
+                $("#telephone"+whoFind).val(businessesClass.telephone);
+                $("#product_grade"+whoFind).val(businessesClass.product_grade);
+                $("#decoration_grade"+whoFind).val(businessesClass.decoration_grade);
+                $("#service_grade"+whoFind).val(businessesClass.service_grade);
+                $("#avg_rating"+whoFind).val(businessesClass.avg_rating);
+                $("#avg_price"+whoFind).val(businessesClass.avg_price); 
+                $("#business_url"+whoFind).val(businessesClass.business_url); 
+                $("#review_count"+whoFind).val(businessesClass.review_count); 
+                $("#has_deal"+whoFind).val(businessesClass.has_deal); 
+                $("#longitude"+whoFind).val(businessesClass.longitude); 
+                $("#latitude"+whoFind).val(businessesClass.latitude); 
+                $("#business_image"+whoFind).val(businessesClass.photo_url); 
+                $("#regions"+whoFind).val(businessesClass.regions[1]); 
+                $('.lockText'+whoFind).attr("readonly","readonly");
+            }
+            else{
+                $("#d").html( "未获取该商铺信息，ID可能错误请检查后重试");
+                $('.lockText'+whoFind).removeAttr("readonly");
+                
+            }
         }
     });  
 }

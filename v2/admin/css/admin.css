@@ -37,4 +37,12 @@
 }
 .mustInsert{
     color:red;
+
+}
+.bnsMustInsert{
+        font-size: 14px;
+letter-spacing: 2px;
+}
+.bnsRowStyle{
+    margin-bottom: 5px;
 }

@@ -75,12 +75,12 @@
         <form action="{$URLController}redirst.php?action=route&function=insertListp" method="Post">
             <div class="rowStyle">
                 <span class='tiFont mustInsert'>路线名称:</span>
-                <span><input type='text' id='characteristic' name="characteristic" value="" class="textstyle" style=" width: 150px;"></span>
+                <span style='margin-left: 5px'><input type='text' id='characteristic' name="characteristic" value="" class="textstyle" style=" width: 150px;"></span>
             </div>
             
             <div class="rowStyle">
                 <span class='tiFont mustInsert'>地区:</span>
-                <span id ="a">
+                <span style='margin-left: 7px' id ="a">
                     <select name="selectAge" id="selectAge" style=" height: 24px;">   
                         <option value="">加载中...</option>   
                       </select>   
@@ -95,12 +95,12 @@
                     加载中....
                 </div>
             </div>
-            <div id="Context" style="margin-left: 20px;">
+            <div id="Context" style="margin-left: 45px;">
                 <input id='ContextNum'type='hidden' value='1'>
             </div>
-            <button id="addContext" >添加一个商铺</button>
+            <button id="addContext" style='margin-left: 40px;' >添加一个商铺</button>
             <div class="rowBtn">
-                <input type="submit" id="submit" name= "sbumit" class="btnStyle" style=" margin-left: 68px;" value="提交">
+                <input type="submit" id="submit" name= "sbumit" class="btnStyle" style=" margin-left: 40px;" value="提交">
                 <input type="reset" id='reset' value="取消" class="btnStyle"  style=" margin-left: 20px;">
             </div>
         </form>

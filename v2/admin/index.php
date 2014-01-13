@@ -17,10 +17,9 @@ if(!empty($_REQUEST['a'])){
 } else{
     $url = 'files/mainfra.html';
 }
-
-//if (!isset($_SESSION['user_id'])) {
-//    echo 'window.top.location="login.html";';
-//}
+if (!isset($_SESSION['user_id'])) {
+    echo 'window.top.location="login.html";';
+}
 ?>
     }
         </script>
