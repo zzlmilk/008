@@ -176,9 +176,9 @@ function findBusiness(whoFind){
             BusinessId : businessId
         },
         success: function(rData){
-          //  $("#d").html( JSON.stringify(rData));
-
-            ("#d").html( "读取完成");
+//            $("#d").html( JSON.stringify(rData));
+            
+            $("#d").html( "读取完成");
             var jsonRData=  eval(rData);
             if(jsonRData.sucress=='0'){
                 var businessesClass=jsonRData.businesses[0];
