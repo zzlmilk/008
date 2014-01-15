@@ -6,7 +6,7 @@
 //    $b++;
 //}
 //echo $c.$b;
-const URLAPI = "http://112.124.25.155/008";
+define("URLAPI",  "http://112.124.25.155/008");
 /*
  * 调用获取单个商铺信息
  * 传入string类型的商铺ID

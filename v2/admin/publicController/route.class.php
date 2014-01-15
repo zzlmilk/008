@@ -75,7 +75,6 @@ class routeController extends BaseController {
                 $businessregions = $_POST['regions' . $i];
                 $photoUrl = $_POST['business_image' . $i];
                 $insertValue['state_' . $i] = $businessId;
-//                $ruslt = $this->getBusinessInfoById($businessId);
                 $scoreVal['avg_rating'] = $avgRating;
                 $scoreVal['product_grade'] = $productGrade;
                 $scoreVal['decoration_grade'] = $decorationGrade;
