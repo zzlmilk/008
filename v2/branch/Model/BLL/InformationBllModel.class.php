@@ -290,8 +290,8 @@ class  recommendInformationBllModel extends recommendInformationDalModel{
 
         parent::__construct();
     }
-    public function getSpecifiedNumberRecommendMessage($returnPicType=1){
-        $result= $this->getSpecifiedNumberRecommend();
+    public function getSpecifiedNumberRecommendMessage($returnPicType=1,$limit=0){
+        $result= $this->getSpecifiedNumberRecommend($limit);
         $recommends=array();
         $recommendCount= count($result);
         if($recommendCount<=0){

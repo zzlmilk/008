@@ -15,6 +15,7 @@ $apiInterface = array(
     "Favorite_delFavorite" => array('GET', 'userId,planId', '104'),
     "Favorite_getUserFavorite" => array('GET', 'userId', '104'),
     "Position_getNearbyPlan" => array('GET', 'latitude,longitude', '104'),
+    "Information_getRecommendPlanWithLimit" => array('GET', 'limit', '104'),
 );
 return $apiInterface;
 ?>

@@ -388,7 +388,7 @@ class recommendInformationDalModel extends Basic {
         }
         $this->clearUp();
         if($limit>0){
-        $this->addOffset(0, $limit-1);
+        $this->addOffset(0, $limit);
         }
         $this->initialize();
         return $this->vars_all;

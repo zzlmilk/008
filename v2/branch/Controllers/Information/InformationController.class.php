@@ -96,6 +96,11 @@ class InformationController extends BaseController {
         $recommend=new recommendInformationBllModel();
         $recommend->getSpecifiedNumberRecommendMessage();
     }
+    public function getRecommendPlanWithLimit(){
+        $limit=$this->request['limit'];
+        $recommend=new recommendInformationBllModel();
+        $recommend->getSpecifiedNumberRecommendMessage(1,$limit);
+    }
 
     public function test() {
       echo  $_SERVER['SERVER_NAME'];
