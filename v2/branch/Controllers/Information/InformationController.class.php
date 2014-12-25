@@ -63,8 +63,11 @@ class InformationController extends BaseController {
         $avgConsume = isset($this->request['avgConsume'])?$this->request['avgConsume']:null;
         $rankScore = isset($this->request['$rankScore'])?$this->request['$rankScore']:null;
         $stateTag = isset($this->request['$stateTag'])?$this->request['$stateTag']:null;
+        /*
+         * 获取条件搜索条件值
+         */
         $Plan = new planBllModel();
-        $Plan->getOncePlan($rankScore, $avgConsume, $stateTag, $regions);
+        $Plan->getOncePlan($rankScore, $avgConsume, $stateTag, $regions);//获取路线
     }
     public function getPlanByPlanId(){
          $planId = $this->request['planId'];
@@ -72,9 +75,9 @@ class InformationController extends BaseController {
         $Plan->getOncePlanById($planId,0,1);
     }
     public function getPlanByTypeId(){
-        $typeId = $this->request['typeId'];
+        $typeId = $this->request['typeId'];  //获取路线分类ID
         $plan=new PlanBllModel();
-        $plan->getPlanByType($typeId);
+        $plan->getPlanByType($typeId);//按照分类获取路线
     }
     public function getPlanBusinessById(){
         $BusinessId = $this->request['businessId'];
@@ -97,9 +100,9 @@ class InformationController extends BaseController {
         $recommend->getSpecifiedNumberRecommendMessage();
     }
     public function getRecommendPlanWithLimit(){
-        $limit=$this->request['limit'];
+        $limit=$this->request['limit']; // 返回推荐的最大数量，0为返回所有，通过post参数获取
         $recommend=new recommendInformationBllModel();
-        $recommend->getSpecifiedNumberRecommendMessage(1,$limit);
+        $recommend->getSpecifiedNumberRecommendMessage(1,$limit); //获取推荐路线
     }
 
     public function test() {

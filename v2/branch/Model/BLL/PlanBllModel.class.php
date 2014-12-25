@@ -161,18 +161,20 @@ class PlanBllModel extends planDalModel {
             $this->echoErrorCode('3001');
         }
     }
+    /*
+       $rankScore=30;
+       $avgConsume=50;
+       $stateType=3;
+     */
         public function getPlanByType($TypeId, $JSONReturnType = 0) {
-//        $rankScore=30;
-//        $avgConsume=50;
-//        $stateType=3;
         if (!ctype_digit($TypeId) && !is_numeric($TypeId)) {
             $this->echoErrorCode('3007');
         }
         $whereString="state_type like '%$TypeId%'";
-        $result = $this->getPlanByWhereString($whereString);
+        $result = $this->getPlanByWhereString($whereString);  //数据库获取路线
         if ($result) {
             $resultArray=array();
-            foreach ($result as $resultVal){
+            foreach ($result as $resultVal){  //拼接json字符串
                 $resultCache['id']=$resultVal['id'];
                 $resultCache['characteristic']=$resultVal['characteristic'];
                 $resultCache['plan_photo']=$resultVal['plan_photo'];
@@ -182,12 +184,12 @@ class PlanBllModel extends planDalModel {
 //        $planArray=  array();
 //        $planArray["plan"]=$planObject;
             if ($JSONReturnType == 1) {
-                return $planObject;
+                return $result;//以对象形式返回数据（再次操作数据时使用）
             } else {
-                $this->AssemblyJson($resultArray);
+                $this->AssemblyJson($resultArray); //返回json字符串
             }
         } else {
-            $this->echoErrorCode('3001');
+            $this->echoErrorCode('3001');//返回错误代码
         }
     }
     public function getOncePlan($rankScore = 0, $avgConsume = 0, $stateTag = 0, $regions = 0) {

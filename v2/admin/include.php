@@ -1,8 +1,8 @@
 <?php
 session_start();
 
-defined('IPADDRESS') or define('IPADDRESS', 'http://112.124.25.155');
-//const IPADDRESS='http://127.0.0.1';
+//defined('IPADDRESS') or define('IPADDRESS', 'http://112.124.25.155');
+const IPADDRESS='http://127.0.0.1';
 defined('SERVERADDRESS') or define('SERVERADDRESS', IPADDRESS);      
 defined('FOOT_') or define('FOOT_', $_SERVER['DOCUMENT_ROOT']);
 defined('FOOT') or define('FOOT', FOOT_ . '/008/v2/admin/');

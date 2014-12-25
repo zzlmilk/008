@@ -291,13 +291,13 @@ class  recommendInformationBllModel extends recommendInformationDalModel{
         parent::__construct();
     }
     public function getSpecifiedNumberRecommendMessage($returnPicType=1,$limit=0){
-        $result= $this->getSpecifiedNumberRecommend($limit);
+        $result= $this->getSpecifiedNumberRecommend($limit);//获取数据库中的推荐路线
         $recommends=array();
         $recommendCount= count($result);
         if($recommendCount<=0){
-            $this->echoErrorCode('2018');
+            $this->echoErrorCode('2018');//数据库中无推荐路线返回错误码
         }
-        foreach ($result as $resetVal){
+        foreach ($result as $resetVal){ //拼接图片地址
             if($returnPicType==1){
             $resetVal['url']="http://".$_SERVER['HTTP_HOST'].'/008/v2/branch/images/'.$resetVal['url'];
             }
@@ -305,7 +305,7 @@ class  recommendInformationBllModel extends recommendInformationDalModel{
         }
         $recommends['recommends']=$resetValCache;
         $recommends['total_number ']=$recommendCount;
-        $this->AssemblyJson($recommends);
+        $this->AssemblyJson($recommends); //返回json 对象；
     }
 }
  

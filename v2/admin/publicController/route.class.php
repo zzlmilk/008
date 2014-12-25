@@ -224,8 +224,9 @@ class routeController extends BaseController {
             preg_match_all("/<span class=\"bread-name\" itemprop=\"title\">(.+?)<\/span>/s", $output, $regMessage);
             $reg = array($regMessage[1][1], $regMessage[1][2]);
             preg_match_all("/<li data-name=\"all\">(.+?)<\/li>/s", $output, $review);
-            preg_match_all("/<em class=\"col-exp\">(.+?)<\/em>/s", $review[1][0], $review1);
-            $reviewNum = str_replace(array('(', ')'), '', $review1[1][0]);
+            //页面改版需修正
+          //  preg_match_all("/<em class=\"col-exp\">(.+?)<\/em>/s", $review[1][0], $review1);
+          //  $reviewNum = str_replace(array('(', ')'), '', $review1[1][0]);
 
             preg_match_all("/<div class=\"promo-list alone-promo promo-deal-box\">(.+?)<\/div>/s", $output, $deal);
             $deal = empty($deal[0]) ? 0 : 1;
@@ -240,7 +241,7 @@ class routeController extends BaseController {
             $businesses['telephone'] = trim($tel[2][0]);
             $businesses['address'] = $region[2][0] . $address[1][0];
             $businesses['regions'] = $reg;
-            $businesses['review_count'] = $reviewNum;
+         //   $businesses['review_count'] = $reviewNum;
             $businesses['photo_url'] = $pic1[1][0];
             $businesses['avg_rating'] = $ratingVal;
             $businesses['has_deal'] = $deal;
